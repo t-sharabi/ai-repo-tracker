@@ -57,6 +57,20 @@ Your dashboard will be at `https://t-sharabi.github.io/ai-repo-tracker/`.
 
 > Note: on a free GitHub plan, Pages requires the repo to be **public**.
 
+## Layer 2 — Opportunity matching (ventures.json)
+
+Every kept repo is additionally scored 0–10 by a stronger Claude model
+(Sonnet) for relevance to **your** ventures and the Omani market, as
+described in `ventures.json`. Repos scoring ≥ 7 become 🎯 opportunities:
+they lead the Telegram/email digests with a one-line "what to do with it"
+note, and the dashboard gets a venture filter, an "Opportunities only"
+toggle, and a "Most relevant to me" sort.
+
+**Edit `ventures.json`** — it is the brain of this layer. The better each
+venture description (what it does, what components it needs), the better
+the matching. Two entries are placeholders marked `EDIT ME`. Changes take
+effect on the next run; no code changes needed.
+
 ## Tuning
 
 All knobs are at the top of `tracker.py`: topics list, rising window,

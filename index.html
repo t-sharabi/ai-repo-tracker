@@ -32,6 +32,10 @@
          font-size:12.5px; color:var(--dim); }
   .badge { border:1px solid var(--line); border-radius:99px; padding:1px 9px; }
   .badge.rise { color:var(--rise); border-color:var(--rise); }
+  .badge.opp { color:#f472b6; border-color:#f472b6; }
+  .oppbox { font-size:13px; background:rgba(244,114,182,.08);
+         border:1px solid rgba(244,114,182,.35); border-radius:8px;
+         padding:8px 10px; }
   .sum { font-size:14px; }
   .desc { font-size:13px; color:var(--dim); }
   #empty { color:var(--dim); padding:40px 0; text-align:center; display:none; }
@@ -43,11 +47,14 @@
 <div id="controls">
   <input id="q" type="search" placeholder="Search name, summary, description, topics&hellip;">
   <select id="cat"><option value="">All categories</option></select>
+  <select id="venture"><option value="">All ventures</option></select>
   <select id="sort">
     <option value="date">Newest first</option>
     <option value="stars">Most stars</option>
+    <option value="relevance">Most relevant to me</option>
   </select>
   <label class="chk"><input id="rising" type="checkbox"> Rising only</label>
+  <label class="chk"><input id="opps" type="checkbox"> &#127919; Opportunities only</label>
 </div>
 <div id="grid"></div>
 <div id="empty">No repos match.</div>
@@ -64,18 +71,30 @@ fetch('data.json').then(r => r.json()).then(j => {
     const o = document.createElement('option');
     o.value = o.textContent = c; $('cat').appendChild(o);
   }
+  const vents = [...new Set(DATA.flatMap(r => r.ventures || []))].sort();
+  for (const v of vents) {
+    const o = document.createElement('option');
+    o.value = o.textContent = v; $('venture').appendChild(o);
+  }
   render();
 }).catch(() => $('meta').textContent = 'Could not load data.json');
 
+const OPP_MIN = 7;  // matches RELEVANCE_MIN_TO_FLAG in tracker.py
+
 function render() {
   const q = $('q').value.toLowerCase(), cat = $('cat').value,
-        rising = $('rising').checked, sort = $('sort').value;
+        rising = $('rising').checked, sort = $('sort').value,
+        vent = $('venture').value, opps = $('opps').checked;
   let rows = DATA.filter(r =>
     (!cat || r.category === cat) && (!rising || r.rising) &&
+    (!vent || (r.ventures || []).includes(vent)) &&
+    (!opps || (r.relevance || 0) >= OPP_MIN) &&
     (!q || (r.full_name + ' ' + r.summary + ' ' + r.description + ' ' +
+            (r.opportunity || '') + ' ' + (r.ventures || []).join(' ') + ' ' +
             (r.topics || []).join(' ')).toLowerCase().includes(q)));
   rows.sort(sort === 'stars' ? (a, b) => b.stars - a.stars
-                             : (a, b) => b.first_seen.localeCompare(a.first_seen) || b.stars - a.stars);
+          : sort === 'relevance' ? (a, b) => (b.relevance || 0) - (a.relevance || 0) || b.stars - a.stars
+          : (a, b) => b.first_seen.localeCompare(a.first_seen) || b.stars - a.stars);
   $('grid').innerHTML = rows.map(r => `
     <div class="card">
       <a class="name" href="${r.url}" target="_blank" rel="noopener">${esc(r.full_name)}</a>
@@ -84,9 +103,12 @@ function render() {
         ${r.language ? `<span>${esc(r.language)}</span>` : ''}
         <span class="badge">${esc(r.category || 'Other')}</span>
         ${r.rising ? '<span class="badge rise">&#128200; rising</span>' : ''}
+        ${(r.relevance || 0) >= OPP_MIN ? `<span class="badge opp">&#127919; ${r.relevance}/10</span>` : ''}
         <span>${r.first_seen}</span>
       </div>
       <div class="sum">${esc(r.summary || '')}</div>
+      ${(r.relevance || 0) >= OPP_MIN && r.opportunity ? `
+      <div class="oppbox"><b>${esc((r.ventures || []).join(', ') || 'Opportunity')}</b> — ${esc(r.opportunity)}</div>` : ''}
       ${r.description ? `<div class="desc">${esc(r.description)}</div>` : ''}
     </div>`).join('');
   $('empty').style.display = rows.length ? 'none' : 'block';

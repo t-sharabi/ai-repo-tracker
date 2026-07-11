@@ -1,0 +1,26 @@
+{
+  "market": "Sultanate of Oman and wider GCC. Arabic/English bilingual products favored. Government digitalization push under Oman Vision 2040. Strong demand in education, healthcare, real-estate regulation, and SME digitization. Founder is a solo/small-team builder who prefers open-source, self-hostable stacks (Python, FastAPI, Odoo, AWS) and reuses proven components rather than building from scratch.",
+  "ventures": [
+    {
+      "name": "EnCoach",
+      "description": "AI-powered edtech company. Proprietary AI Tutor Engine (DeepTutor) that generates structured course content for English language foundation programs (CEFR-aligned) at Omani universities: student eBooks, teacher packages, media, and interactive activities. Actively pursuing integrations with Arabic educational platforms. Interested in: tutoring agents, content generation, assessment/quiz engines, Arabic NLP, speech (TTS/ASR) for language learning, LMS integrations."
+    },
+    {
+      "name": "Al-Busalah",
+      "description": "Consulting + technology company (البوصلة) serving Omani/GCC clients across healthcare, real estate, finance, and operations. Builds AI-powered products: conversational AI front desks for clinics, AI CRM with WhatsApp integration and lead qualification, rental regulation workflows, decision-intelligence systems. Interested in: agent frameworks, WhatsApp/chat automation, workflow engines, document AI, Arabic LLM tooling, low-cost self-hosted stacks deployable for client projects."
+    },
+    {
+      "name": "Open City",
+      "description": "Smart traffic platform for Omani cities: traffic monitoring, congestion analysis, and road-safety intelligence using cameras/CCTV, computer vision, and city data. Interested in: vehicle detection and counting models (YOLO-family), traffic-flow prediction, ANPR/plate recognition, GIS/mapping tools, edge AI for cameras (Jetson-class), smart-city dashboards."
+    },
+    {
+      "name": "Autism Medical",
+      "description": "AI-assisted platform for autism care in Oman ('Autism AI'): screening and assessment support, therapy management, progress tracking, and parent-facing tools, Arabic/English, PDPL-compliant. Interested in: ML screening/diagnostic aids, behavioral analysis models, assistive/AAC communication tools, pediatric health record and scheduling systems."
+    },
+    {
+      "name": "SMART Mobility",
+      "description": "Exclusive Omani distributor of battery-swap electric delivery motorcycles (TYCORUN). Interested in: fleet management software, battery/IoT telemetry, delivery-logistics optimization, EV charging/swap-station management tools."
+    }
+  ],
+  "new_venture_note": "Also flag repos that could seed an entirely NEW business localized for Oman/GCC (label them 'New venture'), especially where Arabic localization or local regulation creates a moat."
+}

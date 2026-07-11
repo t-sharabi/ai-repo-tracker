@@ -43,6 +43,9 @@ MAX_NEW_CANDIDATES = 200       # cap on day-old repos sent to Claude per run
 CLAUDE_MODEL = "claude-haiku-4-5"
 CLAUDE_BATCH_SIZE = 40
 DATA_FILE = "data.json"
+VENTURES_FILE = "ventures.json"          # Layer 2: opportunity matching config
+RELEVANCE_MODEL = "claude-sonnet-4-6"    # stronger model for business judgment
+RELEVANCE_MIN_TO_FLAG = 7                # score at which a repo becomes a 🎯
 TELEGRAM_MAX_ITEMS = 10
 CATEGORIES = ["Agents", "LLM Tooling", "RAG", "Models", "Fine-tuning",
               "Infra", "Apps", "Data", "Vision", "Other"]
@@ -171,6 +174,94 @@ def claude_classify(repos, lenient=False):
     return kept
 
 
+# ------------------------- Layer 2: opportunity map -------------------------
+
+OPP_PROMPT = """You are the opportunity-analysis stage of an automated tracker.
+Your reader is a startup founder in Oman. Assess each GitHub repo below for
+concrete usefulness to HIS ventures and market — not general interestingness.
+
+Market context:
+{market}
+
+His ventures:
+{ventures}
+
+{new_venture_note}
+
+For each repo assign:
+- relevance: integer 0-10.
+  8-10 = directly usable in a named venture, or a strong seed for a new
+         Omani-market business. 5-7 = worth a look, partial fit or good
+         inspiration. 0-4 = not relevant to him (most repos!).
+  Be strict: a great generic tool with no specific fit to these ventures
+  scores low.
+- matched_ventures: list of venture names it could serve (may be empty;
+  use "New venture" for new-business seeds).
+- opportunity: at most 35 words, concrete and actionable — WHAT he could do
+  with it and WHERE it plugs in. Empty string if relevance < 5.
+
+Respond with ONLY a JSON array, no markdown fences, no commentary:
+[{{"full_name": "...", "relevance": 3, "matched_ventures": [], "opportunity": ""}}]
+
+Repos:
+{repos}"""
+
+
+def claude_opportunity(entries):
+    """Layer 2: score entries for relevance to the founder's ventures.
+
+    Mutates entries in place, adding relevance / ventures / opportunity.
+    Skipped gracefully when ventures.json is absent.
+    """
+    if not entries:
+        return
+    try:
+        with open(VENTURES_FILE) as f:
+            cfg = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Layer 2 skipped ({VENTURES_FILE}: {e})")
+        return
+    ventures_text = "\n".join(f"- {v['name']}: {v['description']}"
+                              for v in cfg.get("ventures", []))
+    todo = [e for e in entries if "relevance" not in e]
+    for i in range(0, len(todo), CLAUDE_BATCH_SIZE):
+        batch = todo[i:i + CLAUDE_BATCH_SIZE]
+        slim = [{k: r.get(k) for k in
+                 ("full_name", "description", "summary", "category",
+                  "topics", "stars", "language")} for r in batch]
+        body = {
+            "model": RELEVANCE_MODEL,
+            "max_tokens": 4096,
+            "messages": [{"role": "user", "content": OPP_PROMPT.format(
+                market=cfg.get("market", ""),
+                ventures=ventures_text,
+                new_venture_note=cfg.get("new_venture_note", ""),
+                repos=json.dumps(slim, ensure_ascii=False))}],
+        }
+        try:
+            resp = http_json("https://api.anthropic.com/v1/messages",
+                             headers={"x-api-key": ANTHROPIC_API_KEY,
+                                      "anthropic-version": "2023-06-01",
+                                      "content-type": "application/json"},
+                             payload=body)
+            text = "".join(b.get("text", "") for b in resp.get("content", []))
+            text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+            verdicts = {row["full_name"]: row for row in json.loads(text)}
+        except Exception as e:
+            print(f"  ! opportunity batch {i} failed: {e}", file=sys.stderr)
+            continue
+        for r in batch:
+            v = verdicts.get(r["full_name"])
+            if v:
+                r["relevance"] = max(0, min(10, int(v.get("relevance", 0))))
+                r["ventures"] = [str(x)[:40] for x in
+                                 (v.get("matched_ventures") or [])][:5]
+                r["opportunity"] = str(v.get("opportunity", ""))[:300]
+    flagged = sum(1 for e in entries
+                  if e.get("relevance", 0) >= RELEVANCE_MIN_TO_FLAG)
+    print(f"Layer 2: {len(todo)} analyzed, {flagged} flagged as opportunities.")
+
+
 # -------------------------------- delivery ---------------------------------
 
 
@@ -185,13 +276,18 @@ def send_telegram(risers, newly_added):
         print("Telegram not configured — skipped.")
         return
     lines = ["\U0001F680 <b>AI Repo Tracker — daily digest</b>"]
-    picks = risers[:TELEGRAM_MAX_ITEMS]
-    if len(picks) < TELEGRAM_MAX_ITEMS:
-        picks += newly_added[:TELEGRAM_MAX_ITEMS - len(picks)]
+    pool = risers + [r for r in newly_added if r not in risers]
+    pool.sort(key=lambda r: (-r.get("relevance", 0), -r["stars"]))
+    picks = pool[:TELEGRAM_MAX_ITEMS]
     for r in picks:
-        tag = "\U0001F4C8" if r.get("rising") else "\U0001F195"
-        lines.append(f'{tag} <a href="{r["url"]}">{esc(r["full_name"])}</a>'
-                     f' \u2B50{r["stars"]} — {esc(r["summary"])}')
+        tag = ("\U0001F3AF" if r.get("relevance", 0) >= RELEVANCE_MIN_TO_FLAG
+               else "\U0001F4C8" if r.get("rising") else "\U0001F195")
+        line = (f'{tag} <a href="{r["url"]}">{esc(r["full_name"])}</a>'
+                f' \u2B50{r["stars"]} — {esc(r["summary"])}')
+        if r.get("relevance", 0) >= RELEVANCE_MIN_TO_FLAG:
+            who = ", ".join(r.get("ventures") or []) or "you"
+            line += f'\n   \u21B3 <i>{esc(who)}: {esc(r.get("opportunity", ""))}</i>'
+        lines.append(line)
     if len(lines) == 1:
         lines.append("Quiet day — nothing crossed the bar.")
     http_json(f"https://api.telegram.org/bot{token}/sendMessage",
@@ -222,7 +318,18 @@ def send_email(risers, newly_added):
         return f"<h3>{title}</h3><table border=0>{rows}</table>"
 
     today = datetime.now(timezone.utc).strftime("%d %b %Y")
-    html = (f"<h2>AI Repo Tracker — {today}</h2>"
+    opps = sorted([r for r in risers + newly_added
+                   if r.get("relevance", 0) >= RELEVANCE_MIN_TO_FLAG],
+                  key=lambda r: -r.get("relevance", 0))
+    opp_rows = "".join(
+        f'<tr><td style="padding:6px 10px"><a href="{r["url"]}">'
+        f'{esc(r["full_name"])}</a> ({r.get("relevance")}/10 — '
+        f'{esc(", ".join(r.get("ventures") or []))})<br>'
+        f'<small>{esc(r.get("opportunity", ""))}</small></td></tr>'
+        for r in opps)
+    opp_html = (f"<h3>\U0001F3AF Opportunities for your ventures</h3>"
+                f"<table border=0>{opp_rows}</table>" if opps else "")
+    html = (f"<h2>AI Repo Tracker — {today}</h2>" + opp_html
             + section(f"\U0001F4C8 Rising (crossed {RISING_STARS_THRESHOLD}"
                       f" stars within {RISING_WINDOW_DAYS} days)", risers)
             + section("\U0001F195 New yesterday (kept by Claude)", newly_added)
@@ -290,6 +397,9 @@ def main():
             risers.append(entry)
     risers.sort(key=lambda r: -r["stars"])
     print(f"  {len(risers)} newly-rising repos")
+
+    print("Layer 2 — opportunity analysis against ventures.json")
+    claude_opportunity(newly_added + [r for r in risers if r not in newly_added])
 
     with open(DATA_FILE, "w") as f:
         json.dump({"last_updated": now.isoformat(timespec="seconds"),
