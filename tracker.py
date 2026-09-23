@@ -40,11 +40,11 @@ KEYWORD_QUERIES = ['"ai agent" in:name,description', 'llm in:name,description']
 RISING_WINDOW_DAYS = 14        # how far back the "rising" pass looks
 RISING_STARS_THRESHOLD = 30    # momentum threshold for the rising pass
 MAX_NEW_CANDIDATES = 200       # cap on day-old repos sent to Claude per run
-CLAUDE_MODEL = "claude-haiku-4-5"
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 CLAUDE_BATCH_SIZE = 40
 DATA_FILE = "data.json"
 VENTURES_FILE = "ventures.json"          # Layer 2: opportunity matching config
-RELEVANCE_MODEL = "claude-sonnet-4-6"    # stronger model for business judgment
+RELEVANCE_MODEL = "claude-sonnet-5"      # stronger model for business judgment
 RELEVANCE_MIN_TO_FLAG = 7                # score at which a repo becomes a 🎯
 TELEGRAM_MAX_ITEMS = 10
 CATEGORIES = ["Agents", "LLM Tooling", "RAG", "Models", "Fine-tuning",
@@ -66,7 +66,7 @@ def http_json(url, headers=None, payload=None, retries=3):
                 return json.loads(resp.read().decode())
         except urllib.error.HTTPError as e:
             body = e.read().decode(errors="replace")[:500]
-            if e.code in (403, 429) and attempt < retries - 1:
+            if e.code in (403, 429, 500, 502, 503, 504, 529) and attempt < retries - 1:
                 time.sleep(30 * (attempt + 1))  # rate limited — back off
                 continue
             raise RuntimeError(f"HTTP {e.code} for {url}: {body}") from e
@@ -117,6 +117,53 @@ def collect(created_since, extra=""):
     return out
 
 
+# ------------------------------ Claude calls -------------------------------
+
+CLAUDE_ERRORS = []   # human-readable problems, reported in the digest
+
+
+def explain_claude_error(err):
+    """Turn a raw API failure into a one-line diagnosis."""
+    t = str(err)
+    if "HTTP 401" in t:
+        return "Anthropic API key is invalid or revoked - update the ANTHROPIC_API_KEY repo secret."
+    if "credit balance" in t.lower() or "billing" in t.lower():
+        return "Anthropic account is out of credits - top up at console.anthropic.com (Billing)."
+    if "HTTP 404" in t or "not_found_error" in t:
+        return "Claude model name not found (model retired or renamed) - update CLAUDE_MODEL / RELEVANCE_MODEL in tracker.py."
+    if "HTTP 529" in t or "overloaded" in t.lower():
+        return "Anthropic API was overloaded during the run - usually clears on its own by the next run."
+    if "HTTP 429" in t:
+        return "Anthropic rate/spend limit reached - check limits at console.anthropic.com."
+    return "Claude API error: " + t[:300]
+
+
+def claude_call(model, prompt, max_tokens=4096):
+    """Call the Messages API and return the text (fences stripped)."""
+    resp = http_json("https://api.anthropic.com/v1/messages",
+                     headers={"x-api-key": ANTHROPIC_API_KEY,
+                              "anthropic-version": "2023-06-01",
+                              "content-type": "application/json"},
+                     payload={"model": model, "max_tokens": max_tokens,
+                              "messages": [{"role": "user", "content": prompt}]})
+    text = "".join(b.get("text", "") for b in resp.get("content", []))
+    return (text.strip().removeprefix("```json").removeprefix("```")
+            .removesuffix("```").strip())
+
+
+def preflight():
+    """Tiny test call so a broken key/model/billing is diagnosed up front."""
+    try:
+        claude_call(CLAUDE_MODEL, "Reply with OK.", max_tokens=5)
+        print("Preflight: Anthropic API OK.")
+        return True
+    except Exception as e:
+        msg = explain_claude_error(e)
+        print(f"Preflight FAILED: {msg}\n  raw: {e}", file=sys.stderr)
+        CLAUDE_ERRORS.append(msg)
+        return False
+
+
 # ------------------------------ Claude filter ------------------------------
 
 PROMPT = """You are the filtering stage of an automated tracker that finds
@@ -148,20 +195,16 @@ def claude_classify(repos, lenient=False):
         slim = [{k: r[k] for k in
                  ("full_name", "description", "topics", "stars", "language")}
                 for r in batch]
-        body = {
-            "model": CLAUDE_MODEL,
-            "max_tokens": 4096,
-            "messages": [{"role": "user", "content": PROMPT.format(
+        try:
+            text = claude_call(CLAUDE_MODEL, PROMPT.format(
                 leniency=leniency, cats=", ".join(CATEGORIES),
-                repos=json.dumps(slim, ensure_ascii=False))}],
-        }
-        resp = http_json("https://api.anthropic.com/v1/messages",
-                         headers={"x-api-key": ANTHROPIC_API_KEY,
-                                  "anthropic-version": "2023-06-01",
-                                  "content-type": "application/json"},
-                         payload=body)
-        text = "".join(b.get("text", "") for b in resp.get("content", []))
-        text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+                repos=json.dumps(slim, ensure_ascii=False)))
+        except Exception as e:
+            msg = explain_claude_error(e)
+            print(f"  ! Claude filter batch {i} failed: {msg}", file=sys.stderr)
+            if msg not in CLAUDE_ERRORS:
+                CLAUDE_ERRORS.append(msg)
+            continue
         try:
             for row in json.loads(text):
                 if row.get("keep"):
@@ -229,26 +272,19 @@ def claude_opportunity(entries):
         slim = [{k: r.get(k) for k in
                  ("full_name", "description", "summary", "category",
                   "topics", "stars", "language")} for r in batch]
-        body = {
-            "model": RELEVANCE_MODEL,
-            "max_tokens": 4096,
-            "messages": [{"role": "user", "content": OPP_PROMPT.format(
+        try:
+            text = claude_call(RELEVANCE_MODEL, OPP_PROMPT.format(
                 market=cfg.get("market", ""),
                 ventures=ventures_text,
                 new_venture_note=cfg.get("new_venture_note", ""),
-                repos=json.dumps(slim, ensure_ascii=False))}],
-        }
-        try:
-            resp = http_json("https://api.anthropic.com/v1/messages",
-                             headers={"x-api-key": ANTHROPIC_API_KEY,
-                                      "anthropic-version": "2023-06-01",
-                                      "content-type": "application/json"},
-                             payload=body)
-            text = "".join(b.get("text", "") for b in resp.get("content", []))
-            text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+                repos=json.dumps(slim, ensure_ascii=False)))
             verdicts = {row["full_name"]: row for row in json.loads(text)}
         except Exception as e:
-            print(f"  ! opportunity batch {i} failed: {e}", file=sys.stderr)
+            msg = (explain_claude_error(e) if "HTTP" in str(e)
+                   else f"Layer 2 response could not be parsed: {e}")
+            print(f"  ! opportunity batch {i} failed: {msg}", file=sys.stderr)
+            if msg not in CLAUDE_ERRORS:
+                CLAUDE_ERRORS.append(msg)
             continue
         for r in batch:
             v = verdicts.get(r["full_name"])
@@ -290,6 +326,8 @@ def send_telegram(risers, newly_added):
         lines.append(line)
     if len(lines) == 1:
         lines.append("Quiet day — nothing crossed the bar.")
+    for err in CLAUDE_ERRORS:
+        lines.append(f"\u26A0\uFE0F <b>Problem:</b> {esc(err)}")
     http_json(f"https://api.telegram.org/bot{token}/sendMessage",
               headers={"content-type": "application/json"},
               payload={"chat_id": chat, "text": "\n".join(lines),
@@ -329,7 +367,9 @@ def send_email(risers, newly_added):
         for r in opps)
     opp_html = (f"<h3>\U0001F3AF Opportunities for your ventures</h3>"
                 f"<table border=0>{opp_rows}</table>" if opps else "")
-    html = (f"<h2>AI Repo Tracker — {today}</h2>" + opp_html
+    warn_html = "".join(f'<p style="color:#b00"><b>\u26A0 Problem:</b> {esc(e)}</p>'
+                        for e in CLAUDE_ERRORS)
+    html = (f"<h2>AI Repo Tracker — {today}</h2>" + warn_html + opp_html
             + section(f"\U0001F4C8 Rising (crossed {RISING_STARS_THRESHOLD}"
                       f" stars within {RISING_WINDOW_DAYS} days)", risers)
             + section("\U0001F195 New yesterday (kept by Claude)", newly_added)
@@ -358,6 +398,15 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError, KeyError):
         archive = {}
     print(f"Archive: {len(archive)} repos.")
+
+    if not preflight():
+        # Claude is unusable: alert immediately with the exact reason, then fail.
+        for fn in (send_telegram, send_email):
+            try:
+                fn([], [])
+            except Exception as e:
+                print(f"  ! {fn.__name__} failed: {e}", file=sys.stderr)
+        sys.exit(1)
 
     print("Pass 1 — new repos created since", yesterday)
     fresh = [r for r in collect(yesterday)
@@ -414,6 +463,9 @@ def main():
             fn(risers, newly_added)
         except Exception as e:  # delivery failure must not kill the run
             print(f"  ! {fn.__name__} failed: {e}", file=sys.stderr)
+
+    if CLAUDE_ERRORS:
+        print("Completed with problems:\n  - " + "\n  - ".join(CLAUDE_ERRORS))
 
 
 if __name__ == "__main__":
