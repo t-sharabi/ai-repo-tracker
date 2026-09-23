@@ -1,11 +1,11 @@
 {
- "last_updated": "2026-09-23T10:03:19+00:00",
+ "last_updated": "2026-09-23T11:07:05+00:00",
  "repos": [
   {
    "full_name": "NandhaKishorM/laya",
    "url": "https://github.com/NandhaKishorM/laya",
    "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
-   "stars": 18597,
+   "stars": 18783,
    "language": "Python",
    "topics": [
     "calibration",
@@ -34,7 +34,7 @@
    "full_name": "mizorewww/laya-mlx",
    "url": "https://github.com/mizorewww/laya-mlx",
    "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
-   "stars": 5716,
+   "stars": 5734,
    "language": "Python",
    "topics": [
     "apple-silicon",
@@ -62,7 +62,7 @@
    "full_name": "jev-chat/jev-chat-jarvis",
    "url": "https://github.com/jev-chat/jev-chat-jarvis",
    "description": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-   "stars": 4881,
+   "stars": 4936,
    "language": "Kotlin",
    "topics": [
     "accessibility-service",
@@ -105,7 +105,7 @@
    "full_name": "awlevin/typesafe-computer-use",
    "url": "https://github.com/awlevin/typesafe-computer-use",
    "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
-   "stars": 858,
+   "stars": 861,
    "language": "Python",
    "topics": [
     "ai-agents",
@@ -130,7 +130,7 @@
    "full_name": "ethanplusai/astra-flash-orchestrator",
    "url": "https://github.com/ethanplusai/astra-flash-orchestrator",
    "description": "Astra plans and reviews; DeepSeek Flash builds. A native Codex workflow with phased tasks, verification, safe installation and reversible setup.",
-   "stars": 611,
+   "stars": 612,
    "language": "Python",
    "topics": [
     "agent-orchestration",
@@ -200,7 +200,7 @@
    "full_name": "wfzyx/von",
    "url": "https://github.com/wfzyx/von",
    "description": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
-   "stars": 527,
+   "stars": 530,
    "language": "Python",
    "topics": [
     "decision-model",
@@ -244,7 +244,7 @@
    "full_name": "freestylefly/WeChatBridge",
    "url": "https://github.com/freestylefly/WeChatBridge",
    "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
-   "stars": 467,
+   "stars": 479,
    "language": "Swift",
    "topics": [
     "ai-agent",
@@ -268,7 +268,7 @@
    "full_name": "jev-chat/jev-chat-windows",
    "url": "https://github.com/jev-chat/jev-chat-windows",
    "description": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
-   "stars": 398,
+   "stars": 399,
    "language": "Python",
    "topics": [
     "chat-assistant",
@@ -292,10 +292,38 @@
    "opportunity": "Adapt the Windows screenshot/OCR reply-assistant pattern to WhatsApp Web for Arabic/English clinic reception, real-estate leads, and SME sales workflows."
   },
   {
+   "full_name": "modelscope/ms-cookbook",
+   "url": "https://github.com/modelscope/ms-cookbook",
+   "description": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
+   "stars": 392,
+   "language": "HTML",
+   "topics": [
+    "ai-agents",
+    "cookbook",
+    "diffusion-models",
+    "fine-tuning",
+    "generative-ai",
+    "llm",
+    "mcp",
+    "model-evaluation"
+   ],
+   "created_at": "2026-09-11T14:27:35Z",
+   "category": "LLM Tooling",
+   "summary": "Cookbook for building, evaluating, and deploying model applications.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use its RAG, fine-tuning, evaluation, and agent recipes to benchmark open models for Arabic/English tutoring content and client chatbots before building custom pipelines."
+  },
+  {
    "full_name": "Clearailhc/clearai-dsh",
    "url": "https://github.com/Clearailhc/clearai-dsh",
    "description": "ClearAI is a native DSH plugin that brings the Epistemic Loop to DeepSeek Harness.",
-   "stars": 371,
+   "stars": 373,
    "language": "JavaScript",
    "topics": [
     "agent-preset",
@@ -318,7 +346,7 @@
    "full_name": "Rizzo-AI-Academy/rizzo-flow",
    "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
    "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
-   "stars": 364,
+   "stars": 367,
    "language": "Python",
    "topics": [],
    "created_at": "2026-09-21T00:00:02Z",
@@ -337,7 +365,7 @@
    "full_name": "ruc-datalab/EvoOntology",
    "url": "https://github.com/ruc-datalab/EvoOntology",
    "description": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
-   "stars": 361,
+   "stars": 362,
    "language": "Python",
    "topics": [
     "agent",
@@ -417,7 +445,7 @@
    "full_name": "Qiuner/QCode",
    "url": "https://github.com/Qiuner/QCode",
    "description": "An explorable island world to learn AI coding and build real projects with AI agents. Powered by DeepSeek Harness.",
-   "stars": 312,
+   "stars": 314,
    "language": "TypeScript",
    "topics": [
     "ai-agents",
@@ -441,34 +469,10 @@
    "opportunity": "Localize the gamified AI-coding learning concept into Arabic/English bootcamps for Omani schools, universities, and SME upskilling programs."
   },
   {
-   "full_name": "ekzhang/openjev-sglang",
-   "url": "https://github.com/ekzhang/openjev-sglang",
-   "description": "Jev-compatible API endpoint based on open models (prefill-only)",
-   "stars": 285,
-   "language": "Python",
-   "topics": [
-    "jev",
-    "llm",
-    "structured-generation",
-    "systemone"
-   ],
-   "created_at": "2026-09-17T18:11:49Z",
-   "category": "Infra",
-   "summary": "Open-model API endpoint compatible with Jev-style structured generation.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 6,
-   "ventures": [
-    "Al-Busalah",
-    "EnCoach"
-   ],
-   "opportunity": "Self-host Jev-style structured decision endpoints for agents, replacing repeated LLM calls in CRM routing, tutoring workflows, and document triage."
-  },
-  {
    "full_name": "jev-chat/jev-chat-jarvis-mac",
    "url": "https://github.com/jev-chat/jev-chat-jarvis-mac",
    "description": "微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
-   "stars": 285,
+   "stars": 289,
    "language": "Python",
    "topics": [
     "llm",
@@ -490,6 +494,30 @@
     "Al-Busalah"
    ],
    "opportunity": "Reuse the privacy-first screen/OCR assistant pattern for a macOS WhatsApp Web reply helper for bilingual customer-service and clinic reception teams."
+  },
+  {
+   "full_name": "ekzhang/openjev-sglang",
+   "url": "https://github.com/ekzhang/openjev-sglang",
+   "description": "Jev-compatible API endpoint based on open models (prefill-only)",
+   "stars": 287,
+   "language": "Python",
+   "topics": [
+    "jev",
+    "llm",
+    "structured-generation",
+    "systemone"
+   ],
+   "created_at": "2026-09-17T18:11:49Z",
+   "category": "Infra",
+   "summary": "Open-model API endpoint compatible with Jev-style structured generation.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Self-host Jev-style structured decision endpoints for agents, replacing repeated LLM calls in CRM routing, tutoring workflows, and document triage."
   },
   {
    "full_name": "Oldcircle/geo-sleuth",
@@ -520,7 +548,7 @@
    "full_name": "emma-sue/AegisOps",
    "url": "https://github.com/emma-sue/AegisOps",
    "description": "AegisOps企业信息系统智能运维平台：自动巡检、Agent 故障排查、证据工单与审批处置。LangGraph · Deep Agents · MCP；附可复现实测记录。",
-   "stars": 283,
+   "stars": 284,
    "language": "Python",
    "topics": [
     "ai-agent",
@@ -548,7 +576,7 @@
    "full_name": "ZeroDayEvil/ai-security-tool",
    "url": "https://github.com/ZeroDayEvil/ai-security-tool",
    "description": "🛡️ Free open-source AI-powered security terminal & vulnerability scanner (CVE, SBOM). Supports SSH, SFTP, RDP, VNC, Serial, and 12+ autonomous AI agents (DeepSeek, OpenAI) for automated security workflows, CTF & DevSecOps. Cross-platform & Web UI.",
-   "stars": 283,
+   "stars": 284,
    "language": "HTML",
    "topics": [
     "ai-agent",
@@ -571,6 +599,35 @@
     "New venture"
    ],
    "opportunity": "Bundle vulnerability scanning, SBOM checks, and AI security reports into affordable compliance-readiness audits for Omani SMEs, clinics, and real-estate firms."
+  },
+  {
+   "full_name": "nokia-applied-research/AnyJev",
+   "url": "https://github.com/nokia-applied-research/AnyJev",
+   "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+   "stars": 279,
+   "language": "Python",
+   "topics": [
+    "calibration",
+    "decision-model",
+    "jev",
+    "jev-model",
+    "llm",
+    "system-one",
+    "transformers",
+    "vllm"
+   ],
+   "created_at": "2026-09-21T05:55:40Z",
+   "category": "Models",
+   "summary": "Turns any LLM into a Jev-style typed decision model.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Turn Arabic-capable LLMs into typed decision models for bilingual triage, CEFR classification, WhatsApp intent detection, and healthcare workflow decisions."
   },
   {
    "full_name": "xiaYuTian11/maskit",
@@ -634,7 +691,7 @@
    "full_name": "itsmostafa/typesafe-mcp",
    "url": "https://github.com/itsmostafa/typesafe-mcp",
    "description": "An mcp connector to evaluate anything fast and cheap. Give your AI agent direct access to typesafe ai's jev model. ",
-   "stars": 269,
+   "stars": 270,
    "language": "Go",
    "topics": [
     "mcp",
@@ -650,35 +707,6 @@
     "Al-Busalah"
    ],
    "opportunity": "Connect MCP-based agents to fast decision evaluation for approval gates, lead qualification, workflow routing, and low-cost agent guardrails."
-  },
-  {
-   "full_name": "nokia-applied-research/AnyJev",
-   "url": "https://github.com/nokia-applied-research/AnyJev",
-   "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
-   "stars": 267,
-   "language": "Python",
-   "topics": [
-    "calibration",
-    "decision-model",
-    "jev",
-    "jev-model",
-    "llm",
-    "system-one",
-    "transformers",
-    "vllm"
-   ],
-   "created_at": "2026-09-21T05:55:40Z",
-   "category": "Models",
-   "summary": "Turns any LLM into a Jev-style typed decision model.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 8,
-   "ventures": [
-    "Al-Busalah",
-    "EnCoach",
-    "Autism Medical"
-   ],
-   "opportunity": "Turn Arabic-capable LLMs into typed decision models for bilingual triage, CEFR classification, WhatsApp intent detection, and healthcare workflow decisions."
   },
   {
    "full_name": "malevrigns/agent-jev",
@@ -702,7 +730,7 @@
    "full_name": "0xNatoshi/jev-codex-router",
    "url": "https://github.com/0xNatoshi/jev-codex-router",
    "description": "Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.",
-   "stars": 240,
+   "stars": 242,
    "language": "JavaScript",
    "topics": [
     "ai",
@@ -794,10 +822,29 @@
    "opportunity": "Add local-first continuous code review to Al-Busalah client projects to reduce QA load for a small team and improve delivery reliability."
   },
   {
+   "full_name": "Yinsongxu/LLM2Jev",
+   "url": "https://github.com/Yinsongxu/LLM2Jev",
+   "description": "Adapt local language models into Jev-compatible structured decision engines with Choice, Score, and Noul outputs   powered by prefill-only binary inference.",
+   "stars": 205,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-09-19T10:59:33Z",
+   "category": "Models",
+   "summary": "Adapts local language models into structured decision engines.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Test local LLM structured decisions for lead scoring, clinic triage routing, or autism screening support where deterministic Choice/Score outputs matter."
+  },
+  {
    "full_name": "FankChen/tracecrate",
    "url": "https://github.com/FankChen/tracecrate",
    "description": "Local-first AI agent trace workbench. Inspect Claude Code, Codex and OTLP logs, compare runs, and export privacy-conscious reports. No backend or API keys.",
-   "stars": 201,
+   "stars": 202,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -821,25 +868,6 @@
     "Autism Medical"
    ],
    "opportunity": "Use as a local QA workbench to inspect DeepTutor, clinic front-desk, and autism-care agent traces before deploying privacy-sensitive client systems."
-  },
-  {
-   "full_name": "Yinsongxu/LLM2Jev",
-   "url": "https://github.com/Yinsongxu/LLM2Jev",
-   "description": "Adapt local language models into Jev-compatible structured decision engines with Choice, Score, and Noul outputs   powered by prefill-only binary inference.",
-   "stars": 196,
-   "language": "Python",
-   "topics": [],
-   "created_at": "2026-09-19T10:59:33Z",
-   "category": "Models",
-   "summary": "Adapts local language models into structured decision engines.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 5,
-   "ventures": [
-    "Al-Busalah",
-    "Autism Medical"
-   ],
-   "opportunity": "Test local LLM structured decisions for lead scoring, clinic triage routing, or autism screening support where deterministic Choice/Score outputs matter."
   },
   {
    "full_name": "Matthew0822/ToolReplay",
@@ -918,7 +946,7 @@
    "full_name": "liyupi/ai-model-world",
    "url": "https://github.com/liyupi/ai-model-world",
    "description": "AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。",
-   "stars": 172,
+   "stars": 173,
    "language": "TypeScript",
    "topics": [
     "ai",
@@ -966,7 +994,7 @@
    "full_name": "hirotomasato/yowes",
    "url": "https://github.com/hirotomasato/yowes",
    "description": "Generate realistic teacher documents (ID cards, licenses, letters) for 13 countries via MCP.",
-   "stars": 162,
+   "stars": 163,
    "language": "Python",
    "topics": [
     "agent",
@@ -989,7 +1017,7 @@
    "full_name": "TianyuCodings/JevHarness",
    "url": "https://github.com/TianyuCodings/JevHarness",
    "description": "LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
-   "stars": 155,
+   "stars": 156,
    "language": "Python",
    "topics": [],
    "created_at": "2026-09-21T08:59:46Z",
@@ -1037,7 +1065,7 @@
    "full_name": "Pal-AI-Lab/Cortico",
    "url": "https://github.com/Pal-AI-Lab/Cortico",
    "description": "Event-stream AI Agent framework for building your persona bot 🍊",
-   "stars": 135,
+   "stars": 136,
    "language": "TypeScript",
    "topics": [
     "agent-framework",
@@ -1064,7 +1092,7 @@
    "full_name": "lordx64/phantom-kv",
    "url": "https://github.com/lordx64/phantom-kv",
    "description": "Refusal removal as a loadable KV-cache graft — zero weight modification, no refusal-direction projection, fully reversible.",
-   "stars": 131,
+   "stars": 132,
    "language": "Python",
    "topics": [
     "abliteration",
@@ -1089,7 +1117,7 @@
    "full_name": "Michael-Jiahao-Zhang/game-the-llm-reviewer",
    "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
    "description": "Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
-   "stars": 130,
+   "stars": 132,
    "language": "",
    "topics": [
     "academic-writing",
@@ -1114,7 +1142,7 @@
    "full_name": "Devin-AXIS/jev-dsh-decision",
    "url": "https://github.com/Devin-AXIS/jev-dsh-decision",
    "description": "Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex Harness。",
-   "stars": 127,
+   "stars": 129,
    "language": "JavaScript",
    "topics": [
     "agent-harness",
@@ -1232,7 +1260,7 @@
    "full_name": "ssssssanjiu/clawd-conduit",
    "url": "https://github.com/ssssssanjiu/clawd-conduit",
    "description": "Full-lifecycle wiring between Claude Code and the Clawd on Desk pet — all 15 hook events, with permission prompts answered straight from the desktop",
-   "stars": 121,
+   "stars": 122,
    "language": "Shell",
    "topics": [
     "ai-agents",
@@ -1257,7 +1285,7 @@
    "full_name": "dom-actions/doma",
    "url": "https://github.com/dom-actions/doma",
    "description": "The open-source of DomA, an AI automation agent for the browser.",
-   "stars": 120,
+   "stars": 122,
    "language": "TypeScript",
    "topics": [
     "agents",
@@ -1728,6 +1756,26 @@
    "opportunity": "Use for browser agents that research clients, check portals, and produce cited evidence for real-estate, finance, and government-service workflows."
   },
   {
+   "full_name": "Alex314618-create/JevRev",
+   "url": "https://github.com/Alex314618-create/JevRev",
+   "description": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside. ",
+   "stars": 98,
+   "language": "TypeScript",
+   "topics": [
+    "jev",
+    "llm",
+    "workflow"
+   ],
+   "created_at": "2026-09-21T01:53:13Z",
+   "category": "Other",
+   "summary": "Workflow repository combining Jev with an LLM.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "js713-lab/sonic-match-mcp",
    "url": "https://github.com/js713-lab/sonic-match-mcp",
    "description": "MCP server that watches video footage and returns license-safe BGM matches, hook windows, and ffmpeg ducking specs for agents.",
@@ -1755,6 +1803,35 @@
    "opportunity": "Automate license-safe background music selection and ffmpeg ducking specs for DeepTutor lesson videos and promotional education content."
   },
   {
+   "full_name": "lxsssssss/pdf-translate",
+   "url": "https://github.com/lxsssssss/pdf-translate",
+   "description": "",
+   "stars": 97,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "document-translation",
+    "layout-preservation"
+   ],
+   "created_at": "2026-09-15T02:55:02Z",
+   "category": "LLM Tooling",
+   "summary": "Document translation agent skill preserving layout.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Add to DeepTutor and consulting workflows to translate English/Arabic PDFs while preserving university eBook, policy and proposal layouts."
+  },
+  {
    "full_name": "vigorlee/eidra-agent",
    "url": "https://github.com/vigorlee/eidra-agent",
    "description": "Persona agents with explicit memory, retrieval, adversarial smoke tests and a practical post-training roadmap.",
@@ -1779,35 +1856,6 @@
     "Al-Busalah"
    ],
    "opportunity": "Prototype persistent-memory tutor personas and clinic/CRM agents; use retrieval plus adversarial smoke tests before Arabic/English pilots."
-  },
-  {
-   "full_name": "lxsssssss/pdf-translate",
-   "url": "https://github.com/lxsssssss/pdf-translate",
-   "description": "",
-   "stars": 95,
-   "language": "Python",
-   "topics": [
-    "agent-skills",
-    "ai-agents",
-    "antigravity",
-    "claude-code",
-    "codex",
-    "cursor",
-    "document-translation",
-    "layout-preservation"
-   ],
-   "created_at": "2026-09-15T02:55:02Z",
-   "category": "LLM Tooling",
-   "summary": "Document translation agent skill preserving layout.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 8,
-   "ventures": [
-    "EnCoach",
-    "Al-Busalah",
-    "New venture"
-   ],
-   "opportunity": "Add to DeepTutor and consulting workflows to translate English/Arabic PDFs while preserving university eBook, policy and proposal layouts."
   },
   {
    "full_name": "mitkox/esf",
@@ -1859,26 +1907,6 @@
     "New venture"
    ],
    "opportunity": "Place before OpenAI/Anthropic in clinic, autism and CRM agents to mask patient, customer and contract data for PDPL-aware deployments."
-  },
-  {
-   "full_name": "Alex314618-create/JevRev",
-   "url": "https://github.com/Alex314618-create/JevRev",
-   "description": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside. ",
-   "stars": 92,
-   "language": "TypeScript",
-   "topics": [
-    "jev",
-    "llm",
-    "workflow"
-   ],
-   "created_at": "2026-09-21T01:53:13Z",
-   "category": "Other",
-   "summary": "Workflow repository combining Jev with an LLM.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 1,
-   "ventures": [],
-   "opportunity": ""
   },
   {
    "full_name": "savka777/jev-use",
@@ -2301,7 +2329,7 @@
    "full_name": "sno-ai/sno-station",
    "url": "https://github.com/sno-ai/sno-station",
    "description": "Sno Station — your Claude Code and Codex working as one squad on your own machine. Shared encrypted memory, agent-to-agent messaging (Reach), squad skills for handoff and cross-vendor review, and a nightly loop that rewrites the agents' own skills with your approval. Open source, no daemon, no cloud required. Assembled in public.",
-   "stars": 73,
+   "stars": 75,
    "language": "TypeScript",
    "topics": [
     "agent-communication",
@@ -2326,7 +2354,7 @@
    "full_name": "ghuntley/preflight",
    "url": "https://github.com/ghuntley/preflight",
    "description": "A local proxy that scans LLM requests and attachments for secrets before they reach the model.",
-   "stars": 73,
+   "stars": 74,
    "language": "Rust",
    "topics": [],
    "created_at": "2026-09-20T14:11:20Z",
@@ -2660,6 +2688,32 @@
    "opportunity": ""
   },
   {
+   "full_name": "August06exe/ai-landing-consultant",
+   "url": "https://github.com/August06exe/ai-landing-consultant",
+   "description": "让完全不懂技术的人拥有一台真正每天在干活的专属 AI agent ｜ Open-source consulting playbook: ship self-hosted AI agents that non-technical users actually use",
+   "stars": 59,
+   "language": "Shell",
+   "topics": [
+    "agent-deployment",
+    "ai-agent",
+    "consultant",
+    "hermes-agent",
+    "open-source",
+    "self-hosted",
+    "workflow-automation"
+   ],
+   "created_at": "2026-09-16T14:03:35Z",
+   "category": "Agents",
+   "summary": "Open-source consulting playbook for self-hosted AI agents.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the playbook into Al-Busalah service packages: self-hosted clinic front desks, WhatsApp CRM agents, and SME workflow automations with clear onboarding and maintenance scope."
+  },
+  {
    "full_name": "nassim-arifette/jevgrep",
    "url": "https://github.com/nassim-arifette/jevgrep",
    "description": "Jev-powered semantic code search for coding agents — find behavior across repositories via CLI or MCP, with exact source excerpts and line numbers.",
@@ -2706,6 +2760,32 @@
    "relevance": 2,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "bsab/sweden-mcp-servers",
+   "url": "https://github.com/bsab/sweden-mcp-servers",
+   "description": "A curated catalog of Model Context Protocol servers for Swedish data, laws and services.",
+   "stars": 57,
+   "language": "Python",
+   "topics": [
+    "awesome-list",
+    "mcp",
+    "model-context-protocol",
+    "open-data",
+    "sweden",
+    "swedish"
+   ],
+   "created_at": "2026-09-14T09:25:33Z",
+   "category": "Infra",
+   "summary": "Catalog of Model Context Protocol servers for Swedish data and services.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Fork the pattern to build an Oman/GCC MCP catalog for laws, tenders, municipal services and open data, feeding Al-Busalah compliance/workflow agents."
   },
   {
    "full_name": "friday-memory/friday",
@@ -2829,7 +2909,7 @@
    "full_name": "AboveColin/HA-Jev",
    "url": "https://github.com/AboveColin/HA-Jev",
    "description": "Ask your house a question, get a number back. Home Assistant integration for TypeSafe Jev: typed answers as sensors, four actions for automations, and a conversation agent for Assist.",
-   "stars": 52,
+   "stars": 53,
    "language": "Python",
    "topics": [
     "ai",
@@ -2854,7 +2934,7 @@
    "full_name": "elsechord/CyberGuard",
    "url": "https://github.com/elsechord/CyberGuard",
    "description": "Evidence-driven autonomous SOC team on AgentTeams: hash-bound approvals, HMAC audit chain, rollback and reproducible attack scenarios — auditable governance primitives for agent infrastructure.",
-   "stars": 52,
+   "stars": 53,
    "language": "Python",
    "topics": [
     "agent-infra",
@@ -2877,6 +2957,51 @@
     "New venture"
    ],
    "opportunity": "Package as an Arabic/English AI SOC assistant for Omani SMEs: incident triage, approval chains, audit logs, and rollback evidence for regulated clients."
+  },
+  {
+   "full_name": "nirbhay41120003/EchoMind",
+   "url": "https://github.com/nirbhay41120003/EchoMind",
+   "description": "Local-first voice memory assistant — capture speech, transcribe live, and ask a private RAG chatbot grounded in what you've actually said. No cloud required.",
+   "stars": 53,
+   "language": "Python",
+   "topics": [
+    "accessibility",
+    "hearing-assistance",
+    "llama-cpp",
+    "llama-cpp-python",
+    "local-llm",
+    "on-device-ai",
+    "open-source",
+    "privacy"
+   ],
+   "created_at": "2026-09-16T17:16:52Z",
+   "category": "Apps",
+   "summary": "Local-first voice memory assistant with live transcription and private RAG chatbot.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 7,
+   "ventures": [
+    "Autism Medical",
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Adapt local voice transcription plus private RAG for therapy session notes, clinic conversations, or English speaking-practice recall while keeping sensitive data on-device."
+  },
+  {
+   "full_name": "ivrwealth-ui/trading-library",
+   "url": "https://github.com/ivrwealth-ui/trading-library",
+   "description": "Free, open reference books on Indian (NSE) markets: options, momentum trading, momentum investing, swing trading — shipped as PDF, HTML, and clean chapter-addressable Markdown for LLM context. Built by StratLab (stratlab.in).",
+   "stars": 52,
+   "language": "HTML",
+   "topics": [],
+   "created_at": "2026-09-13T17:47:25Z",
+   "category": "Apps",
+   "summary": "Reference trading library with chapter-addressable market content.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "ikermoel/open-alternative-jev",
@@ -2906,35 +3031,6 @@
     "EnCoach"
    ],
    "opportunity": "Use typed, calibrated LLM decisions for lead qualification, clinic intake routing, autism screening support, and CEFR-level assessment outputs without fragile free-form JSON."
-  },
-  {
-   "full_name": "nirbhay41120003/EchoMind",
-   "url": "https://github.com/nirbhay41120003/EchoMind",
-   "description": "Local-first voice memory assistant — capture speech, transcribe live, and ask a private RAG chatbot grounded in what you've actually said. No cloud required.",
-   "stars": 51,
-   "language": "Python",
-   "topics": [
-    "accessibility",
-    "hearing-assistance",
-    "llama-cpp",
-    "llama-cpp-python",
-    "local-llm",
-    "on-device-ai",
-    "open-source",
-    "privacy"
-   ],
-   "created_at": "2026-09-16T17:16:52Z",
-   "category": "Apps",
-   "summary": "Local-first voice memory assistant with live transcription and private RAG chatbot.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 7,
-   "ventures": [
-    "Autism Medical",
-    "Al-Busalah",
-    "EnCoach"
-   ],
-   "opportunity": "Adapt local voice transcription plus private RAG for therapy session notes, clinic conversations, or English speaking-practice recall while keeping sensitive data on-device."
   },
   {
    "full_name": "zj-unicom-ai/uni-llm-bench",
@@ -2975,7 +3071,7 @@
    "full_name": "Calcium-Ion/AstrLink",
    "url": "https://github.com/Calcium-Ion/AstrLink",
    "description": "A local AI gateway for AI agents, unifying your subscriptions and API providers with smart routing and on-device privacy protection.",
-   "stars": 49,
+   "stars": 50,
    "language": "Go",
    "topics": [
     "ai-gateway"
@@ -2997,7 +3093,7 @@
    "full_name": "nahid-sparktales/agent-dispatcher",
    "url": "https://github.com/nahid-sparktales/agent-dispatcher",
    "description": "Repository retrieval and context engine for Claude Code and Codex: finds relevant code, reuses project knowledge, and pairs each task with specialist skills and verification.",
-   "stars": 47,
+   "stars": 48,
    "language": "Python",
    "topics": [
     "agent-skills",
@@ -3017,6 +3113,31 @@
    "relevance": 3,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "mmdju/divar-mcp",
+   "url": "https://github.com/mmdju/divar-mcp",
+   "description": "MCP server for Divar — search, compare and analyze classified ads. Read-only, no API key.",
+   "stars": 48,
+   "language": "JavaScript",
+   "topics": [
+    "cloudflare-workers",
+    "divar",
+    "mcp",
+    "model-context-protocol",
+    "persian"
+   ],
+   "created_at": "2026-09-18T02:14:13Z",
+   "category": "LLM Tooling",
+   "summary": "MCP server for searching, comparing, and analyzing classified ads.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Use as a blueprint for an Oman real-estate classifieds intelligence MCP: compare listings, detect rental anomalies, and support regulation workflows."
   },
   {
    "full_name": "INSANE0777/Awwards-mcp",
@@ -3125,7 +3246,7 @@
    "full_name": "kikoncuo/jevfire",
    "url": "https://github.com/kikoncuo/jevfire",
    "description": "JEV-inspired parallel decisions for CUDA LLMs. One context, many decisions. vLLM API, game-agent examples, and reproducible benchmarks.",
-   "stars": 45,
+   "stars": 46,
    "language": "JavaScript",
    "topics": [
     "cuda",
@@ -3150,35 +3271,10 @@
    "opportunity": "Evaluate for batch structured decisions such as lead scoring, document classification, or automated CEFR quiz judgments when using vLLM-backed local models."
   },
   {
-   "full_name": "mmdju/divar-mcp",
-   "url": "https://github.com/mmdju/divar-mcp",
-   "description": "MCP server for Divar — search, compare and analyze classified ads. Read-only, no API key.",
-   "stars": 45,
-   "language": "JavaScript",
-   "topics": [
-    "cloudflare-workers",
-    "divar",
-    "mcp",
-    "model-context-protocol",
-    "persian"
-   ],
-   "created_at": "2026-09-18T02:14:13Z",
-   "category": "LLM Tooling",
-   "summary": "MCP server for searching, comparing, and analyzing classified ads.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 5,
-   "ventures": [
-    "Al-Busalah",
-    "New venture"
-   ],
-   "opportunity": "Use as a blueprint for an Oman real-estate classifieds intelligence MCP: compare listings, detect rental anomalies, and support regulation workflows."
-  },
-  {
    "full_name": "Heyosseus/sloppy",
    "url": "https://github.com/Heyosseus/sloppy",
    "description": "Laravel-aware static analysis for the debt AI coding agents leave behind. 24 rules, git-diff review, a Rector and Pint fix pass, Pest expectations, CI annotations, agent rulesets and an MCP server. Deterministic, local, no LLM.",
-   "stars": 44,
+   "stars": 45,
    "language": "PHP",
    "topics": [
     "ai",
@@ -3196,6 +3292,30 @@
    "first_seen": "2026-09-23",
    "rising": true,
    "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "modem-dev/ossrules",
+   "url": "https://github.com/modem-dev/ossrules",
+   "description": "Discover agent rules and skill files from leading open source projects",
+   "stars": 45,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "agents",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "codex-skills",
+    "rules"
+   ],
+   "created_at": "2026-09-14T20:31:13Z",
+   "category": "LLM Tooling",
+   "summary": "Tool for discovering agent rules and skill files from open source projects.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 4,
    "ventures": [],
    "opportunity": ""
   },
@@ -3346,6 +3466,31 @@
    "opportunity": ""
   },
   {
+   "full_name": "runninwithitmarketing/hermes-skill-deck",
+   "url": "https://github.com/runninwithitmarketing/hermes-skill-deck",
+   "description": "Local macOS dashboard for your Hermes Agent skills — auto-syncs SKILL.md files from ~/.hermes, customizable top menu bar (pick your own on first launch), custom skill boxes, and a Terminal Mode AI agent. Tauri + FastAPI + React.",
+   "stars": 40,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "claude",
+    "dashboard",
+    "deepseek",
+    "fastapi",
+    "macos",
+    "openai",
+    "react"
+   ],
+   "created_at": "2026-09-16T01:52:32Z",
+   "category": "Apps",
+   "summary": "macOS dashboard for managing Hermes Agent skills and terminal mode.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "ueboxai/uebox",
    "url": "https://github.com/ueboxai/uebox",
    "description": "Open-source AI agent that operates the Unreal Editor — levels, blueprints, materials, C++.",
@@ -3369,7 +3514,7 @@
    "full_name": "AkashPriyadarshii/jev-seo",
    "url": "https://github.com/AkashPriyadarshii/jev-seo",
    "description": "jev-seo: Rust SEO and GEO CLI plus MCP server for coding agents: 50-rule audits, live crawls, GEO scores, rank drift, CI gates. MIT, zero subscription.",
-   "stars": 38,
+   "stars": 39,
    "language": "Rust",
    "topics": [
     "ahrefs-alternative",
@@ -3392,6 +3537,34 @@
     "New venture"
    ],
    "opportunity": "Offer Arabic/English SEO and generative-engine-optimization audits for Omani SMEs, clinics, schools, and real-estate firms as a low-cost recurring service."
+  },
+  {
+   "full_name": "libingzheren/Jev-Mem",
+   "url": "https://github.com/libingzheren/Jev-Mem",
+   "description": "Jev-Mem: System-One Controlled Agentic Memory",
+   "stars": 39,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "agent-memory",
+    "agentic-ai",
+    "agentic-memory",
+    "agents",
+    "jev",
+    "jev-ai",
+    "llm"
+   ],
+   "created_at": "2026-09-20T05:27:53Z",
+   "category": "Agents",
+   "summary": "System-one controlled agent memory component.",
+   "first_seen": "2026-09-23",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Investigate as an agent memory layer for persistent tutoring context, client CRM history, and multi-step consulting agents if it integrates cleanly with existing LLM stack."
   },
   {
    "full_name": "using-system/otelyssey",
@@ -3461,59 +3634,6 @@
     "EnCoach"
    ],
    "opportunity": "Trial as a structured-output gateway for internal pilots where consistent JSON is needed for course generation, lead scoring, or workflow automation."
-  },
-  {
-   "full_name": "libingzheren/Jev-Mem",
-   "url": "https://github.com/libingzheren/Jev-Mem",
-   "description": "Jev-Mem: System-One Controlled Agentic Memory",
-   "stars": 37,
-   "language": "Python",
-   "topics": [
-    "agent",
-    "agent-memory",
-    "agentic-ai",
-    "agentic-memory",
-    "agents",
-    "jev",
-    "jev-ai",
-    "llm"
-   ],
-   "created_at": "2026-09-20T05:27:53Z",
-   "category": "Agents",
-   "summary": "System-one controlled agent memory component.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 5,
-   "ventures": [
-    "EnCoach",
-    "Al-Busalah"
-   ],
-   "opportunity": "Investigate as an agent memory layer for persistent tutoring context, client CRM history, and multi-step consulting agents if it integrates cleanly with existing LLM stack."
-  },
-  {
-   "full_name": "runninwithitmarketing/hermes-skill-deck",
-   "url": "https://github.com/runninwithitmarketing/hermes-skill-deck",
-   "description": "Local macOS dashboard for your Hermes Agent skills — auto-syncs SKILL.md files from ~/.hermes, customizable top menu bar (pick your own on first launch), custom skill boxes, and a Terminal Mode AI agent. Tauri + FastAPI + React.",
-   "stars": 37,
-   "language": "JavaScript",
-   "topics": [
-    "ai-agents",
-    "claude",
-    "dashboard",
-    "deepseek",
-    "fastapi",
-    "macos",
-    "openai",
-    "react"
-   ],
-   "created_at": "2026-09-16T01:52:32Z",
-   "category": "Apps",
-   "summary": "macOS dashboard for managing Hermes Agent skills and terminal mode.",
-   "first_seen": "2026-09-23",
-   "rising": true,
-   "relevance": 3,
-   "ventures": [],
-   "opportunity": ""
   },
   {
    "full_name": "ops120/official-llm-zhazhiji",
@@ -3877,7 +3997,10 @@
    "category": "Models",
    "summary": "Permutation-invariant Jev decision model implementation.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "AxelFooley/MnemoBrain",
@@ -4050,7 +4173,10 @@
    "category": "Infra",
    "summary": "Local proxy for typed LLM decisions with OpenAI-compatible interface.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "halilozturkci/dfirswarm",
@@ -4099,7 +4225,10 @@
    "category": "Apps",
    "summary": "Chat assistant derivative version for multi-platform messaging.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "darkdarkcocoa/codex-routing-detector",
@@ -4121,7 +4250,10 @@
    "category": "LLM Tooling",
    "summary": "Detects silent model substitution in Codex requests.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "poiuyjie/jev_project_context",
@@ -4143,7 +4275,10 @@
    "category": "Agents",
    "summary": "Long-term memory skill for coding agents with Jev layers.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "idovmamane/dejevu",
@@ -4163,7 +4298,37 @@
    "category": "Agents",
    "summary": "Browser agent that chooses actions from page observations.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Prototype browser automation for client back-office workflows where APIs are absent, such as clinic admin, real-estate portals, municipal forms, or CRM data entry."
+  },
+  {
+   "full_name": "seuros/skipper",
+   "url": "https://github.com/seuros/skipper",
+   "description": "MCP server for git repositories: local git in-process via gitoxide, plus GitHub, GitLab, Gitea and Forgejo through their CLIs",
+   "stars": 9,
+   "language": "Rust",
+   "topics": [
+    "ai-agent",
+    "forgejo",
+    "git",
+    "gitea",
+    "github",
+    "gitlab",
+    "gitoxide",
+    "mcp"
+   ],
+   "created_at": "2026-09-22T22:16:37Z",
+   "category": "Infra",
+   "summary": "MCP server for local and hosted git repository operations.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "TypeSafeAI/jev-harness",
@@ -4185,7 +4350,10 @@
    "category": "Agents",
    "summary": "Coding harness coordinating LLM proposals and Jev decisions.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "Mocas-12/ai-model-rankings",
@@ -4207,7 +4375,10 @@
    "category": "Data",
    "summary": "Real-time AI model rankings dashboard from usage and benchmarks.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "devanmolsharma/decidr",
@@ -4229,7 +4400,13 @@
    "category": "Models",
    "summary": "Local LLM decision classification in one forward pass.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a cheap local classifier for intent routing, WhatsApp lead qualification, support triage, or AI tutor flow decisions before calling heavier LLMs."
   },
   {
    "full_name": "xuancuongdoo/laya-ultrafast",
@@ -4276,7 +4453,35 @@
    "category": "Infra",
    "summary": "External control plane for AI coding agents with guardrails.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "OpenMuseAgent/OpenMuse",
+   "url": "https://github.com/OpenMuseAgent/OpenMuse",
+   "description": "Moved to https://github.com/nano-muse/nanoMuse — archive of OpenMuse 0.1.0–0.6.0",
+   "stars": 5,
+   "language": "Python",
+   "topics": [
+    "ai-agent",
+    "deepseek",
+    "fastapi",
+    "mcp",
+    "meta-muse",
+    "muse",
+    "openmuse",
+    "personal-agent"
+   ],
+   "created_at": "2026-09-22T02:20:32Z",
+   "category": "Agents",
+   "summary": "Archived AI agent project with MCP integration and FastAPI backend.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "blingdivinity/jevseek",
@@ -4295,7 +4500,10 @@
    "category": "Models",
    "summary": "Jev-based sampler choosing DeepSeek next tokens.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "leonidb/jean",
@@ -4317,7 +4525,10 @@
    "category": "Agents",
    "summary": "Runs multiple Claude Code agents with a lead agent.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "vinibrsl/gut",
@@ -4336,7 +4547,10 @@
    "category": "Other",
    "summary": "Elixir library for LLM-driven control flow decisions.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "Eliot5566/JEV-Paper-Radar",
@@ -4358,7 +4572,13 @@
    "category": "Apps",
    "summary": "Daily paper recommendation bot using Jev decisions.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Fork into an education/autism evidence radar that tracks new papers and summarizes actionable findings for DeepTutor pedagogy or Autism AI clinical content review."
   },
   {
    "full_name": "Trystan-SA/laya-candle",
@@ -4380,7 +4600,10 @@
    "category": "Models",
    "summary": "Rust local inference port for typed-decision AI using Laya and Candle.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "2217173240/wechat-article-scraping-skill",
@@ -4402,7 +4625,10 @@
    "category": "Data",
    "summary": "Single-file WeChat article scraper exporting markdown and JSON.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "csnyder256/privacy-gateway",
@@ -4424,7 +4650,15 @@
    "category": "Infra",
    "summary": "Local privacy gateway for PII masking and redaction.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "Autism Medical",
+    "EnCoach",
+    "New venture"
+   ],
+   "opportunity": "Use as a PDPL privacy layer before LLM calls for clinic bots, Autism AI records, student data, and document workflows; add Arabic PII and Omani ID detectors."
   },
   {
    "full_name": "youngxhui/opencode-sidebar-token-metrics",
@@ -4446,7 +4680,10 @@
    "category": "LLM Tooling",
    "summary": "Sidebar plugin showing token speed, cache hits, and TTFT.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "jiayylu/jev-as-quant",
@@ -4467,7 +4704,10 @@
    "category": "Other",
    "summary": "Quant research stack using Jev as typed decision layer.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "wangke-112/agent-safe-tools",
@@ -4489,7 +4729,12 @@
    "category": "LLM Tooling",
    "summary": "Safe MCP servers for logs and database access by agents.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use read-only MySQL/log MCP servers to let support agents inspect clinic CRM, WhatsApp lead, or Odoo production issues safely without exposing credentials or allowing destructive actions."
   },
   {
    "full_name": "FlashyLabs/wdk-policy-guard",
@@ -4609,7 +4854,160 @@
    "category": "Models",
    "summary": "Decision-model project for judging natural-language constraints in JEPA planning.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "himomohi/jev-skill-router",
+   "url": "https://github.com/himomohi/jev-skill-router",
+   "description": "Keep skill catalogs outside the main LLM context. Jev selects relevant skills through one read-only MCP tool.",
+   "stars": 3,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "context-engineering",
+    "jev",
+    "llm",
+    "mcp",
+    "python"
+   ],
+   "created_at": "2026-09-22T04:02:08Z",
+   "category": "LLM Tooling",
+   "summary": "MCP tool for routing relevant skills outside the main LLM context.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use to route specialized DeepTutor or clinic-CRM agent skills without bloating prompts, especially in Claude/Codex-based internal tooling."
+  },
+  {
+   "full_name": "nikitavovch/claude-gym-coach",
+   "url": "https://github.com/nikitavovch/claude-gym-coach",
+   "description": "A personal strength coach for Claude Code: designs your programme, plans each session from your history, logs what you dictate, reviews every block — all in plain markdown you own.",
+   "stars": 3,
+   "language": "JavaScript",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-coach",
+    "anthropic",
+    "bodybuilding",
+    "claude",
+    "claude-code",
+    "claude-code-plugin"
+   ],
+   "created_at": "2026-09-22T23:50:42Z",
+   "category": "Apps",
+   "summary": "Personal coaching app for Claude Code that plans sessions and logs progress.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "kanon-ai/retro-sfx-studio",
+   "url": "https://github.com/kanon-ai/retro-sfx-studio",
+   "description": "MCP-enabled multi-chip sound effects synthesizer for AI-assisted MSX, PC-9801 and X68000 game development. PSG / OPLL / OPN / OPNA / OPM, GUI, WAV and VGM export.",
+   "stars": 3,
+   "language": "HTML",
+   "topics": [
+    "ai-tools",
+    "chiptune",
+    "fm-synthesis",
+    "game-development",
+    "mcp",
+    "msx",
+    "pc98",
+    "sound-effects"
+   ],
+   "created_at": "2026-09-23T06:13:20Z",
+   "category": "Apps",
+   "summary": "MCP-enabled synthesizer for retro game sound effects with export support.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jonymusky/indicators",
+   "url": "https://github.com/jonymusky/indicators",
+   "description": "AI usage and cost in your macOS menu bar: live rate limits for Claude, OpenAI and Gemini, ccusage-style costs from local logs, MCP server for model routing",
+   "stars": 3,
+   "language": "Swift",
+   "topics": [
+    "ai",
+    "ccusage",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "gemini-cli",
+    "macos",
+    "mcp"
+   ],
+   "created_at": "2026-09-22T13:58:58Z",
+   "category": "LLM Tooling",
+   "summary": "macOS menu bar app tracking AI usage, costs, limits, and routing.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "enclawed/omcp",
+   "url": "https://github.com/enclawed/omcp",
+   "description": "Open Model Context Protocol (omcp) — a community-driven hard fork. Build without permission.",
+   "stars": 3,
+   "language": "TypeScript",
+   "topics": [
+    "mcp",
+    "model-context-protocol",
+    "omcp",
+    "open-standard",
+    "protocol",
+    "specification"
+   ],
+   "created_at": "2026-09-22T14:25:43Z",
+   "category": "Other",
+   "summary": "Community fork of the Model Context Protocol specification.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ZhaoXianYa/zhaoxian-minecraft-map-studio",
+   "url": "https://github.com/ZhaoXianYa/zhaoxian-minecraft-map-studio",
+   "description": "照献工程：Minecraft Java 1.12.2 地图生成、世界编辑与 Codex MCP 桌面工具",
+   "stars": 3,
+   "language": "JavaScript",
+   "topics": [
+    "electron",
+    "map-editor",
+    "mcp",
+    "minecraft",
+    "minecraft-1-12-2",
+    "threejs",
+    "world-editor"
+   ],
+   "created_at": "2026-09-22T01:24:40Z",
+   "category": "Apps",
+   "summary": "Desktop tool for Minecraft map generation, world editing, and MCP integration.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 0,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "timgan2026-commits/agent-core-desktop",
@@ -4631,7 +5029,12 @@
    "category": "Agents",
    "summary": "Local-first autonomous desktop agent for workflows.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the local-first desktop agent pattern for SME back-office automation: browser-based government forms, CRM updates, clinic admin workflows, with human approval and evidence capture."
   },
   {
    "full_name": "Humble-moon/gakki-ai-fitness",
@@ -4653,7 +5056,12 @@
    "category": "Apps",
    "summary": "Multi-agent AI fitness coach with GraphRAG and citations.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Autism Medical"
+   ],
+   "opportunity": "Reuse the LangGraph, GraphRAG, citation-backed coaching architecture for autism therapy guidance, parent Q&A, and clinician-approved care-plan explanations in Arabic/English."
   },
   {
    "full_name": "gischina/dsh-console",
@@ -4675,7 +5083,13 @@
    "category": "Apps",
    "summary": "Local web console for building and running intelligent agents.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Open City",
+    "Al-Busalah"
+   ],
+   "opportunity": "Explore as a geospatial agent console for traffic, real-estate, or municipal datasets: query ArcGIS-style layers, summarize congestion zones, and prototype smart-city decision dashboards."
   },
   {
    "full_name": "justhalfbit/dsh-plugin-jev-effort-selector",
@@ -4697,7 +5111,10 @@
    "category": "LLM Tooling",
    "summary": "Plugin that selects reasoning effort using Jev decisions.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "Ilyeess-Rj/github-repositories-radar",
@@ -4719,7 +5136,13 @@
    "category": "Agents",
    "summary": "n8n workflow that scans GitHub and summarizes matching repos.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Turn the Arabic n8n repo-radar workflow into a localized market-intelligence bot for Omani founders and SMEs, delivered via Telegram/WhatsApp with Arabic voice summaries."
   },
   {
    "full_name": "AI-x-Medicine-Agents/AI-x-Medicine-Research-Agent",
@@ -4740,7 +5163,13 @@
    "category": "Agents",
    "summary": "Autonomous research agent that searches papers and emails digests.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Autism Medical",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use it to monitor PubMed autism, pediatrics, and digital-health research, producing clinician-reviewed Arabic/English evidence digests for Autism AI and healthcare consulting clients."
   },
   {
    "full_name": "useixname/academic-writing-learner",
@@ -4758,7 +5187,12 @@
    "category": "Other",
    "summary": "Codex skill for academic writing decisions from papers.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt its evidence-bound writing-decision approach for CEFR academic-writing feedback modules, using reference essays and rubrics to guide foundation-program students."
   },
   {
    "full_name": "rubenxyz/opencode-plain-english",
@@ -4777,7 +5211,10 @@
    "category": "LLM Tooling",
    "summary": "Plain-English mode plugin for opencode.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "davidalmeida90/glassbench",
@@ -4799,7 +5236,10 @@
    "category": "Apps",
    "summary": "Workbench for running and benchmarking AI trading agents.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "wangkuangkuang/jev-mcp-server",
@@ -4820,7 +5260,13 @@
    "category": "LLM Tooling",
    "summary": "MCP server exposing Jev classification endpoints.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Test as a cheap classifier behind agents: WhatsApp intent routing, lead scoring, support triage, quiz-item classification, or deciding when to escalate to larger LLMs."
   },
   {
    "full_name": "Colton-z/AstraBox",
@@ -4842,7 +5288,13 @@
    "category": "Infra",
    "summary": "Self-hosted managed-agent platform for multiple AI frameworks.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as self-hosted agent infrastructure for client deployments and DeepTutor content pipelines: sandboxed Claude/Codex/DeepSeek agents running on controlled infrastructure instead of SaaS-only tools."
   },
   {
    "full_name": "abhishekgahlot2/openjev-server",
@@ -4863,7 +5315,14 @@
    "category": "Models",
    "summary": "Decision API over open models with option probabilities.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Deploy open-model decision APIs for Arabic/English classification: clinic intake triage, CEFR placement routing, autism screening risk buckets, and WhatsApp CRM qualification."
   },
   {
    "full_name": "CyberNeurova/cyberneurova-code",
@@ -4885,7 +5344,10 @@
    "category": "Agents",
    "summary": "Terminal coding agent that edits code and browses web.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "anon761/freetoken",
@@ -4907,7 +5369,10 @@
    "category": "Infra",
    "summary": "Edge-native MoE serving with DeepSeek and vision support.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "killerz3/jevalyzer",
@@ -5157,7 +5622,10 @@
    "category": "Vision",
    "summary": "Image inpainting application using a pretrained LaMa model with ONNX Runtime.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "Zuhair-01/laya-windows",
@@ -5179,7 +5647,209 @@
    "category": "Models",
    "summary": "Windows port of typed-decision AI using ONNX Runtime and DirectML.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Evaluate local Arabic decision models on Windows PCs for intent triage, CEFR placement, quiz classification, and healthcare intake scoring where PDPL-sensitive data must stay on-prem."
+  },
+  {
+   "full_name": "SilentFleetKK/qingming-bianjing",
+   "url": "https://github.com/SilentFleetKK/qingming-bianjing",
+   "description": "同一份提示词，两座汴京：Claude Opus 5.5 与 GPT 6 Sol 各自从零写出的《清明上河图》实时 3D 网页 · Same prompt, two cities — a real-time 3D Bianjing benchmark for LLMs",
+   "stars": 2,
+   "language": "HTML",
+   "topics": [
+    "benchmark",
+    "generative-ai",
+    "llm",
+    "procedural-generation",
+    "threejs",
+    "webgl"
+   ],
+   "created_at": "2026-09-23T07:31:28Z",
+   "category": "Models",
+   "summary": "Benchmark comparing two LLMs generating a real-time 3D city webpage.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "SonNX24042005/translate-for-slack",
+   "url": "https://github.com/SonNX24042005/translate-for-slack",
+   "description": "Chrome extension to collect, manage, and translate Slack conversations (channels, DMs, threads) with Google Gemini AI.",
+   "stars": 2,
+   "language": "JavaScript",
+   "topics": [
+    "browser-extension",
+    "chrome-extension",
+    "gemini-api",
+    "google-gemini",
+    "llm",
+    "productivity",
+    "slack",
+    "slack-translator"
+   ],
+   "created_at": "2026-09-22T18:00:13Z",
+   "category": "Apps",
+   "summary": "Chrome extension to collect and translate Slack conversations with Gemini.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "christianocj/TextToImageGenerator",
+   "url": "https://github.com/christianocj/TextToImageGenerator",
+   "description": "Web app em Blazor Server (.NET 10) para gerar texto em streaming e imagens via IA (Cloudflare Workers AI / FLUX.2 + Llama 3.1)",
+   "stars": 2,
+   "language": "C#",
+   "topics": [
+    "ai",
+    "blazor",
+    "cloudflare-workers-ai",
+    "dotnet",
+    "generative-ai",
+    "generative-ai-integration",
+    "streaming",
+    "streaming-api"
+   ],
+   "created_at": "2026-09-22T09:50:35Z",
+   "category": "Apps",
+   "summary": "Web app for streaming text and AI image generation.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "tyonger-stack/GrokNode",
+   "url": "https://github.com/tyonger-stack/GrokNode",
+   "description": "Unofficial source-oriented reconstruction of the shipped Grok Bot 0.18.0 macOS app into readable TypeScript, plus an inference router for Cursor, Claude Code, Codex and OpenRouter, an optional local Docker sandbox, and local usage tracking. Research only; not affiliated with Anysphere.",
+   "stars": 2,
+   "language": "TypeScript",
+   "topics": [
+    "anysphere",
+    "cursor",
+    "docker",
+    "electron",
+    "grok-bot",
+    "inference-router",
+    "macos",
+    "mcp"
+   ],
+   "created_at": "2026-09-22T07:39:06Z",
+   "category": "LLM Tooling",
+   "summary": "TypeScript reconstruction of Grok Bot with inference routing and local usage tracking.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "nqzai/inetgeek-mcp",
+   "url": "https://github.com/nqzai/inetgeek-mcp",
+   "description": "Read-only MCP server over inetGeek's sourced infrastructure data — provider facts with the sentence each was read from, comparisons, iScore, and live DNS/SPF checks.",
+   "stars": 2,
+   "language": "TypeScript",
+   "topics": [
+    "cloudflare-workers",
+    "devtools",
+    "infrastructure",
+    "mcp",
+    "model-context-protocol"
+   ],
+   "created_at": "2026-09-22T05:09:35Z",
+   "category": "Data",
+   "summary": "Read-only MCP server exposing sourced infrastructure data and DNS checks.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Avinash-jetwani/jevmem",
+   "url": "https://github.com/Avinash-jetwani/jevmem",
+   "description": "One memory file shared by Claude Code, Cursor and Codex, scored by Jev. Jev decides. The LLM writes one line.",
+   "stars": 2,
+   "language": "TypeScript",
+   "topics": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "developer-tools",
+    "jev",
+    "mcp",
+    "memory",
+    "typesafe"
+   ],
+   "created_at": "2026-09-22T11:47:24Z",
+   "category": "LLM Tooling",
+   "summary": "Shared memory file for coding assistants scored by Jev.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Tarard/ASTRA-SUMO",
+   "url": "https://github.com/Tarard/ASTRA-SUMO",
+   "description": "ASTRA — Automated Simulation of TRAnsportation networks for SUMO. Build networks, calibrate demand, and run traffic simulations.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "agent-plugin",
+    "agent-skills",
+    "codex",
+    "eclipse-sumo",
+    "mcp",
+    "openstreetmap",
+    "sumo",
+    "traci"
+   ],
+   "created_at": "2026-09-22T13:13:59Z",
+   "category": "Infra",
+   "summary": "Automated traffic simulation toolkit for SUMO networks and demand calibration.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Use OSM-to-SUMO simulations for Muscat/Sohar corridors, calibrate demand scenarios, test signal or road interventions, and feed Open City dashboards before deploying camera hardware."
+  },
+  {
+   "full_name": "NothingButKevin/smart-things-planner",
+   "url": "https://github.com/NothingButKevin/smart-things-planner",
+   "description": "Plan reviewed, workload-aware Things 3 tasks from Gmail or natural-language requests in Codex and Claude Code.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "claude-code",
+    "codex",
+    "gmail",
+    "mcp",
+    "productivity",
+    "things3"
+   ],
+   "created_at": "2026-09-22T01:40:28Z",
+   "category": "Agents",
+   "summary": "Task planner for Things 3 from Gmail or natural-language requests.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "ty-mmh/mhrb_v1",
@@ -5198,7 +5868,10 @@
    "category": "Apps",
    "summary": "Self-hosted local AI chat app with web UI.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "backant-io/jevelry",
@@ -5220,7 +5893,12 @@
    "category": "Agents",
    "summary": "Decision tracking toolkit for agent workflows using Jev-style judgments and confidence signals.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Test its decision/confidence tracking inside Al-Busalah decision-intelligence prototypes for clinics, finance, or operations clients needing auditable AI recommendations."
   },
   {
    "full_name": "sshah03/use-citations",
@@ -5242,7 +5920,13 @@
    "category": "LLM Tooling",
    "summary": "Claude Code skill for answering research questions with source-backed quote verification.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Add quote verification to DeepTutor content QA or Al-Busalah legal/regulatory RAG assistants so generated answers cite source documents accurately."
   },
   {
    "full_name": "VGokulsai/chess-coach",
@@ -5261,7 +5945,10 @@
    "category": "Apps",
    "summary": "Local chess coaching app combining Stockfish analysis with LLM explanations.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "DaXiGuaS/MyAgent",
@@ -5282,7 +5969,13 @@
    "category": "Agents",
    "summary": "Personal knowledge agent that searches web, verifies facts, and answers from private notes.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Reuse its FastAPI/LangGraph RAG pattern for client knowledge assistants or EnCoach curriculum research agents that search, verify, and answer from private documents."
   },
   {
    "full_name": "anushamukka9/llm-sentinel",
@@ -5304,7 +5997,14 @@
    "category": "Infra",
    "summary": "Deterministic guardrails library for detecting injection, secrets, PII, toxicity, and gibberish.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Embed as a local guardrail layer for prompt-injection, PII, and toxicity checks across tutors, clinic front desks, and Autism AI PDPL-sensitive workflows."
   },
   {
    "full_name": "nano-muse/nanoMuse",
@@ -5326,7 +6026,12 @@
    "category": "Agents",
    "summary": "Mobile personal agent that acts on Android apps and continues running in background.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Explore Android GUI automation for GCC clients whose workflows depend on WhatsApp or legacy mobile apps without APIs, with human approval before irreversible actions."
   },
   {
    "full_name": "notnotnotnoone/flexrouter",
@@ -6003,7 +6708,10 @@
    "category": "RAG",
    "summary": "Codebase understanding tool for chatting with GitHub repositories.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "karusrus/vault-rag",
@@ -6023,7 +6731,13 @@
    "category": "RAG",
    "summary": "Local RAG over markdown notes with hybrid search and citations.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a lightweight local RAG template for teacher notes, policy manuals, or client SOPs where cited answers and refusal behavior matter."
   },
   {
    "full_name": "Ingetista/JustIA-Legal-NLP-Architecture",
@@ -6045,7 +6759,13 @@
    "category": "RAG",
    "summary": "Legal NLP system with classification, extraction, and semantic search.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Adapt the legal-document classification/RAG architecture to Arabic-English Omani rental, labor, or SME compliance documents as a localized legal-tech assistant."
   },
   {
    "full_name": "Estrella-Sky/ev-advisor",
@@ -6067,7 +6787,13 @@
    "category": "Apps",
    "summary": "Vehicle advisor agent with RAG knowledge base and tool calling.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "SMART Mobility",
+    "Al-Busalah"
+   ],
+   "opportunity": "Localize the vehicle-advisor RAG flow into a TYCORUN electric motorcycle sales assistant comparing models, battery-swap economics, and delivery-fleet suitability."
   },
   {
    "full_name": "Nikhil-creat/support-genesis",
@@ -6089,7 +6815,13 @@
    "category": "Agents",
    "summary": "Enterprise customer support engine with multi-agent orchestration and RAG.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "SMART Mobility"
+   ],
+   "opportunity": "Mine its LangGraph/RAG/HITL support architecture for clinic front desks, AI CRM support, or SMART Mobility service-ticket and visual defect workflows."
   },
   {
    "full_name": "changrichu/MemoryAgent",
@@ -6111,7 +6843,14 @@
    "category": "Agents",
    "summary": "Multi-level memory agentic RAG dialogue system with orchestration and UI.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Prototype persistent-memory agents for student tutoring history, clinic customer conversations, or autism therapy progress notes using Redis/Postgres/Milvus memory tiers."
   },
   {
    "full_name": "CTO-DRS/DRS-AI",
@@ -6133,7 +6872,13 @@
    "category": "Apps",
    "summary": "Self-hosted enterprise AI operating system with microservices and clients.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Evaluate as a self-hosted Arabic/English enterprise AI platform for GCC government or healthcare clients needing offline deployment and multi-channel AI workspaces."
   },
   {
    "full_name": "hammPa/hyprask",
@@ -6151,7 +6896,10 @@
    "category": "LLM Tooling",
    "summary": "CLI RAG tool for querying Hyprland config files with citations.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "negirushil23-hub/FPL_team_optimiser",
@@ -6173,7 +6921,10 @@
    "category": "Apps",
    "summary": "Fantasy Premier League squad optimizer using player predictions and linear programming.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "vaibhav07772/credit-risk-mlops",
@@ -6195,7 +6946,13 @@
    "category": "Infra",
    "summary": "Credit risk MLOps pipeline with FastAPI, Docker, DVC, and MLflow.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Reuse the FastAPI/Docker/MLflow pipeline for SME credit-risk demos with Omani banks, lenders, or invoice-finance providers after replacing the dataset."
   },
   {
    "full_name": "kneerajk2005/Fake-News-Detection",
@@ -6214,7 +6971,10 @@
    "category": "Models",
    "summary": "Fake news classification system using DistilBERT and credibility checks.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "ranjithbrs/ner-landslide-early-warning",
@@ -6419,6 +7179,880 @@
    "first_seen": "2026-09-23",
    "rising": false,
    "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Justinjchen-Cornell/Hardtech-Radar",
+   "url": "https://github.com/Justinjchen-Cornell/Hardtech-Radar",
+   "description": "硬科技雷达 Hardtech Radar — 中国硬科技六大赛道跟踪：半导体 · AI大模型 · 量子计算 · 可控核聚变 · AI生命科学 · 具身智能 | 精选池+事件驱动评分+证伪清单+周度升降榜 | 331 标的、零第三方依赖。研究观察工具，非投资建议。",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-drug-discovery",
+    "china",
+    "dashboard",
+    "embodied-ai",
+    "event-driven",
+    "github-pages",
+    "hardtech",
+    "humanoid-robots"
+   ],
+   "created_at": "2026-09-22T09:07:28Z",
+   "category": "Apps",
+   "summary": "Dashboard tracking hard-tech sectors with scoring and watchlists.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Adapt the scoring/watchlist dashboard into an Oman Vision 2040 tender/regulation radar for healthcare, real estate, and smart-city clients."
+  },
+  {
+   "full_name": "MoYan1638/token-dashboard",
+   "url": "https://github.com/MoYan1638/token-dashboard",
+   "description": "各 AI Agent 通用的本地 Token 消耗分析看板。零依赖、纯离线，读取本机会话日志，统计 Token 用量、缓存命中率与费用估算。",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agent",
+    "cli",
+    "cost-estimation",
+    "linux",
+    "llm",
+    "macos",
+    "offline",
+    "python"
+   ],
+   "created_at": "2026-09-22T08:03:18Z",
+   "category": "LLM Tooling",
+   "summary": "Offline dashboard analyzing agent token usage, cache hits, and estimated cost.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Run locally on agent logs to estimate DeepTutor and client-bot token costs, helping price university/clinic deployments before scaling."
+  },
+  {
+   "full_name": "IRAIKUMARAN/counting-the-cost-of-the-coding-machines",
+   "url": "https://github.com/IRAIKUMARAN/counting-the-cost-of-the-coding-machines",
+   "description": "What AI coding-agent merge rates really measure: 33,596 pull requests, 82.6% merged with no human review.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "data-science",
+    "mining-software-repositories",
+    "statistics"
+   ],
+   "created_at": "2026-09-22T06:00:48Z",
+   "category": "Data",
+   "summary": "Data analysis of coding-agent merge rates across pull requests.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "GuoCheng24/doubleblind",
+   "url": "https://github.com/GuoCheng24/doubleblind",
+   "description": "Two layers that cannot see each other's mistakes: trace every number in prose to a file you committed, and brief a reviewer that was told nothing. Works with Claude Code, Codex, DeepSeek, Kimi.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "ci",
+    "claude-code",
+    "code-review",
+    "codex",
+    "fact-checking",
+    "llm",
+    "reproducibility"
+   ],
+   "created_at": "2026-09-22T16:32:16Z",
+   "category": "LLM Tooling",
+   "summary": "Two-stage verification workflow for code review and factual tracing.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use the tracing workflow to verify regulatory/KPI claims in real-estate or healthcare reports against committed source files before sending client deliverables."
+  },
+  {
+   "full_name": "Yeadon8888/jev-hypit-commerce",
+   "url": "https://github.com/Yeadon8888/jev-hypit-commerce",
+   "description": "Open-source product-to-creator matching: BM25 / Qdrant retrieval, Jev decisions, human review and dual-brand Hypit video production.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "creator-economy",
+    "qdrant",
+    "recommendation-system",
+    "video-generation"
+   ],
+   "created_at": "2026-09-22T10:36:25Z",
+   "category": "Apps",
+   "summary": "Product-to-creator matching system with retrieval, review, and video production.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize product-to-creator matching for Omani SMEs: Arabic profiles, WhatsApp approvals, Qdrant retrieval, and human review as a marketing automation offer."
+  },
+  {
+   "full_name": "NikclasTech/nikclas",
+   "url": "https://github.com/NikclasTech/nikclas",
+   "description": "Compare the prices of different AI models before starting your larger project.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "react",
+    "typescript",
+    "web",
+    "web-development",
+    "webapp",
+    "website"
+   ],
+   "created_at": "2026-09-22T15:41:56Z",
+   "category": "Apps",
+   "summary": "Web app comparing AI model prices before starting projects.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "oznog-holdings/node0-public",
+   "url": "https://github.com/oznog-holdings/node0-public",
+   "description": "The public face of Node0: a sovereign, self-hosted infrastructure site, and the seed anyone can start from. Mirror of the Forgejo origin.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "ceph",
+    "documentation",
+    "homelab",
+    "infrastructure",
+    "nixos",
+    "proxmox",
+    "self-hosted"
+   ],
+   "created_at": "2026-09-22T22:57:56Z",
+   "category": "Infra",
+   "summary": "Public self-hosted infrastructure site and starter seed.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Adapt the Proxmox/Ceph/NixOS blueprint into a PDPL-friendly self-hosted stack for clinics and SMEs wanting local control over AI data."
+  },
+  {
+   "full_name": "rekalnx/agents-from-scratch",
+   "url": "https://github.com/rekalnx/agents-from-scratch",
+   "description": "Build an AI agent from scratch. Pure Python, no framework, no dependencies.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agentic",
+    "agents",
+    "ai",
+    "education",
+    "from-scratch",
+    "llm",
+    "no-dependencies",
+    "python"
+   ],
+   "created_at": "2026-09-23T07:45:32Z",
+   "category": "Agents",
+   "summary": "Pure Python implementation for building an AI agent from scratch.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mohammedasim10/AI-Research-Agent",
+   "url": "https://github.com/mohammedasim10/AI-Research-Agent",
+   "description": "Production Telegram AI Research Assistant with live web retrieval, RAG, citation verification, and voice processing",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agent",
+    "citation-verification",
+    "gemini-api",
+    "observability",
+    "rag",
+    "telegram-bot"
+   ],
+   "created_at": "2026-09-22T10:29:27Z",
+   "category": "Agents",
+   "summary": "Telegram AI research assistant with web retrieval, RAG, and citations.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt Telegram RAG, citations, and voice into source-grounded DeepTutor content research or client knowledge bots; swap channels to WhatsApp where needed."
+  },
+  {
+   "full_name": "pranav-varma13/MultiAgent_Clinical_Intelligence_system",
+   "url": "https://github.com/pranav-varma13/MultiAgent_Clinical_Intelligence_system",
+   "description": "Multi-agent clinical AI system built with LangGraph, LangChain, ChromaDB, FastAPI, and Gemini. Processes medical reports, retrieves clinical knowledge through RAG, and generates diagnostic summaries and treatment recommendations.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agentic-ai",
+    "chromadb",
+    "clinical-decision-support",
+    "fastapi",
+    "gemini-api",
+    "healthcare-ai",
+    "langchain",
+    "langgraph"
+   ],
+   "created_at": "2026-09-23T10:09:44Z",
+   "category": "Agents",
+   "summary": "Multi-agent clinical system with RAG and diagnostic summaries.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Autism Medical",
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the FastAPI/LangGraph clinical RAG for Arabic/English autism assessment summaries and clinic report triage, with clinician approval and PDPL-controlled hosting."
+  },
+  {
+   "full_name": "minhquan23102000/inventio",
+   "url": "https://github.com/minhquan23102000/inventio",
+   "description": "Local retrieval without embeddings.  Every answer comes back as the original passage with its coordinates (path:start-end), so a person or an agent can open the exact lines. No Embedding, Zero Cost, Fully Local.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "cli",
+    "cli-tool",
+    "jev",
+    "jev-ai",
+    "rag",
+    "rag-pipeline"
+   ],
+   "created_at": "2026-09-23T07:10:07Z",
+   "category": "RAG",
+   "summary": "Local retrieval tool returning exact source passages without embeddings.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use for zero-cost auditable retrieval over CEFR curricula, Omani regulations, clinic SOPs, or rental rules; exact passages reduce hallucination and review time."
+  },
+  {
+   "full_name": "KundanKumar088/ADA-MLFlow-DS",
+   "url": "https://github.com/KundanKumar088/ADA-MLFlow-DS",
+   "description": "Ada — The Digital Data Scientist",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "data-analysis",
+    "data-science",
+    "data-visualization",
+    "fastapi",
+    "javascript",
+    "machine-learning",
+    "python",
+    "react"
+   ],
+   "created_at": "2026-09-22T06:24:54Z",
+   "category": "Apps",
+   "summary": "Digital data scientist application with FastAPI and React.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Repurpose the FastAPI/React data-science assistant as a prototype for decision-intelligence dashboards for operations, healthcare, or finance consulting clients."
+  },
+  {
+   "full_name": "Shubham-cde/orion-health",
+   "url": "https://github.com/Shubham-cde/orion-health",
+   "description": "AI-assisted emergency triage system. FastAPI multi-agent backend with an ML urgency model (scikit-learn), local LLM explanations (Ollama/Llama 3), real-time Next.js doctor dashboard via WebSockets, and automated email alerts.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "fastapi",
+    "healthcare",
+    "machine-learning",
+    "nextjs",
+    "python",
+    "react",
+    "scikit-learn"
+   ],
+   "created_at": "2026-09-22T17:47:49Z",
+   "category": "Agents",
+   "summary": "Emergency triage system with multi-agent backend, urgency model, and doctor dashboard.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize into Arabic/English clinic triage and emergency intake dashboards for Omani healthcare providers, with doctor review, audit trails, and regulatory disclaimers."
+  },
+  {
+   "full_name": "wSubham/Finger-Talk",
+   "url": "https://github.com/wSubham/Finger-Talk",
+   "description": "Computer-vision-based Indian Sign Language learning and recognition prototype using MediaPipe, OpenCV and Streamlit.",
+   "stars": 1,
+   "language": "HTML",
+   "topics": [
+    "computer-vision",
+    "hand-gesture-recognition",
+    "indian-sign-language",
+    "machine-learning",
+    "mediapipe",
+    "mediapipe-hands",
+    "opencv",
+    "python"
+   ],
+   "created_at": "2026-09-22T07:15:03Z",
+   "category": "Vision",
+   "summary": "Sign language learning and recognition prototype using computer vision.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Autism Medical"
+   ],
+   "opportunity": "Use the MediaPipe/OpenCV gesture-recognition pipeline as a starting point for Arabic/Omani AAC or therapy interaction tools for autistic children."
+  },
+  {
+   "full_name": "albanusCode/FaceRecognition-main",
+   "url": "https://github.com/albanusCode/FaceRecognition-main",
+   "description": "A deep learning-based facial verification project built with Python and TensorFlow. The project uses a Siamese Neural Network to compare two images and determine whether they belong to the same person, with OpenCV for image processing and structured datasets for anchor, positive, and negative samples.",
+   "stars": 1,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "artificial-intelligence",
+    "deep-learning",
+    "facial-recognition",
+    "machine-learning",
+    "metaplotlib",
+    "notebook-jupyter",
+    "tensorflow"
+   ],
+   "created_at": "2026-09-23T04:55:00Z",
+   "category": "Vision",
+   "summary": "Siamese neural network for facial verification from image pairs.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "dianoandre/locomotion-mode-recognition",
+   "url": "https://github.com/dianoandre/locomotion-mode-recognition",
+   "description": "Six-class locomotion mode recognition from IMU and goniometer signals, subject-independent — M.Sc. Bionics Engineering project, University of Pisa",
+   "stars": 1,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "biomechanics",
+    "exoskeleton",
+    "human-activity-recognition",
+    "machine-learning",
+    "shap",
+    "wearable-sensors",
+    "xgboost"
+   ],
+   "created_at": "2026-09-22T09:31:18Z",
+   "category": "Models",
+   "summary": "Locomotion mode recognition from wearable sensor signals.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "amaxiom/SelectOmics",
+   "url": "https://github.com/amaxiom/SelectOmics",
+   "description": "A reproducible, leakage-proof feature selector for omics classification.  Find the right features in n<<p data, not just fewer of them.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "classification",
+    "dimensionality-reduction",
+    "feature-selection",
+    "high-dimensional-data",
+    "high-dimensionality",
+    "imbalance",
+    "imbalanced-data",
+    "machine-learning"
+   ],
+   "created_at": "2026-09-22T22:04:45Z",
+   "category": "LLM Tooling",
+   "summary": "Reproducible feature selection framework for omics classification.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "liangwenqiang521-debug/-rk3588-",
+   "url": "https://github.com/liangwenqiang521-debug/-rk3588-",
+   "description": "基于 RK3588 边缘计算的工业钢材表面缺陷检测系统：PyQt5 上位机 + YOLOv11 双模型级联 + RKNN NPU 部署",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "computer-vision",
+    "deep-learning",
+    "defect-detection",
+    "edge-computing",
+    "industrial-inspection",
+    "npu",
+    "pyqt5",
+    "rk3588"
+   ],
+   "created_at": "2026-09-23T02:45:23Z",
+   "category": "Vision",
+   "summary": "Industrial surface defect detection system on RK3588 edge hardware.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Reuse the RK3588/RKNN YOLO edge-deployment pattern to run low-cost vehicle detection/counting on roadside cameras without cloud GPU dependence."
+  },
+  {
+   "full_name": "Farukes/multimodal-emotion-recognition",
+   "url": "https://github.com/Farukes/multimodal-emotion-recognition",
+   "description": "Multimodal Emotion Recognition from Facial Expressions and Voice Dynamics using 2D CNN, GRU, Self-Attention & Late Fusion (RAVDESS)",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "audio-processing",
+    "cnn",
+    "computer-vision",
+    "deep-learning",
+    "emotion-recognition",
+    "facial-expression-recognition",
+    "gru",
+    "late-fusion"
+   ],
+   "created_at": "2026-09-22T17:20:04Z",
+   "category": "Vision",
+   "summary": "Multimodal emotion recognition from facial expressions and voice.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Autism Medical"
+   ],
+   "opportunity": "Prototype consent-based facial/voice affect tracking for autism therapy sessions, then retrain on child-appropriate Arabic/English clinical data before any care use."
+  },
+  {
+   "full_name": "neuroarchitectures/naxs",
+   "url": "https://github.com/neuroarchitectures/naxs",
+   "description": "NAXS — Neural Architecture Exchange Specification: a vendor-independent, framework-agnostic JSON format for neural network architectures",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "deep-learning",
+    "interoperability",
+    "json-schema",
+    "neural-architecture",
+    "specification"
+   ],
+   "created_at": "2026-09-23T05:50:14Z",
+   "category": "Infra",
+   "summary": "JSON specification for vendor-independent neural network architectures.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "stuticoder123/pipecat-sarvam-gemini-voice-agent",
+   "url": "https://github.com/stuticoder123/pipecat-sarvam-gemini-voice-agent",
+   "description": "Exploring real-time voice AI with Pipecat, Gemini, and Sarvam AI building a multilingual conversational agent for natural, intelligent voice interactions.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "conversational-ai",
+    "gemini",
+    "generative-ai",
+    "indian-languages",
+    "pipecat",
+    "python",
+    "real-time-ai",
+    "sarvam-ai"
+   ],
+   "created_at": "2026-09-23T10:18:51Z",
+   "category": "Agents",
+   "summary": "Real-time multilingual voice conversational agent using Pipecat, Gemini, and Sarvam AI.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use Pipecat patterns to prototype real-time Arabic/English voice agents for clinic front desks and spoken English tutoring, swapping Sarvam for Arabic-capable ASR/TTS."
+  },
+  {
+   "full_name": "tomyiyi/agnes-studio",
+   "url": "https://github.com/tomyiyi/agnes-studio",
+   "description": "🎨 下一代智能多模态视觉工坊 & 工业级商业海报排版引擎。AI高审美留白底图 + 现代矢量排版 + Google Chrome无头光栅化，终结AI生图汉字乱码。",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agnes-ai",
+    "generative-ai",
+    "headless-chrome",
+    "multimodal-ai",
+    "poster-design",
+    "swiss-grid",
+    "typography"
+   ],
+   "created_at": "2026-09-22T01:18:24Z",
+   "category": "Apps",
+   "summary": "Multimodal visual studio for poster layout and typography with headless Chrome rasterization.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture",
+    "Al-Busalah"
+   ],
+   "opportunity": "Localize into an Arabic/English poster and ad generator for Omani SMEs, clinics, and real-estate firms where correct Arabic typography is the moat."
+  },
+  {
+   "full_name": "anyforge/ruhui",
+   "url": "https://github.com/anyforge/ruhui",
+   "description": "Multilingual, non-autoregressive System 1 decision model.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "bert",
+    "calibration",
+    "chinese-nlp",
+    "decision-model",
+    "fine-tuning",
+    "guardrails",
+    "jev",
+    "laya"
+   ],
+   "created_at": "2026-09-23T02:53:51Z",
+   "category": "Models",
+   "summary": "Multilingual non-autoregressive system one decision model.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Test as a low-latency multilingual classifier for WhatsApp lead qualification, clinic intent routing, or rental-case triage; fine-tune on Arabic/English client tickets with human fallback."
+  },
+  {
+   "full_name": "mpuig/system-one",
+   "url": "https://github.com/mpuig/system-one",
+   "description": "An open-source System One decision model — Kahneman's term for the fast, automatic judgment faculty. Calibrated choice/score/noul probabilities in one forward pass on small fine-tuned open models. Local on Apple Silicon (MLX), Jev-compatible API, audited experiment log.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "apple-silicon",
+    "calibration",
+    "classification",
+    "decision-model",
+    "fine-tuning",
+    "inference-server",
+    "jev",
+    "llm"
+   ],
+   "created_at": "2026-09-22T15:15:03Z",
+   "category": "Models",
+   "summary": "Decision model returning calibrated probabilities from small fine-tuned open models with local inference and logging.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Use calibrated probability outputs for operational decisions: lead scoring, claim/rental workflow routing, or autism screening risk flags where confidence thresholds trigger clinician review."
+  },
+  {
+   "full_name": "recklesswater/generative-model-lab",
+   "url": "https://github.com/recklesswater/generative-model-lab",
+   "description": "Small, runnable generative-modelling modules: MCMC diagnostics, 2D diffusion, omics augmentation, SE(3) frames with an equivariance test",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "diffusion-models",
+    "equivariance",
+    "generative-models",
+    "mcmc",
+    "omics",
+    "se3"
+   ],
+   "created_at": "2026-09-22T07:14:14Z",
+   "category": "Models",
+   "summary": "Runnable generative modeling modules for diffusion, MCMC, omics augmentation, and equivariance tests.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "son-gladyso/Local-Mod-Browser",
+   "url": "https://github.com/son-gladyso/Local-Mod-Browser",
+   "description": "Privacy-first local MOD catalog, comparison and AI workflow platform for Windows",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "local-first",
+    "mcp",
+    "mod-catalog",
+    "python",
+    "sqlite",
+    "windows"
+   ],
+   "created_at": "2026-09-22T05:16:56Z",
+   "category": "Apps",
+   "summary": "Local-first MOD catalog and AI workflow platform for Windows.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ridelink0/atlias",
+   "url": "https://github.com/ridelink0/atlias",
+   "description": "atlias: a sub-harness for Claude Code, Codex, Antigravity and Gemini CLI. Shared memory, graphify knowledge graph, loop and destructive guards, a two-pass verification gate, compaction handoff notes and Dream consolidation, built on the NanoBot design.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "agent-harness",
+    "agent-memory",
+    "ai-agent",
+    "antigravity",
+    "claude-code",
+    "claude-plugin",
+    "codex",
+    "coding-agent"
+   ],
+   "created_at": "2026-09-22T11:01:53Z",
+   "category": "Agents",
+   "summary": "Coding agent harness with shared memory, guards, and verification steps.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "thekannen/battlemap-mcp",
+   "url": "https://github.com/thekannen/battlemap-mcp",
+   "description": "Local MCP bridge that lets an AI assistant help build tabletop battle maps from assets you already own.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agent",
+    "battlemap",
+    "claude",
+    "llm",
+    "mapmaking",
+    "mcp",
+    "model-context-protocol",
+    "tabletop-rpg"
+   ],
+   "created_at": "2026-09-23T01:15:55Z",
+   "category": "Apps",
+   "summary": "Local MCP bridge for building tabletop battle maps from owned assets.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "awslew/codex-job-orchestrator",
+   "url": "https://github.com/awslew/codex-job-orchestrator",
+   "description": "Codex-led async MCP job orchestrator: your Codex session dispatches long-running jobs to Claude Code, Codex subagents or DeepSeek Harness, then waits event-driven. Codex 主导的本地异步 MCP 任务编排器：主会话派活给 Claude Code / Codex 子代理 / DeepSeek Harness，事件驱动等待，作业可断线恢复。",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "automation",
+    "claude-code",
+    "codex",
+    "job-queue",
+    "mcp",
+    "mcp-server",
+    "orchestrator",
+    "task-orchestrator"
+   ],
+   "created_at": "2026-09-23T00:16:49Z",
+   "category": "Agents",
+   "summary": "Async MCP orchestrator dispatching long-running jobs to coding agents.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Yijian-quiet/dsh-mol",
+   "url": "https://github.com/Yijian-quiet/dsh-mol",
+   "description": "本地优先的化学工作台：给 DeepSeek Harness（及任意 MCP 客户端）的化学基础工具 —— SMILES 校验(人话诊断/三级结果)、画分子、性质计算、格式互转、标准化、批量清洗。纯 RDKit，零网络。| Local-first chemistry workbench for AI agents over MCP.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai4s",
+    "cheminformatics",
+    "chemistry",
+    "deepseek-harness",
+    "dsh-plugin",
+    "local-first",
+    "mcp",
+    "rdkit"
+   ],
+   "created_at": "2026-09-23T08:17:11Z",
+   "category": "Apps",
+   "summary": "Local-first chemistry workbench exposing RDKit tools over MCP.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "awslew/webgpt-drive",
+   "url": "https://github.com/awslew/webgpt-drive",
+   "description": "Drive your logged-in web ChatGPT from any coding agent - queries, image generation, reference-image editing, model/reasoning switching, plugin selection. No API key, no account switching. 让 agent 直接用你已登录的网页版 ChatGPT。",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "browser-automation",
+    "chatgpt",
+    "developer-tools",
+    "gpt-image",
+    "image-generation",
+    "mcp",
+    "no-api-key"
+   ],
+   "created_at": "2026-09-22T22:29:52Z",
+   "category": "LLM Tooling",
+   "summary": "Browser automation tool that drives logged-in web ChatGPT from coding agents.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "MasYaaz/web-searcher-mcp",
+   "url": "https://github.com/MasYaaz/web-searcher-mcp",
+   "description": "Make your agent can search and read web without overhead",
+   "stars": 1,
+   "language": "Rust",
+   "topics": [
+    "agent-mcp",
+    "fetcher",
+    "mcp",
+    "mcp-server",
+    "mcp-tools"
+   ],
+   "created_at": "2026-09-22T06:43:43Z",
+   "category": "LLM Tooling",
+   "summary": "MCP server for web search and page reading.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Add as a lightweight MCP tool for DeepTutor and Al-Busalah agents to fetch cited web pages, regulations, clinic FAQs, or course references during content generation."
+  },
+  {
+   "full_name": "smallshellctw/whichrepo",
+   "url": "https://github.com/smallshellctw/whichrepo",
+   "description": "Local-first task router for microservices, polyrepos, monorepos, and coding agents.",
+   "stars": 1,
+   "language": "Go",
+   "topics": [
+    "ai-developer-tools",
+    "ai-routing",
+    "coding-agents",
+    "developer-tools",
+    "golang",
+    "jev",
+    "local-first",
+    "mcp"
+   ],
+   "created_at": "2026-09-22T14:41:10Z",
+   "category": "Agents",
+   "summary": "Local-first task router for coding agents across repositories.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "adityaiitg/AtlasCodeInteligence",
+   "url": "https://github.com/adityaiitg/AtlasCodeInteligence",
+   "description": "A local-first Model Context Protocol (MCP) server for reusable workflows and resolved engineering knowledge",
+   "stars": 1,
+   "language": "Rust",
+   "topics": [
+    "ai-agents",
+    "hybrid-search",
+    "mcp",
+    "model-context-protocol",
+    "rust",
+    "simd",
+    "sqlite",
+    "vector-search"
+   ],
+   "created_at": "2026-09-23T06:19:32Z",
+   "category": "LLM Tooling",
+   "summary": "Local-first MCP server for reusable workflows and engineering knowledge.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
    "ventures": [],
    "opportunity": ""
   },
@@ -7283,7 +8917,13 @@
    "category": "RAG",
    "summary": "Benchmark for Elasticsearch hybrid retrieval and reranking.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use its Elasticsearch hybrid-retrieval benchmark approach to choose BM25+dense+reranking settings for bilingual course, policy, and client document RAG systems."
   },
   {
    "full_name": "SuperInstance/knowledge-vault-rs",
@@ -7305,7 +8945,10 @@
    "category": "RAG",
    "summary": "Rust knowledge vault using SQLite and embeddings for RAG.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "EvanMaksud/rag-evaluation-lab",
@@ -7325,7 +8968,13 @@
    "category": "RAG",
    "summary": "Local-first toolkit for evaluating RAG retrieval experiments.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use to benchmark DeepTutor/consulting RAG chunking and retrieval before client deployment; add Arabic/English corpora and CI regression tests for course and policy-document assistants."
   },
   {
    "full_name": "muhammadokashapak/XortLogix-GHL-RAG",
@@ -7347,7 +8996,12 @@
    "category": "RAG",
    "summary": "GoHighLevel automation engine with embeddings and FAISS.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Prototype an AI CRM knowledge agent for SME clients using GoHighLevel workflows; adapt for WhatsApp lead qualification and Arabic/English sales FAQs."
   },
   {
    "full_name": "salehmmrezaei/repopilot-ai",
@@ -7369,7 +9023,10 @@
    "category": "LLM Tooling",
    "summary": "Codebase assistant with indexing, hybrid retrieval, and grounded Q&A.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "rutarj/verifyrag",
@@ -7388,7 +9045,10 @@
    "category": "RAG",
    "summary": "RAG verification project using FAISS and vector search.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "CJX0712/stellar-nexus-6393c5",
@@ -7410,7 +9070,13 @@
    "category": "Agents",
    "summary": "Modular intelligent system with retrieval, routing, verification, and agent loops.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Borrow the RAG routing and groundedness-check pattern for self-hosted client agents; validate carefully and localize prompts before using in production."
   },
   {
    "full_name": "Jonbj/claimstone",
@@ -7432,7 +9098,14 @@
    "category": "RAG",
    "summary": "Evidence-base tool binding claims to verified source quotes for research synthesis.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Autism Medical",
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Build citation-locked evidence summaries for autism care protocols, healthcare consulting, or regulation research; localize source ingestion for Oman/GCC documents and Arabic abstracts."
   },
   {
    "full_name": "RamillaSmridhi27/academic-research-rag",
@@ -7454,7 +9127,13 @@
    "category": "RAG",
    "summary": "Academic research question-answering engine with FAISS retrieval, embeddings, and reranking.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a notebook baseline for academic-source retrieval when generating university course content or research briefs; not production-ready, but useful for embedding/reranking experiments."
   },
   {
    "full_name": "aihaili/meeting-assistant",
@@ -7476,7 +9155,13 @@
    "category": "Apps",
    "summary": "Local meeting assistant for transcription, speaker diarization, clue extraction, and knowledge-base search.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Package as a privacy-first Arabic/English meeting scribe for clinics, consultancies, and government suppliers; swap in Arabic-capable ASR and connect to project knowledge bases."
   },
   {
    "full_name": "FrankieGhaf/ragflow",
@@ -7495,7 +9180,13 @@
    "category": "RAG",
    "summary": "Open-source RAG engine with agent capabilities for building context layers for LLMs.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use only as a pointer to RAGFlow-style document knowledge bases for EnCoach and client bots; evaluate the maintained upstream rather than relying on this fork."
   },
   {
    "full_name": "7641751/rag-qa-project",
@@ -7517,7 +9208,12 @@
    "category": "RAG",
    "summary": "Document QA system with LangGraph workflow, multi-tenant backend, and vector search.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the multi-tenant FastAPI/React document-QA stack for rent-regulation, clinic-policy, or SME knowledge-base products with citations, user isolation, and Docker deployment."
   },
   {
    "full_name": "ten10do/industrial-ai-control-tower",
@@ -7539,7 +9235,13 @@
    "category": "Agents",
    "summary": "Industrial AI prototype for predictive maintenance, evidence RAG, and multi-agent decisions.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "SMART Mobility",
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the predictive-maintenance and human-approval pattern for SMART Mobility battery-swap fleet telemetry, workshop alerts, and operations dashboards; also useful for Al-Busalah industrial clients."
   },
   {
    "full_name": "ahmedshireautomate/project-docs-rag",
@@ -7560,7 +9262,12 @@
    "category": "RAG",
    "summary": "Construction document QA app with hybrid retrieval, citations, and evaluation set.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Turn construction contracts, drawings notes, and municipal documents into cited Q&A for real-estate developers or rental-regulation workflows; localize for Oman tender and permit terminology."
   },
   {
    "full_name": "Syzygy-Hub/syzygy-ai-rn",
@@ -7582,7 +9289,13 @@
    "category": "LLM Tooling",
    "summary": "React Native AI layer providing LLM, agent, RAG, memory, and streaming contracts.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Use as a React Native abstraction layer if EnCoach or Autism Medical builds mobile tutors/parent apps needing local memory, RAG, and streamed LLM responses."
   },
   {
    "full_name": "Syzygy-Hub/syzygy-ai-android",
@@ -7604,7 +9317,13 @@
    "category": "LLM Tooling",
    "summary": "Android AI layer providing LLM, agent, RAG, memory, and streaming contracts.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Useful only if building native Android apps for EnCoach or Autism Medical; provides LLM/RAG contracts but requires significant product-specific implementation."
   },
   {
    "full_name": "devsp18/reviewlens",
@@ -7625,7 +9344,12 @@
    "category": "Apps",
    "summary": "App review analysis tool turning reviews into an evidence-backed feature backlog.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Run on client app reviews and WhatsApp/exported feedback to produce evidence-backed product backlogs for Omani SMEs; useful consulting add-on for Al-Busalah."
   },
   {
    "full_name": "prema1432/multimodal-rag-kit",
@@ -7643,7 +9367,10 @@
    "category": "RAG",
    "summary": "Starter kit for multimodal retrieval-augmented generation.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "lvsazf/jm-litellm",
@@ -7665,7 +9392,14 @@
    "category": "Infra",
    "summary": "OpenAI-compatible LiteLLM gateway scaffold with Docker Compose and unified routing.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Deploy as a low-cost LLM gateway across DeepTutor, clinic agents, and client RAG apps; route between Ollama/vLLM/cloud models with unified OpenAI-compatible APIs."
   },
   {
    "full_name": "bedr-ux/Simple-Amharic-RAG-System",
@@ -7687,7 +9421,10 @@
    "category": "RAG",
    "summary": "Amharic RAG pipeline comparing embeddings and evaluated with RAGAS.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "jchristn/TextChunker",
@@ -7709,7 +9446,10 @@
    "category": "LLM Tooling",
    "summary": "Library for chunking text, streams, files, lists, and tables for RAG pipelines.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "MEE-20/care_connect_voice_agent",
@@ -7731,7 +9471,14 @@
    "category": "Agents",
    "summary": "Voice receptionist agent for GP practices with guardrails, RAG, and tool calling.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 9,
+   "ventures": [
+    "Al-Busalah",
+    "Autism Medical",
+    "New venture"
+   ],
+   "opportunity": "Localize into an Arabic/English clinic front-desk product for Oman: appointment booking, triage scripts, RAG over clinic policies, guardrails, and EHR/WhatsApp handoff."
   },
   {
    "full_name": "Syzygy-Hub/syzygy-ai-ios",
@@ -7753,7 +9500,10 @@
    "category": "LLM Tooling",
    "summary": "iOS AI layer providing LLM, agent, RAG, memory, and streaming contracts.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "calliarc/rag-starter-kit",
@@ -7774,7 +9524,13 @@
    "category": "RAG",
    "summary": "Production-ready RAG template for chatting with company documents and evals.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a FastAPI/pgvector base for bilingual document chat over course materials, clinic SOPs, real-estate rules, or client knowledge bases, with evals before deployment."
   },
   {
    "full_name": "ram-polisetti/rag-governance-demo",
@@ -7795,7 +9551,2268 @@
    "category": "RAG",
    "summary": "Governance-gated RAG Q&A template with citations, refusal gate, audit log, and evals.",
    "first_seen": "2026-09-23",
-   "rising": false
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize into an Arabic/English compliance Q&A assistant for Omani policy, healthcare, rental, and SME regulations with citations, refusal gates, audit logs, and client-ready governance reporting."
+  },
+  {
+   "full_name": "sulaimanvesal/react-agent",
+   "url": "https://github.com/sulaimanvesal/react-agent",
+   "description": "ReAct (Yao et al., ICLR 2023) — Thought-Action-Observation loop with Search/Lookup tools over a HotpotQA-style corpus, fully offline",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "llm",
+    "python",
+    "react",
+    "reasoning"
+   ],
+   "created_at": "2026-09-23T04:52:14Z",
+   "category": "Agents",
+   "summary": "Offline ReAct agent implementation with search and lookup tools.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "MuskanPaliwal/skill-picker",
+   "url": "https://github.com/MuskanPaliwal/skill-picker",
+   "description": "Rank your agent skills against a request so your agent can suggest which to invoke; powered by Jev",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "jev",
+    "skills",
+    "typesafe-ai"
+   ],
+   "created_at": "2026-09-23T10:40:49Z",
+   "category": "LLM Tooling",
+   "summary": "Ranks agent skills against requests to choose which skill to invoke.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "madhumithayamajala/agentic-test-writer",
+   "url": "https://github.com/madhumithayamajala/agentic-test-writer",
+   "description": "Agentic test writer",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "agents",
+    "automation",
+    "testing"
+   ],
+   "created_at": "2026-09-23T04:40:24Z",
+   "category": "Agents",
+   "summary": "Agentic tool for generating tests.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "madhumithayamajala/multimodal-voice-agent",
+   "url": "https://github.com/madhumithayamajala/multimodal-voice-agent",
+   "description": "Multimodal voice agent",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "agents",
+    "ai",
+    "multimodal",
+    "voice"
+   ],
+   "created_at": "2026-09-23T04:39:36Z",
+   "category": "Agents",
+   "summary": "Multimodal voice agent project.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Inspect as a starter for Arabic/English voice intake: clinic front desk calls or EnCoach speaking practice, if it includes usable ASR/TTS pipelines."
+  },
+  {
+   "full_name": "VladimirVjatkin/dobroty-commerce-automation",
+   "url": "https://github.com/VladimirVjatkin/dobroty-commerce-automation",
+   "description": "AI automation and business-process integration for e-commerce: n8n, LLM/RAG, .NET, APIs, security hardening and production deployment.",
+   "stars": 0,
+   "language": "Mermaid",
+   "topics": [
+    "ai-automation",
+    "ai-integration",
+    "api-integration",
+    "aspnet-core",
+    "business-automation",
+    "dotnet",
+    "llm",
+    "n8n"
+   ],
+   "created_at": "2026-09-23T10:20:03Z",
+   "category": "Infra",
+   "summary": "AI automation and business-process integration for ecommerce operations.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse n8n/LLM integration patterns to package AI order support, CRM, and API automations for Omani SMEs."
+  },
+  {
+   "full_name": "vrushitpatel/Kaagaz-OCR",
+   "url": "https://github.com/vrushitpatel/Kaagaz-OCR",
+   "description": "Upload your business documents, ask questions in chat, get answers that point back to the exact page.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "aws",
+    "document-ai",
+    "fastapi",
+    "ocr",
+    "rag"
+   ],
+   "created_at": "2026-09-23T05:55:07Z",
+   "category": "RAG",
+   "summary": "Document OCR chat app answering questions with page-level citations.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a FastAPI/AWS document-QA module for rental files, clinic paperwork, contracts, and regulatory documents, adding Arabic OCR and PDPL-aware storage for Omani clients."
+  },
+  {
+   "full_name": "X33834/online-cs-agent",
+   "url": "https://github.com/X33834/online-cs-agent",
+   "description": "在线客服 Agent：RAG + 工具调用 + 长期记忆 + 多模态 + 注入护栏 + 坐席工作台",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "ai",
+    "customer-service",
+    "guardrails",
+    "multimodal",
+    "python",
+    "rag"
+   ],
+   "created_at": "2026-09-23T08:24:06Z",
+   "category": "Agents",
+   "summary": "Customer service agent with RAG, tool use, memory, multimodal inputs, and guardrails.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the RAG customer-service agent and agent workspace into Arabic/English clinic front desks or WhatsApp CRM lead qualification for GCC SMEs."
+  },
+  {
+   "full_name": "X33834/ai-chat-assistant",
+   "url": "https://github.com/X33834/ai-chat-assistant",
+   "description": "单文件纯前端 AI 对话助手：流式对话、RAG 知识库、图像生成、Agent 多轮推理、多模型对比，OpenAI 兼容接口，Key 仅存本地浏览器。",
+   "stars": 0,
+   "language": "HTML",
+   "topics": [
+    "ai",
+    "chatbot",
+    "html",
+    "image-generation",
+    "multi-agent",
+    "openai",
+    "rag",
+    "single-file"
+   ],
+   "created_at": "2026-09-23T08:23:51Z",
+   "category": "LLM Tooling",
+   "summary": "Single-file browser chat assistant with RAG, image generation, and multi-model comparison.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as a lightweight browser demo for client knowledge-base chat or course-content assistant pilots before rebuilding in a production stack."
+  },
+  {
+   "full_name": "Viratvishnu13/SystemOne-ONNX",
+   "url": "https://github.com/Viratvishnu13/SystemOne-ONNX",
+   "description": "Small (~22M param) local alternative to Jev/Laya-style System 1 decision models: confidence-weighted soft-label training, ONNX export, and an honest RLCD comparison",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "calibration",
+    "confidence-calibration",
+    "machine-learning",
+    "minilm",
+    "onnx",
+    "pytorch",
+    "small-language-models",
+    "system-one"
+   ],
+   "created_at": "2026-09-22T03:58:09Z",
+   "category": "Models",
+   "summary": "Small local decision model with confidence training and ONNX export.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "GJO37/ModSeek",
+   "url": "https://github.com/GJO37/ModSeek",
+   "description": "A Novel Learnable Selection Framework",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "gradio",
+    "ipynb-jupyter-notebook",
+    "machine-learning",
+    "torch"
+   ],
+   "created_at": "2026-09-22T05:31:35Z",
+   "category": "Models",
+   "summary": "Learnable selection framework for machine learning.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Bojan-Ivanovski/trader-lens-tslm",
+   "url": "https://github.com/Bojan-Ivanovski/trader-lens-tslm",
+   "description": "Training architecture for reproducible market-analysis models used in Trader Lens backtesting and current-market research.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "machine-learning",
+    "market-analysis",
+    "model-training",
+    "quantitative-finance",
+    "time-series",
+    "trader-lens"
+   ],
+   "created_at": "2026-09-22T18:29:26Z",
+   "category": "Infra",
+   "summary": "Training architecture for reproducible market-analysis models.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "girithc/bev",
+   "url": "https://github.com/girithc/bev",
+   "description": "open source system 1 model with gemma 4 2b backbone",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "calibration",
+    "fine-tuning",
+    "gemma",
+    "huggingface",
+    "llm",
+    "machine-learning",
+    "nlp",
+    "pytorch"
+   ],
+   "created_at": "2026-09-22T19:46:54Z",
+   "category": "Fine-tuning",
+   "summary": "System 1 model built on a Gemma backbone.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "24f2001486/guardian-os",
+   "url": "https://github.com/24f2001486/guardian-os",
+   "description": "Appliance health monitoring for an intelligent stabilizer: unsupervised baseline, grid-vs-appliance fault attribution, Health Score. V-Guard Big Idea 2026.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "anomaly-detection",
+    "esp32",
+    "iot",
+    "machine-learning",
+    "power-quality",
+    "python",
+    "streamlit"
+   ],
+   "created_at": "2026-09-23T07:59:34Z",
+   "category": "Apps",
+   "summary": "IoT appliance health monitoring and fault attribution system.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "SMART Mobility"
+   ],
+   "opportunity": "Adapt its ESP32 anomaly detection and health-score approach for battery-swap cabinet telemetry, charger faults, and preventive maintenance alerts."
+  },
+  {
+   "full_name": "irnessarvan13/transfer-scout",
+   "url": "https://github.com/irnessarvan13/transfer-scout",
+   "description": "ML-powered football player transfer value predictor — Gradient Boosting model trained on 50,000+ Transfermarkt valuations with Claude AI scout reports",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "aws",
+    "claude-ai",
+    "docker",
+    "fastapi",
+    "gradient-boosting",
+    "machine-learning",
+    "pandas",
+    "python"
+   ],
+   "created_at": "2026-09-22T05:46:39Z",
+   "category": "Apps",
+   "summary": "Football transfer value predictor with Claude-generated scout reports.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "geodiegodrone/home-energy-forecasting",
+   "url": "https://github.com/geodiegodrone/home-energy-forecasting",
+   "description": "Time-aware household appliance energy forecasting with chronological evaluation and MLflow.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "data-science",
+    "energy-forecasting",
+    "machine-learning",
+    "mlflow",
+    "time-series"
+   ],
+   "created_at": "2026-09-22T15:43:03Z",
+   "category": "Models",
+   "summary": "Time-aware household energy forecasting pipeline with MLflow.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "SMART Mobility"
+   ],
+   "opportunity": "Reuse the time-series forecasting pattern to predict swap-station electricity demand and battery charging schedules for delivery motorcycle fleets."
+  },
+  {
+   "full_name": "Christguttural5/car-price-prediction-priyanshu-jpgsketch",
+   "url": "https://github.com/Christguttural5/car-price-prediction-priyanshu-jpgsketch",
+   "description": "Predict car prices with XGBoost using a complete ML pipeline, FastAPI web service, Docker, and Google Cloud Run deployment.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "car-price-prediction",
+    "data-science",
+    "eda",
+    "feature-engineering",
+    "machine-learning",
+    "numpy",
+    "pandas",
+    "python"
+   ],
+   "created_at": "2026-09-22T09:39:40Z",
+   "category": "Apps",
+   "summary": "Car price prediction service with FastAPI, Docker, and cloud deployment.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize into an Oman used-vehicle valuation API using local listings, Arabic/English inputs, inspection data, and dealer workflows."
+  },
+  {
+   "full_name": "rashmi051298-collab/news-credibility-screening",
+   "url": "https://github.com/rashmi051298-collab/news-credibility-screening",
+   "description": "News Credibility Screening Dashboard using Python, Streamlit, DistilBERT, and SQLite",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "data-science",
+    "distilbert",
+    "fake-news-detection",
+    "machine-learning",
+    "nlp",
+    "python",
+    "sqlite",
+    "streamlit"
+   ],
+   "created_at": "2026-09-23T05:37:36Z",
+   "category": "Apps",
+   "summary": "News credibility screening dashboard using DistilBERT and SQLite.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Broikos-Nikos/watch-it-think",
+   "url": "https://github.com/Broikos-Nikos/watch-it-think",
+   "description": "A transformer I trained from nothing, running entirely in your browser. Type a sentence in Greek or English and watch it decide what you meant, with every attention head on the page.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "attention-visualization",
+    "greek",
+    "in-browser-ml",
+    "intent-classification",
+    "machine-learning",
+    "nlp",
+    "onnx",
+    "onnxruntime-web"
+   ],
+   "created_at": "2026-09-22T21:28:25Z",
+   "category": "Models",
+   "summary": "In-browser transformer for intent classification with attention visualization.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "orlovtsu/default-risk-lifecycle-lab",
+   "url": "https://github.com/orlovtsu/default-risk-lifecycle-lab",
+   "description": "Synthetic default risk model lifecycle lab with calibration, drift monitoring, label governance, fairness diagnostics, and rollback decisions.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "calibration",
+    "credit-risk",
+    "drift-detection",
+    "machine-learning",
+    "mlops",
+    "model-monitoring",
+    "portfolio"
+   ],
+   "created_at": "2026-09-22T21:28:25Z",
+   "category": "Infra",
+   "summary": "Default risk lifecycle lab with monitoring, fairness, and rollback.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Use as an MLOps template for SME credit-risk or receivables-risk products for Omani finance clients, including drift, fairness, calibration, and rollback governance."
+  },
+  {
+   "full_name": "GeorgeFu77/botsim-rl",
+   "url": "https://github.com/GeorgeFu77/botsim-rl",
+   "description": "From-scratch neural network that predicts 5-minute Bitcoin direction, tested with realistic paper trading. No real orders.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "bitcoin",
+    "contextual-bandit",
+    "machine-learning",
+    "neural-network",
+    "nodejs",
+    "paper-trading",
+    "prediction-markets"
+   ],
+   "created_at": "2026-09-23T04:12:19Z",
+   "category": "Models",
+   "summary": "Neural network predicting Bitcoin direction with paper trading.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "fmpoliveira05-jpg/btc-direction-predictor",
+   "url": "https://github.com/fmpoliveira05-jpg/btc-direction-predictor",
+   "description": "Previsão da direção diária do Bitcoin com scikit-learn e Streamlit",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "machine-learning",
+    "python",
+    "scikit-learn",
+    "streamlit",
+    "time-series"
+   ],
+   "created_at": "2026-09-23T10:23:16Z",
+   "category": "Models",
+   "summary": "Bitcoin direction predictor built with scikit-learn and Streamlit.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "lmbgithub/dl-rnn",
+   "url": "https://github.com/lmbgithub/dl-rnn",
+   "description": "An RNN for Spanish hate-intensity classification where no preprocessing knob moves the result: the corpus itself is broken - every accented word is split in two, so 'politica' occurs zero times. 98 tests.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "class-imbalance",
+    "data-quality",
+    "deep-learning",
+    "lstm",
+    "ml",
+    "nlp",
+    "python",
+    "rnn"
+   ],
+   "created_at": "2026-09-22T20:42:09Z",
+   "category": "Models",
+   "summary": "RNN classifier for Spanish hate-intensity detection with tests.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "IAMSHIVAM19/text2sql-llm-benchmark",
+   "url": "https://github.com/IAMSHIVAM19/text2sql-llm-benchmark",
+   "description": "Fine-tuning Qwen2.5-Coder-1.5B for cross-domain Text-to-SQL using 4-bit QLoRA on the Yale Spider benchmark.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "benchmark",
+    "deep-learning",
+    "llm-fine-tuning",
+    "nlp",
+    "peft",
+    "qlora",
+    "qwen2-5",
+    "spider-dataset"
+   ],
+   "created_at": "2026-09-22T06:03:19Z",
+   "category": "Fine-tuning",
+   "summary": "QLoRA fine-tuning of Qwen2.5-Coder for text-to-SQL benchmark.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the QLoRA text-to-SQL pipeline for Arabic/English analytics over Odoo, CRM, clinic, or rental databases in client decision-intelligence dashboards."
+  },
+  {
+   "full_name": "DhananjayGharat/visiondetect-ai",
+   "url": "https://github.com/DhananjayGharat/visiondetect-ai",
+   "description": "Real-time object detection and AI-powered scene understanding using Python, OpenCV, YOLO and Gemini API.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "artificial-intelligence",
+    "computer-vision",
+    "deep-learning",
+    "gemini",
+    "generative-ai",
+    "machine-learning",
+    "object-detection",
+    "opencv"
+   ],
+   "created_at": "2026-09-23T08:13:43Z",
+   "category": "Apps",
+   "summary": "Real-time object detection and scene understanding web app.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Use as a quick YOLO/OpenCV camera demo for traffic-object detection and scene summaries, replacing Gemini with self-hosted models for municipal deployments."
+  },
+  {
+   "full_name": "sayedishan/AI-Underwater-Image-Enhancement",
+   "url": "https://github.com/sayedishan/AI-Underwater-Image-Enhancement",
+   "description": "AI-based underwater image and video enhancement using RGB+HSV fusion, PyTorch, PSNR/SSIM evaluation, real-time processing, and YOLO object detection.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "artificial-intelligence",
+    "computer-vision",
+    "deep-learning",
+    "image-enhancement",
+    "image-processing",
+    "object-detection",
+    "opencv"
+   ],
+   "created_at": "2026-09-22T20:32:21Z",
+   "category": "Vision",
+   "summary": "Underwater image and video enhancement with object detection.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Seed a marine-inspection product for Oman ports, aquaculture, or tourism: enhance underwater video and detect assets/damage from diver or ROV footage."
+  },
+  {
+   "full_name": "DrapantAlex/wearable-sleep-staging",
+   "url": "https://github.com/DrapantAlex/wearable-sleep-staging",
+   "description": "3-class sleep staging (Wake/NREM/REM) from Apple Watch data with a BiLSTM + Random Forest ensemble",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "lstm-neural-networks",
+    "sleep-staging",
+    "wearables"
+   ],
+   "created_at": "2026-09-23T10:27:59Z",
+   "category": "Models",
+   "summary": "Sleep staging model from Apple Watch wearable data.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Autism Medical"
+   ],
+   "opportunity": "Explore optional Apple Watch sleep insights for Autism AI parent dashboards, especially sleep-pattern tracking linked to therapy progress and pediatric consultations."
+  },
+  {
+   "full_name": "MahyadSaedpanah/time-series-datasets",
+   "url": "https://github.com/MahyadSaedpanah/time-series-datasets",
+   "description": "A research-oriented catalog of public time-series datasets, archives, and benchmarks for machine learning.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "anomaly-detection",
+    "benchmark",
+    "datasets",
+    "deep-learning",
+    "forecasting",
+    "machine-learning",
+    "research",
+    "time-series"
+   ],
+   "created_at": "2026-09-22T14:33:11Z",
+   "category": "Data",
+   "summary": "Catalog of public time-series datasets and benchmarks.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Open City",
+    "SMART Mobility",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use the dataset catalog to benchmark traffic forecasting, battery-swap demand prediction, IoT anomaly detection, and operational KPI forecasting before collecting Omani data."
+  },
+  {
+   "full_name": "robson-apk/SeedPlane",
+   "url": "https://github.com/robson-apk/SeedPlane",
+   "description": "Asynchronous text diffusion across CPU cores via Hadamard coordination codes",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "asynchronous",
+    "cpu-inference",
+    "deep-learning",
+    "diffusion-models",
+    "distributed-systems",
+    "hadamard-matrix",
+    "llm",
+    "open-source"
+   ],
+   "created_at": "2026-09-23T02:12:26Z",
+   "category": "Models",
+   "summary": "Asynchronous text diffusion system across CPU cores.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "thillaiambalam15/dashcam-multiclass-detection",
+   "url": "https://github.com/thillaiambalam15/dashcam-multiclass-detection",
+   "description": "Multiclass object detection on driving dashcam footage using a PyTorch CNN with box regression + classification heads, comparing pretrained vs random-init ResNet18 and IoU vs EIoU loss, and hosted on streamlit.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "python",
+    "pytorch",
+    "resnet-18",
+    "streamlit"
+   ],
+   "created_at": "2026-09-22T12:01:31Z",
+   "category": "Vision",
+   "summary": "Dashcam multiclass object detection with Streamlit demo.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Adapt the dashcam detection workflow into an Open City prototype for vehicle, pedestrian, and road-object recognition from municipal camera footage."
+  },
+  {
+   "full_name": "cd12di2/NetDesigner",
+   "url": "https://github.com/cd12di2/NetDesigner",
+   "description": "Zero-dependency, native C++ neural network engine utilizing pointer-connected compute graphs, dynamic backpropagation, and visual topological resolution.",
+   "stars": 0,
+   "language": "C++",
+   "topics": [
+    "backpropagation",
+    "computational-graph",
+    "cpp",
+    "deep-learning",
+    "mfc",
+    "neural-network",
+    "zero-dependencies"
+   ],
+   "created_at": "2026-09-22T12:58:38Z",
+   "category": "Infra",
+   "summary": "Native C++ neural network engine with compute graphs.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "malakyahia211/ASL-Recognition-System",
+   "url": "https://github.com/malakyahia211/ASL-Recognition-System",
+   "description": "End-to-End ASL Recognition System using Deep Learning to identify American Sign Language hand gestures from uploaded or captured images through an interactive web interface",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "american-sign-language",
+    "computer-vision",
+    "deep-learning",
+    "keras",
+    "tensorflow"
+   ],
+   "created_at": "2026-09-23T04:19:36Z",
+   "category": "Vision",
+   "summary": "Web interface for American Sign Language gesture recognition.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Autism Medical",
+    "New venture"
+   ],
+   "opportunity": "Retrain the gesture-recognition app for Arabic/Omani sign language or custom AAC gestures for autism therapy centers and inclusive schools."
+  },
+  {
+   "full_name": "UWWAWWU/disaster-image-identification",
+   "url": "https://github.com/UWWAWWU/disaster-image-identification",
+   "description": "Deep learning-based disaster image classification using CNN and Inception ResNet V2.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "cnn",
+    "computer-vision",
+    "deep-learning",
+    "disaster-classification",
+    "image-classification",
+    "inception-resnet-v2",
+    "machine-learning",
+    "tensorflow"
+   ],
+   "created_at": "2026-09-22T17:21:49Z",
+   "category": "Vision",
+   "summary": "Disaster image classification with CNN and InceptionResNetV2.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "csnaser/Blood-Cell-Classification",
+   "url": "https://github.com/csnaser/Blood-Cell-Classification",
+   "description": "An end-to-end Deep Learning project for multi-class classification of peripheral blood cell images using PyTorch.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "cnn",
+    "cnn-classification",
+    "computer-vision",
+    "deep-learning",
+    "image-classification",
+    "medical-imaging",
+    "pytorch"
+   ],
+   "created_at": "2026-09-22T05:21:36Z",
+   "category": "Vision",
+   "summary": "Peripheral blood cell image classification project.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Use as a non-diagnostic lab-AI demo for healthcare digitization clients; validate locally before positioning for blood-smear triage or quality-control workflows."
+  },
+  {
+   "full_name": "Sangeetha216/image-classification",
+   "url": "https://github.com/Sangeetha216/image-classification",
+   "description": "Deep Learning project for six-category image classification using CNNs and transfer learning.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "cnn",
+    "computer-vision",
+    "deep-learning",
+    "image-classification",
+    "jupyter-notebook",
+    "keras",
+    "python",
+    "tensorflow"
+   ],
+   "created_at": "2026-09-22T08:58:12Z",
+   "category": "Vision",
+   "summary": "Six-class image classification using CNNs and transfer learning.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ahmedmamdouh111/plant-disease-detection-deep-learning",
+   "url": "https://github.com/ahmedmamdouh111/plant-disease-detection-deep-learning",
+   "description": "Deep learning system for plant-leaf validation and disease classification across 38 classes using TensorFlow/Keras and Gradio.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "cnn",
+    "computer-vision",
+    "deep-learning",
+    "gradio",
+    "image-classification",
+    "keras",
+    "keras-tensorflow",
+    "machine-learning"
+   ],
+   "created_at": "2026-09-22T20:01:12Z",
+   "category": "Vision",
+   "summary": "Plant disease classification app with Gradio interface.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize into an Arabic farm-advisory app for Omani growers: detect crop diseases from leaf photos and connect to treatment guidance and suppliers."
+  },
+  {
+   "full_name": "Then-act6105/facial-emotion-recognition-au-landmarks",
+   "url": "https://github.com/Then-act6105/facial-emotion-recognition-au-landmarks",
+   "description": "Compare CNN-based landmark processing and fusion strategies for facial expression recognition using PyTorch and MediaPipe.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "action-units",
+    "affective-computing",
+    "ck-plus",
+    "cnn",
+    "computer-vision",
+    "deep-learning",
+    "emotion-recognition",
+    "facial-expression-recognition"
+   ],
+   "created_at": "2026-09-23T04:48:59Z",
+   "category": "Vision",
+   "summary": "Facial expression recognition using landmarks and fusion strategies.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Autism Medical"
+   ],
+   "opportunity": "Prototype facial-expression and action-unit tracking for autism therapy session review, parent reports, and progress analytics with strict consent and PDPL controls."
+  },
+  {
+   "full_name": "julianoelhaf/offline-cql-protection",
+   "url": "https://github.com/julianoelhaf/offline-cql-protection",
+   "description": "Offline reinforcement learning (conservative Q-learning) for line-selective distribution-grid protection tripping. Official code for our PESS 2026 paper.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "conservative-q-learning",
+    "deep-learning",
+    "distribution-grid",
+    "fault-detection",
+    "offline-reinforcement-learning",
+    "power-systems",
+    "protection-relay",
+    "pytorch"
+   ],
+   "created_at": "2026-09-22T04:58:40Z",
+   "category": "Agents",
+   "summary": "Offline reinforcement learning for power grid protection tripping.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "fereshteh-kam/Knowledge-Tracing-with-RNN-LSTM-ASSISTments-2017-",
+   "url": "https://github.com/fereshteh-kam/Knowledge-Tracing-with-RNN-LSTM-ASSISTments-2017-",
+   "description": "Knowledge tracing on ASSISTments 2017 with RNN and LSTM in PyTorch — predicts student correctness on the next problem from their interaction history, plus a worked derivation of the vanishing gradient problem.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "educational-data-mining",
+    "knowledge-tracing",
+    "lstm",
+    "pytorch",
+    "rnn",
+    "time-series"
+   ],
+   "created_at": "2026-09-23T10:23:23Z",
+   "category": "Models",
+   "summary": "Knowledge tracing model predicting student answer correctness.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt the knowledge-tracing model as a DeepTutor learner-mastery layer for CEFR quizzes, predicting weak skills and recommending remedial English practice."
+  },
+  {
+   "full_name": "its-Ravi-Singh/char-level-language-model",
+   "url": "https://github.com/its-Ravi-Singh/char-level-language-model",
+   "description": "Character-level language models built from scratch in PyTorch — from bigram counting to neural nets with learned embeddings.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "from-scratch",
+    "language-model",
+    "neural-network",
+    "nlp",
+    "python",
+    "pytorch"
+   ],
+   "created_at": "2026-09-23T05:09:09Z",
+   "category": "Models",
+   "summary": "Character-level language models built from scratch.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "somuai/llm-systems-playbook",
+   "url": "https://github.com/somuai/llm-systems-playbook",
+   "description": "Production engineering reference, numerical edge cases, and contributor guide for vLLM, Transformers, PyTorch, and DeepMind",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "deep-learning",
+    "inference",
+    "llm",
+    "pytorch",
+    "rope",
+    "speculative-decoding",
+    "systems-engineering",
+    "transformers"
+   ],
+   "created_at": "2026-09-22T11:55:51Z",
+   "category": "Infra",
+   "summary": "Production engineering reference for LLM inference systems.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as an engineering reference to improve self-hosted Arabic/English LLM inference for DeepTutor, clinic bots, and client RAG deployments."
+  },
+  {
+   "full_name": "PerceptronCipher/fashion-cnn-shirt-classifier",
+   "url": "https://github.com/PerceptronCipher/fashion-cnn-shirt-classifier",
+   "description": "CNN trained on Fashion MNIST, tested against real phone photos of my own shirts — exploring the gap between benchmark accuracy and real-world distribution shift. FastAPI backend + Next.js frontend.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "cnn",
+    "cnn-classification",
+    "cnn-keras",
+    "computer-vision",
+    "deep-learning",
+    "fashion-mnist",
+    "fastapi",
+    "image-classification"
+   ],
+   "created_at": "2026-09-22T20:12:58Z",
+   "category": "Apps",
+   "summary": "FastAPI and Next.js shirt classifier for real photos.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Ranker-AdhipKumar/AI-image-restoration",
+   "url": "https://github.com/Ranker-AdhipKumar/AI-image-restoration",
+   "description": "AI system for denoising, deblurring, inpainting & artifact removal — Gradio UI + CLI + PSNR/SSIM/LPIPS metrics",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "computer-vision",
+    "deep-learning",
+    "gradio",
+    "image-restoration",
+    "inpainting",
+    "lpips",
+    "nafnet",
+    "psnr"
+   ],
+   "created_at": "2026-09-22T19:21:28Z",
+   "category": "Vision",
+   "summary": "Image restoration toolkit for denoising and deblurring.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Test as a CCTV preprocessing step to denoise or deblur low-quality traffic frames before vehicle detection, counting, or plate-recognition pipelines."
+  },
+  {
+   "full_name": "leolinejazzy60/CUDA-for-AMD-Windows",
+   "url": "https://github.com/leolinejazzy60/CUDA-for-AMD-Windows",
+   "description": "Run CUDA apps on AMD GPUs with a reproducible ZLUDA + ROCm/HIP stack on Windows.",
+   "stars": 0,
+   "language": "PowerShell",
+   "topics": [
+    "ambe",
+    "amd-gpu",
+    "brute-force",
+    "compatibility-layer",
+    "deep-learning",
+    "encryption",
+    "gpu",
+    "gpu-computing"
+   ],
+   "created_at": "2026-09-22T11:55:45Z",
+   "category": "Infra",
+   "summary": "Compatibility stack for running CUDA apps on AMD GPUs.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "bardulos/tesi_magistrale_NIDS",
+   "url": "https://github.com/bardulos/tesi_magistrale_NIDS",
+   "description": "A two-stage semi-supervised network intrusion detection model using a denoising autoencoder, pseudo-anomaly generator, and a MLP classifier",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "anomaly-detection",
+    "artificial-intelligence",
+    "deep-learning",
+    "keras-tensorflow",
+    "master-thesis",
+    "network-intrusion-detection",
+    "numpy",
+    "semi-supervised-learning"
+   ],
+   "created_at": "2026-09-22T10:44:43Z",
+   "category": "Models",
+   "summary": "Semi-supervised network intrusion detection model.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "muhammadokashapak/Cancer-Classification-ANN",
+   "url": "https://github.com/muhammadokashapak/Cancer-Classification-ANN",
+   "description": "🩺 Deep learning diagnostic classification of breast cancer tumors using Artificial Neural Networks (ANN) in TensorFlow / Keras.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "artificial-neural-network",
+    "breast-cancer",
+    "deep-learning",
+    "healthcare-ai",
+    "keras",
+    "machine-learning",
+    "tensorflow"
+   ],
+   "created_at": "2026-09-23T00:16:54Z",
+   "category": "Models",
+   "summary": "Breast cancer classification with artificial neural network.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mohd-faizy/23P_Image_Denoising_using_AutoEncoder",
+   "url": "https://github.com/mohd-faizy/23P_Image_Denoising_using_AutoEncoder",
+   "description": "A deep learning approach to removing noise from images using Convolutional Autoencoders on the Fashion-MNIST dataset.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "autoencoder",
+    "computer-vision",
+    "convolutional-neural-networks",
+    "deep-learning",
+    "encoder-decoder",
+    "fashion-mnist",
+    "gaussian-noise",
+    "image-denoising"
+   ],
+   "created_at": "2026-09-22T20:54:13Z",
+   "category": "Vision",
+   "summary": "Convolutional autoencoder for image denoising.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "SYFDNNN/FaceForm-Studio",
+   "url": "https://github.com/SYFDNNN/FaceForm-Studio",
+   "description": "AI-powered personal style studio for face-shape classification, virtual eyewear try-on, and hair-color preview using PyTorch, EfficientNet-B0, MediaPipe, and Flask.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "artificial-intelligence",
+    "computer-vision",
+    "deep-learning",
+    "efficientnet",
+    "face-shape-classification",
+    "flask",
+    "image-preprocessing",
+    "machine-learning"
+   ],
+   "created_at": "2026-09-22T04:44:17Z",
+   "category": "Apps",
+   "summary": "Face-shape classification and virtual style try-on app.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "kachvanov/receipt-digit-ocr",
+   "url": "https://github.com/kachvanov/receipt-digit-ocr",
+   "description": "CNN + CTC recogniser for noisy, struck-through numbers on receipt images. 98% accuracy, 0.3M params, trained purely on synthetic data, CPU-only ONNX inference.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "computer-vision",
+    "ctc",
+    "deep-learning",
+    "ocr",
+    "onnxruntime",
+    "opencv",
+    "python",
+    "pytorch"
+   ],
+   "created_at": "2026-09-23T00:41:59Z",
+   "category": "Vision",
+   "summary": "OCR recognizer for noisy receipt digits.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse the lightweight ONNX OCR approach for SME receipt, invoice, and expense capture modules inside Odoo or client finance workflows."
+  },
+  {
+   "full_name": "Deborahwalkerz661/ComfyUI-FS_Audio_Suite",
+   "url": "https://github.com/Deborahwalkerz661/ComfyUI-FS_Audio_Suite",
+   "description": "Generate rich YuE2 audio in ComfyUI with six modular nodes—hum-to-song, LoRA and adapter support—no stock nodes needed.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "audio",
+    "cpp",
+    "diffusion-models",
+    "dit",
+    "extract-data",
+    "generative-ai",
+    "image-to-video",
+    "layout-analysis"
+   ],
+   "created_at": "2026-09-23T01:11:21Z",
+   "category": "Apps",
+   "summary": "ComfyUI audio generation suite with modular nodes for hum-to-song and model adapters.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "amohdadnan222-glitch/AI_Study_Tool",
+   "url": "https://github.com/amohdadnan222-glitch/AI_Study_Tool",
+   "description": "AI-powered study tool that converts PDFs and YouTube videos into summaries, flashcards, and quizzes using Python, Flask, and Google Gemini.",
+   "stars": 0,
+   "language": "CSS",
+   "topics": [
+    "ai",
+    "artificial-intelligence",
+    "education",
+    "flashcards",
+    "flask",
+    "gemini",
+    "generative-ai",
+    "google-gemini"
+   ],
+   "created_at": "2026-09-23T09:03:10Z",
+   "category": "Apps",
+   "summary": "Study tool that turns PDFs and YouTube videos into summaries, flashcards, and quizzes.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Plug the PDF/YouTube-to-summary, flashcard, and quiz workflow into DeepTutor ingestion for CEFR foundation courses, then add Arabic/English localization."
+  },
+  {
+   "full_name": "napapijri5248/BookMind-RAG",
+   "url": "https://github.com/napapijri5248/BookMind-RAG",
+   "description": " End-to-end RAG assistant & retrieval lab built with LangChain, ChromaDB, HuggingFace embeddings, and Ollama. Features an interactive Streamlit UI and advanced MMR retrieval.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "chromadb",
+    "generative-ai",
+    "huggingface",
+    "langchain",
+    "llm",
+    "mmr",
+    "ollama",
+    "python"
+   ],
+   "created_at": "2026-09-23T02:54:13Z",
+   "category": "RAG",
+   "summary": "End-to-end RAG assistant with LangChain, ChromaDB, Ollama, and Streamlit UI.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use the self-hosted Ollama, ChromaDB, and LangChain stack for course-material tutors and client knowledge-base assistants without sending sensitive data to SaaS tools."
+  },
+  {
+   "full_name": "Vedant1231/Structured-AI-Extraction-API",
+   "url": "https://github.com/Vedant1231/Structured-AI-Extraction-API",
+   "description": "AI-powered FastAPI service for extracting validated structured data from unstructured text using LLMs and Pydantic.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "fastapi",
+    "generative-ai",
+    "groq",
+    "langchain",
+    "llm",
+    "pydantic",
+    "python",
+    "rest-api"
+   ],
+   "created_at": "2026-09-22T08:28:09Z",
+   "category": "LLM Tooling",
+   "summary": "FastAPI service for validated structured data extraction from unstructured text.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Deploy as a FastAPI extraction service for leases, clinic intake forms, WhatsApp leads, and CRM notes, returning validated fields for Odoo or workflow engines."
+  },
+  {
+   "full_name": "RamillaSmridhi27/healthbot-patient-education",
+   "url": "https://github.com/RamillaSmridhi27/healthbot-patient-education",
+   "description": "AI-powered patient education system built with LangGraph, Google Gemini, and Tavily search.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agentic-rag",
+    "ai-agents",
+    "generative-ai",
+    "google-gemini",
+    "healthcare-ai",
+    "langchain",
+    "langraph",
+    "patient-education"
+   ],
+   "created_at": "2026-09-22T07:27:15Z",
+   "category": "Agents",
+   "summary": "Patient education agent using LangGraph, Gemini, and web search.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Autism Medical",
+    "Al-Busalah"
+   ],
+   "opportunity": "Localize into an Arabic/English patient-education assistant for autism parents or clinics, grounded in approved materials with clear escalation to human clinicians."
+  },
+  {
+   "full_name": "Sanexxxx777/palette-lock",
+   "url": "https://github.com/Sanexxxx777/palette-lock",
+   "description": "Recolour an AI-generated image into an exact palette after generation, then measure how close it landed. Deterministic, CIELAB, no model call.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ci",
+    "cielab",
+    "cli",
+    "color-correction",
+    "color-palette",
+    "deterministic",
+    "flux",
+    "generative-ai"
+   ],
+   "created_at": "2026-09-23T03:19:24Z",
+   "category": "Other",
+   "summary": "Deterministically recolors AI-generated images to an exact palette and measures similarity.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "UbhiTS/llm-compare",
+   "url": "https://github.com/UbhiTS/llm-compare",
+   "description": "Race the same agentic coding task across Gemini & Claude on Vertex AI and compare correctness, speed, tokens & cost — live. Node/Express app, deploys to Google Cloud Run with keyless CI.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "agentic-ai",
+    "ai-benchmark",
+    "cloud-run",
+    "code-generation",
+    "express",
+    "gemini",
+    "generative-ai",
+    "google-cloud"
+   ],
+   "created_at": "2026-09-22T00:46:26Z",
+   "category": "LLM Tooling",
+   "summary": "Benchmarks agentic coding tasks across Gemini and Claude with cost and speed comparison.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "totwo2/everytime-novel",
+   "url": "https://github.com/totwo2/everytime-novel",
+   "description": "Plan-first pipeline for long-form Chinese web novels: outline gating before drafting, a 20-dimension audit on every batch of chapters, decoupled AI-tone removal (write-time or post-hoc), and optional style-DNA distillation. Ships two self-testing scripts.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "agent-skills",
+    "ai",
+    "ai-writing",
+    "automation",
+    "chinese-novel",
+    "content-generation",
+    "creative-writing"
+   ],
+   "created_at": "2026-09-23T04:40:15Z",
+   "category": "Apps",
+   "summary": "Pipeline for generating long-form Chinese web novels with outline gating and batch audits.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt its outline-gating and batch-audit pattern to DeepTutor course-unit generation, ensuring CEFR lesson structure before drafting student books, teacher notes, and activities."
+  },
+  {
+   "full_name": "ArwaSaluji01/Retrieval-Augmented-Generation",
+   "url": "https://github.com/ArwaSaluji01/Retrieval-Augmented-Generation",
+   "description": "A miniature research-oriented implementation of Retrieval-Augmented Generation (RAG) based on Lewis et al. (2020/2021), combining dense retrieval, FAISS indexing, sequence-to-sequence generation, RAG-Sequence training, evaluation, and ablation studies.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "dense-retrieval",
+    "faiss",
+    "generative-ai",
+    "huggingface",
+    "information-retrieval",
+    "natural-language-processing",
+    "nlp"
+   ],
+   "created_at": "2026-09-23T03:38:19Z",
+   "category": "RAG",
+   "summary": "Research implementation of RAG with dense retrieval, FAISS, training, and evaluation.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a lightweight FAISS/RAG reference for prototypes that answer from university course PDFs, clinic policies, or client knowledge bases before adopting a production stack."
+  },
+  {
+   "full_name": "giskardleen/wanderbot-travel-assistant-agent",
+   "url": "https://github.com/giskardleen/wanderbot-travel-assistant-agent",
+   "description": "Progressive travel assistant agent exploring tools, memory, MCP, RAG, managed execution, and observability with AWS AgentCore and Strands.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agent-memory",
+    "agentic-ai",
+    "ai-agents",
+    "amazon-bedrock",
+    "aws",
+    "bedrock-agentcore",
+    "generative-ai",
+    "llm"
+   ],
+   "created_at": "2026-09-22T19:20:41Z",
+   "category": "Agents",
+   "summary": "Travel assistant agent exploring tools, memory, RAG, and observability on AWS.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Borrow AWS Bedrock AgentCore patterns for client-facing assistants with tools, memory, RAG, and observability, especially for hosted GCC enterprise deployments."
+  },
+  {
+   "full_name": "kanto-labs/comfyui-ltx-2.5-low-vram-workflow",
+   "url": "https://github.com/kanto-labs/comfyui-ltx-2.5-low-vram-workflow",
+   "description": "Free LTX-2.5 ComfyUI workflow for low VRAM: text-to-video with sound, 8-step draft + learned x2 latent upscale + 3-step refine, GGUF loader, SHA-256 model installer.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-video",
+    "comfyui",
+    "comfyui-workflow",
+    "generative-ai",
+    "gguf",
+    "low-vram",
+    "ltx-2",
+    "ltx-video"
+   ],
+   "created_at": "2026-09-23T09:32:35Z",
+   "category": "Apps",
+   "summary": "ComfyUI workflow for low-VRAM text-to-video generation with sound and upscaling.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Use low-VRAM text-to-video workflows to generate inexpensive English-learning clips, scene prompts, and listening activities for DeepTutor course media packages."
+  },
+  {
+   "full_name": "yueyang0120/production-text-to-sql-agent",
+   "url": "https://github.com/yueyang0120/production-text-to-sql-agent",
+   "description": "Production-oriented text-to-SQL agent with read-only execution, semantic evaluation, bounded repair, and replaceable adapters.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "enterprise-ai",
+    "evaluation",
+    "generative-ai",
+    "llm",
+    "python",
+    "sql",
+    "sqlite"
+   ],
+   "created_at": "2026-09-22T12:14:36Z",
+   "category": "Agents",
+   "summary": "Production-oriented text-to-SQL agent with read-only execution and bounded repair.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Plug into decision-intelligence dashboards so Omani clients can ask read-only questions over CRM, finance, clinic, or real-estate databases with bounded SQL repair."
+  },
+  {
+   "full_name": "saisrikarbommisetty/contextos-ai",
+   "url": "https://github.com/saisrikarbommisetty/contextos-ai",
+   "description": "AI-powered context recovery platform that helps people resume interrupted work.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "ai-productivity",
+    "context-aware-ai",
+    "express-js",
+    "generative-ai",
+    "hackathon",
+    "iqoo-hackathon",
+    "llm"
+   ],
+   "created_at": "2026-09-22T19:31:50Z",
+   "category": "Apps",
+   "summary": "Context recovery platform for resuming interrupted work.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Manya-Rajput-2007/movie-review-summary",
+   "url": "https://github.com/Manya-Rajput-2007/movie-review-summary",
+   "description": "Built and deployed an AI-powered Movie Information Extractor using Streamlit, LangChain, Groq, and Pydantic. The app converts movie descriptions into structured data including title, release year, genre, director, cast, rating, and summary, with secure API key management.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "generative-ai",
+    "llm",
+    "machine-learning"
+   ],
+   "created_at": "2026-09-22T18:27:11Z",
+   "category": "Apps",
+   "summary": "Streamlit app extracting structured movie information from descriptions.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Yasir-Khan-7/jev-sentinel",
+   "url": "https://github.com/Yasir-Khan-7/jev-sentinel",
+   "description": "Prompt injection protection & tool-call guardrails for LangChain / LangGraph AI agents. Screens tool outputs, gates risky tool calls (allow / human review / block), powered by TypeSafe Jev.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agent-security",
+    "agentic-ai",
+    "ai-agent-security",
+    "ai-agents",
+    "ai-safety",
+    "generative-ai",
+    "guardrails",
+    "human-in-the-loop"
+   ],
+   "created_at": "2026-09-22T21:48:57Z",
+   "category": "Infra",
+   "summary": "Guardrails for prompt injection and risky tool calls in LangChain agents.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Add prompt-injection and tool-call guardrails to LangChain/LangGraph agents used in clinic front desks, tutoring agents, WhatsApp CRMs, and healthcare workflows."
+  },
+  {
+   "full_name": "Sumayya012/VisionTale-AI",
+   "url": "https://github.com/Sumayya012/VisionTale-AI",
+   "description": "AI-powered application that transforms images into creative stories and speech using BLIP, Gemini, and Kokoro TTS.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "computer-vision",
+    "gemini",
+    "generative-ai",
+    "huggingface",
+    "image-captioning",
+    "machine-learning",
+    "python"
+   ],
+   "created_at": "2026-09-23T06:05:15Z",
+   "category": "Apps",
+   "summary": "Transforms images into stories and speech using captioning, Gemini, and TTS.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Adapt image-to-story plus TTS into English practice prompts, picture-description activities, autism social stories, and parent-facing communication exercises."
+  },
+  {
+   "full_name": "raonolje/AIMovieStorage",
+   "url": "https://github.com/raonolje/AIMovieStorage",
+   "description": "Windows AI video production workbench with local image, video and music generation, SeedVR2 image upscaling, Claude/OpenAI API connections, character references and 3D shot planning.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "3d-blocking",
+    "ai-video",
+    "character-consistency",
+    "claude",
+    "filmmaking",
+    "generative-ai",
+    "image-generation",
+    "image-upscaling"
+   ],
+   "created_at": "2026-09-22T11:52:00Z",
+   "category": "Apps",
+   "summary": "Windows video production workbench for local generation, upscaling, and shot planning.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mahakmax007/AI-Customer-Churn-Analytics",
+   "url": "https://github.com/mahakmax007/AI-Customer-Churn-Analytics",
+   "description": "AI-powered customer churn analytics using Python, SQL, Power BI, DAX, and Generative AI to identify churn patterns, analyze customer risk, and derive business insights.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "customer-churn",
+    "data-analysis",
+    "data-analytics",
+    "generative-ai",
+    "power-bi",
+    "python",
+    "sql"
+   ],
+   "created_at": "2026-09-22T14:46:41Z",
+   "category": "Data",
+   "summary": "Customer churn analytics project using SQL, Power BI, and generative AI.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Package its churn-risk analytics approach into Al-Busalah CRM offerings for clinics, SMEs, and service businesses needing retention dashboards and AI-generated customer insights."
+  },
+  {
+   "full_name": "johan8124/civictrail",
+   "url": "https://github.com/johan8124/civictrail",
+   "description": "Evidence-first civic workflow assistant that routes problems to official Indian processes and checks action readiness.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "access-to-justice",
+    "ai-agents",
+    "civic-tech",
+    "consumer-rights",
+    "cybercrime",
+    "evidence-ledger",
+    "generative-ai",
+    "legal-tech"
+   ],
+   "created_at": "2026-09-22T06:01:18Z",
+   "category": "Agents",
+   "summary": "Civic workflow assistant routing issues to official Indian processes.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize the evidence-first workflow model for Oman rental disputes, consumer complaints, municipal requests, and ministry processes in Arabic/English as a civic-regtech product."
+  },
+  {
+   "full_name": "KzRaihan/Interview-Question-Creator",
+   "url": "https://github.com/KzRaihan/Interview-Question-Creator",
+   "description": "A Generative AI-powered RAG application that automatically generates topic-specific interview questions and answers from user-provided PDF resources using LangChain, FAISS, Hugging Face Embeddings, and GPT-OSS-20B via Groq.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "faiss-vector-database",
+    "fastapi",
+    "generative-ai",
+    "langchain",
+    "llm-application",
+    "rag"
+   ],
+   "created_at": "2026-09-23T07:58:21Z",
+   "category": "RAG",
+   "summary": "RAG app generating interview questions and answers from PDF resources.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Reuse its FastAPI RAG question-generation flow to create CEFR-aligned quizzes, teacher answer keys, placement tests, and PDF-derived assessment banks for DeepTutor."
+  },
+  {
+   "full_name": "kariagepompadour/dialysis-social-resource-support-jp",
+   "url": "https://github.com/kariagepompadour/dialysis-social-resource-support-jp",
+   "description": "Public evaluation prototype for AI-assisted social resource exploration in Japanese dialysis care.",
+   "stars": 0,
+   "language": "HTML",
+   "topics": [
+    "ai-safety",
+    "dialysis",
+    "generative-ai",
+    "healthcare",
+    "japan"
+   ],
+   "created_at": "2026-09-23T08:21:40Z",
+   "category": "Apps",
+   "summary": "Prototype for AI-assisted social resource exploration in Japanese dialysis care.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Autism Medical",
+    "New venture"
+   ],
+   "opportunity": "Adapt the care-resource navigation concept for Oman autism support: benefits, therapy providers, school accommodations, parent guidance, and bilingual eligibility checklists."
+  },
+  {
+   "full_name": "aditikumari4623/FocusGuard-AI",
+   "url": "https://github.com/aditikumari4623/FocusGuard-AI",
+   "description": "AI-powered digital attention and productivity intelligence platform built with FastAPI, React, PostgreSQL, LLMs, and RAG.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "chrome-extension",
+    "fastapi",
+    "generative-ai",
+    "llm",
+    "machine-learning",
+    "pgvector",
+    "postgresql",
+    "productivity"
+   ],
+   "created_at": "2026-09-22T18:58:52Z",
+   "category": "Apps",
+   "summary": "Productivity platform combining FastAPI, React, PostgreSQL, LLMs, and RAG.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Evaluate its FastAPI/React attention-tracking ideas for study-support features in EnCoach or executive-function tools for autism/ADHD parent and therapist workflows."
+  },
+  {
+   "full_name": "Mubogi/kids-ai-studio",
+   "url": "https://github.com/Mubogi/kids-ai-studio",
+   "description": "Turn one sentence into a finished animated cartoon or sing-along song for young children - free, on open-source models. A Jordan Design Hub (JD Hub) project.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-video",
+    "animation",
+    "ffmpeg",
+    "generative-ai",
+    "image-to-video",
+    "kaggle",
+    "kids",
+    "open-source"
+   ],
+   "created_at": "2026-09-22T09:22:20Z",
+   "category": "Apps",
+   "summary": "Generates animated cartoons or sing-along songs for children from one sentence.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Use open-source cartoon/song generation to create bilingual learning songs, vocabulary animations, autism social stories, and low-cost therapeutic media localized for Oman."
+  },
+  {
+   "full_name": "lzwhehe/kushulan-papercut-blora",
+   "url": "https://github.com/lzwhehe/kushulan-papercut-blora",
+   "description": "Ku Shulan papercut research archive: datasets, SDXL B-LoRA checkpoints, generated results, and verified migration tools.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "b-lora",
+    "cultural-heritage",
+    "datasets",
+    "generative-ai",
+    "lora",
+    "papercut",
+    "stable-diffusion-xl"
+   ],
+   "created_at": "2026-09-22T16:44:48Z",
+   "category": "Models",
+   "summary": "Dataset and B-LoRA checkpoints for Ku Shulan papercut style generation.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Use as a template for an Omani cultural-heritage LoRA archive: khanjar, forts, textiles, crafts, tourism visuals, and branded educational content."
+  },
+  {
+   "full_name": "Vedant1231/Multi-Document-RAG-System",
+   "url": "https://github.com/Vedant1231/Multi-Document-RAG-System",
+   "description": "AI-powered document Q&A system using RAG, LangChain, ChromaDB, Hugging Face embeddings and Groq.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "chromadb",
+    "generative-ai",
+    "groq",
+    "huggingface",
+    "langchain",
+    "llm",
+    "python",
+    "rag"
+   ],
+   "created_at": "2026-09-22T07:26:00Z",
+   "category": "RAG",
+   "summary": "Document Q&A system using RAG, ChromaDB, embeddings, and Groq.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Reuse for quick document-Q&A prototypes over university course packs, clinic SOPs, rental regulations, or SME policy documents before hardening for production."
+  },
+  {
+   "full_name": "Besprent-feline80/reshot",
+   "url": "https://github.com/Besprent-feline80/reshot",
+   "description": "Turn any reference video into depth, skeleton, or line maps so Seedance and MiniMax H3 can replicate its choreography and camera moves with your own characters.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "ai-video",
+    "comfyui",
+    "coreml",
+    "depth-anything",
+    "documentation",
+    "dwpose",
+    "generative-ai",
+    "gpl3"
+   ],
+   "created_at": "2026-09-22T01:46:49Z",
+   "category": "Vision",
+   "summary": "Converts reference videos into depth, skeleton, or line maps for video replication.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "anforwork2901/DeepInsight-Agent",
+   "url": "https://github.com/anforwork2901/DeepInsight-Agent",
+   "description": "Autonomous deep research agent with LangGraph, Tavily, MySQL, Streamlit, HITL approval, and multilingual report generation.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "deep-research",
+    "generative-ai",
+    "human-in-the-loop",
+    "langchain",
+    "langgraph",
+    "llm",
+    "multi-agent"
+   ],
+   "created_at": "2026-09-22T21:25:54Z",
+   "category": "Agents",
+   "summary": "Autonomous deep research agent with human approval and multilingual reporting.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt as a bilingual research/report agent for GCC client consulting: regulatory scans, clinic market research, real-estate policy summaries, with human approval before delivery."
+  },
+  {
+   "full_name": "Ubadream/img-visual-editing-skills",
+   "url": "https://github.com/Ubadream/img-visual-editing-skills",
+   "description": "Agent Skills for precise image edits: preserve accepted details, continue revisions, and integrate edited patches.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "codex",
+    "generative-ai",
+    "image-editing",
+    "source-available",
+    "visual-workflow"
+   ],
+   "created_at": "2026-09-22T07:08:13Z",
+   "category": "LLM Tooling",
+   "summary": "Agent skills for precise image editing and iterative revisions.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mazenDDr/crisis-triage",
+   "url": "https://github.com/mazenDDr/crisis-triage",
+   "description": "Sure → sent. Unsure → a person. A small model (Laya) triages disaster messages in 6 languages and knows when it isn't sure; measured against LLMs on real crisis tweets and SMS.",
+   "stars": 0,
+   "language": "HTML",
+   "topics": [
+    "calibration",
+    "crisis-informatics",
+    "disaster-response",
+    "fine-tuning",
+    "humanitarian",
+    "laya",
+    "llm-evaluation",
+    "multilingual-nlp"
+   ],
+   "created_at": "2026-09-22T18:42:14Z",
+   "category": "Models",
+   "summary": "Multilingual crisis-message triage model that decides when to defer uncertain cases to a human.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize for Oman emergency-response social listening: triage Arabic/English/Urdu cyclone, flood, and incident messages, escalating uncertain cases to municipalities, utilities, or Civil Defence teams."
+  },
+  {
+   "full_name": "thisbejim/trainrights",
+   "url": "https://github.com/thisbejim/trainrights",
+   "description": "Offline CI gates for license and provenance evidence in AI datasets",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "ci",
+    "dataset",
+    "developer-tools",
+    "fine-tuning",
+    "licensing",
+    "llm",
+    "provenance"
+   ],
+   "created_at": "2026-09-22T18:14:19Z",
+   "category": "Data",
+   "summary": "CI tool checks license and provenance evidence for AI datasets.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Add dataset provenance checks to DeepTutor and client AI projects; package as a GCC AI governance audit service covering copyright, consent, and PDPL evidence."
+  },
+  {
+   "full_name": "omkarghugarkar007/system-one-model-finetuning",
+   "url": "https://github.com/omkarghugarkar007/system-one-model-finetuning",
+   "description": "Fine-tune small models that return calibrated probabilities instead of text. A measured recipe for System One models (Laya, Jev): text classification, routing and scoring with confidence you can act on. Trains on a laptop, no GPU.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "calibration",
+    "classification",
+    "confidence-estimation",
+    "fine-tuning",
+    "huggingface",
+    "laya",
+    "llm-alternative",
+    "machine-learning"
+   ],
+   "created_at": "2026-09-23T05:55:11Z",
+   "category": "Fine-tuning",
+   "summary": "Recipe for fine-tuning calibrated small models that output probabilities instead of text.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Fine-tune small calibrated classifiers for CEFR placement, quiz difficulty routing, WhatsApp lead qualification, clinic triage, or autism screening flags without needing GPU infrastructure."
+  },
+  {
+   "full_name": "infinitylogesh/systemone",
+   "url": "https://github.com/infinitylogesh/systemone",
+   "description": "A Proxy that enables zero-shot system one typed-decisions endpoint for decoder only models served with vLLM or Sglang or Openrouter (Experimental)",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "decision-model",
+    "fine-tuning",
+    "jev",
+    "jev-api",
+    "multimodal",
+    "multimodal-llm",
+    "openrouter",
+    "openrouter-api"
+   ],
+   "created_at": "2026-09-22T04:51:33Z",
+   "category": "Infra",
+   "summary": "Proxy endpoint for typed decisions from decoder-only models served by vLLM, SGLang, or OpenRouter.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Prototype typed decision endpoints on existing vLLM/SGLang stacks for client workflows: classify intents, approve/escalate cases, and return structured confidence scores to CRMs."
+  },
+  {
+   "full_name": "977ADAM/mott",
+   "url": "https://github.com/977ADAM/mott",
+   "description": "Mott («язык» по-чеченски) — дообучение Qwen3-4B на чеченском языке: MLX-LM QLoRA на Apple Silicon",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "apple-silicon",
+    "chechen",
+    "fine-tuning",
+    "llm",
+    "lora",
+    "low-resource-languages",
+    "mlx",
+    "nohchiin-mott"
+   ],
+   "created_at": "2026-09-22T22:09:46Z",
+   "category": "Fine-tuning",
+   "summary": "QLoRA fine-tuning Qwen3-4B for Chechen on Apple Silicon.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "clawdreyhepburn/identity-jev",
+   "url": "https://github.com/clawdreyhepburn/identity-jev",
+   "description": "Type an identity concept in plain language; a fine-tuned Laya decision model pulls the matching standards out of a pile. Zero-shot 40% -> fine-tuned 87%, trained on a Mac mini.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "authorization",
+    "fine-tuning",
+    "identity",
+    "laya",
+    "oauth",
+    "oidc",
+    "verifiable-credentials"
+   ],
+   "created_at": "2026-09-23T01:41:31Z",
+   "category": "Models",
+   "summary": "Fine-tuned decision model maps identity concepts to matching standards.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Explore as a standards-mapping assistant for GCC digital identity, eKYC, health-record access, and verifiable-credential consulting where clients need OAuth/OIDC compliance guidance."
+  },
+  {
+   "full_name": "Sandeepsrinivasan-14/voxtune",
+   "url": "https://github.com/Sandeepsrinivasan-14/voxtune",
+   "description": "Web platform to fine-tune open-source STT (Whisper), TTS (SpeechT5), and text-LLM models on your own data — dataset analysis, strategy recommendation, LoRA/QLoRA/DoRA training, method comparison, and model registry. No simulated training.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "fastapi",
+    "fine-tuning",
+    "lora",
+    "machine-learning",
+    "peft",
+    "pytorch",
+    "react",
+    "speech-to-text"
+   ],
+   "created_at": "2026-09-22T15:19:11Z",
+   "category": "Fine-tuning",
+   "summary": "Web platform for fine-tuning speech and text models with dataset analysis and training workflows.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 9,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Use to fine-tune Arabic/English STT/TTS for language-learning pronunciation tools, clinic voice front desks, therapy notes, and parent-facing autism support with local accent datasets."
+  },
+  {
+   "full_name": "girithc/inference",
+   "url": "https://github.com/girithc/inference",
+   "description": "gpu kernels for ocr, vision and reasoning llms. hosted on modal",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "diffusion-models",
+    "gpu",
+    "llm-inference",
+    "mlops",
+    "modal",
+    "model-serving",
+    "ocr",
+    "pytorch"
+   ],
+   "created_at": "2026-09-22T19:46:58Z",
+   "category": "Infra",
+   "summary": "GPU kernels for OCR, vision, and reasoning LLM inference on Modal.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "devin-lai/Qwen-Image-2.1-Accel",
+   "url": "https://github.com/devin-lai/Qwen-Image-2.1-Accel",
+   "description": "Accelerate Qwen-Image-2.1 text-to-image generation and image editing on NVIDIA RTX 5090. BF16 Triton kernels, optional MXFP8 + SageAttention2, Python API, CLI, and reproducible benchmarks.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "cuda",
+    "diffusers",
+    "diffusion-models",
+    "fp8",
+    "image-editing",
+    "image-generation",
+    "inference-optimization",
+    "pytorch"
+   ],
+   "created_at": "2026-09-22T03:28:29Z",
+   "category": "Vision",
+   "summary": "Inference acceleration for Qwen-Image text-to-image generation and editing.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ravisankarg/folm-fanout-retrieval",
+   "url": "https://github.com/ravisankarg/folm-fanout-retrieval",
+   "description": "Honest 4 GB GPU study of QP-guided diffusion fan-out retrieval",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "beir",
+    "diffusion-models",
+    "information-retrieval",
+    "pytorch",
+    "reproducible-research"
+   ],
+   "created_at": "2026-09-22T08:02:17Z",
+   "category": "RAG",
+   "summary": "Study of diffusion fan-out retrieval for information retrieval tasks.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "fizajaveed/diffusion-watermark-robustness",
+   "url": "https://github.com/fizajaveed/diffusion-watermark-robustness",
+   "description": "Does a diffusion watermark survive re-painting? A reproduction of Tree-Ring watermarking tested against classic and semantic attacks.",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "ai-safety",
+    "diffusion-models",
+    "pytorch",
+    "stable-diffusion",
+    "watermarking"
+   ],
+   "created_at": "2026-09-22T04:17:01Z",
+   "category": "Vision",
+   "summary": "Reproduction testing diffusion watermark robustness against repainting attacks.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Deepmined-macadamianut74/ComfyUI-WorldSculpt",
+   "url": "https://github.com/Deepmined-macadamianut74/ComfyUI-WorldSculpt",
+   "description": "Sculpt multi-view scenes into per-object meshes with WorldSculpt nodes for ComfyUI's native Pixal3D and TRELLIS.2.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "cemu",
+    "comfy",
+    "comfyui-nodes",
+    "deepseek",
+    "deepseek-v3",
+    "diffusion-models",
+    "document-analysis",
+    "emulation"
+   ],
+   "created_at": "2026-09-22T19:50:14Z",
+   "category": "Vision",
+   "summary": "ComfyUI nodes for multi-view scene sculpting and mesh generation.",
+   "first_seen": "2026-09-23",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "hsandhu/mobilecode",
@@ -130161,7 +134178,7 @@
    "full_name": "agents-universe/agents-universe",
    "url": "https://github.com/agents-universe/agents-universe",
    "description": "让智能体像人一样学习和工作",
-   "stars": 271,
+   "stars": 274,
    "language": "Python",
    "topics": [
     "agent-framework",
