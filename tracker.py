@@ -46,6 +46,10 @@ DATA_FILE = "data.json"
 VENTURES_FILE = "ventures.json"          # Layer 2: opportunity matching config
 RELEVANCE_MODEL = os.environ.get("SCORE_MODEL") or "gpt-5.5"    # stronger model for business judgment
 RELEVANCE_MIN_TO_FLAG = 7                # score at which a repo becomes a 🎯
+SCORE_BATCH_SIZE = 20                    # smaller batches = faster, safer calls
+CATCHUP_DAYS = 7                         # re-score recent repos missed by earlier runs
+CATCHUP_MAX = 200                        # cap on catch-up repos per run
+API_TIMEOUT = 180                        # seconds per API call
 TELEGRAM_MAX_ITEMS = 10
 CATEGORIES = ["Agents", "LLM Tooling", "RAG", "Models", "Fine-tuning",
               "Infra", "Apps", "Data", "Vision", "Other"]
@@ -56,13 +60,13 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 # --------------------------------- helpers ---------------------------------
 
 
-def http_json(url, headers=None, payload=None, retries=3):
+def http_json(url, headers=None, payload=None, retries=3, timeout=60):
     """POST payload (if given) or GET url; return parsed JSON."""
     data = json.dumps(payload).encode() if payload is not None else None
     req = urllib.request.Request(url, data=data, headers=headers or {})
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read().decode())
         except urllib.error.HTTPError as e:
             body = e.read().decode(errors="replace")[:500]
@@ -70,11 +74,11 @@ def http_json(url, headers=None, payload=None, retries=3):
                 time.sleep(30 * (attempt + 1))  # rate limited — back off
                 continue
             raise RuntimeError(f"HTTP {e.code} for {url}: {body}") from e
-        except urllib.error.URLError:
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             if attempt < retries - 1:
                 time.sleep(10)
                 continue
-            raise
+            raise RuntimeError(f"Network/timeout error for {url}: {e}") from e
 
 
 def gh_search(query):
@@ -135,6 +139,8 @@ def explain_claude_error(err):
         return "OpenAI model name not found or not enabled for this key - set FILTER_MODEL / SCORE_MODEL repo variables."
     if "HTTP 429" in t:
         return "OpenAI rate limit reached - usually clears by the next run."
+    if "timed out" in t.lower() or "timeout" in t.lower():
+        return "OpenAI calls timed out - skipped repos are retried automatically next run."
     if "HTTP 5" in t:
         return "OpenAI API had a server error during the run - usually clears by the next run."
     return "OpenAI API error: " + t[:300]
@@ -149,7 +155,8 @@ def claude_call(model, prompt, max_tokens=4096):
                               "content-type": "application/json"},
                      payload={"model": model,
                               "max_completion_tokens": max(max_tokens, 16000),
-                              "messages": [{"role": "user", "content": prompt}]})
+                              "messages": [{"role": "user", "content": prompt}]},
+                     timeout=API_TIMEOUT)
     text = (resp.get("choices") or [{}])[0].get("message", {}).get("content") or ""
     return (text.strip().removeprefix("```json").removeprefix("```")
             .removesuffix("```").strip())
@@ -272,8 +279,8 @@ def claude_opportunity(entries):
     ventures_text = "\n".join(f"- {v['name']}: {v['description']}"
                               for v in cfg.get("ventures", []))
     todo = [e for e in entries if "relevance" not in e]
-    for i in range(0, len(todo), CLAUDE_BATCH_SIZE):
-        batch = todo[i:i + CLAUDE_BATCH_SIZE]
+    for i in range(0, len(todo), SCORE_BATCH_SIZE):
+        batch = todo[i:i + SCORE_BATCH_SIZE]
         slim = [{k: r.get(k) for k in
                  ("full_name", "description", "summary", "category",
                   "topics", "stars", "language")} for r in batch]
@@ -453,7 +460,17 @@ def main():
     print(f"  {len(risers)} newly-rising repos")
 
     print("Layer 2 — opportunity analysis against ventures.json")
-    claude_opportunity(newly_added + [r for r in risers if r not in newly_added])
+    todays = newly_added + [r for r in risers if r not in newly_added]
+    cutoff = (now - timedelta(days=CATCHUP_DAYS)).strftime("%Y-%m-%d")
+    catchup = [r for r in archive.values()
+               if "relevance" not in r and r.get("first_seen", "") >= cutoff
+               and r not in todays][:CATCHUP_MAX]
+    if catchup:
+        print(f"  catch-up: {len(catchup)} recent repos missed by earlier runs")
+    claude_opportunity(todays + catchup)
+    still = sum(1 for r in archive.values()
+                if "relevance" not in r and r.get("first_seen", "") >= cutoff)
+    print(f"  unscored recent repos remaining: {still}")
 
     with open(DATA_FILE, "w") as f:
         json.dump({"last_updated": now.isoformat(timespec="seconds"),
