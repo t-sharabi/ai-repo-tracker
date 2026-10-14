@@ -50,6 +50,9 @@ SCORE_BATCH_SIZE = 20                    # smaller batches = faster, safer calls
 CATCHUP_DAYS = 7                         # re-score recent repos missed by earlier runs
 CATCHUP_MAX = 200                        # cap on catch-up repos per run
 API_TIMEOUT = 180                        # seconds per API call
+# One-off maintenance (set via "Run workflow" inputs; 0/empty = normal daily run)
+RESCORE_DAYS = int(os.environ.get("RESCORE_DAYS") or 0)   # re-score repos first seen in last N days
+RESET_VENTURE = (os.environ.get("RESET_VENTURE") or "").strip()  # drop stale tags for this venture
 TELEGRAM_MAX_ITEMS = 10
 CATEGORIES = ["Agents", "LLM Tooling", "RAG", "Models", "Fine-tuning",
               "Infra", "Apps", "Data", "Vision", "Other"]
@@ -399,6 +402,56 @@ def send_email(risers, newly_added):
 # ----------------------------------- main -----------------------------------
 
 
+def maintenance(archive, now):
+    """One-off: clear a venture's stale tags and/or re-score a recent window.
+
+    Skips discovery and digests; only rewrites data.json.
+    """
+    print(f"MAINTENANCE MODE: reset_venture={RESET_VENTURE!r} rescore_days={RESCORE_DAYS}")
+    if not preflight():
+        sys.exit(1)
+    cutoff = ((now - timedelta(days=RESCORE_DAYS)).strftime("%Y-%m-%d")
+              if RESCORE_DAYS else "9999-99-99")
+    window = [r for r in archive.values() if r.get("first_seen", "") >= cutoff]
+    in_window = {r["full_name"] for r in window}
+
+    if RESET_VENTURE:
+        untagged = cleared = 0
+        for r in archive.values():
+            if r["full_name"] in in_window:
+                continue  # re-scored below anyway
+            vs = r.get("ventures") or []
+            if RESET_VENTURE in vs:
+                r["ventures"] = [v for v in vs if v != RESET_VENTURE]
+                untagged += 1
+                if not r["ventures"]:
+                    # its score/opportunity only reflected the old description
+                    for k in ("relevance", "ventures", "opportunity"):
+                        r.pop(k, None)
+                    cleared += 1
+        print(f"  reset: removed '{RESET_VENTURE}' from {untagged} older repos "
+              f"({cleared} had no other venture -> score cleared)")
+
+    if RESCORE_DAYS:
+        for r in window:
+            for k in ("relevance", "ventures", "opportunity"):
+                r.pop(k, None)
+        print(f"  re-scoring {len(window)} repos first seen since {cutoff}")
+        claude_opportunity(window)
+        left = sum(1 for r in window if "relevance" not in r)
+        print(f"  not scored this run: {left} (daily catch-up retries the last {CATCHUP_DAYS} days)")
+
+    with open(DATA_FILE, "w") as f:
+        json.dump({"last_updated": now.isoformat(timespec="seconds"),
+                   "repos": sorted(archive.values(),
+                                   key=lambda r: (r["first_seen"], r["stars"]),
+                                   reverse=True)},
+                  f, ensure_ascii=False, indent=1)
+    if CLAUDE_ERRORS:
+        print("Problems:\n  - " + "\n  - ".join(CLAUDE_ERRORS))
+    print(f"Archive saved: {len(archive)} repos.")
+
+
 def main():
     now = datetime.now(timezone.utc)
     yesterday = (now - timedelta(days=1)).strftime("%Y-%m-%d")
@@ -410,6 +463,10 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError, KeyError):
         archive = {}
     print(f"Archive: {len(archive)} repos.")
+
+    if RESCORE_DAYS or RESET_VENTURE:
+        maintenance(archive, now)
+        return
 
     if not preflight():
         # Claude is unusable: alert immediately with the exact reason, then fail.

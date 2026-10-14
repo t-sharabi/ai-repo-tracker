@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "0 3 * * *"   # 03:00 UTC = 07:00 Oman time (GST, UTC+4)
   workflow_dispatch:       # allows manual runs from the Actions tab
+    inputs:
+      rescore_days:
+        description: "One-off: re-score repos first seen in the last N days (0 = normal run)"
+        default: "0"
+      reset_venture:
+        description: "One-off: venture name whose old tags should be cleared"
+        default: ""
 
 permissions:
   contents: write
@@ -28,6 +35,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FILTER_MODEL: ${{ vars.FILTER_MODEL }}
           SCORE_MODEL: ${{ vars.SCORE_MODEL }}
+          RESCORE_DAYS: ${{ inputs.rescore_days }}
+          RESET_VENTURE: ${{ inputs.reset_venture }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
