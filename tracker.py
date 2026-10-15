@@ -170,7 +170,7 @@ def add_focus(archive, now, cap):
     """Discover, filter and archive established focus repos; return entries."""
     found = collect_focus(archive, cap)
     print(f"  {len(found)} unseen established candidates -> AI filter")
-    verdicts = claude_classify(found, lenient=True) if found else {}
+    verdicts = claude_classify(found, keep_all=True) if found else {}
     added = []
     for r in found:
         v = verdicts.get(r["full_name"])
@@ -259,8 +259,12 @@ Repos:
 {repos}"""
 
 
-def claude_classify(repos, lenient=False):
-    """Return {full_name: {category, summary}} for repos Claude keeps."""
+def claude_classify(repos, lenient=False, keep_all=False):
+    """Return {full_name: {category, summary}} for repos Claude keeps.
+
+    keep_all: never drop a repo (used for focus searches, which are already
+    vetted by star thresholds); the call is then only for category/summary.
+    """
     kept = {}
     leniency = ("\nThese repos already show community traction, so lean"
                 " towards keep=true unless clearly spam." if lenient else "")
@@ -281,13 +285,17 @@ def claude_classify(repos, lenient=False):
             continue
         try:
             for row in json.loads(text):
-                if row.get("keep"):
+                if row.get("keep") or keep_all:
                     kept[row["full_name"]] = {
                         "category": row.get("category", "Other"),
                         "summary": row.get("summary", "")[:200],
                     }
         except (json.JSONDecodeError, TypeError, KeyError) as e:
             print(f"  ! could not parse Claude batch {i}: {e}", file=sys.stderr)
+    if keep_all:  # anything the model skipped or failed on still gets in
+        for r in repos:
+            kept.setdefault(r["full_name"], {
+                "category": "Other", "summary": (r.get("description") or "")[:200]})
     return kept
 
 
