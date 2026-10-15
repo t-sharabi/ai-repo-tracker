@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-15T13:03:14+00:00",
+ "last_updated": "2026-10-15T13:40:49+00:00",
  "repos": [
   {
    "full_name": "Graphify-Labs/graphify",
@@ -28,6 +28,34 @@
     "Al-Busalah"
    ],
    "opportunity": "Use selectively for converting technical documents, schemas and PDFs into explainable graphs; less suited to social-simulation data but useful for system and policy knowledge mapping."
+  },
+  {
+   "full_name": "666ghj/MiroFish",
+   "url": "https://github.com/666ghj/MiroFish",
+   "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+   "stars": 79386,
+   "language": "Python",
+   "topics": [
+    "agent-memory",
+    "financial-forecasting",
+    "future-prediction",
+    "knowledge-graph",
+    "llms",
+    "multi-agent-simulation",
+    "public-opinion-analysis",
+    "python3"
+   ],
+   "created_at": "2025-11-26T04:23:02Z",
+   "category": "Agents",
+   "summary": "Swarm intelligence engine for prediction and multi-agent simulation with memory and knowledge graph support.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 10,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as Al-Busalah’s core swarm engine: wrap with Arabic/English Nuxt dashboards, document-to-knowledge-graph ingestion, scenario comparison, prediction reports, and live confidence calibration."
   },
   {
    "full_name": "ruvnet/ruflo",
@@ -302,6 +330,35 @@
    "opportunity": "Turn into an Arabic/English real-time OSINT dashboard for Oman/GCC risk monitoring, feeding Al-Busalah alerts, scenario seeds, and stakeholder intelligence briefings."
   },
   {
+   "full_name": "adongwanai/AgentGuide",
+   "url": "https://github.com/adongwanai/AgentGuide",
+   "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
+   "stars": 10900,
+   "language": "MDX",
+   "topics": [
+    "agenticrag",
+    "ai-agent",
+    "crewai",
+    "graphrag",
+    "grpo",
+    "interview",
+    "job-hunting",
+    "langchain"
+   ],
+   "created_at": "2025-11-03T10:46:38Z",
+   "category": "Agents",
+   "summary": "Educational guide and interview material for AI agent development, not a software project.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Mine LangGraph, Agentic RAG, and data-synthesis patterns for DeepTutor tutor workflows and Al-Busalah document-to-agent simulation pipelines."
+  },
+  {
    "full_name": "autogluon/autogluon",
    "url": "https://github.com/autogluon/autogluon",
    "description": "Fast and Accurate ML in 3 Lines of Code",
@@ -418,6 +475,58 @@
     "SMART Mobility"
    ],
    "opportunity": "Use for production-friendly forecasting and anomaly detection in Al-Busalah confidence dashboards, Open City congestion prediction, and SMART Mobility battery/fleet demand planning."
+  },
+  {
+   "full_name": "NirantK/awesome-project-ideas",
+   "url": "https://github.com/NirantK/awesome-project-ideas",
+   "description": "Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas",
+   "stars": 9342,
+   "language": "",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "classification",
+    "dataset",
+    "deep-learning",
+    "forecasting",
+    "image-classification",
+    "machine-learning"
+   ],
+   "created_at": "2017-08-19T09:37:58Z",
+   "category": "Other",
+   "summary": "Curated list of machine learning and NLP project ideas.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "digoal/blog",
+   "url": "https://github.com/digoal/blog",
+   "description": "AI,Opensource,Database,Business,Finance,Minds. git clone --depth 1 https://github.com/digoal/blog",
+   "stars": 8595,
+   "language": "HTML",
+   "topics": [
+    "database",
+    "enterprisedb",
+    "gpdb",
+    "greenplum",
+    "hawq",
+    "mongodb",
+    "mysql",
+    "oracle"
+   ],
+   "created_at": "2015-08-02T14:32:09Z",
+   "category": "Other",
+   "summary": "Personal blog with AI, database, finance, and business articles.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "deeplethe/utopia",
@@ -683,6 +792,32 @@
    "opportunity": "Fast classical forecasting baselines for Al-Busalah indicators, traffic counts, and battery-swap demand; useful for cheap backtesting and explainable dashboards."
   },
   {
+   "full_name": "alvinreal/awesome-opensource-ai",
+   "url": "https://github.com/alvinreal/awesome-opensource-ai",
+   "description": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated.",
+   "stars": 4890,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai",
+    "artificial-intelligence",
+    "awesome",
+    "awesome-list",
+    "generative-ai",
+    "llm",
+    "machine-learning"
+   ],
+   "created_at": "2026-03-24T15:58:22Z",
+   "category": "Other",
+   "summary": "Curated list of open-source AI projects, models, tools, and infrastructure.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "memgraph/memgraph",
    "url": "https://github.com/memgraph/memgraph",
    "description": "High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.",
@@ -915,6 +1050,36 @@
    "opportunity": "Use connectors to ingest Microsoft 365, Drive, Jira and GitHub into Al-Busalah; also localize as Arabic enterprise knowledge-agent infrastructure for Omani SMEs."
   },
   {
+   "full_name": "ddz16/TSFpaper",
+   "url": "https://github.com/ddz16/TSFpaper",
+   "description": "This repository contains a reading list of papers on Time Series Forecasting/Prediction (TSF) and Spatio-Temporal Forecasting/Prediction (STF). These papers are mainly categorized according to the type of model.",
+   "stars": 3200,
+   "language": "",
+   "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "paper-lists",
+    "rnn",
+    "spatial-temporal-forecasting",
+    "spatio-temporal",
+    "spatio-temporal-data",
+    "spatio-temporal-prediction"
+   ],
+   "created_at": "2022-06-29T09:44:56Z",
+   "category": "Other",
+   "summary": "Reading list of time series forecasting and spatio-temporal forecasting papers.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use the spatio-temporal forecasting references to select models for Al-Busalah prediction timelines, Open City congestion forecasts, and SMART Mobility battery-swap demand planning."
+  },
+  {
    "full_name": "tslearn-team/tslearn",
    "url": "https://github.com/tslearn-team/tslearn",
    "description": "The machine learning toolkit for time series analysis in Python",
@@ -943,6 +1108,36 @@
     "SMART Mobility"
    ],
    "opportunity": "Use for clustering and similarity search over historical forecasts, traffic patterns, and fleet telemetry to support anomaly review and scenario library matching."
+  },
+  {
+   "full_name": "qingsongedu/time-series-transformers-review",
+   "url": "https://github.com/qingsongedu/time-series-transformers-review",
+   "description": "A professionally curated list of awesome resources (paper, code, data, etc.) on transformers in time series.",
+   "stars": 3020,
+   "language": "",
+   "topics": [
+    "anomalydetection",
+    "awesome",
+    "classification",
+    "deep-learning",
+    "forecasting",
+    "machine-learning",
+    "review",
+    "survey"
+   ],
+   "created_at": "2022-03-01T01:36:29Z",
+   "category": "Other",
+   "summary": "Curated resources on transformers for time series.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Shortlist transformer forecasting implementations for TimesFM-style Al-Busalah modules, traffic-flow prediction, and swap-station demand forecasting."
   },
   {
    "full_name": "pingcap/autoflow",
@@ -1002,6 +1197,36 @@
    "opportunity": "Use for ontology-grounded agent governance, business-rule enforcement, decision evidence, and audit trails inside Al-Busalah’s government-facing simulation workflows."
   },
   {
+   "full_name": "Alro10/deep-learning-time-series",
+   "url": "https://github.com/Alro10/deep-learning-time-series",
+   "description": "List of papers, code and experiments using deep learning for time series forecasting",
+   "stars": 2785,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "demand-forecasting",
+    "forecasting-competitions",
+    "forecasting-models",
+    "lstm",
+    "lstm-neural-networks",
+    "prediction"
+   ],
+   "created_at": "2019-08-22T13:39:58Z",
+   "category": "Other",
+   "summary": "Notebook collection of time series forecasting papers, code, and experiments.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Adapt notebooks into baseline forecasting services for scenario trends, traffic volumes, delivery demand, and battery-swap utilization before investing in larger foundation models."
+  },
+  {
    "full_name": "KimMeen/Time-LLM",
    "url": "https://github.com/KimMeen/Time-LLM",
    "description": "[ICLR 2024] Official implementation of \" 🦙 Time-LLM: Time Series Forecasting by Reprogramming Large Language Models\"",
@@ -1028,6 +1253,34 @@
     "Al-Busalah"
    ],
    "opportunity": "Evaluate as a research prototype for Al-Busalah’s TimesFM-style forecasting layer, especially if LLM-based explanations of time-series forecasts are desired."
+  },
+  {
+   "full_name": "DEEP-PolyU/Awesome-GraphRAG",
+   "url": "https://github.com/DEEP-PolyU/Awesome-GraphRAG",
+   "description": "Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation. ",
+   "stars": 2674,
+   "language": "",
+   "topics": [
+    "graphrag",
+    "graphrag-paper",
+    "graphrag-survey",
+    "knowledge-graph",
+    "large-language-models",
+    "rag",
+    "retrieval-augmented-generation"
+   ],
+   "created_at": "2024-10-21T08:29:58Z",
+   "category": "RAG",
+   "summary": "Curated list of GraphRAG surveys, benchmarks, and open-source resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use to choose GraphRAG components for Al-Busalah reality-seed PDFs to knowledge graphs, and for DeepTutor curriculum retrieval over CEFR-aligned bilingual content."
   },
   {
    "full_name": "nikmcfly/MiroFish-Offline",
@@ -1113,6 +1366,34 @@
     "Open City"
    ],
    "opportunity": "Use as a lightweight forecasting baseline to benchmark whether heavier transformer models actually improve Al-Busalah and traffic predictions."
+  },
+  {
+   "full_name": "curiousily/Getting-Things-Done-with-Pytorch",
+   "url": "https://github.com/curiousily/Getting-Things-Done-with-Pytorch",
+   "description": "Jupyter Notebook tutorials on solving real-world problems with Machine Learning & Deep Learning using PyTorch. Topics: Face detection with Detectron 2, Time Series anomaly detection with LSTM Autoencoders, Object Detection with YOLO v5, Build your first Neural Network, Time Series forecasting for Coronavirus daily cases, Sentiment Analysis with BER",
+   "stars": 2510,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "anomaly-detection",
+    "bert",
+    "computer-vision",
+    "coronavirus",
+    "deep-learning",
+    "face-detection",
+    "face-recognition",
+    "lstm"
+   ],
+   "created_at": "2020-01-31T08:02:53Z",
+   "category": "Other",
+   "summary": "PyTorch tutorial notebooks for common machine learning tasks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Reuse YOLO/object-detection and time-series anomaly tutorials to prototype vehicle counting, congestion alerts, and camera analytics for Omani municipalities."
   },
   {
    "full_name": "heshengtao/comfyui_LLM_party",
@@ -1295,6 +1576,26 @@
    "opportunity": "Benchmark iTransformer for long-horizon forecasts in Al-Busalah scenario metrics and Open City congestion trends; useful mainly as research-to-production candidate."
   },
   {
+   "full_name": "VILA-Lab/Dive-into-Claude-Code",
+   "url": "https://github.com/VILA-Lab/Dive-into-Claude-Code",
+   "description": "A Systematic Analysis and Discussion of Claude Code for Designing Today's and Future AI Agent Systems",
+   "stars": 2169,
+   "language": "",
+   "topics": [
+    "claude",
+    "claude-code"
+   ],
+   "created_at": "2026-04-11T09:05:43Z",
+   "category": "Other",
+   "summary": "Analysis and discussion of Claude Code for agent system design.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "satellitecomponent/Neurite",
    "url": "https://github.com/satellitecomponent/Neurite",
    "description": "Fractal Graph-of-Thought. Rhizomatic Mind-Mapping for Ai-Agents, Web-Links, Notes, and Code.",
@@ -1382,6 +1683,35 @@
     "Al-Busalah"
    ],
    "opportunity": "Handle messy Omani real-world time series: missing traffic feeds, irregular battery telemetry, incomplete therapy progress records, and partial scenario indicators."
+  },
+  {
+   "full_name": "jim-schwoebel/awesome_ai_agents",
+   "url": "https://github.com/jim-schwoebel/awesome_ai_agents",
+   "description": "🤖 A comprehensive list of 1,500+ resources and tools related to AI agents.",
+   "stars": 2010,
+   "language": "",
+   "topics": [
+    "agent-based-modeling",
+    "agentic",
+    "agentic-ai",
+    "agentic-workflow",
+    "agents",
+    "ai",
+    "ai-agent",
+    "ai-agent-framework"
+   ],
+   "created_at": "2025-01-03T22:37:37Z",
+   "category": "Agents",
+   "summary": "Curated list of AI agent resources and tools.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Scan for agent-based modeling, memory, and workflow frameworks to extend Al-Busalah simulations and build DeepTutor tutoring-agent orchestration without starting from scratch."
   },
   {
    "full_name": "kwuking/TimeMixer",
@@ -1547,6 +1877,36 @@
    "opportunity": "Add as a lightweight classical forecasting baseline for demand, congestion, fleet battery usage, and Al-Busalah confidence calibration dashboards."
   },
   {
+   "full_name": "qingsongedu/awesome-AI-for-time-series-papers",
+   "url": "https://github.com/qingsongedu/awesome-AI-for-time-series-papers",
+   "description": "A professional list of Papers, Tutorials, and Surveys on AI for Time Series in top AI conferences and journals.",
+   "stars": 1633,
+   "language": "",
+   "topics": [
+    "anomalydetection",
+    "awesome",
+    "awesome-list",
+    "changepoint-detection",
+    "classification",
+    "data-mining",
+    "deep-learning",
+    "forecasting"
+   ],
+   "created_at": "2022-06-03T00:19:32Z",
+   "category": "Other",
+   "summary": "Curated list of papers, tutorials, and surveys on AI for time series.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use as a model-selection map for forecasting, anomaly detection, and changepoint detection in prediction dashboards, traffic intelligence, and EV fleet telemetry."
+  },
+  {
    "full_name": "SalesforceAIResearch/uni2ts",
    "url": "https://github.com/SalesforceAIResearch/uni2ts",
    "description": "Unified Training of Universal Time Series Forecasting Transformers",
@@ -1686,6 +2046,32 @@
     "Al-Busalah"
    ],
    "opportunity": "Use only as inspiration for visual scenario storytelling: generated maps, actors, and emergent narratives could inform Al-Busalah executive briefing demos."
+  },
+  {
+   "full_name": "scorpionhiccup/StockPricePrediction",
+   "url": "https://github.com/scorpionhiccup/StockPricePrediction",
+   "description": "Stock Price Prediction using Machine Learning Techniques",
+   "stars": 1539,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "analysis",
+    "concept-video",
+    "forecasting",
+    "lstm",
+    "lstm-neural-networks",
+    "machine-learning",
+    "rnn",
+    "stock-price-forecasting"
+   ],
+   "created_at": "2016-03-02T12:09:47Z",
+   "category": "Other",
+   "summary": "Notebook project predicting stock prices with machine learning.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "skforecast/skforecast",
@@ -2108,6 +2494,35 @@
    "opportunity": "Evaluate for complex reasoning over Al-Busalah knowledge graphs, especially linking documents, entities, timelines, assumptions, and scenario outputs."
   },
   {
+   "full_name": "qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM",
+   "url": "https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM",
+   "description": "A professional list on Large (Language) Models and Foundation Models (LLM, LM, FM) for Time Series, Spatiotemporal, and Event Data.",
+   "stars": 1237,
+   "language": "",
+   "topics": [
+    "anomalydetection",
+    "autoscaling",
+    "deeplearning",
+    "forecasting",
+    "foundation-models",
+    "large-language-models",
+    "large-models",
+    "machinelearning"
+   ],
+   "created_at": "2023-06-10T00:45:54Z",
+   "category": "Other",
+   "summary": "Curated list of LLM and foundation model resources for time series.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Track time-series foundation models for Al-Busalah prediction calibration and Open City spatio-temporal congestion forecasting across Omani road networks."
+  },
+  {
    "full_name": "XiaoLuoLYG/GOD",
    "url": "https://github.com/XiaoLuoLYG/GOD",
    "description": "Govern, Observe, Direct - a real-time control room for agent societies",
@@ -2134,6 +2549,31 @@
     "Al-Busalah"
    ],
    "opportunity": "Use as design reference for Al-Busalah’s operations/system dashboard: human-in-the-loop controls, live agent-society monitoring, intervention logs, and decision audit trails."
+  },
+  {
+   "full_name": "uhub/awesome-python",
+   "url": "https://github.com/uhub/awesome-python",
+   "description": "A curated list of awesome Python frameworks, libraries and software.",
+   "stars": 1197,
+   "language": "",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "curated-list",
+    "list",
+    "python",
+    "python3",
+    "resources"
+   ],
+   "created_at": "2015-08-12T07:40:39Z",
+   "category": "Other",
+   "summary": "Curated list of Python frameworks, libraries, and software.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "functime-org/functime",
@@ -2234,6 +2674,123 @@
    "opportunity": "Use as a local live-event ingestion and forecasting layer for Al-Busalah’s alert/watch system, scenario seeds, and MiroFish-style prediction reports without cloud dependencies."
   },
   {
+   "full_name": "TSCenter/awesome-time-series-papers",
+   "url": "https://github.com/TSCenter/awesome-time-series-papers",
+   "description": "An Awesome List of the latest time series papers and code from top AI venues.",
+   "stars": 1130,
+   "language": "",
+   "topics": [
+    "anomaly-detection",
+    "causal-discovery",
+    "causal-discovery-methods",
+    "early-detection",
+    "irregular",
+    "irregular-time-series",
+    "time-series",
+    "time-series-analysis"
+   ],
+   "created_at": "2024-07-29T02:41:07Z",
+   "category": "Other",
+   "summary": "Curated list of recent time series papers and code.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Review causal, irregular, and early-detection time-series methods for prediction deviation tracking, traffic incident detection, and battery telemetry anomalies."
+  },
+  {
+   "full_name": "fraunhoferportugal/tsfel",
+   "url": "https://github.com/fraunhoferportugal/tsfel",
+   "description": "Time Series Feature Extraction Library (TSFEL): 60+ statistical, temporal, spectral and fractal features for time series classification, regression and signal processing in Python",
+   "stars": 1105,
+   "language": "Python",
+   "topics": [
+    "audio",
+    "biosignal-processing",
+    "ecg",
+    "eeg",
+    "emg",
+    "explainable-ai",
+    "feature-engineerig",
+    "feature-extractor"
+   ],
+   "created_at": "2019-01-09T16:41:30Z",
+   "category": "Data",
+   "summary": "Python library for extracting statistical, temporal, spectral, and fractal time series features.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "SMART Mobility",
+    "Open City",
+    "Autism Medical"
+   ],
+   "opportunity": "Deploy as a Python feature-extraction layer for battery IoT telemetry, traffic sensor streams, and possible wearable/behavioral signal analytics in autism progress tracking."
+  },
+  {
+   "full_name": "curiousily/Deep-Learning-For-Hackers",
+   "url": "https://github.com/curiousily/Deep-Learning-For-Hackers",
+   "description": "Machine Learning tutorials with TensorFlow 2 and Keras in Python (Jupyter notebooks included) - (LSTMs, Hyperameter tuning, Data preprocessing, Bias-variance tradeoff, Anomaly Detection, Autoencoders, Time Series Forecasting, Object Detection, Sentiment Analysis, Intent Recognition with BERT)",
+   "stars": 1078,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "anomaly-detection",
+    "artificial-intelligence",
+    "autoencoders",
+    "bert",
+    "deep-learning",
+    "image-augmentation",
+    "intent-recognition",
+    "jupyter-notebooks"
+   ],
+   "created_at": "2019-04-24T06:06:44Z",
+   "category": "Other",
+   "summary": "Tutorial notebooks on deep learning tasks in TensorFlow and Keras.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Open City",
+    "SMART Mobility",
+    "EnCoach"
+   ],
+   "opportunity": "Use tutorials for quick baselines: object detection for traffic cameras, anomaly detection for fleet telemetry, and BERT intent recognition for student support chat."
+  },
+  {
+   "full_name": "cuge1995/awesome-time-series",
+   "url": "https://github.com/cuge1995/awesome-time-series",
+   "description": "list of papers, code, and other resources",
+   "stars": 1061,
+   "language": "",
+   "topics": [
+    "series-forecasting",
+    "spatio-temporal",
+    "time-series",
+    "time-series-forecasting",
+    "time-series-prediction"
+   ],
+   "created_at": "2020-03-03T06:29:34Z",
+   "category": "Other",
+   "summary": "Curated list of time series papers, code, and resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use as a broad reference list for forecasting code and papers supporting Al-Busalah timelines, Open City traffic prediction, and SMART Mobility operations planning."
+  },
+  {
    "full_name": "metauto-ai/GPTSwarm",
    "url": "https://github.com/metauto-ai/GPTSwarm",
    "description": "🐝  The First Self-Improving agents with RL / Prompting Optimization",
@@ -2278,6 +2835,35 @@
    "relevance": 2,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "lixus7/Time-Series-Works-Conferences",
+   "url": "https://github.com/lixus7/Time-Series-Works-Conferences",
+   "description": "Time-Series Work Summary in CS Top Conferences (NIPS, ICML, ICLR, KDD, AAAI, WWW, IJCAI, CIKM, ICDM, ICDE, etc.)",
+   "stars": 1040,
+   "language": "",
+   "topics": [
+    "accident-detection",
+    "anomaly-detection",
+    "deep-learning",
+    "demand-forecasting",
+    "location",
+    "multivariate-timeseries",
+    "paper-list",
+    "probabilistic-models"
+   ],
+   "created_at": "2022-03-24T06:59:12Z",
+   "category": "Other",
+   "summary": "Summary of time series work from top conferences.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Use as a research shortlist for spatiotemporal forecasting, anomaly detection, and uncertainty methods to improve Al-Busalah prediction modules or Open City congestion forecasting."
   },
   {
    "full_name": "FalkorDB/GraphRAG-SDK",
@@ -2470,6 +3056,27 @@
    "opportunity": "Prototype sophisticated agent-based social or demographic simulations for Al-Busalah; useful academically, though Julia stack may limit direct production integration."
   },
   {
+   "full_name": "eai2x/Time-Series-Analysis-Tutorial",
+   "url": "https://github.com/eai2x/Time-Series-Analysis-Tutorial",
+   "description": "time series analysis tutorial",
+   "stars": 905,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "python3",
+    "time-series-analysis",
+    "time-series-forecasting"
+   ],
+   "created_at": "2021-04-03T10:51:10Z",
+   "category": "Other",
+   "summary": "Time series analysis tutorial notebooks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "Jakedismo/codegraph-rust",
    "url": "https://github.com/Jakedismo/codegraph-rust",
    "description": "100% Rust implementation of code graphRAG with blazing fast AST+FastML parsing, surrealDB backend and advanced agentic code analysis tools through MCP for efficient code agent context management",
@@ -2554,6 +3161,61 @@
    "opportunity": "Adopt as a practical Python forecasting toolkit for congestion trends, battery-swap demand, scenario indicators, and prediction backtesting."
   },
   {
+   "full_name": "superiorlu/AITreasureBox",
+   "url": "https://github.com/superiorlu/AITreasureBox",
+   "description": "🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎",
+   "stars": 873,
+   "language": "Ruby",
+   "topics": [
+    "agentic",
+    "agi",
+    "ai",
+    "ai-gents",
+    "ai-prompts",
+    "ai-tools",
+    "alpaca",
+    "awesome-list"
+   ],
+   "created_at": "2023-03-16T14:55:55Z",
+   "category": "Other",
+   "summary": "Automatically collected list of AI repos, tools, websites, papers, and tutorials.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "KimMeen/Awesome-GNN4TS",
+   "url": "https://github.com/KimMeen/Awesome-GNN4TS",
+   "description": "[TPAMI 2024] Awesome Resources of GNNs for Time Series Analysis (GNN4TS)",
+   "stars": 867,
+   "language": "",
+   "topics": [
+    "awesome",
+    "dynamic-graphs",
+    "graph-neural-networks",
+    "graph-structure-learning",
+    "spatial-temporal-data",
+    "spatial-temporal-forecasting",
+    "survey",
+    "temporal-data"
+   ],
+   "created_at": "2023-06-19T09:30:12Z",
+   "category": "Other",
+   "summary": "Curated resources on graph neural networks for time series analysis.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Open City",
+    "Al-Busalah"
+   ],
+   "opportunity": "Mine GNN-for-time-series methods for road-network traffic prediction in Open City and stakeholder/network evolution forecasting inside Al-Busalah simulations."
+  },
+  {
    "full_name": "shibing624/ChatPDF",
    "url": "https://github.com/shibing624/ChatPDF",
    "description": "RAG for Local LLM, chat with PDF/doc/txt files, ChatPDF. 纯原生实现RAG功能，基于本地LLM、embedding模型、reranker模型实现，支持GraphRAG，无须安装任何第三方agent库。",
@@ -2610,6 +3272,23 @@
     "SMART Mobility"
    ],
    "opportunity": "Test as a time-series foundation model for anomaly detection, imputation, and forecasting across Al-Busalah indicators, city traffic, and EV fleet telemetry."
+  },
+  {
+   "full_name": "viktorbezdek/awesome-github-projects",
+   "url": "https://github.com/viktorbezdek/awesome-github-projects",
+   "description": "Curated list of GitHub projects I starred over the years",
+   "stars": 834,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2024-03-19T08:16:34Z",
+   "category": "Other",
+   "summary": "Curated list of starred GitHub projects.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "AIScientists-Dev/WorldSeed",
@@ -2695,6 +3374,36 @@
    "opportunity": "Apply for anomaly detection and monitoring: prediction deviation tracking in Al-Busalah, unusual traffic patterns in Open City, and fleet/battery telemetry alerts."
   },
   {
+   "full_name": "DaoSword/Time-Series-Forecasting-and-Deep-Learning",
+   "url": "https://github.com/DaoSword/Time-Series-Forecasting-and-Deep-Learning",
+   "description": "Resources about time series forecasting and deep learning.",
+   "stars": 807,
+   "language": "Python",
+   "topics": [
+    "data-science",
+    "deep-learning",
+    "forecasting",
+    "machine-learning",
+    "series-data",
+    "series-forecasting",
+    "time-series",
+    "time-series-forecasting"
+   ],
+   "created_at": "2022-07-25T05:32:22Z",
+   "category": "Other",
+   "summary": "Collection of time series forecasting and deep learning resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use to shortlist open-source forecasting models for Al-Busalah scenario timelines, Open City traffic volumes, and SMART Mobility battery-swap demand planning."
+  },
+  {
    "full_name": "Nixtla/hierarchicalforecast",
    "url": "https://github.com/Nixtla/hierarchicalforecast",
    "description": "Probabilistic Hierarchical forecasting 👑 with statistical and econometric methods.",
@@ -2723,6 +3432,32 @@
     "SMART Mobility"
    ],
    "opportunity": "Use for coherent forecasts across hierarchy levels: governorate-city-road traffic, national-to-sector scenarios, and fleet/station-level battery demand."
+  },
+  {
+   "full_name": "kennethleungty/Failed-ML",
+   "url": "https://github.com/kennethleungty/Failed-ML",
+   "description": "Compilation of high-profile real-world examples of failed machine learning projects",
+   "stars": 751,
+   "language": "",
+   "topics": [
+    "ai",
+    "artificial-intelligence",
+    "classification",
+    "computer-vision",
+    "data-engineering",
+    "data-quality",
+    "data-science",
+    "deep-learning"
+   ],
+   "created_at": "2022-08-15T14:46:37Z",
+   "category": "Other",
+   "summary": "Compilation of failed real-world machine learning projects.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "lyon-industries/graphrag-workbench",
@@ -2860,6 +3595,36 @@
    "opportunity": "Evaluate for multivariate forecasting where variables interact, such as road congestion, battery-swap demand, or Al-Busalah economic/social indicators."
   },
   {
+   "full_name": "lmmentel/awesome-time-series",
+   "url": "https://github.com/lmmentel/awesome-time-series",
+   "description": "Resources for working with time series and sequence data",
+   "stars": 701,
+   "language": "",
+   "topics": [
+    "anomaly-detection",
+    "database",
+    "machine-learning",
+    "python",
+    "time-series",
+    "time-series-analysis",
+    "time-series-classification",
+    "time-series-data-mining"
+   ],
+   "created_at": "2021-10-26T21:48:18Z",
+   "category": "Other",
+   "summary": "Curated resources for working with time series and sequence data.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Reference for selecting time-series databases, anomaly detection, and forecasting libraries for Al-Busalah accuracy tracking, Open City incidents, or SMART Mobility telemetry."
+  },
+  {
    "full_name": "if-ai/ComfyUI-IF_AI_tools",
    "url": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
    "description": "ComfyUI-IF_AI_tools is a set of custom nodes for ComfyUI that allows you to generate prompts using a local Large Language Model (LLM) via Ollama. This tool enables you to enhance your image generation workflow by leveraging the power of language models.",
@@ -2888,6 +3653,31 @@
    "opportunity": "Add local Ollama-powered prompt nodes to EnCoach’s media pipeline for bilingual course illustrations and activity assets, reducing dependence on cloud prompt generation."
   },
   {
+   "full_name": "jiwidi/time-series-forecasting-with-python",
+   "url": "https://github.com/jiwidi/time-series-forecasting-with-python",
+   "description": "A use-case focused tutorial for time series forecasting with python",
+   "stars": 697,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "machine-learning",
+    "python",
+    "python-time-series",
+    "time-series",
+    "time-series-analysis",
+    "time-series-forecasting",
+    "time-series-prediction"
+   ],
+   "created_at": "2020-05-06T19:17:11Z",
+   "category": "Other",
+   "summary": "Tutorial for time series forecasting in Python.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "elastic/eland",
    "url": "https://github.com/elastic/eland",
    "description": "Python Client and Toolkit for DataFrames, Big Data, Machine Learning and ETL in Elasticsearch",
@@ -2912,6 +3702,35 @@
    "relevance": 4,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "Snailclimb/AIGuide",
+   "url": "https://github.com/Snailclimb/AIGuide",
+   "description": "AI 应用开发、AI 编程实战与面试指南，涵盖 LLM、Agent、RAG、MCP、Claude Code、Codex 等核心技术与工程实践。",
+   "stars": 684,
+   "language": "",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "context-engineering",
+    "cursor",
+    "golang",
+    "graphrag"
+   ],
+   "created_at": "2026-04-15T04:17:01Z",
+   "category": "Other",
+   "summary": "Guide to AI application development, coding practice, and interviews.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Extract engineering patterns for LLM agents, RAG, MCP, and GraphRAG to inform DeepTutor workflows and Al-Busalah document-to-knowledge-graph pipelines."
   },
   {
    "full_name": "cure-lab/SCINet",
@@ -2939,6 +3758,28 @@
     "Open City"
    ],
    "opportunity": "Use as a research baseline for long-horizon time-series forecasting in Al-Busalah scenarios or city traffic prediction experiments."
+  },
+  {
+   "full_name": "sjvasquez/web-traffic-forecasting",
+   "url": "https://github.com/sjvasquez/web-traffic-forecasting",
+   "description": "Kaggle | Web Traffic Forecasting 📈",
+   "stars": 668,
+   "language": "Python",
+   "topics": [
+    "convolutional-neural-networks",
+    "forecasting",
+    "tensorflow",
+    "time-series"
+   ],
+   "created_at": "2017-09-12T16:56:09Z",
+   "category": "Other",
+   "summary": "Kaggle notebook for web traffic forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "AgentTorch/AgentTorch",
@@ -2994,6 +3835,34 @@
     "SMART Mobility"
    ],
    "opportunity": "Plug into Al-Busalah’s quantitative forecasting layer; also test traffic-flow and fleet telemetry anomaly detection from one Python model family."
+  },
+  {
+   "full_name": "pyaf/load_forecasting",
+   "url": "https://github.com/pyaf/load_forecasting",
+   "description": "Forecasting electric power load of Delhi using ARIMA, RNN, LSTM, and GRU models",
+   "stars": 648,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "arima",
+    "electric-load-forecasting",
+    "gru",
+    "lstm",
+    "machine-learning",
+    "rnn",
+    "ses",
+    "sma"
+   ],
+   "created_at": "2018-01-19T06:26:42Z",
+   "category": "Other",
+   "summary": "Notebook forecasting electric load with classic and neural models.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "SMART Mobility"
+   ],
+   "opportunity": "Adapt the load-forecasting notebook to predict battery-swap station demand and charging load for SMART Mobility deployment planning in Omani delivery corridors."
   },
   {
    "full_name": "business-science/timetk",
@@ -3336,6 +4205,33 @@
    "opportunity": "Use hierarchical GraphRAG to organize long policy reports or course materials into queryable knowledge layers for Al-Busalah briefings and EnCoach content retrieval."
   },
   {
+   "full_name": "cure-lab/Awesome-time-series",
+   "url": "https://github.com/cure-lab/Awesome-time-series",
+   "description": "A comprehensive survey on the time series domains",
+   "stars": 550,
+   "language": "",
+   "topics": [
+    "anomaly-detection",
+    "time-series",
+    "time-series-analysis",
+    "time-series-classification",
+    "time-series-forecasting",
+    "time-series-prediction"
+   ],
+   "created_at": "2022-03-18T11:45:25Z",
+   "category": "Other",
+   "summary": "Survey-style list of time series domain resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Use the survey list to benchmark modern forecasting, classification, and anomaly-detection approaches for Al-Busalah prediction reports and Open City traffic intelligence."
+  },
+  {
    "full_name": "ZJU-LLMs/Agent-Kernel",
    "url": "https://github.com/ZJU-LLMs/Agent-Kernel",
    "description": "A MicroKernel Multi-Agents System Framework for Adaptive Social Simulation Powered by LLMs",
@@ -3555,6 +4451,28 @@
    "opportunity": "Use for quick automated forecasting baselines before adopting heavier foundation models, especially for swap demand, operations KPIs, or Al-Busalah indicator histories."
   },
   {
+   "full_name": "ucaiado/QLearning_Trading",
+   "url": "https://github.com/ucaiado/QLearning_Trading",
+   "description": "Learning to trade under the reinforcement learning framework",
+   "stars": 517,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agent-based-modeling",
+    "machine-learning",
+    "reinforcement-learning",
+    "trade"
+   ],
+   "created_at": "2016-08-10T06:02:23Z",
+   "category": "Other",
+   "summary": "Notebook on trading with reinforcement learning.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "Muvon/octocode",
    "url": "https://github.com/Muvon/octocode",
    "description": "Structural code intelligence for AI agents — semantic search, knowledge graphs, and a built-in MCP server in one Rust binary. Give Claude, Cursor, and any MCP client a deep understanding of your codebase.",
@@ -3689,6 +4607,32 @@
    "opportunity": "Test diffusion-based forecasting and imputation for sparse Omani traffic, fleet, or macro indicators where Al-Busalah/Open City need synthetic or completed time-series."
   },
   {
+   "full_name": "veeral-patel/awesome-risk-quantification",
+   "url": "https://github.com/veeral-patel/awesome-risk-quantification",
+   "description": "A collection of awesome projects, blog posts, books, and talks on quantifying risk",
+   "stars": 473,
+   "language": "",
+   "topics": [
+    "forecasting",
+    "risk",
+    "risk-management",
+    "risk-measurement",
+    "risk-quantification",
+    "security-risk"
+   ],
+   "created_at": "2020-03-31T05:43:43Z",
+   "category": "Other",
+   "summary": "Curated collection of risk quantification resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use risk-quantification methods to design Al-Busalah confidence calibration, deviation tracking, and scenario-risk dashboards for government decision briefings."
+  },
+  {
    "full_name": "RMA-MUN/RAGNotebook",
    "url": "https://github.com/RMA-MUN/RAGNotebook",
    "description": "基于LangChain、LangGraph、FastAPI和React的RAG项目，主分支为基于知识图谱的知识管理平台，base-rag分支为完整的向量RAG项目供学习使用",
@@ -3769,6 +4713,35 @@
     "SMART Mobility"
    ],
    "opportunity": "Use as a self-hosted Python AutoML forecasting baseline for prediction dashboards: traffic counts, fleet demand, battery inventory, and Al-Busalah scenario indicators."
+  },
+  {
+   "full_name": "awesome-rag/awesome-rag",
+   "url": "https://github.com/awesome-rag/awesome-rag",
+   "description": "Awesome-RAG: Collect typical RAG papers and systems.",
+   "stars": 460,
+   "language": "",
+   "topics": [
+    "agent",
+    "ai",
+    "awesome",
+    "awesome-list",
+    "graphrag",
+    "llm",
+    "mm",
+    "opensource"
+   ],
+   "created_at": "2024-12-11T11:52:22Z",
+   "category": "RAG",
+   "summary": "Curated list of RAG papers and systems.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Shortlist RAG and GraphRAG systems for Al-Busalah document ingestion to knowledge graphs, and for EnCoach retrieval over CEFR curricula and teacher materials."
   },
   {
    "full_name": "LHRLAB/HyperGraphRAG",
@@ -3898,6 +4871,34 @@
    "relevance": 3,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "je-suis-tm/graph-theory",
+   "url": "https://github.com/je-suis-tm/graph-theory",
+   "description": "Julia and Python complex system applications in ecology, epidemiology, sociology, economics & finance; network science models including Bianconi-Barabási, Barabási-Albert, Watts-Strogatz, Waxman Model & Erdős-Rényi; graph theory algorithms involving Gillespie, Bron Kerbosch, Ramsey, Bellman Ford, A*, Kruskal, Borůvka, Prim, Dijkstra, DSatur, Randomized Distributed, Vizing, Topological Sort, DFS, B",
+   "stars": 436,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agent-based-modeling",
+    "agent-based-simulation",
+    "barabasi-albert",
+    "bianconi-barabasi",
+    "compartmental-model",
+    "complex-network",
+    "complex-systems",
+    "dynamic-network"
+   ],
+   "created_at": "2018-05-15T18:29:18Z",
+   "category": "Other",
+   "summary": "Notebook-based complex systems and graph theory examples.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse graph and complex-network notebooks to prototype stakeholder networks, diffusion models, and scenario graphs for Al-Busalah simulation explainability."
   },
   {
    "full_name": "DemonDamon/AgenticX",
@@ -4285,6 +5286,32 @@
    "opportunity": "Feed GCC/Oman news into Al-Busalah’s reality seeds, alert/watch system, and prediction tracking; add Arabic keyword monitoring and compliance checks around scraping use."
   },
   {
+   "full_name": "NGYB/Stocks",
+   "url": "https://github.com/NGYB/Stocks",
+   "description": "Programs for stock prediction and evaluation",
+   "stars": 378,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "forecasting",
+    "forecasting-model",
+    "machine-learning",
+    "signal",
+    "signal-processing",
+    "stock-market",
+    "stock-price-prediction",
+    "stock-trading"
+   ],
+   "created_at": "2018-11-13T00:52:48Z",
+   "category": "Other",
+   "summary": "Notebook programs for stock prediction and evaluation.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "SaberaTalukder/TOTEM",
    "url": "https://github.com/SaberaTalukder/TOTEM",
    "description": "The official code 👩‍💻 for - TOTEM: TOkenized Time Series EMbeddings for General Time Series Analysis",
@@ -4553,6 +5580,32 @@
    "opportunity": "Use as a lightweight attention-RNN baseline for multivariate forecasts before adopting heavier models; useful for quick experiments on traffic, fleet demand, or national indicator time series."
   },
   {
+   "full_name": "advaitsave/Introduction-to-Time-Series-forecasting-Python",
+   "url": "https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python",
+   "description": "Introduction to time series preprocessing and forecasting in Python using AR, MA, ARMA, ARIMA, SARIMA and Prophet model with forecast evaluation.",
+   "stars": 334,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "arima",
+    "arma",
+    "dickey-fuller",
+    "forecast-evaluation",
+    "forecasting",
+    "preprocessing",
+    "prophet-model",
+    "python"
+   ],
+   "created_at": "2018-12-11T13:02:03Z",
+   "category": "Other",
+   "summary": "Introductory notebook on time series forecasting methods in Python.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "KevinFasusi/supplychainpy",
    "url": "https://github.com/KevinFasusi/supplychainpy",
    "description": "Supplychainpy is a Python library for supply chain analysis, modelling and simulation. The library assists a workflow that is reliant on Excel and VBA. ",
@@ -4580,6 +5633,59 @@
     "New venture"
    ],
    "opportunity": "Adapt inventory, demand, and Monte Carlo analysis for battery-swap stock planning, spare-parts forecasting, or a localized SME supply-chain analytics service for Omani distributors."
+  },
+  {
+   "full_name": "jinglescode/time-series-forecasting-pytorch",
+   "url": "https://github.com/jinglescode/time-series-forecasting-pytorch",
+   "description": "Acquiring data from Alpha Vantage and predicting stock prices with PyTorch's LSTM",
+   "stars": 331,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "deep-learning",
+    "lstm-model",
+    "machine-learning",
+    "neural-network",
+    "python",
+    "pytorch",
+    "time-series-forecasting"
+   ],
+   "created_at": "2021-04-29T09:57:29Z",
+   "category": "Other",
+   "summary": "Notebook predicting stock prices with PyTorch LSTM.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "aprbw/traffic_prediction",
+   "url": "https://github.com/aprbw/traffic_prediction",
+   "description": "Traffic prediction is the task of predicting future traffic measurements (e.g. volume, speed, etc.) in a road network (graph), using historical data (timeseries).",
+   "stars": 320,
+   "language": "TeX",
+   "topics": [
+    "attention",
+    "cnn",
+    "forecasting",
+    "gcn",
+    "lstm",
+    "mxnet",
+    "neural-network",
+    "pytorch"
+   ],
+   "created_at": "2020-09-06T21:46:57Z",
+   "category": "Models",
+   "summary": "Traffic prediction research code using graph neural networks and recurrent models for road network forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Use GNN/LSTM traffic forecasting as a prototype module for Omani city road-network congestion prediction from camera counts, sensors, or municipality traffic history."
   },
   {
    "full_name": "ServiceNow/TapeAgents",
@@ -4636,6 +5742,32 @@
     "SMART Mobility"
    ],
    "opportunity": "Use as a GPU forecasting baseline for seasonal demand patterns, battery-swap usage, or Al-Busalah quantitative indicators; mainly valuable for benchmarking against newer models."
+  },
+  {
+   "full_name": "TongjiFinLab/awesome-time-series-forecasting",
+   "url": "https://github.com/TongjiFinLab/awesome-time-series-forecasting",
+   "description": "Awesome time series forecasting papers and codes",
+   "stars": 316,
+   "language": "",
+   "topics": [
+    "awesome",
+    "quantitative-finance",
+    "time-series",
+    "time-series-forecasting"
+   ],
+   "created_at": "2024-08-31T01:20:33Z",
+   "category": "Other",
+   "summary": "Curated list of time series forecasting papers and code.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Reference library for selecting forecasting models for Al-Busalah prediction dashboards, traffic-flow forecasts, and delivery fleet/battery demand prediction."
   },
   {
    "full_name": "SCTY-Inc/mirofish-cli",
@@ -4962,6 +6094,35 @@
    "opportunity": "Use as an efficient multivariate forecasting candidate for production-constrained deployments: city traffic dashboards, battery-station demand, or Al-Busalah quantitative indicator forecasts."
   },
   {
+   "full_name": "FilippoMB/python-time-series-handbook",
+   "url": "https://github.com/FilippoMB/python-time-series-handbook",
+   "description": "Book and material for the course \"Time series analysis with Python\" (STA-2003)",
+   "stars": 286,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "arima",
+    "chaos-theory",
+    "course",
+    "exponential-smoothing",
+    "fourier-transform",
+    "kalman-filter",
+    "moving-average",
+    "multivariate-time-series"
+   ],
+   "created_at": "2024-04-11T18:25:57Z",
+   "category": "Other",
+   "summary": "Course materials and handbook for time series analysis with Python.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Use as internal training and baseline notebooks for ARIMA, Kalman, Fourier, and multivariate forecasting before integrating advanced models into dashboards."
+  },
+  {
    "full_name": "EpiModel/EpiModel",
    "url": "https://github.com/EpiModel/EpiModel",
    "description": "Mathematical Modeling of Infectious Disease Dynamics",
@@ -5174,6 +6335,32 @@
    "opportunity": "Use Mesa examples as starter templates for Al-Busalah scenario libraries; adapt segregation, epidemic, or network models to Omani demographic and policy simulations before custom MiroFish integration."
   },
   {
+   "full_name": "NeuZhou/awesome-ai-anatomy",
+   "url": "https://github.com/NeuZhou/awesome-ai-anatomy",
+   "description": "Source code teardowns of 15 AI coding agents. What is actually inside Claude Code, Dify, OpenHands, Cline, MemPalace, oh-my-codex, Goose, Codex CLI, and 7 more. Architecture diagrams, design patterns. Every claim fact-checked.",
+   "stars": 253,
+   "language": "D2",
+   "topics": [
+    "agent-framework",
+    "ai-agent",
+    "ai-security",
+    "architecture",
+    "awesome-list",
+    "claude-code",
+    "coding-agent",
+    "developer-tools"
+   ],
+   "created_at": "2026-04-04T13:02:24Z",
+   "category": "Other",
+   "summary": "Annotated teardown collection of AI coding agents and architecture diagrams.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "eai2x/TimeSeriesMoonlightBox",
    "url": "https://github.com/eai2x/TimeSeriesMoonlightBox",
    "description": "time series analysis models source code",
@@ -5197,6 +6384,65 @@
     "Open City"
    ],
    "opportunity": "Mine notebooks for baseline forecasting models to benchmark Al-Busalah time-series predictions or Open City traffic trends; reuse only as experimental reference, not production core."
+  },
+  {
+   "full_name": "ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python",
+   "url": "https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python",
+   "description": "Time Series Analysis and Forecasting in Python",
+   "stars": 242,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "arima-forecasting",
+    "arima-model",
+    "deep-learning-for-time-series",
+    "fbprophet",
+    "holt-winters-forecasting",
+    "lstm-neural-networks",
+    "machine-learning-algorithms",
+    "moving-average"
+   ],
+   "created_at": "2019-12-29T13:59:20Z",
+   "category": "Other",
+   "summary": "Notebook-based course material for time series analysis and forecasting in Python.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Adapt notebooks into baseline forecasting experiments for scenario metrics, road congestion, and battery-swap demand before investing in production-grade models."
+  },
+  {
+   "full_name": "HanXinzi-AI/awesome-NLP-resources",
+   "url": "https://github.com/HanXinzi-AI/awesome-NLP-resources",
+   "description": "a collection of NLP projects&tools. 自然语言处理方向项目和工具集合。",
+   "stars": 240,
+   "language": "",
+   "topics": [
+    "audio-processing",
+    "chatbot",
+    "knowledge-graph",
+    "language-understanding",
+    "machine-translation",
+    "natural-language-processing",
+    "nlp",
+    "question-answering"
+   ],
+   "created_at": "2021-04-27T09:10:26Z",
+   "category": "Other",
+   "summary": "Curated collection of NLP projects and tools.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Mine the curated NLP, QA, chatbot, audio, and knowledge-graph tools for components in Arabic/English tutoring, document ingestion, and GraphRAG pipelines."
   },
   {
    "full_name": "salesforce/CoST",
@@ -5310,6 +6556,26 @@
    "opportunity": "Plug into Al-Busalah’s reality-seed pipeline: parse PDFs/TXT, resolve entities, build domain ontologies and knowledge graphs, then feed GraphRAG summaries into prediction reports."
   },
   {
+   "full_name": "MatthewK84/Time-Series-Textbooks",
+   "url": "https://github.com/MatthewK84/Time-Series-Textbooks",
+   "description": "Time Series Textbooks- This repository aims to provide a host of resources that cover the gamut of time series analysis.",
+   "stars": 233,
+   "language": "Python",
+   "topics": [
+    "time-series-analysis",
+    "time-series-forecasting"
+   ],
+   "created_at": "2023-08-30T22:58:14Z",
+   "category": "Other",
+   "summary": "Repository of time series analysis textbook resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "shuyu-labs/GraphRag.Net",
    "url": "https://github.com/shuyu-labs/GraphRag.Net",
    "description": "参考GraphRag使用 Semantic Kernel 来实现的dotnet版本，可以使用NuGet开箱即用集成到项目中",
@@ -5358,6 +6624,55 @@
     "Al-Busalah"
    ],
    "opportunity": "Prototype Al-Busalah’s document-to-knowledge-graph plus agent-memory layer: retain scenario facts, stakeholder positions, and evidence trails across simulations for better briefing generation."
+  },
+  {
+   "full_name": "ForestsKing/Awesome-Multimodal-Time-Series",
+   "url": "https://github.com/ForestsKing/Awesome-Multimodal-Time-Series",
+   "description": "A curated list of paper, code, data, and other resources focus on multimodal time series analysis.",
+   "stars": 227,
+   "language": "",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "awesome-resources",
+    "multimodal-deep-learning",
+    "multimodal-time-series",
+    "multimodality",
+    "time-series",
+    "time-series-analysis"
+   ],
+   "created_at": "2024-11-12T13:07:20Z",
+   "category": "Other",
+   "summary": "Curated list of multimodal time series papers, code, and resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Open City",
+    "Autism Medical",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a scouting list for models combining video, sensor, and event timelines for traffic intelligence, behavioral tracking, and multimodal scenario prediction."
+  },
+  {
+   "full_name": "ByeongkiJeong/MiroFish-Ko",
+   "url": "https://github.com/ByeongkiJeong/MiroFish-Ko",
+   "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 간결하고 범용적인 집단 지능 엔진으로, 세상의 모든 것을 예측합니다. (MiroFish의 비공식 한국어 버전입니다)",
+   "stars": 226,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-03-11T10:38:09Z",
+   "category": "Agents",
+   "summary": "Python swarm intelligence engine for prediction tasks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 9,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Review this MiroFish derivative for implementation differences, localization patterns, and reusable Python modules for Al-Busalah’s Omani bilingual swarm-prediction platform."
   },
   {
    "full_name": "krABMaga/krABMaga",
@@ -5433,6 +6748,33 @@
     "Open City"
    ],
    "opportunity": "Benchmark as long-horizon forecaster for Al-Busalah indicators or Open City traffic series; useful if it outperforms simpler models on sparse Oman/GCC datasets."
+  },
+  {
+   "full_name": "abmgis/abmgis",
+   "url": "https://github.com/abmgis/abmgis",
+   "description": "Accompanying resources for the book 'Agent-Based Modelling and Geographical Information Systems: A Practical Primer'.",
+   "stars": 220,
+   "language": "HTML",
+   "topics": [
+    "agent-based-modeling",
+    "geographical-information-system",
+    "netlogo",
+    "raster-data",
+    "social-network",
+    "vector-data"
+   ],
+   "created_at": "2018-06-18T12:41:51Z",
+   "category": "Other",
+   "summary": "Accompanying resources for an agent-based modeling and GIS book.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Use the ABM plus GIS examples to prototype Omani demographic overlays, stakeholder movement, urban scenarios, and spatial simulations tied to maps."
   },
   {
    "full_name": "MathCancer/PhysiCell",
@@ -5597,6 +6939,29 @@
    "opportunity": "Use as a lightweight debate layer for Al-Busalah stakeholder briefings or EnCoach tutoring agents: multiple roles critique answers, produce consensus, and cache prompts to reduce API cost."
   },
   {
+   "full_name": "Airmomo/graphrag-practice-chinese",
+   "url": "https://github.com/Airmomo/graphrag-practice-chinese",
+   "description": "GraphRAG的应用实例，项目特点在于提供了替换OpenAI模型的方法，并通过修改原有提示和切分文档的方法，提高了GraphRAG处理中文内容的能力。",
+   "stars": 187,
+   "language": "Python",
+   "topics": [
+    "chinese",
+    "graphrag",
+    "rag"
+   ],
+   "created_at": "2024-09-10T14:20:06Z",
+   "category": "RAG",
+   "summary": "GraphRAG example adapted for Chinese content and alternative models.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt its non-English GraphRAG prompt and chunking strategies for Arabic government documents, replacing OpenAI where needed for sovereign local deployments."
+  },
+  {
    "full_name": "Graph-COM/SubgraphRAG",
    "url": "https://github.com/Graph-COM/SubgraphRAG",
    "description": "[ICLR 2025] Simple is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation",
@@ -5697,6 +7062,30 @@
     "Open City"
    ],
    "opportunity": "Adopt for Al-Busalah’s live accuracy tracking: benchmark forecasting models, compute comparable metrics, and feed confidence/deviation dashboards for predictions versus actual Oman outcomes."
+  },
+  {
+   "full_name": "ALucek/GraphRAG-Breakdown",
+   "url": "https://github.com/ALucek/GraphRAG-Breakdown",
+   "description": "A breakdown of knowledge graph RAG with diagrams and examples",
+   "stars": 181,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "graphrag",
+    "knowledge-graph",
+    "rag",
+    "retrieval-augmented-generation"
+   ],
+   "created_at": "2024-12-20T10:35:56Z",
+   "category": "Other",
+   "summary": "Notebook breakdown of knowledge graph RAG with examples.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use the diagrams and notebooks to design Al-Busalah’s document-to-knowledge-graph RAG pipeline before hardening it with Arabic extraction and audit trails."
   },
   {
    "full_name": "traas-stack/kapacity",
@@ -5801,6 +7190,32 @@
    "opportunity": "Use to rapidly prototype Al-Busalah query-focused summarization over uploaded reality seeds; integrate with existing LangChain pipelines before selecting a production GraphRAG architecture."
   },
   {
+   "full_name": "jinglescode/time-series-forecasting-tensorflowjs",
+   "url": "https://github.com/jinglescode/time-series-forecasting-tensorflowjs",
+   "description": "Pull stock prices from online API and perform predictions using Long Short Term Memory (LSTM) with TensorFlow.js framework",
+   "stars": 173,
+   "language": "HTML",
+   "topics": [
+    "deep-learning",
+    "javascript",
+    "lstm",
+    "machine-learning",
+    "neural-network",
+    "rnn",
+    "tensorflow",
+    "tensorflowjs"
+   ],
+   "created_at": "2020-04-28T16:37:43Z",
+   "category": "Other",
+   "summary": "Tutorial predicting stock prices with TensorFlow.js LSTM.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "mars-sim/mars-sim",
    "url": "https://github.com/mars-sim/mars-sim",
    "description": "Mars Simulation Project Official Codebase",
@@ -5825,6 +7240,35 @@
    "relevance": 1,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "sinanuozdemir/oreilly-retrieval-augmented-gen-ai",
+   "url": "https://github.com/sinanuozdemir/oreilly-retrieval-augmented-gen-ai",
+   "description": "See how to augment LLMs with real-time data for dynamic, context-aware apps - Rag + Agents + GraphRAG.",
+   "stars": 168,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agents",
+    "generative-ai",
+    "graphrag",
+    "langgraph",
+    "llms",
+    "open-source",
+    "rag",
+    "reranking"
+   ],
+   "created_at": "2024-01-11T16:21:57Z",
+   "category": "Other",
+   "summary": "Notebook materials for a generative AI book on RAG and agents.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Borrow RAG, GraphRAG, reranking, and agent patterns for Al-Busalah reality-seed ingestion and EnCoach course-aware tutoring assistants."
   },
   {
    "full_name": "machuangtao/LLM-KG4QA",
@@ -5874,6 +7318,32 @@
    "first_seen": "2026-10-15",
    "rising": true,
    "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "flo7up/relataly-public-python-tutorials",
+   "url": "https://github.com/flo7up/relataly-public-python-tutorials",
+   "description": "Popular collection of practical Python notebooks for machine learning, deep learning, time series, generative AI, and analytics.",
+   "stars": 162,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "churn-prediction",
+    "data-science",
+    "deep-learning",
+    "feature-selection",
+    "keras-tensorflow",
+    "machine-learning",
+    "neural-network",
+    "neural-networks"
+   ],
+   "created_at": "2020-04-28T17:53:01Z",
+   "category": "Other",
+   "summary": "Collection of Python tutorial notebooks for machine learning and analytics.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
    "ventures": [],
    "opportunity": ""
   },
@@ -5987,6 +7457,34 @@
    "opportunity": "Evaluate only if Al-Busalah needs formal agent-oriented modeling; Java/DSL stack mismatch makes it more useful for concepts than direct production integration."
   },
   {
+   "full_name": "tt-a1i/MiroFish-local",
+   "url": "https://github.com/tt-a1i/MiroFish-local",
+   "description": "MiroFish的免费本地运行版本 | Graphiti+Neo4j替代付费Zep | 简易便捷本地跑通",
+   "stars": 156,
+   "language": "Python",
+   "topics": [
+    "digital-twin",
+    "graphiti",
+    "llm",
+    "multi-agent",
+    "neo4j",
+    "prediction",
+    "simulation",
+    "social-simulation"
+   ],
+   "created_at": "2026-01-06T02:19:49Z",
+   "category": "Agents",
+   "summary": "Local version of MiroFish with Graphiti and Neo4j integration.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 10,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Strong candidate backend reference for self-hosted Al-Busalah: local MiroFish, Graphiti, Neo4j-style memory, multi-agent simulation, and prediction without paid Zep dependency."
+  },
+  {
    "full_name": "Zero-coder/FECAM",
    "url": "https://github.com/Zero-coder/FECAM",
    "description": "About Code release for \"FECAM: Frequency Enhanced Channel Attention Mechanism for Time Series Forecasting\" ⌚",
@@ -6058,6 +7556,32 @@
    "created_at": "2021-01-26T09:27:49Z",
    "category": "Models",
    "summary": "Evolutionary intelligence and swarm optimization research code.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+   "url": "https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+   "description": "A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia",
+   "stars": 152,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "ai-tools",
+    "automation",
+    "awesome",
+    "awesome-list",
+    "claude-code",
+    "curated-list",
+    "georgia"
+   ],
+   "created_at": "2026-04-02T12:12:15Z",
+   "category": "Other",
+   "summary": "Curated list of AI agent frameworks and automation resources.",
    "first_seen": "2026-10-15",
    "rising": false,
    "established": true,
@@ -6208,6 +7732,51 @@
    "opportunity": "Use for Open City transport planning simulations: model behavior, energy, and mobility impacts of congestion policies, EV delivery fleets, and road changes for Muscat municipalities."
   },
   {
+   "full_name": "N1nEmAn/openzep",
+   "url": "https://github.com/N1nEmAn/openzep",
+   "description": "",
+   "stars": 147,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-03-13T06:25:43Z",
+   "category": "Other",
+   "summary": "Empty repository with no description.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "station-10/awesome-marketing-machine-learning",
+   "url": "https://github.com/station-10/awesome-marketing-machine-learning",
+   "description": "A curated list of awesome machine learning libraries for marketing, including media mix models, multi touch attribution, causal inference and more",
+   "stars": 147,
+   "language": "",
+   "topics": [
+    "attribution",
+    "awesome-list",
+    "causal-inference",
+    "clv",
+    "machine-learning",
+    "marketing",
+    "media",
+    "mmm"
+   ],
+   "created_at": "2023-08-10T13:35:17Z",
+   "category": "Other",
+   "summary": "Curated list of marketing machine learning libraries and methods.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Seed an Arabic/English SME marketing-analytics service for Oman/GCC, packaging attribution, churn, CLV, and campaign ROI tools around Odoo or self-hosted dashboards."
+  },
+  {
    "full_name": "evoplex/evoplex",
    "url": "https://github.com/evoplex/evoplex",
    "description": "Evoplex is a fast, robust and extensible platform for developing agent-based models and multi-agent systems on networks. It's available for Windows, Linux and macOS.",
@@ -6234,6 +7803,33 @@
     "Al-Busalah"
    ],
    "opportunity": "Evaluate as a fast network ABM backend for Al-Busalah scenario libraries where agents interact over stakeholder or infrastructure networks; integration effort higher due C++."
+  },
+  {
+   "full_name": "Geo-Joy/Deep-Learning-for-Time-Series-Forecasting",
+   "url": "https://github.com/Geo-Joy/Deep-Learning-for-Time-Series-Forecasting",
+   "description": "This repository is designed to teach you, step-by-step, how to develop deep learning methods for time series forecasting with concrete and executable examples in Python.",
+   "stars": 145,
+   "language": "",
+   "topics": [
+    "deep-learning",
+    "deep-learning-time-series",
+    "deep-neural-networks",
+    "time-series-forecasting",
+    "time-series-prediction"
+   ],
+   "created_at": "2018-09-06T04:34:06Z",
+   "category": "Other",
+   "summary": "Step-by-step instructional repository for time series forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use executable Python examples to prototype deep-learning forecasts for scenario indicators, traffic volumes, delivery demand, and battery-swap station utilization."
   },
   {
    "full_name": "apache/hugegraph-ai",
@@ -6337,6 +7933,34 @@
    "opportunity": "Use as a normalization component when Al-Busalah indicators or traffic streams shift after events, holidays, or policy changes; benchmark against simpler models."
   },
   {
+   "full_name": "ChinmayShringi/MicroFish-En",
+   "url": "https://github.com/ChinmayShringi/MicroFish-En",
+   "description": "English translation of MiroFish (github.com/666ghj/MiroFish) - A concise and universal swarm intelligence engine for predicting everything.",
+   "stars": 132,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "flask",
+    "javascript",
+    "knowledge-graph",
+    "llm",
+    "multi-agent",
+    "oasis",
+    "prediction"
+   ],
+   "created_at": "2026-03-17T15:46:45Z",
+   "category": "Agents",
+   "summary": "English translation and Flask app for the MiroFish swarm intelligence engine.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 10,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as an English-readable MiroFish baseline to validate Al-Busalah’s sovereign wrapper, API behavior, Flask demo flows, and localized Arabic/English simulation UX."
+  },
+  {
    "full_name": "SteveTANTAN/PoG",
    "url": "https://github.com/SteveTANTAN/PoG",
    "description": "[WWW 2025] Paths-over-Graph: Knowledge Graph Empowered Large Language Model Reasoning",
@@ -6365,6 +7989,25 @@
    "opportunity": "Add path-based graph reasoning to Al-Busalah reports so decision makers see why an LLM connected stakeholders, events, and predicted outcomes from the KG."
   },
   {
+   "full_name": "nativ3ai/hermes-geopolitical-market-sim",
+   "url": "https://github.com/nativ3ai/hermes-geopolitical-market-sim",
+   "description": "Hermes skill package for WorldOSINT headless + Polymarket + MiroFish simulation workflows",
+   "stars": 131,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-03-16T03:19:41Z",
+   "category": "Agents",
+   "summary": "Skill package for simulation workflows with WorldOSINT and Polymarket.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt its WorldOSINT, Polymarket, and MiroFish workflow patterns for Al-Busalah geopolitical scenario ingestion, prediction-market comparison, and stakeholder briefing generation."
+  },
+  {
    "full_name": "EDF-Lab/ts-icl",
    "url": "https://github.com/EDF-Lab/ts-icl",
    "description": "TS-ICL: a Time-Indexed Foundation Model for Time Series Forecasting & Imputation via In-Context Learning                  ",
@@ -6389,6 +8032,34 @@
     "Open City"
    ],
    "opportunity": "Prototype TimesFM-style forecasting in Al-Busalah for indicators with missing data, and Open City traffic imputation; compare against hcrystalball baselines for live accuracy tracking."
+  },
+  {
+   "full_name": "Robinlovelace/spatial-microsim-book",
+   "url": "https://github.com/Robinlovelace/spatial-microsim-book",
+   "description": "Code, data and prose of the book: Spatial Microsimulation with R",
+   "stars": 128,
+   "language": "R",
+   "topics": [
+    "agent-based-modeling",
+    "netlogo",
+    "r",
+    "simulation",
+    "spatial",
+    "spatial-microsimulation",
+    "urban-planning"
+   ],
+   "created_at": "2014-09-11T07:30:04Z",
+   "category": "Other",
+   "summary": "Book code and data for spatial microsimulation with R.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Reuse spatial microsimulation methods to build Omani synthetic populations and district-level demographic overlays for Al-Busalah scenarios or Open City urban-planning analytics."
   },
   {
    "full_name": "notadev-iamaura/OneRAG",
@@ -6477,6 +8148,32 @@
    "opportunity": "Directly test for Open City traffic-flow prediction from sensor/camera road graphs; adapt to Muscat road network and feed forecasts into ECharts congestion dashboards."
   },
   {
+   "full_name": "lcp0578/cheat-sheets",
+   "url": "https://github.com/lcp0578/cheat-sheets",
+   "description": ":elephant: :elephant: my cheat sheets :memo: , AI, LLM, Symfony, Go, Python, C++, GIS, Qt, MySQL, Twig, Doctrine, Nginx, ElasticSearch, TiDB, Linux etc.",
+   "stars": 121,
+   "language": "PHP",
+   "topics": [
+    "cheat-sheets",
+    "cheatsheet",
+    "chrome-extension",
+    "composer",
+    "cpp",
+    "elasticsearch",
+    "gis",
+    "go"
+   ],
+   "created_at": "2017-03-29T10:23:27Z",
+   "category": "Other",
+   "summary": "Personal cheat sheets covering many technologies and topics.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "gama-platform/gama",
    "url": "https://github.com/gama-platform/gama",
    "description": "Main repository for developing the 2025+ versions of GAMA ",
@@ -6549,6 +8246,699 @@
    "opportunity": ""
   },
   {
+   "full_name": "SpillwaveSolutions/agent-brain",
+   "url": "https://github.com/SpillwaveSolutions/agent-brain",
+   "description": "Local-first RAG memory for AI agents: hybrid + GraphRAG search, MCP server with OAuth 2.1, plugin for Claude Code / OpenCode / Codex.",
+   "stars": 119,
+   "language": "Python",
+   "topics": [
+    "agent-memory",
+    "agent-plugins",
+    "chromadb",
+    "claude-code",
+    "codex",
+    "fastapi",
+    "graphrag",
+    "knowledge-graph"
+   ],
+   "created_at": "2025-12-17T03:28:50Z",
+   "category": "LLM Tooling",
+   "summary": "Local-first memory and search backend for AI agents with MCP support.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Deploy as local-first GraphRAG memory for Al-Busalah reality seeds or EnCoach tutor agents, with FastAPI/MCP integration and self-hosted control over sensitive Omani data."
+  },
+  {
+   "full_name": "superlinear-ai/conformal-tights",
+   "url": "https://github.com/superlinear-ai/conformal-tights",
+   "description": "👖 Conformal Tights adds conformal prediction of coherent quantiles and intervals to any scikit-learn regressor or Darts forecaster",
+   "stars": 118,
+   "language": "Python",
+   "topics": [
+    "conformal-prediction",
+    "forecasting",
+    "machine-learning",
+    "prediction-intervals",
+    "python",
+    "quantile-regression",
+    "scikit-learn",
+    "time-series-forecasting"
+   ],
+   "created_at": "2024-03-01T12:49:15Z",
+   "category": "Models",
+   "summary": "Conformal prediction library for regressors and time series forecasters.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Add calibrated prediction intervals to Al-Busalah confidence dashboards, Open City traffic forecasts, and SMART Mobility demand/battery projections instead of showing single-point predictions."
+  },
+  {
+   "full_name": "HiAi-gg/docsmint",
+   "url": "https://github.com/HiAi-gg/docsmint",
+   "description": "Open-source knowledge base for people and AI agents. Rich-text editing, hybrid search, GraphRAG, and MCP. Self-host with Docker or use DocsMint Cloud.",
+   "stars": 118,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "docker",
+    "document-management",
+    "graphrag",
+    "hybrid-search",
+    "knowledge-base",
+    "knowledge-management",
+    "markdown"
+   ],
+   "created_at": "2026-05-25T20:27:10Z",
+   "category": "RAG",
+   "summary": "Self-hosted knowledge base with hybrid search, GraphRAG, and MCP.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as a self-hosted bilingual knowledge base for simulation seed documents, course corpora, GraphRAG retrieval, and collaborative review before feeding agents or content generators."
+  },
+  {
+   "full_name": "luis212/NovaShoal-Swarm-Sim",
+   "url": "https://github.com/luis212/NovaShoal-Swarm-Sim",
+   "description": "MiroShark: Build Swarm Intelligence Apps in Under 10 Minutes for $1 (2026)",
+   "stars": 117,
+   "language": "HTML",
+   "topics": [
+    "ai-simulation",
+    "financial-forecasting",
+    "future-prediction",
+    "mirofish",
+    "swarm",
+    "swarm-intelligence"
+   ],
+   "created_at": "2026-06-28T20:20:35Z",
+   "category": "Agents",
+   "summary": "Swarm intelligence simulation app for prediction and financial forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Inspect as a lightweight MiroFish derivative for quick swarm-simulation packaging ideas, especially demo UX, scenario templates, and prediction-report presentation."
+  },
+  {
+   "full_name": "gengdd/Awesome-Time-Series-Spatio-Temporal",
+   "url": "https://github.com/gengdd/Awesome-Time-Series-Spatio-Temporal",
+   "description": "Awesome Time-Series and Spatio-Temporal Related",
+   "stars": 117,
+   "language": "",
+   "topics": [
+    "awesome",
+    "representation-learning",
+    "roadnetwork",
+    "spatio-temporal",
+    "spatio-temporal-prediction",
+    "time-series",
+    "time-series-anomaly-detection",
+    "time-series-forecasting"
+   ],
+   "created_at": "2023-03-25T12:24:21Z",
+   "category": "Other",
+   "summary": "Curated list of time series and spatio-temporal resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Open City",
+    "Al-Busalah"
+   ],
+   "opportunity": "Mine the curated spatio-temporal forecasting resources for Open City traffic-flow models and Al-Busalah quantitative forecasting components."
+  },
+  {
+   "full_name": "noworneverev/graphrag-api",
+   "url": "https://github.com/noworneverev/graphrag-api",
+   "description": "GraphRAG Server",
+   "stars": 113,
+   "language": "Python",
+   "topics": [
+    "graphrag",
+    "rag"
+   ],
+   "created_at": "2024-08-09T14:47:43Z",
+   "category": "RAG",
+   "summary": "API server for GraphRAG workflows.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a Python GraphRAG API layer for Al-Busalah’s PDF/MD/TXT reality-seed ingestion, knowledge-graph querying, and simulation evidence retrieval."
+  },
+  {
+   "full_name": "tuhinsharma121/ai-playground",
+   "url": "https://github.com/tuhinsharma121/ai-playground",
+   "description": "I put all my exploration around AI in reproducible notebooks in this repository",
+   "stars": 112,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "anomaly-detection-models",
+    "fastgraphrag",
+    "federated-learning",
+    "graphrag",
+    "hipporag",
+    "network-security",
+    "rag",
+    "raptor"
+   ],
+   "created_at": "2019-10-01T11:53:04Z",
+   "category": "Other",
+   "summary": "Notebook playground for various AI experiments.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "stevinc/Transformer_Timeseries",
+   "url": "https://github.com/stevinc/Transformer_Timeseries",
+   "description": "Pytorch code for Google's Temporal Fusion Transformer",
+   "stars": 110,
+   "language": "Python",
+   "topics": [
+    "deep-learning",
+    "forecasting",
+    "pytorch",
+    "time-series",
+    "time-series-forecasting",
+    "transformer"
+   ],
+   "created_at": "2021-06-04T07:28:15Z",
+   "category": "Other",
+   "summary": "PyTorch implementation of Temporal Fusion Transformer for forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Open City",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use the Temporal Fusion Transformer implementation as a baseline for traffic-flow forecasting in Open City or time-series scenario modules in Al-Busalah."
+  },
+  {
+   "full_name": "amesoudi/cultural_evolution_ABM_tutorial",
+   "url": "https://github.com/amesoudi/cultural_evolution_ABM_tutorial",
+   "description": "This tutorial shows how to create very simple simulation or agent-based models of cultural evolution in R",
+   "stars": 109,
+   "language": "Stan",
+   "topics": [
+    "abm",
+    "agent-based-modeling",
+    "cultural-evolution",
+    "simulation-modeling",
+    "social-learning"
+   ],
+   "created_at": "2018-08-12T17:44:38Z",
+   "category": "Other",
+   "summary": "Tutorial on building simple agent-based models in R.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt the tutorial concepts to prototype social-learning or belief-spread dynamics inside Al-Busalah’s stakeholder simulation library."
+  },
+  {
+   "full_name": "thoughtworks/epirust",
+   "url": "https://github.com/thoughtworks/epirust",
+   "description": "An agent-based epidemiology simulation framework built in Rust",
+   "stars": 107,
+   "language": "Rust",
+   "topics": [
+    "agent-based-modeling",
+    "agent-based-simulation",
+    "epidemiology",
+    "rust"
+   ],
+   "created_at": "2020-03-24T17:06:48Z",
+   "category": "Other",
+   "summary": "Rust framework for agent-based epidemiology simulation.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize agent-based epidemiology simulations for Omani public-health planning, or add health-crisis scenarios to Al-Busalah for ministries and academic users."
+  },
+  {
+   "full_name": "ruvnet/flow-nexus",
+   "url": "https://github.com/ruvnet/flow-nexus",
+   "description": "Flow Nexus is the first competitive agentic platform built entirely on MCP. Deploy autonomous AI swarms, train   neural networks, and compete in coding challenges while earning rUv credits. Transform agentic engineering mastery into lived experience through gamified cloud development where agents spawn agents and systems improve themselves",
+   "stars": 106,
+   "language": "JavaScript",
+   "topics": [
+    "agentic",
+    "agentic-workflow",
+    "ai",
+    "ai-agents",
+    "neural-networks",
+    "swarm-intelligence"
+   ],
+   "created_at": "2025-08-25T17:16:01Z",
+   "category": "Agents",
+   "summary": "MCP-based platform for autonomous AI swarms and coding challenges.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "paulozip/arauto",
+   "url": "https://github.com/paulozip/arauto",
+   "description": "An open-source tool for quick Time Series Analysis and Forecasting",
+   "stars": 106,
+   "language": "Python",
+   "topics": [
+    "python",
+    "time-series-forecasting"
+   ],
+   "created_at": "2019-11-13T00:35:52Z",
+   "category": "Models",
+   "summary": "Open-source tool for quick time series analysis and forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use for rapid forecasting baselines on traffic counts, prediction-outcome tracking, delivery demand, and battery-swap utilization before investing in heavier models."
+  },
+  {
+   "full_name": "gibram-io/gibram",
+   "url": "https://github.com/gibram-io/gibram",
+   "description": "GibRAM is an in-memory knowledge graph server designed for retrieval augmented generation (RAG / GraphRAG) workflows.",
+   "stars": 106,
+   "language": "Go",
+   "topics": [
+    "graph",
+    "graph-database",
+    "graphrag",
+    "llm",
+    "llms",
+    "rag",
+    "vector-database"
+   ],
+   "created_at": "2026-01-17T06:26:36Z",
+   "category": "RAG",
+   "summary": "In-memory knowledge graph server for RAG and GraphRAG workflows.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Evaluate as an in-memory GraphRAG knowledge-graph server for fast agent retrieval across Al-Busalah seed documents or EnCoach curriculum assets."
+  },
+  {
+   "full_name": "ztxtech/Time-Evidence-Fusion-Network",
+   "url": "https://github.com/ztxtech/Time-Evidence-Fusion-Network",
+   "description": "Official implementation of \"Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting\" (https://arxiv.org/abs/2405.06419)",
+   "stars": 105,
+   "language": "Python",
+   "topics": [
+    "cuda",
+    "deep-learning",
+    "machine-learning",
+    "macos",
+    "neural-network",
+    "neural-networks",
+    "pytorch",
+    "time-series"
+   ],
+   "created_at": "2024-04-22T13:48:06Z",
+   "category": "Models",
+   "summary": "Official implementation of a long-term time series forecasting model.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Test as a research-grade long-horizon forecasting model for Al-Busalah quantitative projections or Open City congestion forecasts using multi-source data."
+  },
+  {
+   "full_name": "Ladbaby/PyOmniTS",
+   "url": "https://github.com/Ladbaby/PyOmniTS",
+   "description": "🔬 A Researcher&Agent-Friendly Framework for Time Series Analysis. Train Any Model on Any Dataset!",
+   "stars": 105,
+   "language": "Python",
+   "topics": [
+    "benchmarking",
+    "claude-code",
+    "codex",
+    "deep-learning",
+    "gemini-cli",
+    "irregular-time-series",
+    "missing-values",
+    "openclaw"
+   ],
+   "created_at": "2025-05-20T13:41:25Z",
+   "category": "Infra",
+   "summary": "Framework for training and benchmarking time series models across datasets.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use as a benchmarking workbench to compare time-series models for traffic, prediction accuracy tracking, and battery-swap demand before productionizing the best performer."
+  },
+  {
+   "full_name": "jcbagneris/fms-jcb",
+   "url": "https://github.com/jcbagneris/fms-jcb",
+   "description": "FMS, an agent-based Financial Market Simulator",
+   "stars": 104,
+   "language": "Python",
+   "topics": [
+    "agent-based-modeling",
+    "finance",
+    "market",
+    "python"
+   ],
+   "created_at": "2008-12-12T13:32:06Z",
+   "category": "Agents",
+   "summary": "Agent-based financial market simulator in Python.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Adapt the financial market simulator for GCC market-stress scenarios, investor-education demos, or Al-Busalah economic-policy simulations tied to local exchange data."
+  },
+  {
+   "full_name": "BenchCouncil/DualSG",
+   "url": "https://github.com/BenchCouncil/DualSG",
+   "description": "[ACM MM 2025] Official implementation of \"DualSG: A Dual-Stream Explicit Semantic-Guided Multivariate Time Series Forecasting Framework\"",
+   "stars": 104,
+   "language": "Python",
+   "topics": [
+    "time-series-forecasting"
+   ],
+   "created_at": "2025-05-17T12:05:25Z",
+   "category": "Models",
+   "summary": "Dual-stream semantic-guided multivariate time series forecasting framework implementation.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Prototype as forecasting backend for Al-Busalah/Open City: feed scenario indicators or traffic counts, compare forecasts in ECharts confidence dashboard before adopting TimesFM-like models."
+  },
+  {
+   "full_name": "FilippoMB/Ensemble-Conformalized-Quantile-Regression",
+   "url": "https://github.com/FilippoMB/Ensemble-Conformalized-Quantile-Regression",
+   "description": "Valid and adaptive prediction intervals for probabilistic time series forecasting.",
+   "stars": 104,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "conformal-prediction",
+    "ensemble-machine-learning",
+    "frequentist-statistics",
+    "frequentistic-confidence-intervals",
+    "prediction-intervals",
+    "probabilistic-forecasting",
+    "quantile-regression",
+    "random-forest"
+   ],
+   "created_at": "2022-02-11T00:19:50Z",
+   "category": "Models",
+   "summary": "Method for adaptive prediction intervals in probabilistic time series forecasting.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Use to add calibrated prediction intervals to Al-Busalah’s forecast accuracy dashboard; wrap outputs as uncertainty bands/deviation alerts for government scenario reports."
+  },
+  {
+   "full_name": "tomasonjo-labs/text2cypher_llama_agent",
+   "url": "https://github.com/tomasonjo-labs/text2cypher_llama_agent",
+   "description": "A collection of LlamaIndex Workflows-powered agents that convert natural language to Cypher queries designed to retrieve information from a Neo4j database to answer the question with included benchmark data.",
+   "stars": 103,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "graph",
+    "graphrag",
+    "llamaindex",
+    "llm",
+    "neo4j",
+    "workflows"
+   ],
+   "created_at": "2024-12-12T11:28:32Z",
+   "category": "Agents",
+   "summary": "LlamaIndex agents convert natural language to Cypher for Neo4j querying.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Plug into Al-Busalah GraphRAG: let Arabic/English users ask natural-language questions over Neo4j knowledge graphs built from uploaded policy PDFs, returning auditable Cypher and answers."
+  },
+  {
+   "full_name": "ustc-time-series/Time-R1",
+   "url": "https://github.com/ustc-time-series/Time-R1",
+   "description": "Time-R1 is a two-stage reinforcement fine-tuning framework that trains large language models to perform slow-thinking, step-by-step reasoning for accurate and explainable time series forecasting.",
+   "stars": 102,
+   "language": "Python",
+   "topics": [
+    "large-language-models",
+    "reinforcement-learning",
+    "time-series-forecasting"
+   ],
+   "created_at": "2025-05-15T01:48:28Z",
+   "category": "Fine-tuning",
+   "summary": "Reinforcement fine-tuning framework for step-by-step time series forecasting reasoning.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Study for explainable forecasting reports: adapt step-by-step time-series reasoning to justify Al-Busalah predictions and scenario comparisons, but treat as research-heavy fine-tuning work."
+  },
+  {
+   "full_name": "dream-faster/fold",
+   "url": "https://github.com/dream-faster/fold",
+   "description": "🪁 A fast Adaptive Machine Learning library for Time-Series, that lets you build, deploy and update composite models easily. An order of magnitude speed-up, combined with flexibility and rigour. This is an internal project - documentation is not updated anymore and substantially differ from the current API.",
+   "stars": 101,
+   "language": "Python",
+   "topics": [
+    "adaptive",
+    "backtesting",
+    "deep-learning",
+    "financial-machine-learning",
+    "forecasting",
+    "machine-learning",
+    "nowcasting",
+    "online-machine-learning"
+   ],
+   "created_at": "2022-12-16T15:54:21Z",
+   "category": "Infra",
+   "summary": "Adaptive machine learning library for building and updating time-series models.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Open City",
+    "SMART Mobility",
+    "Al-Busalah"
+   ],
+   "opportunity": "Evaluate only as a backtesting/online-learning scaffold for traffic or fleet demand forecasting; outdated docs mean borrow design patterns rather than rely on it in production."
+  },
+  {
+   "full_name": "LHL3341/awesome-claws",
+   "url": "https://github.com/LHL3341/awesome-claws",
+   "description": "🦞 A curated list of OpenClaw-related products, skills, communities, and ecosystem resources.  OpenClaw 入门教程及项目集锦：按使用场景整理的产品、技能、社区与生态资源。 ",
+   "stars": 99,
+   "language": "HTML",
+   "topics": [
+    "ai-agents",
+    "ai-assistant",
+    "ai-coding",
+    "ai-research",
+    "ai-tools",
+    "awesome",
+    "multi-agent",
+    "openclaw"
+   ],
+   "created_at": "2026-03-07T13:33:51Z",
+   "category": "Other",
+   "summary": "Curated list of OpenClaw resources and ecosystem links.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Lauqz/Drone-Swarm-RL-airsim-sb3",
+   "url": "https://github.com/Lauqz/Drone-Swarm-RL-airsim-sb3",
+   "description": "Training of Drone Swarms using StableBaselines3, PettingZoo, AirSim and UE4",
+   "stars": 99,
+   "language": "Python",
+   "topics": [
+    "airsim",
+    "drone",
+    "drones",
+    "droneswarm",
+    "marl",
+    "multiagent-reinforcement-learning",
+    "pettingzoo",
+    "ppo"
+   ],
+   "created_at": "2025-05-11T22:22:19Z",
+   "category": "Agents",
+   "summary": "Training framework for drone swarm reinforcement learning in simulation.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "AISmithLab/CoBRA",
+   "url": "https://github.com/AISmithLab/CoBRA",
+   "description": "[🏆 CHI26 Best Paper] CoBRA: Reproducible control of LLM agent behavior via classic social science experiments",
+   "stars": 97,
+   "language": "Python",
+   "topics": [
+    "agent-based-modeling",
+    "ai-agent",
+    "ai-tools",
+    "hci",
+    "llm-agent",
+    "llm-behavior",
+    "representation-engineering",
+    "representation-learning"
+   ],
+   "created_at": "2025-10-25T07:38:14Z",
+   "category": "Agents",
+   "summary": "Framework for controlling LLM agent behavior with social science experiments.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use CoBRA to calibrate and reproduce LLM-agent behaviors in Al-Busalah simulations, grounding stakeholder personas and decision biases in social-science experiments rather than ad-hoc prompts."
+  },
+  {
+   "full_name": "Ji-Cather/GraphAgent",
+   "url": "https://github.com/Ji-Cather/GraphAgent",
+   "description": "Code for ACL25-findings. An LLM-based agent simulation framework that simulates human behavior and generates dynamic, text-based social graphs.",
+   "stars": 97,
+   "language": "HTML",
+   "topics": [
+    "agent-based-simulation",
+    "agent-based-simulations",
+    "generative-agents",
+    "multi-agent",
+    "social-simulation"
+   ],
+   "created_at": "2024-09-23T08:14:59Z",
+   "category": "Agents",
+   "summary": "LLM-based agent simulation framework generating dynamic social graphs.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 9,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adopt its dynamic social-graph simulation patterns for Al-Busalah scenario runs: agents represent ministries, tribes, SMEs or citizens, producing evolving influence graphs for D3/ECharts dashboards."
+  },
+  {
+   "full_name": "vivy-yi/awesome-agent-orchestration",
+   "url": "https://github.com/vivy-yi/awesome-agent-orchestration",
+   "description": "⭐ Curated list of AI Agent frameworks: AutoGen, CrewAI, MetaGPT, LangGraph, Swarms. Multi-Agent Systems, Swarm Intelligence, A2A Protocol, MCP Protocol. LLM Agents, Agentic AI, Agent Workflows.",
+   "stars": 96,
+   "language": "",
+   "topics": [
+    "a2a-protocol",
+    "agent-orchestration",
+    "ai-agent",
+    "autogen",
+    "awesome-list",
+    "crewai",
+    "deep-learning",
+    "langgraph"
+   ],
+   "created_at": "2026-03-05T11:29:50Z",
+   "category": "Other",
+   "summary": "Curated list of AI agent orchestration frameworks and protocols.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as a framework shortlist when choosing orchestration for DeepTutor tutoring agents or Al-Busalah simulation workflows; not a component to integrate directly."
+  },
+  {
    "full_name": "Sentinel3252/Native-Breeze-TTS-2-Support-for-vLLM-Omni",
    "url": "https://github.com/Sentinel3252/Native-Breeze-TTS-2-Support-for-vLLM-Omni",
    "description": "",
@@ -6567,6 +8957,32 @@
    "opportunity": "Evaluate for self-hosted TTS inside DeepTutor, especially if Arabic/English voices can power listening drills, pronunciation examples, and accessible eBook narration."
   },
   {
+   "full_name": "Egv2/awesome-agentos",
+   "url": "https://github.com/Egv2/awesome-agentos",
+   "description": "A curated list of awesome open source projects for creating agentic operating systems, AI agents, and tools for the future of autonomous computing.",
+   "stars": 93,
+   "language": "",
+   "topics": [
+    "agent-frameworks",
+    "agentic-os",
+    "agentos",
+    "ai-agents",
+    "ai-agents-automation",
+    "ai-agents-framework",
+    "autonomous-agents",
+    "awesome"
+   ],
+   "created_at": "2026-01-31T12:35:03Z",
+   "category": "Other",
+   "summary": "Curated list of agentic operating system projects and resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "caveman-ai/trim-1",
    "url": "https://github.com/caveman-ai/trim-1",
    "description": "trim-1: a 1.2 MB model that keeps the lines of a context an AI agent needs",
@@ -6579,6 +8995,842 @@
    "first_seen": "2026-10-15",
    "rising": true,
    "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "holgerbrandl/kalasim",
+   "url": "https://github.com/holgerbrandl/kalasim",
+   "description": "Discrete Event Simulator",
+   "stars": 86,
+   "language": "Kotlin",
+   "topics": [
+    "agent-based-modeling",
+    "data-science",
+    "discrete-event-simulation",
+    "optimization",
+    "process-modeling",
+    "simulation",
+    "visulization"
+   ],
+   "created_at": "2020-09-28T11:08:45Z",
+   "category": "Infra",
+   "summary": "Kotlin discrete event simulation library for process modeling.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "SMART Mobility",
+    "Autism Medical"
+   ],
+   "opportunity": "Model battery-swap station queues, delivery dispatch processes or clinic scheduling as discrete-event simulations; useful if Kotlin is acceptable, otherwise port concepts to Python."
+  },
+  {
+   "full_name": "TyrealQ/AI-Conversation",
+   "url": "https://github.com/TyrealQ/AI-Conversation",
+   "description": "Resources for Applied AI in Sport Management",
+   "stars": 85,
+   "language": "Jupyter Notebook",
+   "topics": [],
+   "created_at": "2025-02-12T17:08:42Z",
+   "category": "Other",
+   "summary": "Applied AI resources for sport management in notebooks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "reason-machines/trending-skills",
+   "url": "https://github.com/reason-machines/trending-skills",
+   "description": "Trending Claude Code skills",
+   "stars": 84,
+   "language": "",
+   "topics": [],
+   "created_at": "2026-05-05T08:35:07Z",
+   "category": "Other",
+   "summary": "List of trending Claude Code skills.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ark-ecs/Ark.jl",
+   "url": "https://github.com/ark-ecs/Ark.jl",
+   "description": "Archetype-based Entity Component System (ECS) for Julia",
+   "stars": 84,
+   "language": "Julia",
+   "topics": [
+    "agent-based-modeling",
+    "ecs",
+    "entity-component-system",
+    "gamedev",
+    "individual-based-modelling",
+    "julia",
+    "simulation"
+   ],
+   "created_at": "2025-10-18T21:22:42Z",
+   "category": "Infra",
+   "summary": "Julia entity-component-system library for simulation and game development.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "zituoguan/zituoguan",
+   "url": "https://github.com/zituoguan/zituoguan",
+   "description": "",
+   "stars": 83,
+   "language": "",
+   "topics": [],
+   "created_at": "2023-12-05T01:19:48Z",
+   "category": "Other",
+   "summary": "Repository lacks description and identifiable project details.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 0,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "XiaoMaColtAI/BettaFish-skill",
+   "url": "https://github.com/XiaoMaColtAI/BettaFish-skill",
+   "description": "BettaFish-skill：改造自BettaFish（微舆），多Agent舆情分析助手，可以用在Claude Code、OpenClaw、Cursor等支持Skills的Agent中，更方便使用",
+   "stars": 82,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-03-07T10:17:13Z",
+   "category": "Agents",
+   "summary": "Multi-agent public opinion analysis skill for agent coding tools.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt its multi-agent public-opinion workflow for Al-Busalah alert/watch: Arabic social/media narratives, stakeholder sentiment and briefing drafts around Omani policy scenarios."
+  },
+  {
+   "full_name": "INET-Complexity/ESL",
+   "url": "https://github.com/INET-Complexity/ESL",
+   "description": "​The Economic Simulation Library provides an extensive collection of tools to develop, test, analyse and calibrate economic and financial agent-based models. The library is designed to take advantage of different computer architectures. In order to facilitate rapid iteration during model development the library can use parallel computation. Economic models developed using the library can be deploy",
+   "stars": 82,
+   "language": "C++",
+   "topics": [
+    "agent-based-modeling",
+    "economic-models",
+    "economic-simulation",
+    "economic-simulation-library",
+    "economics",
+    "finance",
+    "financial-markets",
+    "scientific-computing"
+   ],
+   "created_at": "2019-07-21T19:12:33Z",
+   "category": "Infra",
+   "summary": "Economic simulation library for agent-based financial and economic models.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as reference engine for Omani macroeconomic or sector-policy simulations in Al-Busalah; localize agents for households, SMEs, banks and oil/non-oil sectors."
+  },
+  {
+   "full_name": "freenowill/stock-fish",
+   "url": "https://github.com/freenowill/stock-fish",
+   "description": "Fed up with getting chopped up as a retail investor? Get Buffett, Munger, quants, experts, whales, and even other leeks – all fighting it out in one room to help you decide. Try stock-fish!还在为当韭菜而烦恼吗？ 想让巴菲特、查理芒格、量化大师、金融专家、游资大佬、股民韭菜……来左右互博，一起开会帮你做出决策！ 不如试试stock-fish!",
+   "stars": 81,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-05-28T14:23:26Z",
+   "category": "Agents",
+   "summary": "Multi-agent investing assistant for financial decision support.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize into a regulated Arabic/English GCC equities research copilot with CMA-compliant disclaimers, Muscat/Saudi market data, and Sharia filters; use agents as analyst personas."
+  },
+  {
+   "full_name": "SMARTlab-Purdue/SMARTmBOT",
+   "url": "https://github.com/SMARTlab-Purdue/SMARTmBOT",
+   "description": "The goal of this repository is to introduce a new, customizable, scalable, and fully opensource mobile robot platform, called SMARTmBOT. This repository provides a guide, and all design files and source codes so that you can build your own SMARTmBOT. SMARTmBOT can be useful for studying the basics of robotics, especially mobile robotics. It can also be used to study advanced topics such as swarm r",
+   "stars": 80,
+   "language": "C++",
+   "topics": [
+    "mobile-robot",
+    "mobile-robots",
+    "multi-robot-systems",
+    "opensource-robots",
+    "raspberry-pi-4",
+    "robot-platform",
+    "ros2",
+    "smartlab"
+   ],
+   "created_at": "2021-05-22T03:14:42Z",
+   "category": "Infra",
+   "summary": "Open source mobile robot platform with design files and source code.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "New venture",
+    "EnCoach"
+   ],
+   "opportunity": "Seed an Arabic STEM robotics kit for Omani schools/universities: bundle SMARTmBOT hardware, ROS2 lessons and swarm demos, optionally feeding EnCoach-generated courseware."
+  },
+  {
+   "full_name": "ropensci/nlrx",
+   "url": "https://github.com/ropensci/nlrx",
+   "description": "nlrx NetLogo R",
+   "stars": 80,
+   "language": "R",
+   "topics": [
+    "agent-based-modeling",
+    "individual-based-modelling",
+    "netlogo",
+    "peer-reviewed",
+    "r",
+    "r-package",
+    "rstats"
+   ],
+   "created_at": "2018-06-29T07:41:48Z",
+   "category": "Infra",
+   "summary": "R package for connecting NetLogo agent-based models with R.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a bridge to import/run existing NetLogo social or urban ABM models, then compare outputs against MiroFish scenarios for Al-Busalah validation and Oman-localized demos."
+  },
+  {
+   "full_name": "An-Yuhang-ace/MultiShipPrediction",
+   "url": "https://github.com/An-Yuhang-ace/MultiShipPrediction",
+   "description": "PyTorch implementation for Social-LSTM, which is built to predict multi-vessel trajectories.",
+   "stars": 79,
+   "language": "Python",
+   "topics": [
+    "multi-agent-simulation",
+    "social-lstm",
+    "trajectory-prediction"
+   ],
+   "created_at": "2021-12-02T09:50:53Z",
+   "category": "Models",
+   "summary": "PyTorch implementation of Social-LSTM for multi-vessel trajectory prediction.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Prototype a maritime traffic-prediction product for Oman ports/free zones: adapt Social-LSTM to AIS vessel tracks for collision-risk, berth congestion, and coast-guard dashboards."
+  },
+  {
+   "full_name": "ShiJbey/neighborly",
+   "url": "https://github.com/ShiJbey/neighborly",
+   "description": "A narrative-focused agent-based settlement simulation framework.",
+   "stars": 79,
+   "language": "Python",
+   "topics": [
+    "agent-based-simulation",
+    "emergent-behavior",
+    "games",
+    "procedural-generation",
+    "python",
+    "settlement-simulation",
+    "simulation",
+    "social-simulation"
+   ],
+   "created_at": "2022-01-02T23:01:19Z",
+   "category": "Apps",
+   "summary": "Narrative-focused agent-based settlement simulation framework.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Mine its settlement/social relationship mechanics to prototype Omani stakeholder narratives and briefing examples, not core simulation; useful for explaining scenario consequences to nontechnical decision makers."
+  },
+  {
+   "full_name": "ShiJbey/Anansi",
+   "url": "https://github.com/ShiJbey/Anansi",
+   "description": "Create simulation-driven visual novels in Unity.",
+   "stars": 78,
+   "language": "C#",
+   "topics": [
+    "ai",
+    "game-development",
+    "interactive-dialogue",
+    "interactive-storytelling",
+    "narrative-game",
+    "social-simulation",
+    "storylets",
+    "unity"
+   ],
+   "created_at": "2023-07-03T05:43:26Z",
+   "category": "Apps",
+   "summary": "Unity framework for simulation-driven visual novels.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "KienTTran/ABMGPU",
+   "url": "https://github.com/KienTTran/ABMGPU",
+   "description": "Agent Based Model on GPU using CUDA 12.2.1 and OpenGL 4.5 (CUDA OpenGL interop) on Windows/Linux",
+   "stars": 77,
+   "language": "C++",
+   "topics": [
+    "agent-based-modeling",
+    "agent-based-simulation",
+    "cuda",
+    "glfw3",
+    "interops",
+    "opengl"
+   ],
+   "created_at": "2023-12-02T19:06:08Z",
+   "category": "Infra",
+   "summary": "CUDA-based agent simulation framework accelerated on GPU.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Benchmark GPU acceleration for large-population swarm runs in Al-Busalah if Python models become too slow; likely a performance reference, not immediate integration."
+  },
+  {
+   "full_name": "mesa/mesa-llm",
+   "url": "https://github.com/mesa/mesa-llm",
+   "description": "Extension to the Mesa repository to provide with the ability to plug LLM directly into your agents for more complex reasoning and inter-agent communication ! Make your own reasoning/memory/communication modules and plug them into the existing code or use the pre-built ones for fast building.⁦",
+   "stars": 76,
+   "language": "Python",
+   "topics": [
+    "abm",
+    "agent-based-modeling",
+    "agents",
+    "llm",
+    "mesa"
+   ],
+   "created_at": "2025-05-10T17:31:25Z",
+   "category": "Agents",
+   "summary": "Mesa extension adding LLM reasoning and communication to agents.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Build LLM reasoning/memory agents inside Mesa-style simulations, then wrap outputs into Al-Busalah scenario comparison, briefing generation, and confidence dashboards."
+  },
+  {
+   "full_name": "mb-mal/awesome-ai-agents-frameworks",
+   "url": "https://github.com/mb-mal/awesome-ai-agents-frameworks",
+   "description": "",
+   "stars": 75,
+   "language": "",
+   "topics": [],
+   "created_at": "2026-02-13T20:15:03Z",
+   "category": "Other",
+   "summary": "Curated list of AI agent frameworks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a shortlist to select tutor-agent and policy-simulation frameworks before committing engineering time; evaluate Arabic support, self-hosting, and Python/FastAPI compatibility."
+  },
+  {
+   "full_name": "Abruptive/Ankh.md",
+   "url": "https://github.com/Abruptive/Ankh.md",
+   "description": "A mysterious multi-agent swarm framework summoned by TAW Agent from 1971 to help you craft a better future towards 2133 & beyond. Ankh.md is a Hermes Agent (Nous Research) launch exclusive.",
+   "stars": 75,
+   "language": "Shell",
+   "topics": [
+    "abruptive",
+    "agent",
+    "agent-so",
+    "agents",
+    "ai",
+    "ai-agents",
+    "ankh",
+    "cli"
+   ],
+   "created_at": "2026-03-14T17:17:15Z",
+   "category": "Agents",
+   "summary": "Multi-agent swarm framework for autonomous agent workflows.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "roedyrustam/vibes-plug",
+   "url": "https://github.com/roedyrustam/vibes-plug",
+   "description": "⚡ Universal Skill AI Agent Swarm Architecture for Antigravity, Claude Code, Cursor, and Windsurf. Vibe Coding 2.0 with Zero Tech Debt",
+   "stars": 75,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "ai-coding",
+    "antigravity",
+    "antigravity-plugins",
+    "claude",
+    "claude-code-plugin",
+    "claude-plugin",
+    "claude-skills"
+   ],
+   "created_at": "2026-05-21T21:03:29Z",
+   "category": "Agents",
+   "summary": "Universal skill architecture for AI agent swarms and coding tools.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "bigph00t/hermescraft",
+   "url": "https://github.com/bigph00t/hermescraft",
+   "description": "Embodied AI companion for Minecraft — persistent memory, vision, learning, multi-agent. Built on Hermes Agent.",
+   "stars": 73,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agent",
+    "autonomous-agent",
+    "embodied-ai",
+    "hermes",
+    "llm",
+    "mcp",
+    "minecraft",
+    "mineflayer"
+   ],
+   "created_at": "2026-03-15T05:54:29Z",
+   "category": "Agents",
+   "summary": "Minecraft embodied AI companion with memory, vision, and multi-agent behavior.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "utopusc/livinity-io",
+   "url": "https://github.com/utopusc/livinity-io",
+   "description": "Livinity is an open-source, self-hostable \"Cloud AI Computer.\" It's a complete operating system — desktop, app store, files, terminal, Docker, and an AI assistant named Liv — that runs on a Linux box you own and opens in any browser. Sign in from a laptop, phone, or tablet and your apps, files, and AI are simply there.",
+   "stars": 73,
+   "language": "TypeScript",
+   "topics": [
+    "artificial-intelligence",
+    "cloud",
+    "docker",
+    "homelab",
+    "linux",
+    "mcp",
+    "operating-system",
+    "self-hosting"
+   ],
+   "created_at": "2026-01-31T07:55:18Z",
+   "category": "Apps",
+   "summary": "Self-hostable cloud AI computer with desktop, files, terminal, and assistant.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize as a self-hosted Arabic/English AI workspace for Omani SMEs or schools: private files, Docker apps, and assistant on customer-controlled servers."
+  },
+  {
+   "full_name": "chen0040/js-simulator",
+   "url": "https://github.com/chen0040/js-simulator",
+   "description": "General-purpose discrete-event multiagent simulation library for agent-based modelling and simulation",
+   "stars": 72,
+   "language": "JavaScript",
+   "topics": [
+    "abms",
+    "agent-based-framework",
+    "agent-based-modeling",
+    "agent-based-simulation",
+    "discrete-event-simulation",
+    "flocking-algorithm",
+    "game-of-life",
+    "multi-agent-systems"
+   ],
+   "created_at": "2017-06-06T04:32:48Z",
+   "category": "Infra",
+   "summary": "JavaScript discrete-event multi-agent simulation library.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Embed lightweight discrete-event simulations directly in Nuxt dashboards for Al-Busalah interactive demos, letting users tweak parameters client-side before running heavier MiroFish jobs."
+  },
+  {
+   "full_name": "elizavetasemenova/prob-epi",
+   "url": "https://github.com/elizavetasemenova/prob-epi",
+   "description": "Course materials of \"Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for Epidemiology\"",
+   "stars": 72,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agent-based-modeling",
+    "bayesian-inference",
+    "deep-generative-modelling",
+    "disease-transmission",
+    "epidemiology",
+    "gaussian-processes",
+    "numpyro",
+    "probabilistic-programming"
+   ],
+   "created_at": "2024-01-27T09:32:06Z",
+   "category": "Other",
+   "summary": "Course materials on Bayesian modeling and probabilistic programming for epidemiology.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse Bayesian/Numpyro patterns to add uncertainty-calibrated epidemic or public-health scenarios for Al-Busalah, relevant to Omani health-ministry preparedness and hospital planning."
+  },
+  {
+   "full_name": "darkmatter2222/Agentic-Among-Us-",
+   "url": "https://github.com/darkmatter2222/Agentic-Among-Us-",
+   "description": "Autonomous LLM-driven Among Us simulation with memory, social reasoning, pathfinding, sabotage, emergent behavior, and real-time React/PixiJS visualization.",
+   "stars": 72,
+   "language": "TypeScript",
+   "topics": [
+    "agentic-ai",
+    "ai-agents",
+    "autonomous-agents",
+    "emergent-behavior",
+    "fastify",
+    "game-ai",
+    "large-language-models",
+    "llama-cpp"
+   ],
+   "created_at": "2025-11-17T01:08:17Z",
+   "category": "Apps",
+   "summary": "LLM-driven Among Us simulation with memory and social reasoning.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Borrow its agent memory, deception/social-reasoning loops, and real-time React/Pixi visualization patterns for Al-Busalah demonstrations of stakeholder behavior under conflicting incentives."
+  },
+  {
+   "full_name": "RenqiChen/Virtual-Scientists",
+   "url": "https://github.com/RenqiChen/Virtual-Scientists",
+   "description": "[ACL 2025] Multi-Agent System for Science of Science",
+   "stars": 70,
+   "language": "Python",
+   "topics": [
+    "agent-based-modeling",
+    "agent-based-simulation",
+    "large-language-models",
+    "llm-based-agent",
+    "multi-agent-systems",
+    "science-of-science",
+    "social-sciences"
+   ],
+   "created_at": "2024-09-11T12:12:57Z",
+   "category": "Agents",
+   "summary": "Multi-agent system for science-of-science research.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Adapt its multi-agent research-analysis workflow into an Oman university/R&D intelligence tool: map research fields, simulate collaboration incentives, and generate strategy briefings."
+  },
+  {
+   "full_name": "JayFarei/MiroFish",
+   "url": "https://github.com/JayFarei/MiroFish",
+   "description": "A Claude compatible fork of MiroFish, a Universal Swarm Intelligence Engine, Predicting Anything.",
+   "stars": 69,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-03-13T20:07:47Z",
+   "category": "Agents",
+   "summary": "Claude-compatible swarm intelligence engine for prediction tasks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 10,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Directly inspect and merge fork improvements into Al-Busalah’s MiroFish wrapper, especially Claude compatibility, prediction workflows, and any reusable swarm orchestration patterns."
+  },
+  {
+   "full_name": "FreedomIntelligence/Awesome-Economic-World-Models",
+   "url": "https://github.com/FreedomIntelligence/Awesome-Economic-World-Models",
+   "description": "",
+   "stars": 67,
+   "language": "",
+   "topics": [],
+   "created_at": "2026-02-28T07:21:42Z",
+   "category": "Other",
+   "summary": "Curated list of economic world model resources.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as source map for economic-world-model methods to add Oman budget, labor, oil-price, tourism, and SME policy scenarios into Al-Busalah planning modules."
+  },
+  {
+   "full_name": "1850298154/memory_agent_hub",
+   "url": "https://github.com/1850298154/memory_agent_hub",
+   "description": "2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合",
+   "stars": 67,
+   "language": "Python",
+   "topics": [
+    "ai-memory",
+    "elasticsearch",
+    "graphrag",
+    "knowledge-graph",
+    "llm-agent",
+    "milvus",
+    "neo4j",
+    "rag-technology"
+   ],
+   "created_at": "2025-08-30T15:59:39Z",
+   "category": "Agents",
+   "summary": "Collection of AI agent memory and team tooling projects.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Review its GraphRAG, knowledge-graph, vector-memory examples for Al-Busalah’s document-to-reality-seed pipeline; shortlist Neo4j/Milvus/Elasticsearch patterns for Arabic/English corpora."
+  },
+  {
+   "full_name": "zizroc/villager",
+   "url": "https://github.com/zizroc/villager",
+   "description": "villager is an extensible agent based modeling (ABM) framework for the R language. It supports agents, agent aggregations and their associated resources, as well as flexible data management.",
+   "stars": 67,
+   "language": "R",
+   "topics": [
+    "abm",
+    "agent-based-modeling",
+    "simulation"
+   ],
+   "created_at": "2020-09-08T20:34:20Z",
+   "category": "Infra",
+   "summary": "R agent-based modeling framework with resources and data management.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reference its resource/agent aggregation design for demographic or household-level simulations in Al-Busalah; R stack makes it more conceptual than production-ready."
+  },
+  {
+   "full_name": "aloth/awesome-ai-agents",
+   "url": "https://github.com/aloth/awesome-ai-agents",
+   "description": "A curated list of AI agent frameworks, tools, platforms, research papers, and resources",
+   "stars": 66,
+   "language": "",
+   "topics": [
+    "agent-framework",
+    "agents",
+    "ai",
+    "ai-agents",
+    "ai-safety",
+    "ai-tools",
+    "autonomous-agents",
+    "awesome"
+   ],
+   "created_at": "2026-02-18T21:51:40Z",
+   "category": "Other",
+   "summary": "Curated list of AI agent frameworks, tools, and papers.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a vendor-neutral scanning list for tutor agents, swarm simulators, and RAG tooling; filter for self-hosted Python components and Arabic-capable models."
+  },
+  {
+   "full_name": "the911fund/skill-of-skills",
+   "url": "https://github.com/the911fund/skill-of-skills",
+   "description": "The quality-ranked discovery engine for AI coding skills, plugins and MCP servers across Claude Code, Codex, Cursor, Windsurf, Cline and more.",
+   "stars": 65,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-tools",
+    "automation",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "discovery-engine"
+   ],
+   "created_at": "2026-01-23T02:43:56Z",
+   "category": "LLM Tooling",
+   "summary": "Discovery engine for AI coding skills, plugins, and MCP servers across popular coding assistants.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "rootkiller6788/ontuinx",
+   "url": "https://github.com/rootkiller6788/ontuinx",
+   "description": "The open source runtime to harness autonomous, verified AI at scale.",
+   "stars": 64,
+   "language": "Rust",
+   "topics": [
+    "agent-os",
+    "autonomous-systems",
+    "cli",
+    "graphrag",
+    "muilt-agents",
+    "rust",
+    "self-evolving",
+    "skills"
+   ],
+   "created_at": "2026-03-17T02:45:20Z",
+   "category": "Agents",
+   "summary": "Rust runtime for autonomous, verified AI systems with multi-agent and graph retrieval features.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Evaluate its GraphRAG and multi-agent runtime patterns for Al-Busalah’s document-to-knowledge-graph and swarm orchestration layer; likely inspiration rather than direct stack adoption due to Rust."
+  },
+  {
+   "full_name": "firefly-cpp/FireflyAlgorithm",
+   "url": "https://github.com/firefly-cpp/FireflyAlgorithm",
+   "description": "Implementation of Firefly Algorithm in Python",
+   "stars": 62,
+   "language": "Python",
+   "topics": [
+    "firefly-algorithm",
+    "optimization",
+    "optimization-algorithms",
+    "swarm-intelligence"
+   ],
+   "created_at": "2017-01-02T10:43:04Z",
+   "category": "Other",
+   "summary": "Python implementation of the Firefly optimization algorithm.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jetnew/COVID-Resource-Allocation-Simulator",
+   "url": "https://github.com/jetnew/COVID-Resource-Allocation-Simulator",
+   "description": "Agent-based modelling for resource allocation in viral crises to investigate resource allocation and policy interventions with respect to transmission rate.",
+   "stars": 62,
+   "language": "Python",
+   "topics": [
+    "agent-based-modeling",
+    "covid-19",
+    "pygame",
+    "python",
+    "resource-allocation"
+   ],
+   "created_at": "2020-03-19T02:26:47Z",
+   "category": "Other",
+   "summary": "Agent-based simulation for COVID resource allocation policy analysis.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt as a policy-simulation template for health crisis/resource-allocation scenarios in Al-Busalah’s historical simulation library and government briefing demos for Oman."
+  },
+  {
+   "full_name": "Nikorasu/PyNBoids",
+   "url": "https://github.com/Nikorasu/PyNBoids",
+   "description": "This is a Boids Simulation, written in Python with Pygame.",
+   "stars": 61,
+   "language": "Python",
+   "topics": [
+    "birds",
+    "boid",
+    "boids",
+    "boids-algorithm",
+    "boids-simulation",
+    "emergent-behavior",
+    "flocking",
+    "flocking-algorithm"
+   ],
+   "created_at": "2021-03-15T18:37:28Z",
+   "category": "Other",
+   "summary": "Boids flocking simulation written in Python with Pygame.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
    "ventures": [],
    "opportunity": ""
   },
@@ -6611,6 +9863,107 @@
    "opportunity": "Plug into RAG pipelines to crawl university/LMS resources for EnCoach and government, demographic, or news sources for Al-Busalah historical libraries and live watch systems."
   },
   {
+   "full_name": "alexanderkell/elecsim",
+   "url": "https://github.com/alexanderkell/elecsim",
+   "description": "Long term electricity market agent based model simulation used to observe the effect of policy on investment decisions",
+   "stars": 60,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agent-based-modeling",
+    "electricity-market",
+    "python3",
+    "scenario-tester"
+   ],
+   "created_at": "2018-03-09T15:55:53Z",
+   "category": "Other",
+   "summary": "Agent-based electricity market simulation for policy and investment analysis.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize electricity-market ABM for Oman/GCC energy policy, grid investment, renewables, and tariff scenarios; plug outputs into Al-Busalah dashboards or spin out energy-policy simulation consulting."
+  },
+  {
+   "full_name": "bancaditalia/black-it",
+   "url": "https://github.com/bancaditalia/black-it",
+   "description": "Black-box abm calibration kit by the Bank of Italy",
+   "stars": 60,
+   "language": "Python",
+   "topics": [
+    "agent-based",
+    "agent-based-modeling",
+    "agent-based-simulation",
+    "calibration-toolbox",
+    "optimization"
+   ],
+   "created_at": "2022-05-17T15:04:30Z",
+   "category": "Infra",
+   "summary": "Black-box agent-based model calibration toolkit from the Bank of Italy.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use for black-box calibration of agent-based simulations, supporting Al-Busalah’s confidence calibration dashboard, deviation tracking, and defensible government-facing model validation."
+  },
+  {
+   "full_name": "amineremache/qbso-fs",
+   "url": "https://github.com/amineremache/qbso-fs",
+   "description": "Python implementation of QBSO-FS : a Reinforcement Learning based Bee Swarm Optimization metaheuristic for Feature Selection problem.",
+   "stars": 59,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "bee-swarm-optimization",
+    "bso",
+    "feature-selection",
+    "metaheuristics",
+    "q-learning",
+    "reinforcement-learning",
+    "swarm-intelligence"
+   ],
+   "created_at": "2018-11-07T20:35:45Z",
+   "category": "Other",
+   "summary": "Notebook implementation of reinforcement learning bee swarm optimization for feature selection.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "BLayman/Artificial-Life-Simulator",
+   "url": "https://github.com/BLayman/Artificial-Life-Simulator",
+   "description": "An ecologically inspired multi-agent system. Agents are designed with neural network based decision making, and complex resource requirements.",
+   "stars": 58,
+   "language": "C#",
+   "topics": [
+    "artificial-intelligence",
+    "artificial-life",
+    "ecological-modelling",
+    "ecological-simulations",
+    "ecology",
+    "evolutionary-algorithms",
+    "genetic-algorithm",
+    "gplv3"
+   ],
+   "created_at": "2019-03-12T20:14:14Z",
+   "category": "Other",
+   "summary": "Multi-agent artificial life simulator with neural decision making.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "R44VC0RP/isocast",
    "url": "https://github.com/R44VC0RP/isocast",
    "description": "OBS-style recorder for macOS: scenes, per-source ISO recording, streaming, and full control from a CLI and MCP.",
@@ -6635,6 +9988,25 @@
     "EnCoach"
    ],
    "opportunity": "Use for recording teacher walkthroughs, course media, and AI-controlled lesson capture workflows when producing EnCoach teacher packages or student support videos."
+  },
+  {
+   "full_name": "tcsn-xy/MiroFish",
+   "url": "https://github.com/tcsn-xy/MiroFish",
+   "description": "miro增强！长时间自主预测系统",
+   "stars": 56,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-04-14T09:55:48Z",
+   "category": "Other",
+   "summary": "Chinese-described autonomous prediction system with unclear project scope.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 10,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Directly inspect as the core MiroFish upstream/derivative for Al-Busalah; compare APIs, prediction loop, document ingestion, and agent behavior against your current v0.1.2 wrapper."
   },
   {
    "full_name": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
@@ -6662,6 +10034,314 @@
     "New venture"
    ],
    "opportunity": "Localize the agent SOPs for Arabic/English GCC ecommerce sellers, integrating Shopify, Salla, WhatsApp, Instagram, and Odoo for Omani SME operations automation."
+  },
+  {
+   "full_name": "timdecode/LifeBrush",
+   "url": "https://github.com/timdecode/LifeBrush",
+   "description": "A toolkit for painting agent-based mesoscale molecular simulations and illustrations.",
+   "stars": 55,
+   "language": "C++",
+   "topics": [
+    "agent-based-modeling",
+    "molecular-biology",
+    "molecular-simulation",
+    "procedural-generation",
+    "texture-synthesis",
+    "unreal-engine",
+    "virtual-reality",
+    "vr"
+   ],
+   "created_at": "2019-01-18T01:32:00Z",
+   "category": "Vision",
+   "summary": "Toolkit for painting agent-based molecular simulations and illustrations.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "JingHao-Leon/TrendRadar",
+   "url": "https://github.com/JingHao-Leon/TrendRadar",
+   "description": "跨平台热点聚合 + 情感趋势分析工具",
+   "stars": 54,
+   "language": "Python",
+   "topics": [
+    "aggregator",
+    "bilibili",
+    "echarts",
+    "hot-news",
+    "ollama",
+    "python",
+    "sentiment-analysis",
+    "snownlp"
+   ],
+   "created_at": "2026-06-15T18:30:32Z",
+   "category": "Apps",
+   "summary": "Cross-platform trending topics aggregation and sentiment analysis tool.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Adapt trending-topic aggregation and sentiment analysis to Arabic/English Omani media feeds for Al-Busalah’s alert/watch system or a GCC reputation-risk monitoring product."
+  },
+  {
+   "full_name": "gliderkite/formicarium",
+   "url": "https://github.com/gliderkite/formicarium",
+   "description": "Ant colony simulator",
+   "stars": 54,
+   "language": "Rust",
+   "topics": [
+    "ants-simulator",
+    "artificial-intelligence",
+    "rust",
+    "simulation",
+    "swarm-intelligence",
+    "zero-player-game"
+   ],
+   "created_at": "2020-07-12T19:36:40Z",
+   "category": "Other",
+   "summary": "Ant colony simulator in Rust.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "smkalami/path-planning",
+   "url": "https://github.com/smkalami/path-planning",
+   "description": "Mobile Robot Path Planning and Obstacle Avoidance Using PSO in Python",
+   "stars": 54,
+   "language": "Python",
+   "topics": [
+    "obstacle",
+    "obstacle-avoidance",
+    "optimization",
+    "particle-swarm",
+    "particle-swarm-optimization",
+    "path-planning",
+    "planning",
+    "pso"
+   ],
+   "created_at": "2023-03-13T15:53:24Z",
+   "category": "Other",
+   "summary": "PSO-based mobile robot path planning and obstacle avoidance notebook.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "niklasf/python-agentspeak",
+   "url": "https://github.com/niklasf/python-agentspeak",
+   "description": "A Python-based interpreter for the agent-oriented programming language JASON",
+   "stars": 54,
+   "language": "Python",
+   "topics": [
+    "agent-based",
+    "agent-based-modeling",
+    "agentspeak",
+    "interpreter",
+    "python"
+   ],
+   "created_at": "2016-11-06T22:30:05Z",
+   "category": "Agents",
+   "summary": "Python interpreter for the agent-oriented programming language Jason.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use AgentSpeak/Jason-style BDI agents to prototype explainable stakeholder behavior models for Al-Busalah scenarios, especially when government clients need auditable decision rules."
+  },
+  {
+   "full_name": "JackBenny39/pyziabm",
+   "url": "https://github.com/JackBenny39/pyziabm",
+   "description": "Zero Intelligence Agent-Based Model of Modern Limit Order Book",
+   "stars": 54,
+   "language": "Python",
+   "topics": [
+    "agent-based-modeling",
+    "simulation",
+    "zero-intelligence"
+   ],
+   "created_at": "2017-07-29T10:01:08Z",
+   "category": "Other",
+   "summary": "Zero-intelligence order book agent-based market model.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Possible seed for an Oman/GCC capital-market simulation tool for regulators, brokers, or universities; localize limit-order-book experiments around Muscat Stock Exchange training."
+  },
+  {
+   "full_name": "chathika/NL4Py",
+   "url": "https://github.com/chathika/NL4Py",
+   "description": "Bringing Your Turtles From NetLogo to Python 🐍🐢",
+   "stars": 54,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "agent-based-modeling",
+    "netlogo",
+    "python"
+   ],
+   "created_at": "2018-04-20T21:09:10Z",
+   "category": "Other",
+   "summary": "Python bridge for moving NetLogo models to Python.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Bridge existing NetLogo policy/social ABM models into Python so Al-Busalah can reuse academic simulations and expose them through bilingual scenario dashboards."
+  },
+  {
+   "full_name": "enpixeles-ai/MiroFish-ESP",
+   "url": "https://github.com/enpixeles-ai/MiroFish-ESP",
+   "description": "Motor de Inteligencia de Enjambre para el mercado hispano 🐟 | Sube cualquier informe, predice el futuro al instante | Adaptación en español por EnPíxeles Lab",
+   "stars": 53,
+   "language": "Python",
+   "topics": [
+    "espanol",
+    "ia-latino",
+    "llm",
+    "mirofish",
+    "multi-agent",
+    "python",
+    "simulacion",
+    "spanish"
+   ],
+   "created_at": "2026-03-30T15:00:29Z",
+   "category": "Other",
+   "summary": "Spanish adaptation of a multi-agent forecasting system.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 9,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Study the Spanish localization approach for MiroFish to accelerate Al-Busalah’s Arabic/English cultural adaptation, branding, prompts, report templates, and non-English market positioning."
+  },
+  {
+   "full_name": "codename-co/devs",
+   "url": "https://github.com/codename-co/devs",
+   "description": "Delegate tasks to AI agent teams, from a browser tab.",
+   "stars": 53,
+   "language": "TypeScript",
+   "topics": [
+    "agentic-ai",
+    "agents",
+    "browser",
+    "delegation",
+    "offline",
+    "orchestration",
+    "privacy",
+    "studio"
+   ],
+   "created_at": "2025-08-02T14:15:04Z",
+   "category": "Agents",
+   "summary": "Browser-based delegation system for AI agent teams.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "zoharbabin/enterprise-ai-agents-spec",
+   "url": "https://github.com/zoharbabin/enterprise-ai-agents-spec",
+   "description": "An open-source, detailed blueprint for implementing highly scalable swarms of specialized AI Agents in enterprise product development, emphasizing parallelization, robust governance, compliance, and minimal human oversight",
+   "stars": 53,
+   "language": "Shell",
+   "topics": [
+    "agentics",
+    "ai",
+    "ai-agents",
+    "product-development",
+    "proposal",
+    "specification",
+    "ssdlc",
+    "swarm-intelligence"
+   ],
+   "created_at": "2024-12-27T20:03:39Z",
+   "category": "Other",
+   "summary": "Open-source blueprint for enterprise AI agent swarms.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Mine the governance and compliance blueprint for Al-Busalah enterprise sales materials: agent roles, oversight, auditability, and deployment controls for government and military buyers."
+  },
+  {
+   "full_name": "aliasgharheidaricom/Slime-Mould-Algorithm-A-New-Method-for-Stochastic-Optimization-",
+   "url": "https://github.com/aliasgharheidaricom/Slime-Mould-Algorithm-A-New-Method-for-Stochastic-Optimization-",
+   "description": "In this paper, a new stochastic optimizer, which is called slime mould algorithm (SMA), is proposed based upon the oscillation mode of slime mould in nature. The proposed SMA has several new features with a unique mathematical model that uses adaptive weights to simulate the process of producing positive and negative feedback of the propagation wave of slime mould based on bio-oscillator to form t",
+   "stars": 52,
+   "language": "MATLAB",
+   "topics": [
+    "algorithm",
+    "algorithms-and-data-structures",
+    "ali-asghar-heidari",
+    "benchmark",
+    "best",
+    "best-practice",
+    "engineering",
+    "evolutionary-algorithms"
+   ],
+   "created_at": "2020-05-07T22:18:31Z",
+   "category": "Other",
+   "summary": "MATLAB implementation of the slime mould optimization algorithm.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "giammy677dev/LLM-Agents-for-Simulation",
+   "url": "https://github.com/giammy677dev/LLM-Agents-for-Simulation",
+   "description": "A collection of resources that showcase the intersection of simulation and LLM-agents.",
+   "stars": 52,
+   "language": "",
+   "topics": [
+    "agent-based-modeling",
+    "generative-agent-based-modeling",
+    "large-language-models",
+    "simulation"
+   ],
+   "created_at": "2024-04-20T09:13:51Z",
+   "category": "Other",
+   "summary": "Collection of resources on simulation and LLM agents.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as scouting map for agent-society simulators to benchmark against MiroFish and add scenario/briefing patterns."
   },
   {
    "full_name": "GabrieleLozupone/kokon",
@@ -6707,6 +10387,34 @@
    "opportunity": ""
   },
   {
+   "full_name": "rochakgupta/aco-tsp",
+   "url": "https://github.com/rochakgupta/aco-tsp",
+   "description": "Solving Travelling Salesman Problem using Ant Colony Optimization",
+   "stars": 50,
+   "language": "Python",
+   "topics": [
+    "ant-colony-optimization",
+    "machine-learning",
+    "matplotlib",
+    "maxmin-tour",
+    "python",
+    "swarm-intelligence",
+    "tour",
+    "tsp"
+   ],
+   "created_at": "2018-03-10T10:32:33Z",
+   "category": "Other",
+   "summary": "Ant colony optimization solver for the traveling salesman problem.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "SMART Mobility"
+   ],
+   "opportunity": "Prototype simple delivery-route optimization for SMART Mobility fleets; use as a Python baseline for battery-swap dispatch demos, then compare with OR-Tools for production."
+  },
+  {
    "full_name": "Avijit07x/cursorcam",
    "url": "https://github.com/Avijit07x/cursorcam",
    "description": "Ask your AI agent for a demo video. CursorCam clicks through your web app and renders a polished MP4 that zooms in on each click, from any MCP agent, Claude Code or the CLI.",
@@ -6721,6 +10429,25 @@
    "relevance": 4,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "FutureFuzzy/novel-distiller",
+   "url": "https://github.com/FutureFuzzy/novel-distiller",
+   "description": "小说蒸馏器（Novel Distiller） 人间妖怪造故事  从“一个念头”到“一本成书”，AI辅助长篇小说创作引擎。  专治AI写长篇的三个顽疾：角色跳脱、风格变味、暗线写到后面就忘。为每个角色蒸馏独立的思维操作系统（SKILL.md），言行从头到尾不崩；每次动笔前先推演场景逻辑，情节自洽再落字；数值状态层跨章节自动锚定，暗线不会断在某一章的角落。同时内置番茄、起点、知乎等平台审核规则叠加扫描，写完自动排查踩雷点。  一条完整流水线：创世蓝图→灵魂蒸馏→作者蒸馏→场景推演→章节撰写→锚定自检→成书。  不是替你写小说，是你控制全局，AI负责执行。",
+   "stars": 49,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-05-11T09:18:34Z",
+   "category": "Apps",
+   "summary": "AI-assisted long-form novel writing workflow with consistency and review checks.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt its blueprint-to-draft consistency workflow for CEFR unit generation, teacher-package structure, character/dialogue continuity, and automated quality gates inside DeepTutor."
   },
   {
    "full_name": "tinyhumansai/openscion",
@@ -6739,6 +10466,30 @@
    "opportunity": ""
   },
   {
+   "full_name": "ganyariya/MTSP_ACO",
+   "url": "https://github.com/ganyariya/MTSP_ACO",
+   "description": "multi traveling salesman problem with ant colony optimization",
+   "stars": 46,
+   "language": "Python",
+   "topics": [
+    "ant-colony-optimization",
+    "python",
+    "swarm-intelligence",
+    "travelling-salesman-problem"
+   ],
+   "created_at": "2020-01-22T06:05:51Z",
+   "category": "Other",
+   "summary": "Ant colony optimization for the multi traveling salesman problem.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 6,
+   "ventures": [
+    "SMART Mobility"
+   ],
+   "opportunity": "Prototype multi-rider route assignment for delivery motorcycles and battery-swap dispatch; wrap as a FastAPI optimizer before replacing with robust OR-Tools."
+  },
+  {
    "full_name": "JeffLi1993/open-growth-skills",
    "url": "https://github.com/JeffLi1993/open-growth-skills",
    "description": "All in one AI Agent Skills for Growth",
@@ -6753,6 +10504,115 @@
    "relevance": 4,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "rystrauss/boids",
+   "url": "https://github.com/rystrauss/boids",
+   "description": "Craig Reynolds' Boids model for simulating the flocking behavior of birds.",
+   "stars": 45,
+   "language": "C++",
+   "topics": [
+    "artificial-life",
+    "boids",
+    "emergent-behavior",
+    "flocking",
+    "kd-tree",
+    "murmuration",
+    "swarm-intelligence"
+   ],
+   "created_at": "2019-12-10T03:05:33Z",
+   "category": "Other",
+   "summary": "C++ implementation of Craig Reynolds' Boids flocking model.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "qiliuchn/gatsim",
+   "url": "https://github.com/qiliuchn/gatsim",
+   "description": "GATSim: Generative-Agent Transport Simulation",
+   "stars": 45,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "generative-agent",
+    "multi-agent-simulation",
+    "traffic-simulation",
+    "travel-behavior",
+    "urban-mobility"
+   ],
+   "created_at": "2025-05-06T02:32:38Z",
+   "category": "Other",
+   "summary": "Generative-agent transport simulation notebook.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 7,
+   "ventures": [
+    "Open City",
+    "Al-Busalah"
+   ],
+   "opportunity": "Prototype Muscat travel-behavior scenarios with synthetic commuter agents and policy changes; feed outputs into Open City dashboards and Al-Busalah scenario-comparison reports."
+  },
+  {
+   "full_name": "rainmana/awesome-rainmana",
+   "url": "https://github.com/rainmana/awesome-rainmana",
+   "description": "This is a curated list of my GitHub stars but converted into an Awesome List! Updated automagically ever 12 hours! :D",
+   "stars": 44,
+   "language": "Python",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "stars"
+   ],
+   "created_at": "2024-02-03T05:47:42Z",
+   "category": "Other",
+   "summary": "Automatically generated awesome list of starred repositories.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 0,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "gaahrdner/starred",
+   "url": "https://github.com/gaahrdner/starred",
+   "description": "A curated list of my GitHub stars!",
+   "stars": 43,
+   "language": "",
+   "topics": [],
+   "created_at": "2017-09-07T17:27:11Z",
+   "category": "Other",
+   "summary": "Curated list of the author's starred repositories.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 0,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "robin-ph/btc-fear-greed-index",
+   "url": "https://github.com/robin-ph/btc-fear-greed-index",
+   "description": "BTC Fear & Greed Index powered by MiroFish/OASIS multi-agent simulation. 500 AI investors simulate panic contagion dynamics.",
+   "stars": 42,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-03-17T21:33:32Z",
+   "category": "Apps",
+   "summary": "Bitcoin fear and greed index driven by multi-agent market simulation.",
+   "first_seen": "2026-10-15",
+   "rising": false,
+   "established": true,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Fork architecture to build Oman/GCC risk sentiment indexes for real estate, policy, or logistics; reuse MiroFish/OASIS agent setup and panic-contagion dynamics."
   },
   {
    "full_name": "junxchan54-maker/mcd-cn-assistant",
