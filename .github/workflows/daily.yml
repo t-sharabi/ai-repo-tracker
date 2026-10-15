@@ -11,6 +11,12 @@ on:
       reset_venture:
         description: "One-off: venture name whose old tags should be cleared"
         default: ""
+      rescore_match:
+        description: "One-off: re-score repos (any age) whose name/description matches this regex"
+        default: ""
+      focus_backfill:
+        description: "One-off: add up to N established repos from focus searches (MiroFish, simulation, forecasting)"
+        default: "0"
 
 permissions:
   contents: write
@@ -37,6 +43,8 @@ jobs:
           SCORE_MODEL: ${{ vars.SCORE_MODEL }}
           RESCORE_DAYS: ${{ inputs.rescore_days }}
           RESET_VENTURE: ${{ inputs.reset_venture }}
+          RESCORE_MATCH: ${{ inputs.rescore_match }}
+          FOCUS_BACKFILL: ${{ inputs.focus_backfill }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}

@@ -19,6 +19,7 @@ Optional env:  FILTER_MODEL, SCORE_MODEL, GMAIL_ADDRESS, GMAIL_APP_PASSWORD, DIG
 
 import json
 import os
+import re
 import smtplib
 import sys
 import time
@@ -34,8 +35,30 @@ TOPICS = [
     "llm", "large-language-models", "ai-agents", "agents", "rag",
     "machine-learning", "deep-learning", "generative-ai", "fine-tuning",
     "diffusion-models", "mcp", "chatbot", "computer-vision", "nlp",
+    # Albousalh themes: simulation, swarm intelligence, forecasting
+    "simulation", "agent-based-modeling", "multi-agent-simulation",
+    "swarm-intelligence", "forecasting", "time-series",
 ]
-KEYWORD_QUERIES = ['"ai agent" in:name,description', 'llm in:name,description']
+KEYWORD_QUERIES = ['"ai agent" in:name,description', 'llm in:name,description',
+                   'mirofish in:name,description']
+
+# Focus searches: ESTABLISHED projects of any age in themes the ventures need.
+# The daily passes only see brand-new repos, so mature projects like MiroFish
+# itself (and its derivatives) would otherwise never be discovered.
+# (query, include_forks)
+FOCUS_QUERIES = [
+    ("mirofish in:name,description,readme stars:>=5", False),
+    ("mirofish in:name,description fork:true stars:>=5", True),
+    ("topic:swarm-intelligence stars:>=20", False),
+    ("topic:multi-agent-simulation stars:>=20", False),
+    ("topic:agent-based-modeling stars:>=50", False),
+    ("topic:social-simulation stars:>=20", False),
+    ("topic:time-series-forecasting stars:>=100", False),
+    ("topic:forecasting stars:>=300", False),
+    ('"scenario planning" in:name,description stars:>=10', False),
+    ("topic:graphrag stars:>=100", False),
+]
+FOCUS_MAX_NEW = 60             # cap on unseen established repos added per daily run
 
 RISING_WINDOW_DAYS = 14        # how far back the "rising" pass looks
 RISING_STARS_THRESHOLD = 30    # momentum threshold for the rising pass
@@ -53,6 +76,8 @@ API_TIMEOUT = 180                        # seconds per API call
 # One-off maintenance (set via "Run workflow" inputs; 0/empty = normal daily run)
 RESCORE_DAYS = int(os.environ.get("RESCORE_DAYS") or 0)   # re-score repos first seen in last N days
 RESET_VENTURE = (os.environ.get("RESET_VENTURE") or "").strip()  # drop stale tags for this venture
+RESCORE_MATCH = (os.environ.get("RESCORE_MATCH") or "").strip()  # regex: re-score matching repos, any age
+FOCUS_BACKFILL = int(os.environ.get("FOCUS_BACKFILL") or 0)     # one-off: add up to N established repos
 TELEGRAM_MAX_ITEMS = 10
 CATEGORIES = ["Agents", "LLM Tooling", "RAG", "Models", "Fine-tuning",
               "Infra", "Apps", "Data", "Vision", "Other"]
@@ -84,11 +109,11 @@ def http_json(url, headers=None, payload=None, retries=3, timeout=60):
             raise RuntimeError(f"Network/timeout error for {url}: {e}") from e
 
 
-def gh_search(query):
+def gh_search(query, allow_forks=False, per_page=50):
     """Run one GitHub repo search, return simplified repo dicts."""
     url = ("https://api.github.com/search/repositories?"
            + urllib.parse.urlencode({"q": query, "sort": "stars",
-                                     "order": "desc", "per_page": 50}))
+                                     "order": "desc", "per_page": per_page}))
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
@@ -104,7 +129,7 @@ def gh_search(query):
         "language": r.get("language") or "",
         "topics": r.get("topics", [])[:8],
         "created_at": r.get("created_at", ""),
-    } for r in items if not r.get("fork")]
+    } for r in items if allow_forks or not r.get("fork")]
 
 
 def collect(created_since, extra=""):
@@ -122,6 +147,40 @@ def collect(created_since, extra=""):
             print(f"  ! query failed, skipping: {q} ({e})", file=sys.stderr)
         time.sleep(2.5)  # stay under the 30 searches/min limit
     return out
+
+
+def collect_focus(archive, cap):
+    """Established repos (any age) from FOCUS_QUERIES not yet in the archive."""
+    seen, out = set(), []
+    for q, forks in FOCUS_QUERIES:
+        try:
+            for repo in gh_search(q, allow_forks=forks, per_page=100):
+                n = repo["full_name"]
+                if n not in seen and n not in archive:
+                    seen.add(n)
+                    out.append(repo)
+        except RuntimeError as e:
+            print(f"  ! focus query failed, skipping: {q} ({e})", file=sys.stderr)
+        time.sleep(2.5)
+    out.sort(key=lambda r: -r["stars"])
+    return out[:cap]
+
+
+def add_focus(archive, now, cap):
+    """Discover, filter and archive established focus repos; return entries."""
+    found = collect_focus(archive, cap)
+    print(f"  {len(found)} unseen established candidates -> AI filter")
+    verdicts = claude_classify(found, lenient=True) if found else {}
+    added = []
+    for r in found:
+        v = verdicts.get(r["full_name"])
+        if v:
+            entry = {**r, **v, "first_seen": now.strftime("%Y-%m-%d"),
+                     "rising": False, "established": True}
+            archive[r["full_name"]] = entry
+            added.append(entry)
+    print(f"  kept {len(added)} established repos")
+    return added
 
 
 # ------------------------------ Claude calls -------------------------------
@@ -320,7 +379,7 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def send_telegram(risers, newly_added):
+def send_telegram(risers, newly_added, established=()):
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat:
@@ -328,6 +387,8 @@ def send_telegram(risers, newly_added):
         return
     lines = ["\U0001F680 <b>AI Repo Tracker — daily digest</b>"]
     pool = risers + [r for r in newly_added if r not in risers]
+    pool += [r for r in established
+             if r.get("relevance", 0) >= RELEVANCE_MIN_TO_FLAG and r not in pool]
     pool.sort(key=lambda r: (-r.get("relevance", 0), -r["stars"]))
     picks = pool[:TELEGRAM_MAX_ITEMS]
     for r in picks:
@@ -351,7 +412,7 @@ def send_telegram(risers, newly_added):
     print(f"Telegram digest sent ({len(picks)} items).")
 
 
-def send_email(risers, newly_added):
+def send_email(risers, newly_added, established=()):
     addr = os.environ.get("GMAIL_ADDRESS")
     pwd = os.environ.get("GMAIL_APP_PASSWORD")
     if not addr or not pwd:
@@ -371,7 +432,7 @@ def send_email(risers, newly_added):
         return f"<h3>{title}</h3><table border=0>{rows}</table>"
 
     today = datetime.now(timezone.utc).strftime("%d %b %Y")
-    opps = sorted([r for r in risers + newly_added
+    opps = sorted([r for r in risers + newly_added + list(established)
                    if r.get("relevance", 0) >= RELEVANCE_MIN_TO_FLAG],
                   key=lambda r: -r.get("relevance", 0))
     opp_rows = "".join(
@@ -407,7 +468,8 @@ def maintenance(archive, now):
 
     Skips discovery and digests; only rewrites data.json.
     """
-    print(f"MAINTENANCE MODE: reset_venture={RESET_VENTURE!r} rescore_days={RESCORE_DAYS}")
+    print(f"MAINTENANCE MODE: reset_venture={RESET_VENTURE!r} rescore_days={RESCORE_DAYS}"
+          f" rescore_match={RESCORE_MATCH!r} focus_backfill={FOCUS_BACKFILL}")
     if not preflight():
         sys.exit(1)
     cutoff = ((now - timedelta(days=RESCORE_DAYS)).strftime("%Y-%m-%d")
@@ -431,6 +493,23 @@ def maintenance(archive, now):
                     cleared += 1
         print(f"  reset: removed '{RESET_VENTURE}' from {untagged} older repos "
               f"({cleared} had no other venture -> score cleared)")
+
+    if FOCUS_BACKFILL:
+        print(f"  focus backfill: up to {FOCUS_BACKFILL} established repos")
+        claude_opportunity(add_focus(archive, now, FOCUS_BACKFILL))
+
+    if RESCORE_MATCH:
+        rx = re.compile(RESCORE_MATCH, re.I)
+        hits = [r for r in archive.values()
+                if r["full_name"] not in in_window and rx.search(
+                    " ".join([r["full_name"], r.get("description") or "",
+                              r.get("summary") or ""]))]
+        for r in hits:
+            for k in ("relevance", "ventures", "opportunity"):
+                r.pop(k, None)
+        print(f"  re-scoring {len(hits)} repos matching /{RESCORE_MATCH}/ (any age)")
+        claude_opportunity(hits)
+        print(f"  not scored: {sum(1 for r in hits if 'relevance' not in r)}")
 
     if RESCORE_DAYS:
         for r in window:
@@ -464,7 +543,7 @@ def main():
         archive = {}
     print(f"Archive: {len(archive)} repos.")
 
-    if RESCORE_DAYS or RESET_VENTURE:
+    if RESCORE_DAYS or RESET_VENTURE or RESCORE_MATCH or FOCUS_BACKFILL:
         maintenance(archive, now)
         return
 
@@ -516,8 +595,11 @@ def main():
     risers.sort(key=lambda r: -r["stars"])
     print(f"  {len(risers)} newly-rising repos")
 
+    print("Pass 3 — established projects in focus themes (MiroFish, simulation, forecasting)")
+    established = add_focus(archive, now, FOCUS_MAX_NEW)
+
     print("Layer 2 — opportunity analysis against ventures.json")
-    todays = newly_added + [r for r in risers if r not in newly_added]
+    todays = newly_added + [r for r in risers if r not in newly_added] + established
     cutoff = (now - timedelta(days=CATCHUP_DAYS)).strftime("%Y-%m-%d")
     catchup = [r for r in archive.values()
                if "relevance" not in r and r.get("first_seen", "") >= cutoff
@@ -539,7 +621,7 @@ def main():
 
     for fn in (send_telegram, send_email):
         try:
-            fn(risers, newly_added)
+            fn(risers, newly_added, established)
         except Exception as e:  # delivery failure must not kill the run
             print(f"  ! {fn.__name__} failed: {e}", file=sys.stderr)
 
