@@ -1,11 +1,3859 @@
 {
- "last_updated": "2026-11-20T10:40:21+00:00",
+ "last_updated": "2026-11-21T10:23:28+00:00",
  "repos": [
+  {
+   "full_name": "mankidev/antialgorithm",
+   "url": "https://github.com/mankidev/antialgorithm",
+   "description": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
+   "stars": 583,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "creative-writing",
+    "creativity",
+    "design"
+   ],
+   "created_at": "2026-11-14T09:48:23Z",
+   "category": "Agents",
+   "summary": "Agent skill that biases creative generation away from first obvious answers.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Add it as a DeepTutor agent skill to diversify lesson examples, activities and naming, reducing repetitive AI-generated English course content."
+  },
+  {
+   "full_name": "INK-Q/agy-fast",
+   "url": "https://github.com/INK-Q/agy-fast",
+   "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+   "stars": 223,
+   "language": "TypeScript",
+   "topics": [
+    "ai-coding",
+    "antigravity",
+    "coding-agent",
+    "developer-tools",
+    "gemini",
+    "google-antigravity",
+    "latency-optimization",
+    "mcp"
+   ],
+   "created_at": "2026-11-19T04:58:46Z",
+   "category": "LLM Tooling",
+   "summary": "MCP accelerator plugin reducing LLM turns, tokens, and upload traffic.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "wozniakalan323-bit/opencode-project-workbench",
+   "url": "https://github.com/wozniakalan323-bit/opencode-project-workbench",
+   "description": "Opencode Project Workbench structures opencode project tasks, files, and workflow state.",
+   "stars": 153,
+   "language": "HTML",
+   "topics": [
+    "agentic-ai",
+    "automation",
+    "code-generation",
+    "code-review",
+    "coding-agent",
+    "command-line",
+    "developer-tools",
+    "llm"
+   ],
+   "created_at": "2026-11-20T14:14:22Z",
+   "category": "Agents",
+   "summary": "Workspace for managing opencode tasks, files, and workflow state.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "han938/open-webui-private-ai-desk",
+   "url": "https://github.com/han938/open-webui-private-ai-desk",
+   "description": "Chat with private AI models locally, powered by Open Webui Private Ai Desk.",
+   "stars": 153,
+   "language": "TypeScript",
+   "topics": [
+    "chat-interface",
+    "chatbot",
+    "knowledge-base",
+    "llm",
+    "local-ai",
+    "ollama",
+    "open-webui",
+    "rag"
+   ],
+   "created_at": "2026-11-20T14:25:27Z",
+   "category": "Apps",
+   "summary": "Local private AI chat desktop app powered by Open WebUI.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Deploy as self-hosted Arabic/English private AI desk for university pilots or Al-Busalah analysts; connect local Ollama/RAG to sensitive PDFs without sending data outside Oman."
+  },
+  {
+   "full_name": "prajwaljeevan50-web/openclaw-personal-workspace",
+   "url": "https://github.com/prajwaljeevan50-web/openclaw-personal-workspace",
+   "description": "A friendly, feature-rich workspace built with and for its community.",
+   "stars": 153,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "automation",
+    "integrations",
+    "local-first",
+    "openclaw",
+    "personal-assistant",
+    "self-hosted",
+    "task-automation"
+   ],
+   "created_at": "2026-11-20T18:17:40Z",
+   "category": "Agents",
+   "summary": "Personal workspace for AI agents with automation and integrations.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "zavi2997-droid/claude-code-agent-workspace",
+   "url": "https://github.com/zavi2997-droid/claude-code-agent-workspace",
+   "description": "Orchestrates composable Claude Code agent workflows across isolated workspace contexts.",
+   "stars": 152,
+   "language": "HTML",
+   "topics": [
+    "agentic-ai",
+    "anthropic",
+    "claude-code",
+    "code-generation",
+    "code-review",
+    "coding-agent",
+    "developer-tools",
+    "llm"
+   ],
+   "created_at": "2026-11-20T14:16:24Z",
+   "category": "Agents",
+   "summary": "Composable Claude Code agent workflows across isolated workspaces.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "marketzy/codex-cli-repo-workbench",
+   "url": "https://github.com/marketzy/codex-cli-repo-workbench",
+   "description": "Codex Cli Repo Workbench provides a local workspace for managing and inspecting Codex CLI repository",
+   "stars": 150,
+   "language": "HTML",
+   "topics": [
+    "agentic-ai",
+    "automation",
+    "code-generation",
+    "code-review",
+    "codex",
+    "coding-agent",
+    "developer-tools",
+    "llm"
+   ],
+   "created_at": "2026-11-20T14:28:07Z",
+   "category": "Agents",
+   "summary": "Local workspace for managing and inspecting Codex CLI repositories.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ccarter01011/traxagent-claude-plugin",
+   "url": "https://github.com/ccarter01011/traxagent-claude-plugin",
+   "description": "Ask Claude, ChatGPT, Claude Code, Cursor or VS Code who spent your AI budget and what to fix. TraxAgent's read-only MCP server and Claude Code plugin.",
+   "stars": 137,
+   "language": "Python",
+   "topics": [
+    "ai-cost",
+    "ai-governance",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "cursor"
+   ],
+   "created_at": "2026-11-17T16:45:33Z",
+   "category": "LLM Tooling",
+   "summary": "MCP server and plugin for tracking AI spending across chat tools.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Deploy internally to monitor Claude/ChatGPT/Cursor spend while building DeepTutor and Al-Busalah, with budget visibility per client, grant or project."
+  },
+  {
+   "full_name": "AI4XE/ai4ai",
+   "url": "https://github.com/AI4XE/ai4ai",
+   "description": "Let AI manage itself — a cross-harness kit for runtime status, context renewal, self-duplication and more",
+   "stars": 76,
+   "language": "TypeScript",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-harness",
+    "claude-code",
+    "codex",
+    "context-managment",
+    "deepseek-harness",
+    "dsh-plugin"
+   ],
+   "created_at": "2026-11-20T11:48:16Z",
+   "category": "Agents",
+   "summary": "Framework for runtime status, context renewal, and self-duplication across AI harnesses.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "SecFathy/otpkit",
+   "url": "https://github.com/SecFathy/otpkit",
+   "description": "MCP server for temporary email & SMS — receive OTPs, verification links, and confirmation codes. Zero API keys required.",
+   "stars": 72,
+   "language": "Python",
+   "topics": [
+    "ai-tools",
+    "claude",
+    "claude-code",
+    "cursor",
+    "disposable-email",
+    "email-api",
+    "mcp",
+    "mcp-server"
+   ],
+   "created_at": "2026-11-17T14:43:11Z",
+   "category": "LLM Tooling",
+   "summary": "MCP server for disposable email and SMS OTP retrieval.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "sous-labs/songe",
+   "url": "https://github.com/sous-labs/songe",
+   "description": "A training engine for your local model, using your idle compute",
+   "stars": 67,
+   "language": "Python",
+   "topics": [
+    "coding-agents",
+    "distillation",
+    "fine-tuning",
+    "llm",
+    "local-llm",
+    "lora",
+    "mlx"
+   ],
+   "created_at": "2026-11-20T11:01:20Z",
+   "category": "Fine-tuning",
+   "summary": "Training engine for local models using idle compute.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use idle machines to LoRA-tune small local models on CEFR content, Omani Arabic examples, or government-domain documents; keep model training self-hosted and low-cost."
+  },
+  {
+   "full_name": "aether-aiagent/aether",
+   "url": "https://github.com/aether-aiagent/aether",
+   "description": "Aether — open-source AI agent for Android (Kotlin, Jetpack Compose). Local LLM chat app with bash, file and MCP tools, subagents, offline Alpine/Proot runtime, Termux and Shizuku support. Signed APK releases. ИИ-агент на телефон: нейросеть на Android с инструментами.",
+   "stars": 39,
+   "language": "Kotlin",
+   "topics": [
+    "aether",
+    "ai-agent",
+    "ai-agents",
+    "ai-assistant",
+    "alpine-linux",
+    "android",
+    "android-ai-agent",
+    "android-app"
+   ],
+   "created_at": "2026-11-19T15:41:33Z",
+   "category": "Agents",
+   "summary": "Android AI agent with local chat, tools, subagents, and offline runtime.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Fork as an Android shell for an offline bilingual tutor or parent-support assistant using local LLMs for privacy-first classrooms and Autism AI companion use."
+  },
+  {
+   "full_name": "aravpanwar/dsmai",
+   "url": "https://github.com/aravpanwar/dsmai",
+   "description": "An interactive, layered map of modern AI, tracing concepts from mathematical and computational foundations to architectures, models, fields and applications.",
+   "stars": 31,
+   "language": "JavaScript",
+   "topics": [
+    "artificial-intelligence",
+    "data-visualization",
+    "educational",
+    "knowledge-graph",
+    "learning-path",
+    "machine-learning",
+    "mathematics",
+    "roadmap"
+   ],
+   "created_at": "2026-11-09T07:28:46Z",
+   "category": "Other",
+   "summary": "Interactive map of modern AI concepts and applications.",
+   "first_seen": "2026-11-21",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Reuse the layered map UI pattern to visualize CEFR skill maps, learning paths and generated course dependencies in EnCoach teacher dashboards."
+  },
+  {
+   "full_name": "LIUFelix2004/dsh-workbuddy",
+   "url": "https://github.com/LIUFelix2004/dsh-workbuddy",
+   "description": "Import WorkBuddy accounts into DeepSeek Harness as model providers: one route per account, full model list, per-account credit balance, and an automatic workaround for the gateway 11128 channel check.",
+   "stars": 25,
+   "language": "JavaScript",
+   "topics": [
+    "codebuddy",
+    "deepseek-harness",
+    "dsh-plugin",
+    "llm",
+    "provider",
+    "workbuddy"
+   ],
+   "created_at": "2026-11-20T11:22:44Z",
+   "category": "LLM Tooling",
+   "summary": "Imports WorkBuddy accounts into DeepSeek Harness as model providers.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "bluesky-social/diderot",
+   "url": "https://github.com/bluesky-social/diderot",
+   "description": "Search and ask across your organization's knowledge: Slack, coding-agent sessions, docs and tickets. Self-hosted.",
+   "stars": 25,
+   "language": "Go",
+   "topics": [
+    "coding-agents",
+    "mcp",
+    "rag",
+    "self-hosted",
+    "slack"
+   ],
+   "created_at": "2026-11-20T23:39:20Z",
+   "category": "RAG",
+   "summary": "Self-hosted search and Q&A across organizational knowledge, docs, tickets, and agent sessions.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Embed as self-hosted knowledge search for Al-Busalah project rooms: query uploaded docs, tickets, and analyst notes; reuse MCP/RAG patterns for briefing generation."
+  },
+  {
+   "full_name": "Smitten/pond-skill",
+   "url": "https://github.com/Smitten/pond-skill",
+   "description": "Pond: your personal agent finds you a date. The skill and API reference agents follow.",
+   "stars": 5,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "agent-to-agent",
+    "ai-agents",
+    "ai-dating",
+    "dating",
+    "mcp",
+    "mcp-server"
+   ],
+   "created_at": "2026-11-20T14:18:32Z",
+   "category": "Agents",
+   "summary": "Claude skill and API for an AI dating assistant.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "annayal-consumerxai/sim-guard",
+   "url": "https://github.com/annayal-consumerxai/sim-guard",
+   "description": "Stop AI coding agents from melting your Mac with iOS simulators. Caps booted sims, shares a pool of slim sims (simslim), cleans up after every run. Claude Code / Codex skill, MIT.",
+   "stars": 5,
+   "language": "Shell",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "ios",
+    "ios-simulator",
+    "macos"
+   ],
+   "created_at": "2026-11-20T18:56:57Z",
+   "category": "Infra",
+   "summary": "Tooling to manage iOS simulators for AI coding agents on Mac.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Illyism/pptx-rs",
+   "url": "https://github.com/Illyism/pptx-rs",
+   "description": "Pure-Rust OOXML (.pptx) compiler, importer, validator, and PNG preview renderer with HarfBuzz text fitting and live Excel-backed charts",
+   "stars": 4,
+   "language": "Rust",
+   "topics": [
+    "ai-agents",
+    "ooxml",
+    "powerpoint",
+    "pptx",
+    "rust",
+    "slides"
+   ],
+   "created_at": "2026-11-20T12:37:39Z",
+   "category": "Infra",
+   "summary": "Rust library for compiling, importing, validating, and rendering PPTX files.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as export/rendering layer for bilingual teacher PowerPoints and Al-Busalah stakeholder briefings, with server-side PPTX validation and PNG previews in review workflows."
+  },
+  {
+   "full_name": "ishtiaq-ahmed-dev/ishti-ai",
+   "url": "https://github.com/ishtiaq-ahmed-dev/ishti-ai",
+   "description": "Private, local-first personal AI assistant for Windows: voice, memory, 120+ skills, MCP tools, WhatsApp, Telegram, Discord",
+   "stars": 3,
+   "language": "Python",
+   "topics": [
+    "agentic-ai",
+    "ai-agent",
+    "ai-assistant",
+    "desktop-assistant",
+    "discord-bot",
+    "fastapi",
+    "jarvis",
+    "llm"
+   ],
+   "created_at": "2026-11-20T05:20:37Z",
+   "category": "Agents",
+   "summary": "Private local-first personal AI assistant for Windows.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Autism Medical"
+   ],
+   "opportunity": "Reuse FastAPI voice/memory/WhatsApp patterns to prototype bilingual parent or student assistant; validate workflows before building a production Oman PDPL-compliant mobile/web app."
+  },
+  {
+   "full_name": "Greal-dev/goldenbrain",
+   "url": "https://github.com/Greal-dev/goldenbrain",
+   "description": "Local orchestrator for AI agent harnesses (Claude Code, Codex, OpenCode, Gemini CLI): every task is a note in your Markdown vault, every run a native agent conversation. FR · EN · DE · ES.",
+   "stars": 3,
+   "language": "Python",
+   "topics": [
+    "agent-harness",
+    "agentic-ai",
+    "ai-agents",
+    "ai-orchestration",
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "knowledge-management"
+   ],
+   "created_at": "2026-11-20T14:47:48Z",
+   "category": "Agents",
+   "summary": "Local orchestrator for multiple coding agent harnesses.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "zinkxx/agent-office",
+   "url": "https://github.com/zinkxx/agent-office",
+   "description": "See your Claude Code sessions and sub-agents work in a live 3D office — 100% local, nothing leaves your machine.",
+   "stars": 3,
+   "language": "TypeScript",
+   "topics": [
+    "3d",
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "developer-tools",
+    "local-first",
+    "multi-agent"
+   ],
+   "created_at": "2026-11-20T10:39:30Z",
+   "category": "Apps",
+   "summary": "Local 3D office visualization for Claude Code sessions and sub-agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "pyros-projects/pixel-cat",
+   "url": "https://github.com/pyros-projects/pixel-cat",
+   "description": "Turn an image, GIF, video or sprite sheet into pixel art. Agents drive it with shell commands and JSON. Nothing leaves your machine.",
+   "stars": 3,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "agent-tools",
+    "ai-agents",
+    "animation",
+    "cli",
+    "ffmpeg",
+    "generative-art",
+    "gif"
+   ],
+   "created_at": "2026-11-20T15:54:15Z",
+   "category": "Apps",
+   "summary": "Converts images, GIFs, video, or sprite sheets into pixel art.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "snowwind621/snowwind-novel-agent",
+   "url": "https://github.com/snowwind621/snowwind-novel-agent",
+   "description": "AI 主导的长篇小说写作工作台 · 台账自动同步 · 伏笔看板 · Agent 集群",
+   "stars": 2,
+   "language": "TypeScript",
+   "topics": [
+    "agent",
+    "ai-writing",
+    "chinese",
+    "electron",
+    "llm",
+    "long-form",
+    "novel",
+    "novel-writing"
+   ],
+   "created_at": "2026-11-20T12:36:25Z",
+   "category": "Agents",
+   "summary": "Agentic long-form novel writing workstation with workflow boards.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jasonericsiegel/inbox-for-human",
+   "url": "https://github.com/jasonericsiegel/inbox-for-human",
+   "description": "A skill for Claude Code, Codex, and other AI agents, with a Raycast extension: your agent adds the plans, reports, and drafts it needs you to review to one inbox you open with a hotkey.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "agent-skill",
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "human-in-the-loop",
+    "inbox"
+   ],
+   "created_at": "2026-11-20T20:38:36Z",
+   "category": "Agents",
+   "summary": "Inbox workflow for Claude Code and other agents to send drafts for review.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Add a human-approval inbox for AI-generated course units, quizzes, and prediction reports before publishing; useful for small-team QA and auditable sign-off."
+  },
+  {
+   "full_name": "AIverflow/overseer",
+   "url": "https://github.com/AIverflow/overseer",
+   "description": "A tiny always-on-top Linux board of your running AI coding agents (Claude Code, Codex, OpenCode, Hermes): who is working, who waits for you, whose prompt cache is about to expire. Click to jump to its terminal. Read-only.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "gtk",
+    "linux",
+    "opencode"
+   ],
+   "created_at": "2026-11-20T16:45:36Z",
+   "category": "Infra",
+   "summary": "Linux dashboard for monitoring running AI coding agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Footloose9/hyperfabric-evolution",
+   "url": "https://github.com/Footloose9/hyperfabric-evolution",
+   "description": "Open-source research lab for blockchain, AI agents, automation, security, privacy, cryptography, and communication protocols. Reproducible tests, synthetic evidence tools, and a manual read-only XRPL preview.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "agent-interoperability",
+    "ai-agents",
+    "automation",
+    "blockchain",
+    "blockchain-forensics",
+    "communication-protocols",
+    "cross-chain",
+    "cryptography"
+   ],
+   "created_at": "2026-11-20T08:30:02Z",
+   "category": "Infra",
+   "summary": "Research lab project for agent interoperability, automation, and security tools.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Gurara-nya/antigravity-codex-bridge",
+   "url": "https://github.com/Gurara-nya/antigravity-codex-bridge",
+   "description": "Native Google Antigravity <-> OpenAI Codex orchestration plugin: zero-click Codex Desktop UI sync, 11 MCP tools, live quota analytics & interactive dashboards.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "agent-orchestration",
+    "ai-agents",
+    "antigravity",
+    "codex-cli",
+    "mcp-server",
+    "openai-codex"
+   ],
+   "created_at": "2026-11-20T16:56:24Z",
+   "category": "Agents",
+   "summary": "Orchestration plugin connecting Google Antigravity with OpenAI Codex.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "isoklo/isoklo",
+   "url": "https://github.com/isoklo/isoklo",
+   "description": "Zero-dependency CLI & GitHub Action merge gate that blocks risky AI coding agent PRs.",
+   "stars": 2,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "cli",
+    "code-review",
+    "github-actions",
+    "security",
+    "supply-chain-security",
+    "typescript"
+   ],
+   "created_at": "2026-11-20T14:56:42Z",
+   "category": "Infra",
+   "summary": "CLI and GitHub Action that blocks risky AI coding agent pull requests.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jing-ying-dev/whale-ying-memory",
+   "url": "https://github.com/jing-ying-dev/whale-ying-memory",
+   "description": "Structured long-term memory for AI agents, built with DeepSeek. Conflict resolution + multi-hop retrieval; 93.2% single-hop / 48.3% multi-hop at 262k.",
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "agent-memory",
+    "ai-agent",
+    "bm25",
+    "conflict-resolution",
+    "deepseek",
+    "hybrid-search",
+    "knowledge-base",
+    "llm-agents"
+   ],
+   "created_at": "2026-11-20T04:14:22Z",
+   "category": "Infra",
+   "summary": "Structured long-term memory system for AI agents with hybrid retrieval.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Test as persistent memory for tutoring agents and Al-Busalah stakeholder agents: store resolved conflicts, prior outcomes, and multi-hop facts across sessions."
+  },
+  {
+   "full_name": "nanchengwanfeng/lingyu",
+   "url": "https://github.com/nanchengwanfeng/lingyu",
+   "description": "灵语 LingYu：从零训练中文大模型的引擎（CLI + GUI，13M 到万亿参数同一套配置）",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "bpe",
+    "chinese",
+    "cli",
+    "gui",
+    "llm",
+    "moe",
+    "pytorch",
+    "training"
+   ],
+   "created_at": "2026-11-20T13:41:55Z",
+   "category": "Models",
+   "summary": "Engine for training Chinese large language models from scratch.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mgolcu00/rigbrew",
+   "url": "https://github.com/mgolcu00/rigbrew",
+   "description": "Open models, fitted to your rig. Chat and pictures running on your own computer, in builds measured for your hardware.",
+   "stars": 1,
+   "language": "Svelte",
+   "topics": [
+    "apple-silicon",
+    "desktop-app",
+    "llama-cpp",
+    "llm",
+    "local-ai",
+    "macos",
+    "offline",
+    "privacy"
+   ],
+   "created_at": "2026-11-20T17:13:23Z",
+   "category": "Apps",
+   "summary": "Local chat and image app tuned for hardware-specific builds.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Excelsus4/sfumato",
+   "url": "https://github.com/Excelsus4/sfumato",
+   "description": "Dissolve domain boundaries. Break the Artificial Hivemind. Dual-track cross-domain ideation skill for AI agents.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "brainstorming",
+    "claude-code",
+    "creativity",
+    "llm",
+    "prompt-engineering"
+   ],
+   "created_at": "2026-11-21T04:59:42Z",
+   "category": "Agents",
+   "summary": "Cross-domain ideation skill for AI agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "AdamMostofi/yewtree",
+   "url": "https://github.com/AdamMostofi/yewtree",
+   "description": "Lossless, tree-structured memory for coding agents: everything kept, only what's needed loaded. Claude Code, OpenCode, Pi, Codex, Gemini CLI, Cursor.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "coding-agents",
+    "context-management",
+    "developer-tools",
+    "encryption",
+    "git",
+    "llm"
+   ],
+   "created_at": "2026-11-20T12:22:05Z",
+   "category": "LLM Tooling",
+   "summary": "Tree-structured memory system for coding agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mikamske/ki-inventur",
+   "url": "https://github.com/mikamske/ki-inventur",
+   "description": "Welche KI-Dienste nutzt euer Code? Findet LLM-APIs, Vektor-DBs, Tracing & Co., hält das DSGVO-Register im Repo aktuell und erzeugt Verarbeitungsverzeichnis-Entwürfe. Offline, CI-Gate.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-act",
+    "compliance",
+    "datenschutz",
+    "dsgvo",
+    "gdpr",
+    "github-action",
+    "ki-verordnung",
+    "llm"
+   ],
+   "created_at": "2026-11-20T00:19:58Z",
+   "category": "Infra",
+   "summary": "Repo scanner for AI service inventory and compliance records.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Autism Medical",
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Adapt scanner into Oman PDPL/GCC AI-service inventory: identify LLM APIs, vector stores and tracing in client repos, generating compliance registers for Autism Medical and government deployments."
+  },
+  {
+   "full_name": "PundarikakshNTripathi/silicon-forge",
+   "url": "https://github.com/PundarikakshNTripathi/silicon-forge",
+   "description": "Describe a chip block, get RTL that is formally proven, checked for equivalence, and laid out on real open-source EDA. Local-first agent, ISA toolchain, verification toolkit and Tiny Tapeout (IHP) mode. Tools decide what passes.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "asic",
+    "chip-design",
+    "cocotb",
+    "eda",
+    "electron",
+    "fastapi",
+    "formal-verification"
+   ],
+   "created_at": "2026-11-20T23:06:55Z",
+   "category": "Infra",
+   "summary": "Local-first agent for chip design, verification, and layout.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "biaroli/parley",
+   "url": "https://github.com/biaroli/parley",
+   "description": "Voice, model and settings extensions for AI NPC conversations (Mantella v0.14 patch: custom TTS/STT, backup LLM chain, group chat, bilingual settings UI)",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "elevenlabs",
+    "gradio",
+    "llm",
+    "mantella",
+    "skyrim",
+    "skyrim-vr",
+    "stt",
+    "tts"
+   ],
+   "created_at": "2026-11-20T14:04:54Z",
+   "category": "Apps",
+   "summary": "Voice and conversation extensions for AI NPC chat.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Extract TTS/STT routing and bilingual settings ideas for EnCoach speaking-practice avatars; replace game/NPC layer with CEFR dialogue tasks and Arabic/English controls."
+  },
+  {
+   "full_name": "dhruv4AlgoForge/eda-automation-assistant",
+   "url": "https://github.com/dhruv4AlgoForge/eda-automation-assistant",
+   "description": "Chainlit app that automates exploratory data analysis for any CSV: auto-generated charts by column type, a dataset summary and an LLM-written insight summary using the Cohere API.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "chainlit",
+    "cohere",
+    "data-analysis",
+    "data-visualization",
+    "eda",
+    "llm",
+    "matplotlib",
+    "pandas"
+   ],
+   "created_at": "2026-11-20T10:55:57Z",
+   "category": "Data",
+   "summary": "Chainlit app that automates CSV exploratory data analysis.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "Open City",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use as a quick Chainlit prototype for uploading traffic, fleet or simulation CSVs and auto-generating charts/insights before investing in full dashboards."
+  },
+  {
+   "full_name": "HaitamELARAR/legal-rag-agent",
+   "url": "https://github.com/HaitamELARAR/legal-rag-agent",
+   "description": "Local LLM agent (LangGraph + FastAPI + BM25) that searches and reads French court decisions, with an evaluation of extraction strategies.",
+   "stars": 1,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "bm25",
+    "fastapi",
+    "langgraph",
+    "llm",
+    "nlp",
+    "ollama",
+    "python",
+    "rag"
+   ],
+   "created_at": "2026-11-21T01:18:53Z",
+   "category": "RAG",
+   "summary": "Local RAG agent for searching French court decisions.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Fork the LangGraph/FastAPI/BM25 pattern for Arabic/English Oman legal or real-estate regulation RAG; also usable for Al-Busalah document evidence retrieval."
+  },
+  {
+   "full_name": "poojadinesh99/interdimensional-oracle",
+   "url": "https://github.com/poojadinesh99/interdimensional-oracle",
+   "description": "A Retrieval-Augmented Generation chatbot built on the Rick & Morty API.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "embeddings",
+    "fastapi",
+    "gemini",
+    "hybrid-search",
+    "llm",
+    "python",
+    "rag",
+    "sqlite"
+   ],
+   "created_at": "2026-11-20T18:38:02Z",
+   "category": "RAG",
+   "summary": "RAG chatbot built on the Rick and Morty API.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "lyy-tam/kaodian-ledger",
+   "url": "https://github.com/lyy-tam/kaodian-ledger",
+   "description": "Kaodian Ledger · every AI-generated exam point must be found verbatim in your own past papers. 考点账本：AI 划的重点，每条都要能在你给的真题里找到出处。",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "citation",
+    "exam",
+    "llm",
+    "python",
+    "study",
+    "study-tools"
+   ],
+   "created_at": "2026-11-20T19:51:52Z",
+   "category": "Apps",
+   "summary": "Checks that exam points are grounded in past papers.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Plug into DeepTutor QA: every generated exam point, quiz item or teacher note must cite source course materials/past papers, reducing hallucinations in Omani university pilots."
+  },
+  {
+   "full_name": "fuqiuluo/VulnHunter",
+   "url": "https://github.com/fuqiuluo/VulnHunter",
+   "description": "Zero-Hint Defensive Security Audit Benchmark for Vendor-Official CLI Agents (Harbor)",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "audit",
+    "benchmark",
+    "defensive-security",
+    "harbor",
+    "llm",
+    "llm-evaluation",
+    "security"
+   ],
+   "created_at": "2026-11-20T20:57:39Z",
+   "category": "Other",
+   "summary": "Defensive security audit benchmark for vendor CLI agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "amicus-ink/amicus-ink",
+   "url": "https://github.com/amicus-ink/amicus-ink",
+   "description": "AMICUS: source-grounded methods checklists that a language model applies to a quantitative social-science paper",
+   "stars": 1,
+   "language": "HTML",
+   "topics": [
+    "causal-inference",
+    "checklist",
+    "claude-code-plugin",
+    "economics",
+    "llm",
+    "political-science",
+    "research-methods"
+   ],
+   "created_at": "2026-11-20T21:22:46Z",
+   "category": "LLM Tooling",
+   "summary": "Source-grounded checklist methods for language model paper review.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt its source-grounded checklist workflow to audit evidence quality in Al-Busalah prediction reports, especially policy/social-science claims before stakeholder briefings."
+  },
+  {
+   "full_name": "mazihua-lgtm/relay-forge",
+   "url": "https://github.com/mazihua-lgtm/relay-forge",
+   "description": "面向 LLM API 中转站站长的开源网关：收益看板、渠道健康巡检、分销持续抽成、下游客户层与单用户封禁，一条命令开站。基于 new-api（AGPL-3.0）",
+   "stars": 1,
+   "language": "Go",
+   "topics": [
+    "agpl",
+    "anthropic",
+    "api-gateway",
+    "api-proxy",
+    "golang",
+    "llm",
+    "new-api",
+    "openai"
+   ],
+   "created_at": "2026-11-20T11:18:12Z",
+   "category": "Infra",
+   "summary": "Open gateway for managing and monetizing LLM API traffic.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Use as a self-hosted LLM API gateway with billing, health checks, and customer tiers; localize as an Oman/GCC AI API reseller platform."
+  },
+  {
+   "full_name": "yilong-musk/umsp",
+   "url": "https://github.com/yilong-musk/umsp",
+   "description": "UMSP — one static binary speaking OpenAI Chat, OpenAI Responses and Anthropic Messages, with provider-independent models and backend failover.",
+   "stars": 1,
+   "language": "Rust",
+   "topics": [
+    "ai-gateway",
+    "llm",
+    "proxy",
+    "rust"
+   ],
+   "created_at": "2026-11-20T07:55:52Z",
+   "category": "Infra",
+   "summary": "Static binary proxy with OpenAI and Anthropic backend failover.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Place behind DeepTutor or Al-Busalah agents for provider failover across OpenAI/Anthropic-compatible backends, reducing outage risk during demos and deployments."
+  },
+  {
+   "full_name": "whale-devx/intelligent-model-router-skills",
+   "url": "https://github.com/whale-devx/intelligent-model-router-skills",
+   "description": "Select models for tasks and subtasks using a supplied model inventory and evidence. Offline alpha with deterministic ranking.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "llm",
+    "model-routing",
+    "model-selection"
+   ],
+   "created_at": "2026-11-20T11:49:17Z",
+   "category": "LLM Tooling",
+   "summary": "Offline model selection and routing based on task evidence.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use deterministic model routing to choose cheaper or stronger LLMs for CEFR content generation, assessments, document extraction, and simulation-report writing."
+  },
+  {
+   "full_name": "BlueSkyMicha/dsh-pure-chat",
+   "url": "https://github.com/BlueSkyMicha/dsh-pure-chat",
+   "description": "Pure chat mode for DeepSeek Harness: a tool-less conversation preset with per-session persona, temperature and capability switches, plus one-click hand-off into a standard session.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "chat",
+    "deepseek-harness",
+    "dsh",
+    "dsh-bundle",
+    "dsh-plugin",
+    "llm",
+    "preset"
+   ],
+   "created_at": "2026-11-20T14:22:53Z",
+   "category": "Apps",
+   "summary": "Pure chat preset for DeepSeek Harness sessions.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "piyush2707/skillproof",
+   "url": "https://github.com/piyush2707/skillproof",
+   "description": "Test, score and showcase AI agent skills and prompts. Free, open source, browser-based.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agent-skills",
+    "aiagent",
+    "developer-tools",
+    "llm",
+    "prompt-engineering"
+   ],
+   "created_at": "2026-11-20T08:18:06Z",
+   "category": "LLM Tooling",
+   "summary": "Browser-based testing and scoring for agent skills and prompts.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Build regression tests for tutoring prompts, grading rubrics, and simulation agents; score outputs before shipping new DeepTutor or Al-Busalah agent behaviors."
+  },
+  {
+   "full_name": "xsoway/auto-api-test-harness",
+   "url": "https://github.com/xsoway/auto-api-test-harness",
+   "description": "Agent-oriented API testing & case evolution framework (Python + pytest + YAML)",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "api-testing",
+    "llm",
+    "openapi",
+    "pytest",
+    "test-automation",
+    "yaml"
+   ],
+   "created_at": "2026-11-21T04:43:07Z",
+   "category": "LLM Tooling",
+   "summary": "Agent-oriented API testing and case evolution framework.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Etipufhu/pr-radar",
+   "url": "https://github.com/Etipufhu/pr-radar",
+   "description": "Media monitoring for any brand: competitor coverage gaps, headline sentiment, and a fine-tuned local LLM that writes a fact-checked weekly brief.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "duckdb",
+    "fine-tuning",
+    "knowledge-distillation",
+    "llm",
+    "lora",
+    "media",
+    "mediamonitoring"
+   ],
+   "created_at": "2026-11-20T15:23:02Z",
+   "category": "Apps",
+   "summary": "Media monitoring app with fact-checked weekly brief generation.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize for Arabic/English Omani media monitoring: feed Al-Busalah watch alerts, sentiment, competitor/government coverage gaps, and generate weekly executive briefs."
+  },
+  {
+   "full_name": "Edmundkun/agentdesk",
+   "url": "https://github.com/Edmundkun/agentdesk",
+   "description": "AgentDesk-(Java 17 + Spring Boot 3+ReAct Agent + Vue 3)",
+   "stars": 1,
+   "language": "Java",
+   "topics": [
+    "agent",
+    "java",
+    "llm",
+    "mybatis-plus",
+    "mysql",
+    "rag",
+    "react-agent",
+    "spring-boot"
+   ],
+   "created_at": "2026-11-20T11:59:37Z",
+   "category": "Agents",
+   "summary": "Spring Boot and Vue agent desk application.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "nirholas/RepoCard",
+   "url": "https://github.com/nirholas/RepoCard",
+   "description": "AI-designed social preview images for GitHub repos. Paste a link, get four unique 1280x640 cards. Web app, bulk export, API, MCP server for AI agents, CLI and GitHub Action on Cloudflare Workers.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "cloudflare-workers",
+    "developer-tools",
+    "github",
+    "github-actions",
+    "image-generation"
+   ],
+   "created_at": "2026-11-20T19:18:14Z",
+   "category": "Apps",
+   "summary": "Generates social preview images for GitHub repositories.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Windy-X211/model_mcp",
+   "url": "https://github.com/Windy-X211/model_mcp",
+   "description": "把智能体当作 OpenAI 兼容模型后端：通过 MCP 长轮询派活，支持流式输出、工具调用与思考（reasoning_content）。Agent-as-model backend over MCP with an OpenAI-compatible API.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "fastapi",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "model-gateway",
+    "openai-api",
+    "openai-compatible"
+   ],
+   "created_at": "2026-11-21T08:23:16Z",
+   "category": "Infra",
+   "summary": "OpenAI-compatible model backend built over MCP.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Expose internal tutoring, RAG, or MiroFish swarm agents as OpenAI-compatible model endpoints via FastAPI/MCP for easier orchestration and product integration."
+  },
+  {
+   "full_name": "hellovm/edge-infer",
+   "url": "https://github.com/hellovm/edge-infer",
+   "description": "端侧三层卸载多硬件推理平台 · 本地 AI 工作台 | Rust 自研 SSD/内存/显存三层卸载内核 + 双后端（NVIDIA→llama.cpp CUDA、Intel GPU/NPU→OpenVINO）｜8GB 显存 + 32GB 内存即可跑 Qwen3-Next-80B-A3B 等超大 MoE，附 OpenAI 兼容 API 与 Tauri GUI",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agent",
+    "edge-ai",
+    "llama-cpp",
+    "llm",
+    "local-llm",
+    "moe",
+    "npu",
+    "openvino"
+   ],
+   "created_at": "2026-11-20T04:25:07Z",
+   "category": "Infra",
+   "summary": "Edge inference platform with layered offload and OpenAI API.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Deploy local OpenAI-compatible LLM endpoints on university, government, or clinic hardware for sovereign/PDPL-sensitive inference without sending data abroad."
+  },
+  {
+   "full_name": "AnesthesiaAsf/deepseek-prompt-skill",
+   "url": "https://github.com/AnesthesiaAsf/deepseek-prompt-skill",
+   "description": "Prompt optimizer + prompt library for DeepSeek (V4.1-Pro/Flash, R1). Rewrites your one-liner into a structured prompt with delimiter isolation, output contracts and assumption gating. Works as a DSH / Claude Code skill.",
+   "stars": 1,
+   "language": "",
+   "topics": [
+    "agentskills",
+    "ai-agents",
+    "chinese",
+    "claude-code",
+    "claude-skills",
+    "deepseek",
+    "deepseek-harness",
+    "dsh"
+   ],
+   "created_at": "2026-11-21T09:30:37Z",
+   "category": "LLM Tooling",
+   "summary": "Prompt optimizer and prompt library for DeepSeek.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "SakkoulasGiannis/addsynapse-rooms",
+   "url": "https://github.com/SakkoulasGiannis/addsynapse-rooms",
+   "description": "AI chat rooms where Claude, ChatGPT, Gemini and AI agents talk to each other: free MCP server, Claude skill and HTTP API for multi-agent conversations",
+   "stars": 1,
+   "language": "",
+   "topics": [
+    "agent-to-agent",
+    "ai-agents",
+    "ai-chat",
+    "chatgpt",
+    "claude",
+    "claude-skills",
+    "llm",
+    "mcp"
+   ],
+   "created_at": "2026-11-20T21:23:56Z",
+   "category": "Agents",
+   "summary": "Multi-agent chat rooms with MCP server, Claude skill, and HTTP API for agent conversations.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Prototype multi-agent stakeholder rooms where policy, military, citizen, and enterprise agents debate scenarios before converting outputs into Al-Busalah reports."
+  },
+  {
+   "full_name": "RosalieKuang/read-pick",
+   "url": "https://github.com/RosalieKuang/read-pick",
+   "description": "English-first reading + register-aware vocabulary picking. Chrome extension, bring your own LLM API.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "chrome-extension",
+    "deepseek",
+    "english-learning",
+    "ielts",
+    "llm",
+    "vocabulary"
+   ],
+   "created_at": "2026-11-20T03:20:43Z",
+   "category": "Apps",
+   "summary": "Chrome extension for reading and vocabulary picking using a user-provided LLM API.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt into a bilingual CEFR vocabulary Chrome extension for Omani foundation students, feeding unknown words and reading analytics back into DeepTutor lessons."
+  },
+  {
+   "full_name": "sallout/LayoutLens",
+   "url": "https://github.com/sallout/LayoutLens",
+   "description": "Improving UI replication accuracy for vision and text-only AI models using structured visual metadata from OpenCV, Pillow, and Tesseract OCR.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "artificial-intelligence",
+    "benchmark",
+    "computer-vision",
+    "computer-vision-ai",
+    "computer-vision-datasets",
+    "computer-vision-opencv",
+    "computer-vision-project",
+    "computer-vision-projects"
+   ],
+   "created_at": "2026-11-20T18:16:15Z",
+   "category": "Vision",
+   "summary": "Uses visual metadata to improve UI replication for vision and text-only AI models.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "pkwork98800-lab/agent-qa-lab",
+   "url": "https://github.com/pkwork98800-lab/agent-qa-lab",
+   "description": "AI Agent QA portfolio: 60-scenario eval harness for a tool-calling agent — deterministic + judged assertions, ground-truth verifier, trace compliance, red-team, judge calibration, triage. Offline-first, $0 real cost.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "eval-harness",
+    "llm-evaluation",
+    "playwright",
+    "promptfoo",
+    "qa",
+    "test-automation",
+    "typescript"
+   ],
+   "created_at": "2026-11-20T00:25:02Z",
+   "category": "LLM Tooling",
+   "summary": "Evaluation harness for tool-calling agents with deterministic and judged tests.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt its offline eval harness to test DeepTutor agents and Al-Busalah tool-calling simulations: deterministic cases, judged outputs, trace compliance, red-team regressions."
+  },
+  {
+   "full_name": "Rahhhdayz/Applywise",
+   "url": "https://github.com/Rahhhdayz/Applywise",
+   "description": "Job-discovery and application-prep pipeline: deterministic Python + narrowly scoped AI, SQLite system of record, Notion UI, Telegram control, human-controlled submit.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "automation",
+    "claude",
+    "job-application",
+    "job-search",
+    "notion",
+    "playwright",
+    "python"
+   ],
+   "created_at": "2026-11-20T00:13:55Z",
+   "category": "Apps",
+   "summary": "Job-discovery and application-prep pipeline with human-controlled submission.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize for Omanization career services: Arabic/English job discovery, CV tailoring, interview prep, Telegram control, and human-controlled submissions for graduates and training centers."
+  },
+  {
+   "full_name": "SamDozer/antigravity-elite-harness",
+   "url": "https://github.com/SamDozer/antigravity-elite-harness",
+   "description": "Production-grade autonomous engineering harness, 3-tier security, cross-session memory, Beads task DAG, and scientific reproducibility for Google Antigravity",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agent-harness",
+    "agentic-ai",
+    "ai-agents",
+    "antigravity",
+    "app-security",
+    "bioinformatics",
+    "cheminformatics",
+    "ci-cd-pipeline"
+   ],
+   "created_at": "2026-11-20T03:46:10Z",
+   "category": "Agents",
+   "summary": "Autonomous engineering harness for Google Antigravity with memory and security.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "chrishnawestmoreland-oss/token-radar",
+   "url": "https://github.com/chrishnawestmoreland-oss/token-radar",
+   "description": "Token launch radar: pre-token protocols ranked by implied value, with farm plans. Built by an AI agent for make.fun's Build the best token launch radar bounty, $1,325 in USDC.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "bounties",
+    "makefun",
+    "trading"
+   ],
+   "created_at": "2026-11-20T17:43:00Z",
+   "category": "Apps",
+   "summary": "Radar for ranking pre-token protocols and launch opportunities.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Iremir0/shipgate",
+   "url": "https://github.com/Iremir0/shipgate",
+   "description": "Gated multi-agent delivery pipeline for Claude Code: test-first, locked tests, cross-model review, single testing queue. Jira or GitHub Issues.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "claude-code-plugin",
+    "code-review",
+    "developer-tools",
+    "multi-agent",
+    "tdd"
+   ],
+   "created_at": "2026-11-20T09:46:58Z",
+   "category": "Agents",
+   "summary": "Gated multi-agent delivery pipeline for Claude Code with testing and review.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Kaiserunix/gemini-bastion-mcp",
+   "url": "https://github.com/Kaiserunix/gemini-bastion-mcp",
+   "description": "Self-hosted Remote MCP Server & OAuth 2.1 Gateway for Web Gemini (gemini.google.com), Claude.ai & ChatGPT — 10 sandboxed coding/DevOps tools, 1 approval gate, Codex SDK, Cloudflare ops, Google/GitHub SSO & MCP-2 federation.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agents",
+    "chatgpt",
+    "claude",
+    "claude-mcp",
+    "cloudflare-tunnel",
+    "cloudflare-workers",
+    "codex",
+    "devops"
+   ],
+   "created_at": "2026-11-20T17:55:29Z",
+   "category": "Infra",
+   "summary": "Self-hosted remote MCP server and OAuth gateway for Gemini, Claude, and ChatGPT.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as self-hosted MCP/OAuth gateway with approval gates for secure agent access to internal tools in EnCoach or Al-Busalah deployments."
+  },
+  {
+   "full_name": "PerryLink/dsh-os",
+   "url": "https://github.com/PerryLink/dsh-os",
+   "description": "OS-level primitives for DeepSeek Harness: actions, grants, clipboard, workspace, environment, canary, triggers, evidence, memory, windows, approvals.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "agent-os",
+    "ai-agents",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mcp"
+   ],
+   "created_at": "2026-11-20T13:21:58Z",
+   "category": "Infra",
+   "summary": "OS-level primitives for DeepSeek Harness actions, approvals, memory, and windows.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "r0wh4n/sound-like-me",
+   "url": "https://github.com/r0wh4n/sound-like-me",
+   "description": "A skill that learns how you write to people and makes Claude, Codex, ChatGPT draft messages in your voice.",
+   "stars": 1,
+   "language": "",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "chatgpt",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "writing-style"
+   ],
+   "created_at": "2026-11-20T19:37:51Z",
+   "category": "Agents",
+   "summary": "Skill that drafts messages in the user's writing style.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Adapt its writing-style capture to produce bilingual stakeholder briefings, teacher notes, or ministry-facing reports in approved Omani institutional tone."
+  },
+  {
+   "full_name": "jalywebops-code/agenthub",
+   "url": "https://github.com/jalywebops-code/agenthub",
+   "description": "Control board for your AI coding agents, on your own computer: Claude Code, Codex, Hermes, OpenClaw, and built for more. Approve, answer & reply from your phone with voice & images. Usage rings, health lights, auto-continue after limits, gateway restarts, multi-account, light/dark & tactile themes. Local-only, PIN-protected, zero deps.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "dashboard",
+    "developer-tools",
+    "mobile-first",
+    "nodejs",
+    "self-hosted"
+   ],
+   "created_at": "2026-11-20T06:12:07Z",
+   "category": "Infra",
+   "summary": "Local dashboard for monitoring and controlling AI coding agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "mikamske/tidyguard",
+   "url": "https://github.com/mikamske/tidyguard",
+   "description": "Your agent finishes the task and leaves no mess. Hooks for Claude Code, Codex and OpenCode that block stray notes, spec rewrites and unrequested automation, and make agents clean up.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "developer-tools",
+    "git",
+    "hooks",
+    "opencode"
+   ],
+   "created_at": "2026-11-20T00:04:22Z",
+   "category": "Infra",
+   "summary": "Hooks that enforce cleanup and block unwanted behavior in coding agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "haneulmas/news-image-20261121",
+   "url": "https://github.com/haneulmas/news-image-20261121",
+   "description": "make.fun bounty entry — sums up 21 November 2026's world news in one image",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "bounties",
+    "growth",
+    "makefun"
+   ],
+   "created_at": "2026-11-21T02:24:18Z",
+   "category": "Apps",
+   "summary": "Python app that summarizes world news in a single image.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "haneulmas/csv-reader-speed-01-run-20261121",
+   "url": "https://github.com/haneulmas/csv-reader-speed-01-run-20261121",
+   "description": "Fast CSV Reader — a faster csv-reader 1.0.0 drop-in. make.fun bounty entry: a program that reads broken CSV files faster.",
+   "stars": 1,
+   "language": "",
+   "topics": [
+    "ai-agents",
+    "bounties",
+    "growth",
+    "makefun"
+   ],
+   "created_at": "2026-11-21T03:47:55Z",
+   "category": "Other",
+   "summary": "Fast CSV reader drop-in replacement for broken CSV files.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Fexreddin-dev/agent-ofisi",
+   "url": "https://github.com/Fexreddin-dev/agent-ofisi",
+   "description": "Live 3D office for your Claude Code agents: 11 workers, a manager, task board, handoffs and day/night shifts. Local only, no API keys.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "multi-agent",
+    "subagents"
+   ],
+   "created_at": "2026-11-20T19:23:50Z",
+   "category": "Apps",
+   "summary": "Local 3D office interface for Claude Code agents and task handoffs.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "kawaka9099-hash/gta6-cover-art",
+   "url": "https://github.com/kawaka9099-hash/gta6-cover-art",
+   "description": "Vice Cover Studio — an offline web app that turns your photos and a caption into multi-panel GTA-style poster cover art, exported as PNG.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "bounties",
+    "growth",
+    "makefun"
+   ],
+   "created_at": "2026-11-20T01:41:29Z",
+   "category": "Vision",
+   "summary": "Offline web app generating GTA-style poster cover art from photos.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Goresalink/csv-reader-speed",
+   "url": "https://github.com/Goresalink/csv-reader-speed",
+   "description": "Fast drop-in for csv-reader 1.0.0 — reads broken CSV files exactly as the reference, only faster. by bang ndien — entered for make.fun's “Read broken CSV files faster, 21 November 2026” bounty, $100 in USDC.",
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": [
+    "ai-agents",
+    "bounties",
+    "code",
+    "makefun"
+   ],
+   "created_at": "2026-11-21T05:03:27Z",
+   "category": "Other",
+   "summary": "Faster drop-in CSV reader for broken CSV files.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "voxtellai/softphone-use",
+   "url": "https://github.com/voxtellai/softphone-use",
+   "description": "A SIP softphone that coding agents can drive.",
+   "stars": 1,
+   "language": "Rust",
+   "topics": [
+    "agents",
+    "sip",
+    "voice",
+    "voice-assistant"
+   ],
+   "created_at": "2026-11-20T10:57:30Z",
+   "category": "Agents",
+   "summary": "SIP softphone designed for coding agents to control.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Autism Medical",
+    "New venture"
+   ],
+   "opportunity": "Prototype Arabic/English AI calling for clinic reminders, parent follow-ups, and SME appointment handling using SIP; localize for Oman PDPL-compliant hosted voice automation."
+  },
+  {
+   "full_name": "mobeloper/better-oss",
+   "url": "https://github.com/mobeloper/better-oss",
+   "description": "Skills and guardrail hooks for making robust, reliable open source contributions (a Claude Code plugin)",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "automation",
+    "claude-code",
+    "claude-code-plugin",
+    "open-source"
+   ],
+   "created_at": "2026-11-21T06:15:19Z",
+   "category": "Agents",
+   "summary": "Claude Code plugin for safer open source contribution workflows.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jerelvelarde/teamkit",
+   "url": "https://github.com/jerelvelarde/teamkit",
+   "description": "AG-UI TeamKit: an open-source board where any agent claims and works tasks, and people stay in the loop on the web and in Slack.",
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": [
+    "ag-ui",
+    "agents",
+    "ai-agents",
+    "claude-code",
+    "coding-agents",
+    "copilotkit",
+    "multi-agent",
+    "postgres"
+   ],
+   "created_at": "2026-11-20T16:12:55Z",
+   "category": "Agents",
+   "summary": "Web and Slack board where agents claim and work tasks.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a human-in-the-loop task board for agents generating DeepTutor content or Al-Busalah reports, with reviewers approving outputs before delivery."
+  },
+  {
+   "full_name": "Amz34/agent-substrate",
+   "url": "https://github.com/Amz34/agent-substrate",
+   "description": "Agent Substrate: Zero-trust sandboxing for millions of agents on Kubernetes",
+   "stars": 1,
+   "language": "Go",
+   "topics": [
+    "agents",
+    "cncf",
+    "gvisor",
+    "kubernetes",
+    "microvm",
+    "sandboxing"
+   ],
+   "created_at": "2026-11-20T13:02:37Z",
+   "category": "Infra",
+   "summary": "Zero-trust sandboxing platform for large-scale agents on Kubernetes.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Evaluate for sandboxing untrusted simulation/LLM-agent tools in sovereign government deployments where isolation, policy control, and Kubernetes operations matter."
+  },
+  {
+   "full_name": "Amz34/substrate",
+   "url": "https://github.com/Amz34/substrate",
+   "description": "Agent Substrate: Zero-trust sandboxing for millions of agents on Kubernetes",
+   "stars": 1,
+   "language": "Go",
+   "topics": [
+    "agents",
+    "cncf",
+    "gvisor",
+    "kubernetes",
+    "microvm",
+    "sandboxing"
+   ],
+   "created_at": "2026-11-20T13:58:45Z",
+   "category": "Infra",
+   "summary": "Zero-trust sandboxing platform for large-scale agents on Kubernetes.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Evaluate alongside the duplicate Agent Substrate repo for secure multi-agent execution isolation before offering Al-Busalah to government or defense users."
+  },
+  {
+   "full_name": "Pydmrl/qbranch",
+   "url": "https://github.com/Pydmrl/qbranch",
+   "description": "Parallel speculative agents that collapse to the test-verified answer — Schrödinger's Orchestra.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai",
+    "evals",
+    "llm",
+    "multi-agent",
+    "orchestration",
+    "orchestration-systems",
+    "orchestrator"
+   ],
+   "created_at": "2026-11-21T08:25:50Z",
+   "category": "Agents",
+   "summary": "Parallel speculative agent orchestration with test-verified outputs.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use parallel agent branching to generate multiple lesson/report drafts, then select test-verified outputs for quiz correctness, CEFR alignment, or scenario-report consistency."
+  },
+  {
+   "full_name": "nornscode/fulla",
+   "url": "https://github.com/nornscode/fulla",
+   "description": "A personal manager on Norns. Keeps your commitments, reminds you about appointments. Helps manage your life via on Telegram, Signal or SMS",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "norns"
+   ],
+   "created_at": "2026-11-20T20:21:28Z",
+   "category": "Apps",
+   "summary": "Personal manager that reminds users via Telegram, Signal, or SMS.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Autism Medical"
+   ],
+   "opportunity": "Adapt Telegram/Signal/SMS reminders for parent therapy schedules, assessment appointments, and home-exercise prompts in Arabic/English."
+  },
+  {
+   "full_name": "gouyu-hou/keyan-agent",
+   "url": "https://github.com/gouyu-hou/keyan-agent",
+   "description": "从一篇 PDF 到可追问、可溯源的科研知识库。面向读论文、做选题、写综述的 AI 文献工作台，集成 PDF/OCR 解析、版本去重、带原文定位的 RAG 问答、中英对照翻译、引用图谱、arXiv 文献发现与带引用草稿生成。支持自行部署，基于 FastAPI、Next.js 与 LangGraph。",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "academic-writing",
+    "ai-agent",
+    "arxiv",
+    "citation-graph",
+    "document-translation",
+    "fastapi",
+    "langgraph",
+    "literature-review"
+   ],
+   "created_at": "2026-11-21T04:27:38Z",
+   "category": "Apps",
+   "summary": "Self-hosted research workspace for paper reading, citation tracing, translation, and draft generation.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse PDF/OCR, citation tracing, bilingual translation, and cited draft generation for Al-Busalah reality-seed ingestion and EnCoach university content research workflows."
+  },
+  {
+   "full_name": "Master-MD/NALA-ModelForge-RS",
+   "url": "https://github.com/Master-MD/NALA-ModelForge-RS",
+   "description": "100% Native Safe Rust + Apple Metal GPU (0% Python) Tri-OS LLM Precision Studio: Bonsai 1-Bit + Gyro-Coder MoE Pruning, Multi-Agent KV Planner, Streaming GGUF Abliteration, Static Multi-LoRA Merger, NALA-RAG & 28-Tool MCP",
+   "stars": 1,
+   "language": "Rust",
+   "topics": [
+    "abliteration",
+    "bonsai-1bit",
+    "gguf",
+    "llama-cpp",
+    "llm",
+    "lora",
+    "mcp",
+    "metal-gpu"
+   ],
+   "created_at": "2026-11-21T01:11:46Z",
+   "category": "Models",
+   "summary": "Rust-based LLM precision studio with pruning, LoRA merging, and RAG tools.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Steinantonio/mcp-rag-showcase",
+   "url": "https://github.com/Steinantonio/mcp-rag-showcase",
+   "description": "One retrieval contract, two MCP servers (C# and Python) - same answers, proven by a cross-language parity test.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "bm25",
+    "csharp",
+    "docker",
+    "dotnet",
+    "fastapi",
+    "hexagonal-architecture",
+    "mcp",
+    "model-context-protocol"
+   ],
+   "created_at": "2026-11-20T20:53:26Z",
+   "category": "RAG",
+   "summary": "Cross-language MCP retrieval contract with parity tests between C# and Python servers.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Able1991/session-rag",
+   "url": "https://github.com/Able1991/session-rag",
+   "description": "Private, local search over your past Claude Code sessions, as an MCP server",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "claude-code",
+    "mcp",
+    "rag"
+   ],
+   "created_at": "2026-11-20T10:32:07Z",
+   "category": "RAG",
+   "summary": "Local search over past Claude Code sessions exposed as an MCP server.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "EVOL233awa/nxopen-mcp-enhanced",
+   "url": "https://github.com/EVOL233awa/nxopen-mcp-enhanced",
+   "description": "nxopen-mcp 增强分支：为 agent 检索 NXOpen .NET API，支持远程嵌入、可选重排与离线回退",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "mcp",
+    "nxopen",
+    "rag",
+    "siemens-nx"
+   ],
+   "created_at": "2026-11-20T15:25:04Z",
+   "category": "RAG",
+   "summary": "Enhanced MCP server for retrieving NXOpen .NET API documentation.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Mirzokhidbek/storeAiAgent",
+   "url": "https://github.com/Mirzokhidbek/storeAiAgent",
+   "description": "AI shopping assistant for a fictional Uzbek electronics store. RAG over store policies, hybrid product search, LangGraph agent with MCP tools, Gemini and Streamlit.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "chromadb",
+    "gemini",
+    "langchain",
+    "langgraph",
+    "llm",
+    "mcp",
+    "rag"
+   ],
+   "created_at": "2026-11-20T01:25:57Z",
+   "category": "Apps",
+   "summary": "Shopping assistant for a fictional store with RAG, product search, and MCP tools.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize into Arabic/English product-search assistants for Omani retailers, integrated with Shopify/Odoo/WhatsApp and trained on store policies and catalogs."
+  },
+  {
+   "full_name": "Sammm14/snake-neural-network-numpy",
+   "url": "https://github.com/Sammm14/snake-neural-network-numpy",
+   "description": "Neural network that plays Snake, built in pure NumPy with hand-written backprop and Q-learning. Mean score 67.6 over 100 evaluation games.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "backpropagation",
+    "deepq-learning",
+    "from-scratch",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "reinforcement-learning"
+   ],
+   "created_at": "2026-11-21T07:30:47Z",
+   "category": "Models",
+   "summary": "Pure NumPy neural network and Q-learning agent that plays Snake.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "PoyrazAlkan65/weightlake",
+   "url": "https://github.com/PoyrazAlkan65/weightlake",
+   "description": "WeightLake — version-controlled, deduplicated, SQL-queryable storage for neural network weights",
+   "stars": 1,
+   "language": "Rust",
+   "topics": [
+    "database",
+    "machine-learning",
+    "neural-networks",
+    "pytorch",
+    "rust",
+    "safetensors",
+    "sql",
+    "transformers"
+   ],
+   "created_at": "2026-11-21T01:54:45Z",
+   "category": "Infra",
+   "summary": "Version-controlled, deduplicated SQL storage system for neural network weights.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "devgabrielbarreto/hateoff",
+   "url": "https://github.com/devgabrielbarreto/hateoff",
+   "description": "Extensão para navegadores Chromium integrada a uma API Python de Machine Learning (NLP + Naive Bayes) para detectar e motivar a denúncia de discursos racistas no Twitter.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "chrome-extension",
+    "flask",
+    "machine-learning",
+    "nlkt",
+    "nlp",
+    "python",
+    "scikit-learn",
+    "social-impact"
+   ],
+   "created_at": "2026-11-20T13:23:47Z",
+   "category": "Apps",
+   "summary": "Browser extension and Python API for detecting racist speech on Twitter.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "kapildhinwa2010-dev/DenseTap",
+   "url": "https://github.com/kapildhinwa2010-dev/DenseTap",
+   "description": "Every transformer layer reads every previous layer — for 20 extra scalars. NumPy reference impl, gradient-verified, honest benchmarks (+2.72 pts at 20K params, 3/3 seeds). 5M comparison INCOMPLETE.",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai-research",
+    "cross-layer",
+    "deep-learning",
+    "densenet",
+    "from-scratch",
+    "geometry",
+    "machine-learning",
+    "negative-results"
+   ],
+   "created_at": "2026-11-20T14:00:56Z",
+   "category": "Models",
+   "summary": "NumPy reference implementation of a novel dense transformer variant.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ismailarrouchdi/StickmanWalker",
+   "url": "https://github.com/ismailarrouchdi/StickmanWalker",
+   "description": "A 2D stickman that learns to walk like a human with PPO and Unity ML-Agents.",
+   "stars": 1,
+   "language": "C#",
+   "topics": [
+    "machine-learning",
+    "mlagents",
+    "neural-network",
+    "physics-simulation",
+    "ppo",
+    "ragdoll",
+    "reinforcement-learning",
+    "unity"
+   ],
+   "created_at": "2026-11-20T23:25:57Z",
+   "category": "Other",
+   "summary": "Unity reinforcement learning project training a stickman to walk.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Yaths07/CrewPulse",
+   "url": "https://github.com/Yaths07/CrewPulse",
+   "description": "Workforce Retention & Attrition Risk Estimator using Logistic Regression, Random Forest, and XGBoost",
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "machine-learning",
+    "python"
+   ],
+   "created_at": "2026-11-20T17:03:00Z",
+   "category": "Apps",
+   "summary": "Workforce retention and attrition risk prediction application.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize as an Odoo-adjacent HR analytics add-on for Omani SMEs: attrition risk, Omanization workforce insights and retention dashboards in Arabic/English."
+  },
+  {
+   "full_name": "Daeda1used/repair-llm-atlas",
+   "url": "https://github.com/Daeda1used/repair-llm-atlas",
+   "description": "Open map of LLMs and AI assistants for physical repair: electronics, appliances, clothing and bikes. Sourced data, design patterns, evidence and gaps.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "bicycle-repair",
+    "dataset",
+    "electronics-repair",
+    "large-language-models",
+    "llm",
+    "open-data",
+    "repair",
+    "retrieval-augmented-generation"
+   ],
+   "created_at": "2026-11-20T16:01:29Z",
+   "category": "Data",
+   "summary": "Open map of LLMs and AI assistants for physical repair tasks.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Use its repair-assistant patterns to seed an Arabic/English appliance and electronics troubleshooting assistant for Omani households, workshops, and SME maintenance teams."
+  },
+  {
+   "full_name": "zkwasm/in-weight-fpga-wsp",
+   "url": "https://github.com/zkwasm/in-weight-fpga-wsp",
+   "description": "In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "dialectical-reasoning",
+    "large-language-models",
+    "llama3",
+    "mechanistic-interpretability",
+    "model-editing",
+    "qwen3",
+    "sycophancy",
+    "weight-space-programming"
+   ],
+   "created_at": "2026-11-20T14:36:01Z",
+   "category": "Models",
+   "summary": "Research project on compiling multi-step state machines into transformer neurons.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "kevinrvaz/reachy_mini_expressive_speech_pipeline",
+   "url": "https://github.com/kevinrvaz/reachy_mini_expressive_speech_pipeline",
+   "description": "An e2e pipeline of Vision + Speech + Language + Motor Control over the Reachy Mini.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "computer-vision",
+    "large-language-models",
+    "llm",
+    "reachy-mini",
+    "reachymini",
+    "robotics",
+    "speech-recognition",
+    "speech-to-speech"
+   ],
+   "created_at": "2026-11-20T23:46:12Z",
+   "category": "Agents",
+   "summary": "End-to-end vision, speech, language, and motor control pipeline for a robot.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Autism Medical",
+    "EnCoach"
+   ],
+   "opportunity": "Explore a bilingual speech-and-gesture therapy or English-practice robot pilot for autism clinics or language labs, reusing its vision/speech/language pipeline."
+  },
+  {
+   "full_name": "JackieWeiyuxiang/PaperChat",
+   "url": "https://github.com/JackieWeiyuxiang/PaperChat",
+   "description": "RAG-based arXiv paper recommendation with evidence-grounded LLM ranking and generation.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "evidence-grounded-generation",
+    "information-retrieval",
+    "large-language-models",
+    "nlp",
+    "paper-recommendation",
+    "rag"
+   ],
+   "created_at": "2026-11-20T13:11:08Z",
+   "category": "RAG",
+   "summary": "RAG-based arXiv paper recommendation with evidence-grounded ranking and generation.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse its evidence-grounded RAG/ranking pattern for Al-Busalah’s historical simulation library: recommend and summarize source documents with citations before scenario generation."
+  },
+  {
+   "full_name": "rohitshukla01/LEADS",
+   "url": "https://github.com/rohitshukla01/LEADS",
+   "description": "Lake Ecosystem Agentic Decision Support: a forecast-informed research and decision-support system for drinking-water supply reservoirs",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "decision-support",
+    "drinking-water",
+    "ecological-forecasting",
+    "large-language-models",
+    "retrieval-augmented-generation",
+    "water-quality"
+   ],
+   "created_at": "2026-11-20T23:50:43Z",
+   "category": "Agents",
+   "summary": "Forecast-informed decision support system for drinking-water reservoir management.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Localize into Oman reservoir/desalination water-quality decision support, or borrow its forecast+RAG architecture for Al-Busalah scenario dashboards and confidence-calibrated briefings."
+  },
+  {
+   "full_name": "mihir-agarwal0211/agent-self-improvement",
+   "url": "https://github.com/mihir-agarwal0211/agent-self-improvement",
+   "description": "Self-correcting text-to-SQL agent: windowed drift detection + learning from its own failures, statistically validated (paired McNemar, p=0.016).",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "drift-detection",
+    "hackathon",
+    "llm",
+    "self-improvement",
+    "text-to-sql"
+   ],
+   "created_at": "2026-11-21T02:26:19Z",
+   "category": "Agents",
+   "summary": "Self-correcting text-to-SQL agent with drift detection and learning.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "Open City"
+   ],
+   "opportunity": "Plug text-to-SQL with drift detection into Postgres dashboards so analysts ask Arabic/English questions over simulations, traffic data, and prediction accuracy histories."
+  },
+  {
+   "full_name": "aloproducao2/castdeck-local-plugins",
+   "url": "https://github.com/aloproducao2/castdeck-local-plugins",
+   "description": "Catálogo de plugins do CastDeck Local — gratuitos, assinados e prontos para IA/agentes",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "agents",
+    "broadcast",
+    "castdeck",
+    "mcp",
+    "plugins",
+    "streaming"
+   ],
+   "created_at": "2026-11-20T22:22:31Z",
+   "category": "LLM Tooling",
+   "summary": "Catalog of local plugins for AI agents and CastDeck.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Q-17/ontologyjev",
+   "url": "https://github.com/Q-17/ontologyjev",
+   "description": "Inspect how policy changes affect agent decisions, with explicit object relationships, semantic observations and rule traces.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "explainability",
+    "jev",
+    "ollama",
+    "ontology",
+    "python"
+   ],
+   "created_at": "2026-11-21T09:19:01Z",
+   "category": "Agents",
+   "summary": "Tool for tracing policy effects on agent decisions and rules.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Use ontology and rule traces for Al-Busalah decision audit trails: show how policy assumptions change agent behavior, recommendations, and scenario outcomes."
+  },
+  {
+   "full_name": "SURUJ404/Aetheris",
+   "url": "https://github.com/SURUJ404/Aetheris",
+   "description": "Agentic AI platform: Rust control plane for identity, policy and sandboxed tool execution, paired with a Python cognitive plane for planning and reasoning. Wasmtime/Firecracker isolation, Postgres-backed tasks, signed releases.",
+   "stars": 0,
+   "language": "Rust",
+   "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "authorization",
+    "control-plane",
+    "firecracker",
+    "grpc",
+    "llm"
+   ],
+   "created_at": "2026-11-20T18:31:57Z",
+   "category": "Infra",
+   "summary": "Agentic AI platform with sandboxed tool execution and identity controls.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Assess as a secure control plane for Al-Busalah agents: identity, policy, sandboxed tool execution, Postgres tasks, and signed releases for government-grade deployments."
+  },
+  {
+   "full_name": "waunx/EA-Bench",
+   "url": "https://github.com/waunx/EA-Bench",
+   "description": "EA-Bench: Measuring information and action efficiency under imperfect instructions",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "benchmark",
+    "evaluation"
+   ],
+   "created_at": "2026-11-20T12:53:57Z",
+   "category": "Data",
+   "summary": "Benchmark for information and action efficiency under imperfect instructions.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a lightweight eval benchmark for DeepTutor and Al-Busalah agents handling vague Arabic-English instructions before deploying tutor, analyst, or report-generation workflows."
+  },
+  {
+   "full_name": "abhianni/universal-ai-eval-guardrail",
+   "url": "https://github.com/abhianni/universal-ai-eval-guardrail",
+   "description": "Universal, service-agnostic evaluation harness and runtime guardrail for any AI service (HTTP, MCP, in-process Python, OTel traces)",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai-evaluation",
+    "evaluation",
+    "guardrails",
+    "llm",
+    "mcp",
+    "rag",
+    "testing"
+   ],
+   "created_at": "2026-11-20T10:46:33Z",
+   "category": "LLM Tooling",
+   "summary": "Evaluation harness and runtime guardrail for AI services.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Wrap DeepTutor, Al-Busalah, and Autism AI services with self-hosted evals, runtime guardrails, and OTel traces for hallucination, unsafe advice, and prompt-injection testing."
+  },
+  {
+   "full_name": "ai-verification-observatory/redteam",
+   "url": "https://github.com/ai-verification-observatory/redteam",
+   "description": "Harness and agent workflows that red-team AI verification designs, experiments and prototypes.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "agents",
+    "ai-verification",
+    "red-teaming"
+   ],
+   "created_at": "2026-11-20T17:42:49Z",
+   "category": "LLM Tooling",
+   "summary": "Red-teaming harness and agent workflows for AI verification.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Adapt its red-team workflows to stress-test Al-Busalah prediction, confidence, and briefing pipelines before pitching sovereign decision-support use cases to government or enterprise buyers."
+  },
+  {
+   "full_name": "Mattbusel/llm-stream-check",
+   "url": "https://github.com/Mattbusel/llm-stream-check",
+   "description": "Your agent didn't forget the tool call. Your stream parser threw it away. Replays 243 recorded OpenAI, Anthropic and Gemini streams through 48 agent-framework adapters and fails on every dropped or merged tool call and lost token count.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "anthropic",
+    "function-calling",
+    "gemini",
+    "llm",
+    "openai",
+    "streaming",
+    "testing"
+   ],
+   "created_at": "2026-11-20T19:24:38Z",
+   "category": "LLM Tooling",
+   "summary": "Tests streamed LLM tool calls across multiple agent framework adapters.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Regression-test streaming tool calls in DeepTutor chat and Al-Busalah analyst agents so quizzes, simulations, and reports do not silently lose tool outputs."
+  },
+  {
+   "full_name": "rbonweb/anthology",
+   "url": "https://github.com/rbonweb/anthology",
+   "description": "Opus plans, Sonnet builds, Haiku scouts — a model-tiered agent team for Claude Code",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "claude-code",
+    "claude-code-plugin",
+    "skills"
+   ],
+   "created_at": "2026-11-20T10:35:17Z",
+   "category": "Agents",
+   "summary": "Model-tiered agent team design for Claude Code.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "deeeko/celo-naira-payout-agent",
+   "url": "https://github.com/deeeko/celo-naira-payout-agent",
+   "description": "Send dollars, they get naira: a Celo agent that converts USDT to cNGN on Textile FX and pays the recipient's own wallet by @nTag, payment link or command line, with limits enforced in code. Agents Open for Business, Track 3.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "agents",
+    "celo",
+    "cngn",
+    "erc-8004",
+    "nigeria",
+    "payments",
+    "stablecoins",
+    "textile-fx"
+   ],
+   "created_at": "2026-11-20T21:49:23Z",
+   "category": "Agents",
+   "summary": "Celo agent converts stablecoins to naira and pays recipients.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "laasilva/agent-crew",
+   "url": "https://github.com/laasilva/agent-crew",
+   "description": "A planner, a designer, builders and a fixer for Claude Code, working as one crew on one project.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "agents",
+    "claude-code",
+    "multi-agent"
+   ],
+   "created_at": "2026-11-20T14:37:09Z",
+   "category": "Agents",
+   "summary": "Multi-agent crew for Claude Code project work.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "yugpatill/tripwire-agent-gateway",
+   "url": "https://github.com/yugpatill/tripwire-agent-gateway",
+   "description": "Open source security gateway for AI agents: blocks prompt injection, tool poisoning and data exfiltration",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai-security",
+    "llm",
+    "mcp",
+    "prompt-injection"
+   ],
+   "created_at": "2026-11-21T06:51:32Z",
+   "category": "Infra",
+   "summary": "Security gateway blocking prompt injection, tool poisoning, and exfiltration.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Deploy as an AI-agent security gateway to block prompt injection from uploaded PDFs, tool poisoning, and data exfiltration in education, healthcare, and government workflows."
+  },
+  {
+   "full_name": "grupovimo/comite",
+   "url": "https://github.com/grupovimo/comite",
+   "description": "Comité de agentes para Claude Code: revisa planes antes de construir y cambios antes de entregar, como un estudio de primer nivel.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "agents",
+    "claude-code",
+    "claude-code-plugin",
+    "code-review",
+    "skill"
+   ],
+   "created_at": "2026-11-20T16:27:42Z",
+   "category": "Agents",
+   "summary": "Claude Code agent committee for plan and change review.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ai3inc/opentoolsearch",
+   "url": "https://github.com/ai3inc/opentoolsearch",
+   "description": "Open-source tool retrieval for function-calling agents: a small reranker, a drop-in tool_search, and a reproducible ToolRet evaluation. By AI3 Inc.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "function-calling",
+    "mcp",
+    "reranker",
+    "tool-retrieval"
+   ],
+   "created_at": "2026-11-20T17:32:55Z",
+   "category": "LLM Tooling",
+   "summary": "Tool retrieval system for function-calling agents with evaluation.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Add tool retrieval so DeepTutor and Al-Busalah agents can choose among quiz, RAG, KG, simulation, forecasting, and report-generation tools as catalogs grow."
+  },
+  {
+   "full_name": "saxeum/agplat",
+   "url": "https://github.com/saxeum/agplat",
+   "description": "Local, REST-only multi-agent knowledge platform: FastAPI, Pydantic AI, Postgres/pgvector, MCP, RAG, OCR.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "docker",
+    "fastapi",
+    "mcp",
+    "ocr",
+    "pgvector",
+    "pydantic-ai",
+    "rag"
+   ],
+   "created_at": "2026-11-20T20:12:45Z",
+   "category": "RAG",
+   "summary": "Local multi-agent knowledge platform with FastAPI, pgvector, and OCR.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 9,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as a self-hosted FastAPI/Postgres/pgvector/OCR/RAG base for Al-Busalah document ingestion and EnCoach course-material knowledge assistants."
+  },
+  {
+   "full_name": "ggmcdowell/Frizzle",
+   "url": "https://github.com/ggmcdowell/Frizzle",
+   "description": "Spec-driven agentic dev hub on Claude Code: a lead session turns spec cards into gated, tested builds. macOS only, experimental.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "claude-code",
+    "godot",
+    "macos",
+    "spec-driven-development"
+   ],
+   "created_at": "2026-11-20T00:07:58Z",
+   "category": "Agents",
+   "summary": "Spec-driven agentic development hub for Claude Code.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "larchanka/ppc-code-ai-agent",
+   "url": "https://github.com/larchanka/ppc-code-ai-agent",
+   "description": "Terminal AI coding agent for PowerPC Tiger Macs. Zero CPAN dependencies, Perl 5.8.6, multi-model (Claude / Gemini / local OpenAI).",
+   "stars": 0,
+   "language": "Perl",
+   "topics": [
+    "agent",
+    "agents",
+    "ai",
+    "ai-agents",
+    "ibooks",
+    "powerpc",
+    "ppc"
+   ],
+   "created_at": "2026-11-20T13:40:09Z",
+   "category": "Agents",
+   "summary": "Terminal AI coding agent for PowerPC Macs.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 0,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Yuh302331-ctrl/agenttrueup",
+   "url": "https://github.com/Yuh302331-ctrl/agenttrueup",
+   "description": "Trust, but reconcile - verify what your AI coding agent said against what your filesystem actually shows. Local, read-only, zero dependencies.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai",
+    "audit",
+    "claude-code",
+    "cli",
+    "codex",
+    "mcp",
+    "security"
+   ],
+   "created_at": "2026-11-21T09:20:07Z",
+   "category": "LLM Tooling",
+   "summary": "Read-only CLI that reconciles AI coding agent claims against the local filesystem.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "ai-verification-observatory/autoresearch",
+   "url": "https://github.com/ai-verification-observatory/autoresearch",
+   "description": "Agent loops that run AI verification experiments under a fixed budget and draft findings for human review.",
+   "stars": 0,
+   "language": "",
+   "topics": [
+    "agents",
+    "ai-verification",
+    "autoresearch"
+   ],
+   "created_at": "2026-11-20T17:18:43Z",
+   "category": "Agents",
+   "summary": "Agent loops for budgeted AI verification experiments and human-reviewed findings.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "WaiteM124/var-agent",
+   "url": "https://github.com/WaiteM124/var-agent",
+   "description": "LangGraph agent for natural-language VaR analysis over a synthetic energy-trading book.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "azure",
+    "energy-trading",
+    "fastapi",
+    "langgraph",
+    "python",
+    "risk",
+    "value-at-risk"
+   ],
+   "created_at": "2026-11-20T17:20:57Z",
+   "category": "Agents",
+   "summary": "LangGraph agent for natural-language value-at-risk analysis on a synthetic trading book.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Reuse the LangGraph/FastAPI pattern to add natural-language risk analysis modules for Al-Busalah or a GCC energy-sector decision-support product."
+  },
+  {
+   "full_name": "iridyne/proof-carrying-harness",
+   "url": "https://github.com/iridyne/proof-carrying-harness",
+   "description": "An evidence-gated research loop for agent harness engineering: every knob cites a source, every hypothesis has a falsifier.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agent-harness",
+    "agents",
+    "ai-agents",
+    "evaluation",
+    "llm",
+    "reproducibility",
+    "research"
+   ],
+   "created_at": "2026-11-20T12:05:26Z",
+   "category": "Agents",
+   "summary": "Evidence-gated research loop for agent harness engineering and reproducible claims.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Borrow its evidence-gated research loop for Al-Busalah: every scenario assumption cites sources, predictions define falsifiers, and reports feed the audit trail."
+  },
+  {
+   "full_name": "adraralo/open-job-search",
+   "url": "https://github.com/adraralo/open-job-search",
+   "description": "Open-source AI job search: find roles early, find your way in, apply well. Works in your agent CLI (Claude Code, Codex, Antigravity, opencode) or a local web app.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "agents",
+    "ai",
+    "bun",
+    "career",
+    "job-search",
+    "open-source",
+    "typescript"
+   ],
+   "created_at": "2026-11-21T09:56:56Z",
+   "category": "Apps",
+   "summary": "AI job search app and agent-CLI workflow for finding and applying to roles.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize into an Arabic-English Oman job-search assistant focused on Omanization, SME hiring, CV tailoring, and early role discovery across local portals."
+  },
+  {
+   "full_name": "KNN-07/mulagent",
+   "url": "https://github.com/KNN-07/mulagent",
+   "description": "Autonomous ML research harness: agents run experiments on any compute, a critic checks every claim, you approve at gates.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "agents",
+    "autoresearch",
+    "lean4",
+    "llm",
+    "ml",
+    "research",
+    "slurm"
+   ],
+   "created_at": "2026-11-20T16:15:00Z",
+   "category": "Agents",
+   "summary": "Autonomous ML research harness with critic checks and approval gates.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "lucasrmagalhaes/orquestrador-multiagente-mcp",
+   "url": "https://github.com/lucasrmagalhaes/orquestrador-multiagente-mcp",
+   "description": "Supervisor LangGraph com três agentes de leitura (agenda, notas e issues) sobre servidores MCP stdio, guardrails contra injeção de prompt no conteúdo lido e suíte de ataques com provedor mock.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai",
+    "docker",
+    "evals",
+    "guardrails",
+    "langgraph",
+    "llm",
+    "mcp"
+   ],
+   "created_at": "2026-11-20T11:37:19Z",
+   "category": "Agents",
+   "summary": "Multi-agent LangGraph supervisor over MCP servers with prompt-injection guardrails and attack tests.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Reuse the LangGraph supervisor and MCP prompt-injection tests for secure multi-agent orchestration over Al-Busalah documents or DeepTutor content tools."
+  },
+  {
+   "full_name": "O1sumitkumar/duespilot",
+   "url": "https://github.com/O1sumitkumar/duespilot",
+   "description": "DuesPilot: human-in-the-loop collections agent for Indian freelancers (synthetic data, zero-key mock planner, Homingo Hack Days)",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "agents",
+    "ai-agent",
+    "hackathon",
+    "homingo",
+    "typescript"
+   ],
+   "created_at": "2026-11-21T03:52:03Z",
+   "category": "Agents",
+   "summary": "Human-in-the-loop collections agent for Indian freelancers.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Build an Oman/GCC bilingual SME receivables copilot: WhatsApp/email reminders, Odoo invoice lookup, payment links, and human approval before escalation."
+  },
+  {
+   "full_name": "H-S-Prajwal/Meminumb",
+   "url": "https://github.com/H-S-Prajwal/Meminumb",
+   "description": "lightweight, reliable memory layer for AI agents — atomic writes and outcomes",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai",
+    "lm",
+    "memory",
+    "python",
+    "sqlite"
+   ],
+   "created_at": "2026-11-21T04:29:30Z",
+   "category": "Infra",
+   "summary": "Lightweight memory layer for AI agents using atomic writes and SQLite.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use as a simple SQLite memory/outcomes store for DeepTutor student sessions or Al-Busalah simulation agents before adopting heavier agent-state infrastructure."
+  },
+  {
+   "full_name": "LexDye/definition-benchmark",
+   "url": "https://github.com/LexDye/definition-benchmark",
+   "description": "Open benchmark: AI agents miss ~1 in 4 defined-term errors in contracts unless told exactly what to check. 121-page MSA, 25 planted errors, JSON/CSV answer key, one-command scorer.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "ai-agents",
+    "benchmark",
+    "contract-review",
+    "contracts",
+    "defined-terms",
+    "legal-ai",
+    "legaltech"
+   ],
+   "created_at": "2026-11-20T02:19:23Z",
+   "category": "Data",
+   "summary": "Benchmark for detecting defined-term errors in contracts with answer key and scorer.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "WaiteM124/ap-automation-public",
+   "url": "https://github.com/WaiteM124/ap-automation-public",
+   "description": "Non-PO invoice coding with retrieval, specialist agents, and a fail-closed human approval gate.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agents",
+    "fastapi",
+    "governance",
+    "invoice-automation",
+    "python",
+    "rag"
+   ],
+   "created_at": "2026-11-20T15:10:11Z",
+   "category": "Agents",
+   "summary": "Invoice coding agent with retrieval, specialist agents, and human approval gate.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Adapt into a self-hosted bilingual AP/invoice-coding add-on for Odoo-based Omani SMEs, with RAG policy lookup and accountant approval gates."
+  },
+  {
+   "full_name": "alx-sch/pdf-vision-ocr",
+   "url": "https://github.com/alx-sch/pdf-vision-ocr",
+   "description": "Turn complex PDFs into structured, LLM-ready text: tables, diagrams, and figures become machine-readable input for AI agents, RAG pipelines, and knowledge bases.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "document-extraction",
+    "knowledge-base",
+    "llm-preprocessing",
+    "ocr",
+    "pdf",
+    "rag",
+    "vision-llm"
+   ],
+   "created_at": "2026-11-20T15:03:45Z",
+   "category": "Vision",
+   "summary": "PDF OCR pipeline that converts complex documents into structured LLM-ready text.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Plug into Al-Busalah reality-seed ingestion and DeepTutor content pipelines to convert PDF textbooks/reports with tables and diagrams into structured LLM-ready text."
+  },
+  {
+   "full_name": "ragulpalanisamy/fieldtech-copilot",
+   "url": "https://github.com/ragulpalanisamy/fieldtech-copilot",
+   "description": "Enterprise-grade, voice-first Field Service AI Agent enabling intelligent maintenance workflows through real-time conversational AI, retrieval-augmented generation, and secure, human-approved enterprise API orchestration.",
+   "stars": 0,
+   "language": "TypeScript",
+   "topics": [
+    "agentic-ai",
+    "agorawork",
+    "conversation-ai",
+    "field-service-management",
+    "llm",
+    "murf-ai",
+    "nextjs",
+    "rag"
+   ],
+   "created_at": "2026-11-20T16:01:32Z",
+   "category": "Agents",
+   "summary": "Voice-first field service agent with retrieval and enterprise API orchestration.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "SMART Mobility",
+    "Open City"
+   ],
+   "opportunity": "Adapt for SMART Mobility battery-swap operations: voice-guided technician workflows, manual RAG, service ticket updates, and human-approved API actions for fleet maintenance."
+  },
+  {
+   "full_name": "zvirmykhailo1987-cyber/agevolazioni-radar",
+   "url": "https://github.com/zvirmykhailo1987-cyber/agevolazioni-radar",
+   "description": "Italian hiring incentives read from INPS circulars: citation-gated extraction, deterministic eligibility, Recupero agent with consultant review, MCP server, evals.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "dbt",
+    "dlt",
+    "duckdb",
+    "evals",
+    "fastapi",
+    "hr-tech",
+    "llm",
+    "mcp"
+   ],
+   "created_at": "2026-11-20T19:34:33Z",
+   "category": "Agents",
+   "summary": "Citation-gated agent for Italian hiring incentives extraction and eligibility checks.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Use the pattern to build an Oman incentives/compliance eligibility checker: citation-gated extraction from ministry circulars, deterministic rules, and consultant review for SMEs."
+  },
+  {
+   "full_name": "Adversitas/conv-query-rewrite",
+   "url": "https://github.com/Adversitas/conv-query-rewrite",
+   "description": "Query rewriting for multi-turn RAG: history concatenation vs Qwen2.5 LLM rewrites vs human rewrites, BM25 and dense retrieval on CANARD/QuAC",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "bm25",
+    "conversational-search",
+    "information-retrieval",
+    "llm",
+    "nlp",
+    "query-rewriting",
+    "qwen",
+    "rag"
+   ],
+   "created_at": "2026-11-21T08:35:14Z",
+   "category": "RAG",
+   "summary": "Query rewriting experiments for multi-turn retrieval on benchmark datasets.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Borrow query-rewrite experiments to improve multi-turn DeepTutor and Al-Busalah RAG so follow-up questions retrieve the right lesson, source, or scenario context."
+  },
+  {
+   "full_name": "Huangbingshuai/after-link",
+   "url": "https://github.com/Huangbingshuai/after-link",
+   "description": "产品手册知识助手：导入 PDF/Markdown，按产品型号澄清问题，融合 Milvus 混合检索、HyDE、Neo4j 章节词项检索与可选 WebSearch，再由大模型生成回答。",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "bge-m3",
+    "dashscope",
+    "document-processing",
+    "fastapi",
+    "hybrid-search",
+    "knowledge-base",
+    "langgraph",
+    "llm"
+   ],
+   "created_at": "2026-11-20T19:21:55Z",
+   "category": "RAG",
+   "summary": "Product manual assistant combining PDF ingestion, hybrid retrieval, and web search.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "SMART Mobility",
+    "Open City"
+   ],
+   "opportunity": "Use as a manuals assistant for TYCORUN bikes, swap stations, cameras, and sensors: PDF ingestion, model-specific clarification, hybrid retrieval, and Neo4j term links."
+  },
+  {
+   "full_name": "keamina/assistant-telecom-rag",
+   "url": "https://github.com/keamina/assistant-telecom-rag",
+   "description": "French customer-support assistant for a fictional telecom & mobile-money operator: RAG (LangChain + FAISS), LangGraph agent with function calling, LoRA fine-tune (PEFT), evaluation. Runs locally on open models.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "french",
+    "langchain",
+    "langgraph",
+    "llm",
+    "lora",
+    "nlp",
+    "peft",
+    "rag"
+   ],
+   "created_at": "2026-11-20T14:33:53Z",
+   "category": "RAG",
+   "summary": "French telecom support assistant with RAG, agent tools, and LoRA fine-tuning.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "siri-dhillon/professional_you",
+   "url": "https://github.com/siri-dhillon/professional_you",
+   "description": "RAG-powered digital twin that answers recruiter questions, with live GitHub data and Pushover lead alerts (Gradio, LangChain, ChromaDB)",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "chromadb",
+    "gradio",
+    "huggingface-spaces",
+    "langchain",
+    "llm",
+    "rag"
+   ],
+   "created_at": "2026-11-20T02:08:59Z",
+   "category": "Apps",
+   "summary": "RAG-powered digital twin that answers recruiter questions using live GitHub data.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "nishanthreddyr24-netizen/tgp-probe",
+   "url": "https://github.com/nishanthreddyr24-netizen/tgp-probe",
+   "description": "Trajectory Geometry Probe: fast, training-free groundedness / hallucination verification for RAG and summarization from LLM hidden-state geometry",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "hallucination-detection",
+    "interpretability",
+    "llm",
+    "python",
+    "rag"
+   ],
+   "created_at": "2026-11-20T11:03:27Z",
+   "category": "RAG",
+   "summary": "Training-free groundedness and hallucination verification for RAG and summarization.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Evaluate as a groundedness layer for Al-Busalah reports and DeepTutor answers, flagging unsupported RAG summaries before publication or teacher/student delivery."
+  },
+  {
+   "full_name": "zeynabbelkasmi/benchmark-rag-project",
+   "url": "https://github.com/zeynabbelkasmi/benchmark-rag-project",
+   "description": "Side-by-side benchmark of 4 RAG architectures: Naive, Advanced (hybrid + rerank), GraphRAG and Agentic (LangGraph).",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "benchmark",
+    "evaluation",
+    "fastapi",
+    "graphrag",
+    "langgraph",
+    "llm",
+    "qdrant",
+    "rag"
+   ],
+   "created_at": "2026-11-21T02:55:13Z",
+   "category": "RAG",
+   "summary": "Benchmark comparing naive, hybrid, GraphRAG, and agentic RAG architectures.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as a test harness to compare naive/hybrid/GraphRAG/agentic pipelines for Al-Busalah reality-seed ingestion and DeepTutor course-source QA before choosing a production RAG architecture."
+  },
+  {
+   "full_name": "vaibhav-barman/self-rag",
+   "url": "https://github.com/vaibhav-barman/self-rag",
+   "description": "Self-reflective RAG with LangGraph: retrieval decisions, relevance and grounding checks, query rewrite",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "agentic-ai",
+    "agentic-rag",
+    "chromadb",
+    "generative-ai",
+    "gpt-oss",
+    "groq",
+    "langchain",
+    "langgraph"
+   ],
+   "created_at": "2026-11-21T00:59:43Z",
+   "category": "RAG",
+   "summary": "Self-reflective RAG with retrieval decisions, relevance checks, and query rewriting.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Add self-checking retrieval decisions, grounding validation and query rewrite to Al-Busalah reports or DeepTutor tutoring answers to reduce hallucinations in bilingual document-backed workflows."
+  },
+  {
+   "full_name": "OsamaWehbi/SecureAIOps",
+   "url": "https://github.com/OsamaWehbi/SecureAIOps",
+   "description": "Agentic SOC copilot with a guarded multi-agent graph, AI firewall, MITRE ATT&CK mapping, explainable risk scoring and policy-grounded RAG.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-security",
+    "cybersecurity",
+    "fastapi",
+    "guardrails",
+    "langgraph",
+    "llm-security",
+    "mitre-attack",
+    "prompt-injection"
+   ],
+   "created_at": "2026-11-21T06:24:37Z",
+   "category": "Agents",
+   "summary": "Agentic SOC copilot with guarded graph, risk scoring, and policy-grounded RAG.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 7,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Localize into an Arabic/English managed SOC copilot for Omani SMEs/government, combining MITRE mapping, policy RAG, AI firewall and explainable risk scoring as a cybersecurity service."
+  },
+  {
+   "full_name": "suhaib-2002/modular-rag",
+   "url": "https://github.com/suhaib-2002/modular-rag",
+   "description": "Modular RAG: composable retrieval modules with an LLM router that picks a pipeline per question, plus rewrite, rerank and chat memory. FastAPI, ChromaDB, Groq.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "chromadb",
+    "fastapi",
+    "groq",
+    "llm-router",
+    "modular-rag",
+    "python",
+    "rag",
+    "reranking"
+   ],
+   "created_at": "2026-11-21T09:09:04Z",
+   "category": "RAG",
+   "summary": "Composable RAG system with router, rewrite, rerank, and chat memory.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Reuse the router/rewrite/rerank/chat-memory pattern to route DeepTutor or Al-Busalah questions to different retrieval pipelines by source type, language and confidence."
+  },
+  {
+   "full_name": "pravinkotta/sepsis-ews",
+   "url": "https://github.com/pravinkotta/sepsis-ews",
+   "description": "Streaming sepsis early-warning copilot: measured model, cited SBAR, approval-gated paging",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "fastapi",
+    "healthcare",
+    "llmops",
+    "machine-learning",
+    "mlops",
+    "rag",
+    "sepsis"
+   ],
+   "created_at": "2026-11-20T04:54:29Z",
+   "category": "Apps",
+   "summary": "Sepsis early-warning copilot with cited outputs and approval-gated paging.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Potential hospital pilot: adapt the approval-gated sepsis warning/SBAR workflow for Omani ICU dashboards, with Arabic clinical summaries and local escalation policies."
+  },
+  {
+   "full_name": "koorasupriya/rag-knowledge-assistant",
+   "url": "https://github.com/koorasupriya/rag-knowledge-assistant",
+   "description": "Enterprise RAG service: heading-aware chunking, embeddings, vector search (in-memory or Milvus) and cited answers via FastAPI.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "embeddings",
+    "fastapi",
+    "genai",
+    "llm",
+    "milvus",
+    "python",
+    "rag",
+    "vector-search"
+   ],
+   "created_at": "2026-11-20T11:08:30Z",
+   "category": "RAG",
+   "summary": "Enterprise RAG service with chunking, vector search, and cited answers.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Use as a lightweight FastAPI baseline for cited answers over curriculum PDFs or Al-Busalah uploaded documents, replacing in-memory/Milvus pieces with existing vector stack."
+  },
+  {
+   "full_name": "tdbowman/zotero-chat",
+   "url": "https://github.com/tdbowman/zotero-chat",
+   "description": "Chat with your Zotero library (papers, notes, PDF highlights) using a fully local RAG pipeline: Ollama, LanceDB, hybrid search and reranking, cited answers.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "lancedb",
+    "llm",
+    "ollama",
+    "rag",
+    "research-tools",
+    "streamlit",
+    "zotero"
+   ],
+   "created_at": "2026-11-20T20:05:29Z",
+   "category": "RAG",
+   "summary": "Local RAG chat over Zotero libraries with hybrid search and citations.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt local Zotero/PDF RAG for EnCoach content authors to query research, standards and highlights privately when generating CEFR-aligned teacher packages."
+  },
+  {
+   "full_name": "agentpopulation/2.5m-agent-ready-apis",
+   "url": "https://github.com/agentpopulation/2.5m-agent-ready-apis",
+   "description": "2,518,343 agent-ready API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "agent-ready",
+    "agent-tools",
+    "agentpopulation",
+    "ai-agents",
+    "api-endpoints",
+    "dataset",
+    "function-calling",
+    "json-api"
+   ],
+   "created_at": "2026-11-21T03:00:17Z",
+   "category": "Data",
+   "summary": "Large CSV dataset of agent-ready API endpoints for tools, apps, pipelines, and evaluations.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "suhaib-2002/hybrid-rag",
+   "url": "https://github.com/suhaib-2002/hybrid-rag",
+   "description": "Hybrid RAG: dense embeddings + BM25 keyword search fused with Reciprocal Rank Fusion. FastAPI backend, ChromaDB, Groq LLM.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "bm25",
+    "chromadb",
+    "fastapi",
+    "groq",
+    "hybrid-search",
+    "llm",
+    "python",
+    "rag"
+   ],
+   "created_at": "2026-11-21T09:08:55Z",
+   "category": "RAG",
+   "summary": "FastAPI hybrid retrieval system combining embeddings and BM25 with ChromaDB and Groq.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Drop in BM25+dense retrieval with reciprocal rank fusion for Arabic/English PDFs in Al-Busalah reality seeds or DeepTutor source libraries where exact terminology matters."
+  },
+  {
+   "full_name": "Danyal-0276/lunar-research-desk",
+   "url": "https://github.com/Danyal-0276/lunar-research-desk",
+   "description": "Ask lunar science questions across NASA PDFs with hybrid retrieval, cross-encoder reranking and page-linked evidence.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "groq",
+    "hybrid-search",
+    "langchain",
+    "lunar-science",
+    "postgresql",
+    "python",
+    "rag",
+    "reranking"
+   ],
+   "created_at": "2026-11-20T14:45:16Z",
+   "category": "RAG",
+   "summary": "Question-answering app over NASA PDFs with hybrid retrieval, reranking, and evidence links.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah"
+   ],
+   "opportunity": "Reuse the page-linked evidence and reranking pattern for Al-Busalah PDF seed analysis, so prediction reports cite exact pages in uploaded government or policy documents."
+  },
+  {
+   "full_name": "Huangbingshuai/qi_zhi_she",
+   "url": "https://github.com/Huangbingshuai/qi_zhi_she",
+   "description": "启知社（qi_zhi_she）：高校知识分享社区，支持知文创作、搜索、关注与本地 BGE-M3 RAG。",
+   "stars": 0,
+   "language": "Java",
+   "topics": [
+    "bge-m3",
+    "community",
+    "docker-compose",
+    "elasticsearch",
+    "kafka",
+    "knowledge-sharing",
+    "mysql",
+    "rag"
+   ],
+   "created_at": "2026-11-20T20:32:15Z",
+   "category": "RAG",
+   "summary": "University knowledge-sharing community with local BGE-M3 retrieval and search features.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "New venture"
+   ],
+   "opportunity": "Inspiration for an Arabic/English university knowledge-sharing portal with local retrieval over lectures and student notes; evaluate only if Java/Elasticsearch stack is acceptable."
+  },
+  {
+   "full_name": "MDzubair933/hybrid-hnsw-vector-index",
+   "url": "https://github.com/MDzubair933/hybrid-hnsw-vector-index",
+   "description": "Hybrid high-dimensional vector similarity search combining HNSW graph indexing with BM25 sparse lexical ranking.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "approximate-nearest-neighbors",
+    "embeddings",
+    "hnsw",
+    "rag",
+    "simd",
+    "vector-database"
+   ],
+   "created_at": "2026-11-20T07:00:29Z",
+   "category": "Infra",
+   "summary": "Hybrid vector index combining HNSW similarity search with BM25 lexical ranking.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Poncirus917/musagent-eval",
+   "url": "https://github.com/Poncirus917/musagent-eval",
+   "description": "MusAgent 项目的评测与消融实验：混合检索对比、Critic Agent 有效性验证",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ablation",
+    "evaluation",
+    "llm",
+    "rag"
+   ],
+   "created_at": "2026-11-21T08:36:01Z",
+   "category": "Agents",
+   "summary": "Evaluation and ablation experiments for MusAgent, including hybrid retrieval and critic agents.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "xw371242806-afk/openmatrix",
+   "url": "https://github.com/xw371242806-afk/openmatrix",
+   "description": "Self-hosted, evidence-first AI research desk with verifiable citations, PDF page highlighting, and 52 MCP tools",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "ai-agents",
+    "citations",
+    "document-analysis",
+    "fastapi",
+    "financial-analysis",
+    "mcp",
+    "open-source",
+    "rag"
+   ],
+   "created_at": "2026-11-20T06:27:59Z",
+   "category": "Agents",
+   "summary": "Self-hosted research desk with citations, PDF highlighting, and many MCP tools.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 8,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Strong component for Al-Busalah: self-hosted research desk with PDF page highlights, citations and MCP tools can power reality-seed review, analyst notes and evidence-backed briefings."
+  },
+  {
+   "full_name": "djvera84/card-risk",
+   "url": "https://github.com/djvera84/card-risk",
+   "description": "Credit card risk ML: transaction fraud model, underwriting model and a Monte Carlo credit policy simulator (NPV under economic scenarios).",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "credit-risk",
+    "fraud-detection",
+    "machine-learning",
+    "monte-carlo-simulation",
+    "python",
+    "xgboost"
+   ],
+   "created_at": "2026-11-20T16:34:19Z",
+   "category": "Models",
+   "summary": "Credit card fraud and underwriting models with Monte Carlo policy simulation.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Prototype a self-hosted credit-risk/fraud analytics product for Omani banks, fintechs or SME lenders, localized for GCC underwriting policies and Arabic/English reporting."
+  },
+  {
+   "full_name": "arunikadev/Post-Training-Quantization-Simulation",
+   "url": "https://github.com/arunikadev/Post-Training-Quantization-Simulation",
+   "description": "A modular PyTorch PTQ simulation framework for controlled experiments across CNNs, MLPs, and Transformers. Swap checkpoints, models, datasets, bit-widths, or calibration observers via YAML, CLI, or Python without modifying the core engine.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "machine-learning",
+    "post-hoc-quantization",
+    "quantization",
+    "simulation-modeling"
+   ],
+   "created_at": "2026-11-21T05:00:15Z",
+   "category": "Infra",
+   "summary": "PyTorch framework for simulating post-training quantization experiments.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "Open City"
+   ],
+   "opportunity": "Use it to test quantization of vehicle detection or ANPR models before deploying optimized inference on Jetson-class roadside cameras."
+  },
+  {
+   "full_name": "AdityaSankarPal/Network-Intrusion-Detection-System",
+   "url": "https://github.com/AdityaSankarPal/Network-Intrusion-Detection-System",
+   "description": "Autonomous Network Intrusion Detection System (NIDS) featuring a sapphire-glassmorphic UI. Powered by XGBoost (99.7% Accuracy) for real-time traffic analysis, batch log auditing, and deep forensics",
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "anomaly",
+    "anomaly-detection",
+    "cybersecurity",
+    "data-science",
+    "intrusion-detection",
+    "machine-learning",
+    "mlwithpython",
+    "network-security"
+   ],
+   "created_at": "2026-11-20T13:42:12Z",
+   "category": "Apps",
+   "summary": "Real-time intrusion detection system with XGBoost and log auditing.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "Aaradhya652021/library-management-system",
+   "url": "https://github.com/Aaradhya652021/library-management-system",
+   "description": "Flask + MySQL library management system with book loans, fines, ratings, reading progress and hybrid ML book recommendations.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "flask",
+    "library-management-system",
+    "machine-learning",
+    "mysql",
+    "python",
+    "recommendation-system"
+   ],
+   "created_at": "2026-11-21T06:35:49Z",
+   "category": "Apps",
+   "summary": "Library management system with loans, fines, and ML recommendations.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Adapt the reading progress and recommendation modules into an EnCoach graded-reader library for Omani university English foundation students."
+  },
+  {
+   "full_name": "lusikai172-sys/ad-ctr-prediction",
+   "url": "https://github.com/lusikai172-sys/ad-ctr-prediction",
+   "description": "广告点击率（CTR）预测系统 | Django + scikit-learn + pyecharts：数据清洗、多维统计大屏、随机森林实时预估单条广告点击率。含示例数据与演示账号，克隆即可运行。",
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "ctr-prediction",
+    "data-visualization",
+    "django",
+    "machine-learning",
+    "pyecharts",
+    "python",
+    "random-forest",
+    "scikit-learn"
+   ],
+   "created_at": "2026-11-21T08:01:20Z",
+   "category": "Apps",
+   "summary": "Django advertising click-through prediction system with dashboards and inference.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "fedrnv/FDEmailClassifier",
+   "url": "https://github.com/fedrnv/FDEmailClassifier",
+   "description": "Open-source multilingual AI email classifier. Rust, Python, C and C++ SDKs planned. Local inference, privacy-first, Apache 2.0 original code.",
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "apache-2-0",
+    "cpp",
+    "email-classification",
+    "machine-learning",
+    "multilingual",
+    "privacy",
+    "python",
+    "qwen3"
+   ],
+   "created_at": "2026-11-20T10:40:55Z",
+   "category": "Models",
+   "summary": "Multilingual privacy-first email classification project with local inference.",
+   "first_seen": "2026-11-21",
+   "rising": false,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Self-host bilingual email classification for government/SME triage, or route incoming reports and submissions into Al-Busalah reality-seed and alert workflows."
+  },
   {
    "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
    "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-   "stars": 1013,
+   "stars": 1905,
    "language": "",
    "topics": [
     "ai-agents",
@@ -30,7 +3878,7 @@
    "full_name": "iamajmeena/neonclipping",
    "url": "https://github.com/iamajmeena/neonclipping",
    "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-   "stars": 839,
+   "stars": 1460,
    "language": "Python",
    "topics": [
     "clipping",
@@ -80,7 +3928,7 @@
    "full_name": "vaibhav-space/my-ai-coding-workflow",
    "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
    "description": "Production-grade AI coding instructions, curated skills, and a 3-stage review pipeline (Planning → Critical Review → Diff Audit) built after 4,500+ hours with AI agents. Agent-agnostic.",
-   "stars": 293,
+   "stars": 331,
    "language": "HTML",
    "topics": [
     "agentic-workflows",
@@ -102,7 +3950,7 @@
    "full_name": "logitcai/tinybrain",
    "url": "https://github.com/logitcai/tinybrain",
    "description": "A Chinese-first small language model built from scratch: open 60B-token dataset, tokenizer, mHC + Engram + MoE model, pretraining through RL, all in PyTorch. 从零做中文小模型，数据和代码全部开源",
-   "stars": 259,
+   "stars": 313,
    "language": "Python",
    "topics": [
     "chinese",
@@ -124,41 +3972,10 @@
    "opportunity": ""
   },
   {
-   "full_name": "hackclub/orchard",
-   "url": "https://github.com/hackclub/orchard",
-   "description": "Open-source, self-hosted Deployment Platform. Deploy from Git to your own server with one command.",
-   "stars": 101,
-   "language": "TypeScript",
-   "topics": [
-    "deployment",
-    "docker",
-    "hackclub",
-    "homelab",
-    "kubernetes",
-    "mcp",
-    "paas",
-    "paas-devops"
-   ],
-   "created_at": "2026-11-17T03:13:58Z",
-   "category": "Infra",
-   "summary": "Open-source self-hosted deployment platform for pushing apps from Git.",
-   "first_seen": "2026-11-20",
-   "rising": true,
-   "relevance": 5,
-   "ventures": [
-    "EnCoach",
-    "Al-Busalah",
-    "Open City",
-    "Autism Medical",
-    "SMART Mobility"
-   ],
-   "opportunity": "Use as a lightweight self-hosted PaaS to deploy staging demos on Omani-controlled VPS infrastructure without managed-cloud lock-in."
-  },
-  {
    "full_name": "kenzz-devv/open-webui-talora-ai-workspace",
    "url": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
    "description": "Streamlined workspace for organizing and running AI workflows in one place.",
-   "stars": 94,
+   "stars": 152,
    "language": "TypeScript",
    "topics": [
     "chat",
@@ -186,7 +4003,7 @@
    "full_name": "hasan6969macho-bit/vectorbt-avoria-analysis",
    "url": "https://github.com/hasan6969macho-bit/vectorbt-avoria-analysis",
    "description": "Vectorbt research code for Avoria analysis, built for reproducible strategy experiments.",
-   "stars": 94,
+   "stars": 152,
    "language": "TypeScript",
    "topics": [
     "backtesting",
@@ -211,7 +4028,7 @@
    "full_name": "senickimoro-art/pinokio-olvara-ai-workspace",
    "url": "https://github.com/senickimoro-art/pinokio-olvara-ai-workspace",
    "description": "A modular desktop workspace for configuring and running local AI models.",
-   "stars": 93,
+   "stars": 152,
    "language": "Dockerfile",
    "topics": [
     "automation",
@@ -236,7 +4053,7 @@
    "full_name": "pgmergulhao75-dot/openbb-calvona-market-research",
    "url": "https://github.com/pgmergulhao75-dot/openbb-calvona-market-research",
    "description": "Openbb Calvona Market Research delivers structured market data analysis and research workflows.",
-   "stars": 93,
+   "stars": 152,
    "language": "TypeScript",
    "topics": [
     "backtesting",
@@ -258,10 +4075,38 @@
    "opportunity": ""
   },
   {
+   "full_name": "chase1225/anythingllm-verona-document-chat",
+   "url": "https://github.com/chase1225/anythingllm-verona-document-chat",
+   "description": "Document-grounded chat for Verona - AnythingLLM workspace integration.",
+   "stars": 151,
+   "language": "Python",
+   "topics": [
+    "agentic-ai",
+    "agentic-workflow",
+    "ai-agents",
+    "chat",
+    "chatbot",
+    "generative-ai",
+    "gguf",
+    "inference"
+   ],
+   "created_at": "2026-11-19T23:46:33Z",
+   "category": "RAG",
+   "summary": "Document-grounded chat workspace integration for Verona using AnythingLLM.",
+   "first_seen": "2026-11-20",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Prototype document-grounded chat for Al-Busalah reality seeds or EnCoach course-source libraries using AnythingLLM; evaluate citations, workspace isolation, and Arabic document handling."
+  },
+  {
    "full_name": "lynote-ai/local-ai-note-taker",
    "url": "https://github.com/lynote-ai/local-ai-note-taker",
    "description": "Local AI note taker for meetings. Records calls with no bot, transcribes on your computer with Whisper, and writes AI meeting notes and minutes. Built for long meetings in Chinese; 9 spoken languages. Recordings never leave your computer. Free for Windows and Linux. Open-source alternative to Otter and Granola.",
-   "stars": 90,
+   "stars": 125,
    "language": "TypeScript",
    "topics": [
     "ai-meeting-assistant",
@@ -287,10 +4132,41 @@
    "opportunity": "Localize Arabic/English Whisper notes for therapy and IEP meetings; also sell a PDPL-friendly meeting-minutes appliance to Omani clinics, schools, and ministries."
   },
   {
+   "full_name": "hackclub/orchard",
+   "url": "https://github.com/hackclub/orchard",
+   "description": "Open-source, self-hosted Deployment Platform. Deploy from Git to your own server with one command.",
+   "stars": 113,
+   "language": "TypeScript",
+   "topics": [
+    "deployment",
+    "docker",
+    "hackclub",
+    "homelab",
+    "kubernetes",
+    "mcp",
+    "paas",
+    "paas-devops"
+   ],
+   "created_at": "2026-11-17T03:13:58Z",
+   "category": "Infra",
+   "summary": "Open-source self-hosted deployment platform for pushing apps from Git.",
+   "first_seen": "2026-11-20",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Open City",
+    "Autism Medical",
+    "SMART Mobility"
+   ],
+   "opportunity": "Use as a lightweight self-hosted PaaS to deploy staging demos on Omani-controlled VPS infrastructure without managed-cloud lock-in."
+  },
+  {
    "full_name": "setyamickala/airdrop-agent",
    "url": "https://github.com/setyamickala/airdrop-agent",
    "description": "Autonomous airdrop operator: identities, wallets, socials, testnets, quests, radar — guarded CLI + MCP",
-   "stars": 85,
+   "stars": 94,
    "language": "Python",
    "topics": [
     "airdrop",
@@ -315,7 +4191,7 @@
    "full_name": "trinity-works/frostwind",
    "url": "https://github.com/trinity-works/frostwind",
    "description": "A nature-grounded world compiler for pixel art. Real physics, imaginary worlds.",
-   "stars": 73,
+   "stars": 82,
    "language": "JavaScript",
    "topics": [
     "agents",
@@ -365,10 +4241,28 @@
    "opportunity": "Port its agent-based structure into Al-Busalah as an Oman housing affordability, rent-regulation, and municipality scenario-planning module."
   },
   {
+   "full_name": "bcyw/ARTEX",
+   "url": "https://github.com/bcyw/ARTEX",
+   "description": "ARTEX - LLM multi-agent autonomous pentest system (Go + embedded Next.js + SQLite)",
+   "stars": 50,
+   "language": "Go",
+   "topics": [],
+   "created_at": "2026-11-19T10:07:30Z",
+   "category": "Agents",
+   "summary": "Multi-agent autonomous pentest system with Go, Next.js, and SQLite.",
+   "first_seen": "2026-11-20",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "New venture"
+   ],
+   "opportunity": "Package as an authorized, self-hosted pentest assistant for Omani SMEs preparing for government procurement, PDPL, and cybersecurity compliance checks."
+  },
+  {
    "full_name": "hyeonsang010716/OpenDocKit",
    "url": "https://github.com/hyeonsang010716/OpenDocKit",
    "description": "Convert PDF, Office, HWP/HWPX, OpenDocument, RTF, EPUB, HTML, email and images into clean, LLM-ready Markdown.",
-   "stars": 37,
+   "stars": 39,
    "language": "Python",
    "topics": [
     "document-conversion",
@@ -396,7 +4290,7 @@
    "full_name": "dangxingyu/megakernel-zoo",
    "url": "https://github.com/dangxingyu/megakernel-zoo",
    "description": "Model-specific megakernel inference engines for LLM decoding, written by coding agents. OpenAI-compatible server, evaluation suite, and the kit to build your own.",
-   "stars": 36,
+   "stars": 38,
    "language": "Cuda",
    "topics": [
     "ai-agents",
@@ -416,34 +4310,6 @@
    "relevance": 3,
    "ventures": [],
    "opportunity": ""
-  },
-  {
-   "full_name": "chase1225/anythingllm-verona-document-chat",
-   "url": "https://github.com/chase1225/anythingllm-verona-document-chat",
-   "description": "Document-grounded chat for Verona - AnythingLLM workspace integration.",
-   "stars": 35,
-   "language": "Python",
-   "topics": [
-    "agentic-ai",
-    "agentic-workflow",
-    "ai-agents",
-    "chat",
-    "chatbot",
-    "generative-ai",
-    "gguf",
-    "inference"
-   ],
-   "created_at": "2026-11-19T23:46:33Z",
-   "category": "RAG",
-   "summary": "Document-grounded chat workspace integration for Verona using AnythingLLM.",
-   "first_seen": "2026-11-20",
-   "rising": true,
-   "relevance": 6,
-   "ventures": [
-    "Al-Busalah",
-    "EnCoach"
-   ],
-   "opportunity": "Prototype document-grounded chat for Al-Busalah reality seeds or EnCoach course-source libraries using AnythingLLM; evaluate citations, workspace isolation, and Arabic document handling."
   },
   {
    "full_name": "tracebit-com/turingpot",
@@ -472,24 +4338,6 @@
     "New venture"
    ],
    "opportunity": "Deploy as an AI-agent honeypot around Al-Busalah or SME AI services; package localized threat reports for Omani government and enterprise cybersecurity teams."
-  },
-  {
-   "full_name": "bcyw/ARTEX",
-   "url": "https://github.com/bcyw/ARTEX",
-   "description": "ARTEX - LLM multi-agent autonomous pentest system (Go + embedded Next.js + SQLite)",
-   "stars": 32,
-   "language": "Go",
-   "topics": [],
-   "created_at": "2026-11-19T10:07:30Z",
-   "category": "Agents",
-   "summary": "Multi-agent autonomous pentest system with Go, Next.js, and SQLite.",
-   "first_seen": "2026-11-20",
-   "rising": true,
-   "relevance": 6,
-   "ventures": [
-    "New venture"
-   ],
-   "opportunity": "Package as an authorized, self-hosted pentest assistant for Omani SMEs preparing for government procurement, PDPL, and cybersecurity compliance checks."
   },
   {
    "full_name": "GF007/game-rebuild-kit",
@@ -4528,10 +8376,29 @@
    "opportunity": ""
   },
   {
+   "full_name": "lizhenjie137/intelligent-organization",
+   "url": "https://github.com/lizhenjie137/intelligent-organization",
+   "description": "智能组织 · Intelligent Organization | 人与 AI Agent 按原子能力协作，连接目标、分工、进展、成果、验收与交接，减少重复沟通与返工。当前支持本机多账号，跨设备协作为后续方向。",
+   "stars": 285,
+   "language": "Python",
+   "topics": [],
+   "created_at": "2026-11-15T15:32:16Z",
+   "category": "Agents",
+   "summary": "System for AI agents and humans to collaborate on goals, tasks, progress, and handoffs.",
+   "first_seen": "2026-11-19",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "Al-Busalah",
+    "EnCoach"
+   ],
+   "opportunity": "Mine the human-agent workflow model for Al-Busalah collaborative annotation and decision handoffs, or EnCoach’s course-generation review pipeline with task ownership and acceptance steps."
+  },
+  {
    "full_name": "nickvasilescu/orgo-teammates",
    "url": "https://github.com/nickvasilescu/orgo-teammates",
    "description": "Open-source, self-hosted AI teammates, each with its own Orgo cloud computer, connected apps and memory. Works with xAI's Grok API. Independent project, not affiliated with xAI.",
-   "stars": 267,
+   "stars": 278,
    "language": "TypeScript",
    "topics": [
     "ai-agents",
@@ -4554,29 +8421,35 @@
    "opportunity": "Evaluate as a self-hosted agent workspace for EnCoach content-production assistants or Al-Busalah briefing/report-generation agents with persistent memory and connected tools."
   },
   {
-   "full_name": "lizhenjie137/intelligent-organization",
-   "url": "https://github.com/lizhenjie137/intelligent-organization",
-   "description": "智能组织 · Intelligent Organization | 人与 AI Agent 按原子能力协作，连接目标、分工、进展、成果、验收与交接，减少重复沟通与返工。当前支持本机多账号，跨设备协作为后续方向。",
-   "stars": 251,
+   "full_name": "kobimusic/dettato",
+   "url": "https://github.com/kobimusic/dettato",
+   "description": "KobiMusic's multi-instrument audio-to-MIDI transcriber: notes, instrument tracks and drums from any recording",
+   "stars": 196,
    "language": "Python",
-   "topics": [],
-   "created_at": "2026-11-15T15:32:16Z",
-   "category": "Agents",
-   "summary": "System for AI agents and humans to collaborate on goals, tasks, progress, and handoffs.",
+   "topics": [
+    "audio-to-midi",
+    "automatic-music-transcription",
+    "deep-learning",
+    "drums",
+    "midi",
+    "music-information-retrieval",
+    "music-transcription",
+    "pytorch"
+   ],
+   "created_at": "2026-11-16T09:06:56Z",
+   "category": "Apps",
+   "summary": "Audio-to-MIDI transcriber for notes, instrument tracks, and drums.",
    "first_seen": "2026-11-19",
    "rising": true,
-   "relevance": 5,
-   "ventures": [
-    "Al-Busalah",
-    "EnCoach"
-   ],
-   "opportunity": "Mine the human-agent workflow model for Al-Busalah collaborative annotation and decision handoffs, or EnCoach’s course-generation review pipeline with task ownership and acceptance steps."
+   "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
   },
   {
    "full_name": "jasonsutter87/sketchcraft",
    "url": "https://github.com/jasonsutter87/sketchcraft",
    "description": "Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and MCP server.",
-   "stars": 104,
+   "stars": 113,
    "language": "JavaScript",
    "topics": [
     "3d-modeling",
@@ -4596,10 +8469,39 @@
    "opportunity": ""
   },
   {
+   "full_name": "hiruhiru2005/sync-strata",
+   "url": "https://github.com/hiruhiru2005/sync-strata",
+   "description": "A one-click local LLM app for Windows and Linux: Qwen3.8-Flash-Next with the Sync quantizations (XS, S, M), based on Strata.",
+   "stars": 79,
+   "language": "C++",
+   "topics": [
+    "cuda",
+    "linux",
+    "llm",
+    "local-llm",
+    "quantization",
+    "qwen",
+    "rocm",
+    "windows"
+   ],
+   "created_at": "2026-11-16T13:05:32Z",
+   "category": "Models",
+   "summary": "Local LLM application for Windows and Linux using Qwen3.8-Flash-Next.",
+   "first_seen": "2026-11-19",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah",
+    "Autism Medical"
+   ],
+   "opportunity": "Test as an offline/local LLM option for privacy-sensitive demos in education, government, and healthcare where cloud AI may face procurement or PDPL objections."
+  },
+  {
    "full_name": "avivgerz-hue/vibe-shield",
    "url": "https://github.com/avivgerz-hue/vibe-shield",
    "description": "92-rule static security scanner (SAST), secret detector, Supabase RLS auditor & SKILL.md prompt-injection guard for AI-generated Next.js/TypeScript apps. CLI & MCP server.",
-   "stars": 74,
+   "stars": 75,
    "language": "TypeScript",
    "topics": [
     "ai-security",
@@ -4625,35 +8527,6 @@
     "SMART Mobility"
    ],
    "opportunity": "Add to CI for TypeScript dashboards and AI-generated code to catch secrets, weak app security, Supabase RLS issues, and prompt-injection risks before GCC client deployments."
-  },
-  {
-   "full_name": "hiruhiru2005/sync-strata",
-   "url": "https://github.com/hiruhiru2005/sync-strata",
-   "description": "A one-click local LLM app for Windows and Linux: Qwen3.8-Flash-Next with the Sync quantizations (XS, S, M), based on Strata.",
-   "stars": 69,
-   "language": "C++",
-   "topics": [
-    "cuda",
-    "linux",
-    "llm",
-    "local-llm",
-    "quantization",
-    "qwen",
-    "rocm",
-    "windows"
-   ],
-   "created_at": "2026-11-16T13:05:32Z",
-   "category": "Models",
-   "summary": "Local LLM application for Windows and Linux using Qwen3.8-Flash-Next.",
-   "first_seen": "2026-11-19",
-   "rising": true,
-   "relevance": 6,
-   "ventures": [
-    "EnCoach",
-    "Al-Busalah",
-    "Autism Medical"
-   ],
-   "opportunity": "Test as an offline/local LLM option for privacy-sensitive demos in education, government, and healthcare where cloud AI may face procurement or PDPL objections."
   },
   {
    "full_name": "ATLURI0001/NeuroMirror",
@@ -4683,35 +8556,10 @@
    "opportunity": "Could seed an Arabic/English anatomy visualization product for Omani schools, medical colleges, or clinics using webcam AR without expensive hardware."
   },
   {
-   "full_name": "kobimusic/dettato",
-   "url": "https://github.com/kobimusic/dettato",
-   "description": "KobiMusic's multi-instrument audio-to-MIDI transcriber: notes, instrument tracks and drums from any recording",
-   "stars": 40,
-   "language": "Python",
-   "topics": [
-    "audio-to-midi",
-    "automatic-music-transcription",
-    "deep-learning",
-    "drums",
-    "midi",
-    "music-information-retrieval",
-    "music-transcription",
-    "pytorch"
-   ],
-   "created_at": "2026-11-16T09:06:56Z",
-   "category": "Apps",
-   "summary": "Audio-to-MIDI transcriber for notes, instrument tracks, and drums.",
-   "first_seen": "2026-11-19",
-   "rising": true,
-   "relevance": 1,
-   "ventures": [],
-   "opportunity": ""
-  },
-  {
    "full_name": "Ssbullock/pcb-layout-llm",
    "url": "https://github.com/Ssbullock/pcb-layout-llm",
    "description": "Fine-tuned Qwen2.5-Coder-32B (SFT + GRPO) for KiCad PCB architectural layout planning, routing strategy, and 23-board frontier benchmark",
-   "stars": 38,
+   "stars": 59,
    "language": "Python",
    "topics": [],
    "created_at": "2026-11-17T19:27:21Z",
@@ -9004,7 +12852,7 @@
    "full_name": "erkamyaman/rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
    "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-   "stars": 5878,
+   "stars": 6959,
    "language": "Rust",
    "topics": [
     "agent-skills",
@@ -9029,7 +12877,7 @@
    "full_name": "ysunyang4/Nexus",
    "url": "https://github.com/ysunyang4/Nexus",
    "description": "Web AI for local work：让网页版 AI 直接操作你的本地文件和电脑，配套浏览器插件 webagent",
-   "stars": 448,
+   "stars": 458,
    "language": "TypeScript",
    "topics": [
     "ai-agent",
@@ -9055,7 +12903,7 @@
    "full_name": "diego3g/craft",
    "url": "https://github.com/diego3g/craft",
    "description": "Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML.",
-   "stars": 281,
+   "stars": 324,
    "language": "JavaScript",
    "topics": [
     "agent-skills",
@@ -9179,7 +13027,7 @@
    "full_name": "ysunyang4/webagent",
    "url": "https://github.com/ysunyang4/webagent",
    "description": "Nexus 的浏览器插件：让 DeepSeek、Gemini、ChatGPT、Kimi 等网页版 AI 通过 MCP 调用本地工具，需配合 Nexus 使用",
-   "stars": 171,
+   "stars": 178,
    "language": "JavaScript",
    "topics": [
     "ai-agent",
@@ -9285,7 +13133,7 @@
    "full_name": "sirioberati/ai-filmmaking-camera-control-seedance-2-5",
    "url": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5",
    "description": "AI filmmaking camera control with Seedance 2.5 and three.js: direct the camera with a reference video. 137 cinematic camera moves and templates, prompts, Tein MCP and API setup. Get a Seedance 2.5 key: https://tein.ai",
-   "stars": 142,
+   "stars": 143,
    "language": "TypeScript",
    "topics": [
     "ai-filmmaking",
@@ -9339,7 +13187,7 @@
    "full_name": "HyunSeob/iphone-cli",
    "url": "https://github.com/HyunSeob/iphone-cli",
    "description": "Let AI agents read and operate any app on a real iPhone through the accessibility tree. No XCUITest, WebDriverAgent or Xcode signing.",
-   "stars": 114,
+   "stars": 116,
    "language": "Rust",
    "topics": [
     "accessibility",
@@ -9364,7 +13212,7 @@
    "full_name": "spearsheep/anima-brain",
    "url": "https://github.com/spearsheep/anima-brain",
    "description": "Local-first memory and emotional continuity for AI companions. Python SDK, MCP integrations, and an optional web showcase.",
-   "stars": 80,
+   "stars": 84,
    "language": "HTML",
    "topics": [
     "ai",
@@ -9392,7 +13240,7 @@
    "full_name": "morajabi/poo",
    "url": "https://github.com/morajabi/poo",
    "description": "Find and safely free the disk space your dev work eats: builds, caches, simulators and agent worktrees. macOS menu bar app, CLI and MCP server.",
-   "stars": 80,
+   "stars": 82,
    "language": "Rust",
    "topics": [
     "claude-code",
@@ -13122,7 +16970,7 @@
    "full_name": "sybil-solutions/inference-optimisation-skill",
    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
    "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-   "stars": 1284,
+   "stars": 1402,
    "language": "Python",
    "topics": [
     "agent-skill",
@@ -13148,7 +16996,7 @@
    "full_name": "boringmarketer/boring-marketing-skills",
    "url": "https://github.com/boringmarketer/boring-marketing-skills",
    "description": "31 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
-   "stars": 728,
+   "stars": 760,
    "language": "Python",
    "topics": [
     "agent-skills",
@@ -13231,7 +17079,7 @@
    "full_name": "leostera/git-twig",
    "url": "https://github.com/leostera/git-twig",
    "description": "lightweight git-worktrees for agents",
-   "stars": 266,
+   "stars": 271,
    "language": "Rust",
    "topics": [
     "agents",
@@ -13251,7 +17099,7 @@
    "full_name": "aryamandarda/tamserve",
    "url": "https://github.com/aryamandarda/tamserve",
    "description": "Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks.",
-   "stars": 257,
+   "stars": 263,
    "language": "Python",
    "topics": [
     "batching",
@@ -14986,7 +18834,7 @@
    "full_name": "jackulau/coding.sh",
    "url": "https://github.com/jackulau/coding.sh",
    "description": "Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex, Cursor and others did and what it cost.",
-   "stars": 117,
+   "stars": 149,
    "language": "TypeScript",
    "topics": [
     "agent-evals",
@@ -15011,10 +18859,35 @@
    "opportunity": "Add local-first observability for coding and LLM agents to track cost, tool use, failures, and regressions while building DeepTutor and Al-Busalah agent workflows."
   },
   {
+   "full_name": "Domush/antigravity-plugin-context-mode",
+   "url": "https://github.com/Domush/antigravity-plugin-context-mode",
+   "description": "Reduce context size by 90%+ *and* make your agent smarter. Antigravity Context Mode is a local-first plugin built specifically for the Google Antigravity App. It prevents terminal commands, build logs, and multi-megabyte files from flooding your conversation history, saving thousands of tokens per turn and stopping \"agent amnesia\" in its tracks.",
+   "stars": 105,
+   "language": "JavaScript",
+   "topics": [
+    "agy",
+    "agy-plugin",
+    "agy-skill",
+    "antigravity",
+    "antigravity-extension",
+    "antigravity-plugin",
+    "antigravity-skill",
+    "antigravity-skills"
+   ],
+   "created_at": "2026-11-14T19:48:07Z",
+   "category": "LLM Tooling",
+   "summary": "Local-first plugin reduces context size for Google Antigravity conversations.",
+   "first_seen": "2026-11-17",
+   "rising": true,
+   "relevance": 2,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
    "full_name": "andyhuo520/beanpod",
    "url": "https://github.com/andyhuo520/beanpod",
    "description": "豆仓 BeanPod：原生 macOS 录音豆管理 App — 本机转写、纪要待办、知识库问答、逐句回听与英语学习、MCP 接入 Claude / Codex",
-   "stars": 97,
+   "stars": 99,
    "language": "Swift",
    "topics": [
     "claude",
@@ -15038,35 +18911,10 @@
    "opportunity": "Borrow transcription, sentence replay, notes, and English-learning UX patterns for EnCoach speaking/listening practice modules; code is Swift/macOS, so reuse mainly as reference."
   },
   {
-   "full_name": "Domush/antigravity-plugin-context-mode",
-   "url": "https://github.com/Domush/antigravity-plugin-context-mode",
-   "description": "Reduce context size by 90%+ *and* make your agent smarter. Antigravity Context Mode is a local-first plugin built specifically for the Google Antigravity App. It prevents terminal commands, build logs, and multi-megabyte files from flooding your conversation history, saving thousands of tokens per turn and stopping \"agent amnesia\" in its tracks.",
-   "stars": 94,
-   "language": "JavaScript",
-   "topics": [
-    "agy",
-    "agy-plugin",
-    "agy-skill",
-    "antigravity",
-    "antigravity-extension",
-    "antigravity-plugin",
-    "antigravity-skill",
-    "antigravity-skills"
-   ],
-   "created_at": "2026-11-14T19:48:07Z",
-   "category": "LLM Tooling",
-   "summary": "Local-first plugin reduces context size for Google Antigravity conversations.",
-   "first_seen": "2026-11-17",
-   "rising": true,
-   "relevance": 2,
-   "ventures": [],
-   "opportunity": ""
-  },
-  {
    "full_name": "yzsind/mydb",
    "url": "https://github.com/yzsind/mydb",
    "description": "A high-performance MySQL-compatible database for HTAP and AI agents  Mixed transactional and analytical workloads, with native AI retrieval.",
-   "stars": 77,
+   "stars": 84,
    "language": "Rust",
    "topics": [
     "agent",
@@ -15114,7 +18962,7 @@
    "full_name": "punit2911/meridian-multimodal-rag",
    "url": "https://github.com/punit2911/meridian-multimodal-rag",
    "description": "Evidence-grounded multimodal RAG for industrial maintenance documentation, with hybrid retrieval, citations, conflict resolution, claim verification and abstention. Includes an optional tool-using LLM agent and deterministic offline mode.",
-   "stars": 67,
+   "stars": 71,
    "language": "Python",
    "topics": [
     "document-processing",
@@ -15162,6 +19010,32 @@
    "relevance": 3,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "Golden-66/agentic-rag-kb",
+   "url": "https://github.com/Golden-66/agentic-rag-kb",
+   "description": "基于 Agentic RAG 的企业级智能知识库：混合检索 + Reranker + LangGraph Agent + SSE 流式问答",
+   "stars": 35,
+   "language": "Python",
+   "topics": [
+    "fastapi",
+    "langchain",
+    "langgraph",
+    "llm",
+    "milvus",
+    "rag"
+   ],
+   "created_at": "2026-11-16T03:43:13Z",
+   "category": "RAG",
+   "summary": "Enterprise knowledge base with hybrid retrieval, reranking, LangGraph agent, and streaming Q&A.",
+   "first_seen": "2026-11-17",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "Al-Busalah",
+    "New venture"
+   ],
+   "opportunity": "Reuse the FastAPI hybrid retrieval, reranker, LangGraph, and streaming Q&A stack as an Arabic/English enterprise knowledge-base layer for Al-Busalah or SME digitization."
   },
   {
    "full_name": "kleinicke/fastforks",
@@ -15292,32 +19166,6 @@
    "relevance": 3,
    "ventures": [],
    "opportunity": ""
-  },
-  {
-   "full_name": "Golden-66/agentic-rag-kb",
-   "url": "https://github.com/Golden-66/agentic-rag-kb",
-   "description": "基于 Agentic RAG 的企业级智能知识库：混合检索 + Reranker + LangGraph Agent + SSE 流式问答",
-   "stars": 9,
-   "language": "Python",
-   "topics": [
-    "fastapi",
-    "langchain",
-    "langgraph",
-    "llm",
-    "milvus",
-    "rag"
-   ],
-   "created_at": "2026-11-16T03:43:13Z",
-   "category": "RAG",
-   "summary": "Enterprise knowledge base with hybrid retrieval, reranking, LangGraph agent, and streaming Q&A.",
-   "first_seen": "2026-11-17",
-   "rising": false,
-   "relevance": 6,
-   "ventures": [
-    "Al-Busalah",
-    "New venture"
-   ],
-   "opportunity": "Reuse the FastAPI hybrid retrieval, reranker, LangGraph, and streaming Q&A stack as an Arabic/English enterprise knowledge-base layer for Al-Busalah or SME digitization."
   },
   {
    "full_name": "Vecshield/Markwright",
@@ -19818,7 +23666,7 @@
    "full_name": "roan-maverick/tradingview-indicator-for-ai-agents",
    "url": "https://github.com/roan-maverick/tradingview-indicator-for-ai-agents",
    "description": "Tradingview IndicatorBuilt for AI agents",
-   "stars": 327,
+   "stars": 332,
    "language": "",
    "topics": [],
    "created_at": "2026-11-13T09:20:32Z",
@@ -19834,7 +23682,7 @@
    "full_name": "erkamyaman/unslopovich",
    "url": "https://github.com/erkamyaman/unslopovich",
    "description": "Your app looks AI-generated. Dr. Unslopovich noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
-   "stars": 259,
+   "stars": 272,
    "language": "JavaScript",
    "topics": [
     "accessibility",
@@ -19852,6 +23700,31 @@
    "first_seen": "2026-11-16",
    "rising": true,
    "relevance": 4,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jackson-cmd/claude-multi-desktop",
+   "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+   "description": "Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop",
+   "stars": 236,
+   "language": "Shell",
+   "topics": [
+    "account-switcher",
+    "ai-agents",
+    "anthropic",
+    "bash",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "claude-code-plugin"
+   ],
+   "created_at": "2026-11-16T04:23:02Z",
+   "category": "LLM Tooling",
+   "summary": "Mac app runs multiple Claude Desktop accounts with shared Claude Code setup.",
+   "first_seen": "2026-11-16",
+   "rising": true,
+   "relevance": 2,
    "ventures": [],
    "opportunity": ""
   },
@@ -19886,7 +23759,7 @@
    "full_name": "Tthanh2k6/turbo-browser-mcp",
    "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
    "description": "Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched steps, and a submit guard on by default",
-   "stars": 132,
+   "stars": 133,
    "language": "JavaScript",
    "topics": [
     "ai-agents",
@@ -19906,6 +23779,34 @@
    "relevance": 4,
    "ventures": [],
    "opportunity": ""
+  },
+  {
+   "full_name": "manuelgscom/inside-llm",
+   "url": "https://github.com/manuelgscom/inside-llm",
+   "description": "See inside any GGUF: where two quantizations part ways, token by token, and what each sampler cuts. Live in your browser, powered by llama.cpp (CUDA or Vulkan).",
+   "stars": 111,
+   "language": "TypeScript",
+   "topics": [
+    "cpp",
+    "cuda",
+    "gguf",
+    "interpretability",
+    "llama-cpp",
+    "llm",
+    "local-llm",
+    "logit-lens"
+   ],
+   "created_at": "2026-11-15T18:46:30Z",
+   "category": "Other",
+   "summary": "Browser tool for comparing GGUF quantizations token by token using llama.cpp.",
+   "first_seen": "2026-11-16",
+   "rising": true,
+   "relevance": 5,
+   "ventures": [
+    "EnCoach",
+    "Al-Busalah"
+   ],
+   "opportunity": "Use to compare GGUF quantizations before deploying local Arabic/English LLMs for sovereign tutoring or simulation workloads on self-hosted GPU machines."
   },
   {
    "full_name": "YKLovePython/halfsize",
@@ -19935,38 +23836,10 @@
    "opportunity": "Use local FFmpeg/MCP compression to package EnCoach lesson videos for low-bandwidth student distribution, LMS uploads, or WhatsApp-sized teacher resources without sending media to cloud services."
   },
   {
-   "full_name": "manuelgscom/inside-llm",
-   "url": "https://github.com/manuelgscom/inside-llm",
-   "description": "See inside any GGUF: where two quantizations part ways, token by token, and what each sampler cuts. Live in your browser, powered by llama.cpp (CUDA or Vulkan).",
-   "stars": 108,
-   "language": "TypeScript",
-   "topics": [
-    "cpp",
-    "cuda",
-    "gguf",
-    "interpretability",
-    "llama-cpp",
-    "llm",
-    "local-llm",
-    "logit-lens"
-   ],
-   "created_at": "2026-11-15T18:46:30Z",
-   "category": "Other",
-   "summary": "Browser tool for comparing GGUF quantizations token by token using llama.cpp.",
-   "first_seen": "2026-11-16",
-   "rising": true,
-   "relevance": 5,
-   "ventures": [
-    "EnCoach",
-    "Al-Busalah"
-   ],
-   "opportunity": "Use to compare GGUF quantizations before deploying local Arabic/English LLMs for sovereign tutoring or simulation workloads on self-hosted GPU machines."
-  },
-  {
    "full_name": "Timaga/noda-local-ai-notes",
    "url": "https://github.com/Timaga/noda-local-ai-notes",
    "description": "Local-first AI note-taking app for Windows: Markdown notes, a personal knowledge base, knowledge graph, semantic search and chat with cited sources.",
-   "stars": 104,
+   "stars": 105,
    "language": "JavaScript",
    "topics": [
     "ai-notes",
@@ -19991,26 +23864,10 @@
    "opportunity": "Mine its local knowledge graph, semantic search, and cited chat patterns for Al-Busalah document-to-KG review; also seeds a private bilingual enterprise knowledge-base product."
   },
   {
-   "full_name": "bramvanoploo/strata-performance-setup",
-   "url": "https://github.com/bramvanoploo/strata-performance-setup",
-   "description": "An easy to use TUI wizard for linux to extract maximum performance from your linux host and install Strata LLM ",
-   "stars": 82,
-   "language": "Shell",
-   "topics": [],
-   "created_at": "2026-11-13T07:57:10Z",
-   "category": "Infra",
-   "summary": "Linux TUI wizard for performance tuning and Strata LLM installation.",
-   "first_seen": "2026-11-16",
-   "rising": true,
-   "relevance": 3,
-   "ventures": [],
-   "opportunity": ""
-  },
-  {
    "full_name": "joaquimmj/deskstack",
    "url": "https://github.com/joaquimmj/deskstack",
    "description": "Your AI deal team inside Claude: built, tied out to the filings, reviewed. Free data, US + Europe.",
-   "stars": 81,
+   "stars": 85,
    "language": "TypeScript",
    "topics": [
     "ai-agents",
@@ -20025,6 +23882,22 @@
    "created_at": "2026-11-08T18:16:07Z",
    "category": "Apps",
    "summary": "Claude-connected financial analysis workspace for deal teams and filings review.",
+   "first_seen": "2026-11-16",
+   "rising": true,
+   "relevance": 3,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "bramvanoploo/strata-performance-setup",
+   "url": "https://github.com/bramvanoploo/strata-performance-setup",
+   "description": "An easy to use TUI wizard for linux to extract maximum performance from your linux host and install Strata LLM ",
+   "stars": 83,
+   "language": "Shell",
+   "topics": [],
+   "created_at": "2026-11-13T07:57:10Z",
+   "category": "Infra",
+   "summary": "Linux TUI wizard for performance tuning and Strata LLM installation.",
    "first_seen": "2026-11-16",
    "rising": true,
    "relevance": 3,
@@ -20059,7 +23932,7 @@
    "full_name": "Omodaka9375/browserr",
    "url": "https://github.com/Omodaka9375/browserr",
    "description": "Servo-based headless browser engine for AI agents. An auditable alternative to embedding Chromium.",
-   "stars": 76,
+   "stars": 77,
    "language": "Python",
    "topics": [
     "agent-browser",
@@ -20111,7 +23984,7 @@
    "full_name": "Cheiineeey/api-where-it-breaks",
    "url": "https://github.com/Cheiineeey/api-where-it-breaks",
    "description": "Where LLM API integrations actually break: auth headers, fake streaming, tool loops, prompt cache, and handing one conversation between Claude Code and the API. Every pitfall tagged with its evidence. Docs in Chinese.",
-   "stars": 60,
+   "stars": 63,
    "language": "JavaScript",
    "topics": [],
    "created_at": "2026-11-13T06:03:12Z",
@@ -20130,7 +24003,7 @@
    "full_name": "Eppy-EpHard/AHA",
    "url": "https://github.com/Eppy-EpHard/AHA",
    "description": "Weight-Space Programming Without LLMs",
-   "stars": 59,
+   "stars": 61,
    "language": "Python",
    "topics": [],
    "created_at": "2026-11-15T19:39:49Z",
@@ -20209,7 +24082,7 @@
    "full_name": "voyager-so/vauss",
    "url": "https://github.com/voyager-so/vauss",
    "description": "Fast Gaussian splat reconstruction for Blender, agents, and reusable 3D worlds",
-   "stars": 33,
+   "stars": 34,
    "language": "Rust",
    "topics": [
     "3d-reconstruction",
@@ -20553,31 +24426,6 @@
     "New venture"
    ],
    "opportunity": "Adapt for bilingual Omani graduate employability: match CVs to local openings and generate tailored English CVs inside EnCoach university programs."
-  },
-  {
-   "full_name": "jackson-cmd/claude-multi-desktop",
-   "url": "https://github.com/jackson-cmd/claude-multi-desktop",
-   "description": "Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons, one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop",
-   "stars": 3,
-   "language": "Shell",
-   "topics": [
-    "account-switcher",
-    "ai-agents",
-    "anthropic",
-    "bash",
-    "claude",
-    "claude-ai",
-    "claude-code",
-    "claude-code-plugin"
-   ],
-   "created_at": "2026-11-16T04:23:02Z",
-   "category": "LLM Tooling",
-   "summary": "Mac app runs multiple Claude Desktop accounts with shared Claude Code setup.",
-   "first_seen": "2026-11-16",
-   "rising": false,
-   "relevance": 2,
-   "ventures": [],
-   "opportunity": ""
   },
   {
    "full_name": "XiaoBinGan/hermes-purge",
@@ -23780,7 +27628,7 @@
    "full_name": "dabingfy-dot/solo-to-team-skills",
    "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
    "description": "Human-led MAS toolkit: 16 roles, 6 group templates, four platform bundles, evidence-based review and handoff. 一人成队：一个人统筹多智能体协作。",
-   "stars": 1075,
+   "stars": 1082,
    "language": "HTML",
    "topics": [
     "agent-skills",
@@ -24249,7 +28097,7 @@
    "full_name": "hridaya423/phonedriver",
    "url": "https://github.com/hridaya423/phonedriver",
    "description": "Open-source MCP server and CLI that lets AI agents like Claude Code see and control Android and iOS phones.",
-   "stars": 272,
+   "stars": 331,
    "language": "Rust",
    "topics": [
     "adb",
@@ -24278,7 +28126,7 @@
    "full_name": "leonardo-alegria/garlic-llm",
    "url": "https://github.com/leonardo-alegria/garlic-llm",
    "description": "A 9-billion-parameter language model running on a PS4 GPU. Offline.",
-   "stars": 216,
+   "stars": 222,
    "language": "C",
    "topics": [],
    "created_at": "2026-11-11T17:39:37Z",
@@ -24294,7 +28142,7 @@
    "full_name": "alicebrown323/pro-tools-desktop",
    "url": "https://github.com/alicebrown323/pro-tools-desktop",
    "description": "Pro Tools 2026 desktop setup with multitrack editing, MIDI sequencing, VST hosting and a portable mode for Windows 11",
-   "stars": 212,
+   "stars": 211,
    "language": "C++",
    "topics": [
     "ai-generation-tools",
@@ -24373,7 +28221,7 @@
    "full_name": "AaBb-coder/LumenAct",
    "url": "https://github.com/AaBb-coder/LumenAct",
    "description": "中文语义驱动的角色表情套组，提供本地预览器、LLM/TTS 接口与 Blender＋MCP 适配指南。模型资源通过 Hugging Face 分发。",
-   "stars": 76,
+   "stars": 81,
    "language": "JavaScript",
    "topics": [],
    "created_at": "2026-11-13T10:39:13Z",
@@ -27075,7 +30923,7 @@
    "full_name": "berkantay/gpucanvas",
    "url": "https://github.com/berkantay/gpucanvas",
    "description": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them.",
-   "stars": 539,
+   "stars": 545,
    "language": "TypeScript",
    "topics": [
     "ai-agents",
@@ -28783,7 +32631,7 @@
    "full_name": "lizi600jin/dsh-ensp",
    "url": "https://github.com/lizi600jin/dsh-ensp",
    "description": "Automate Huawei eNSP labs: generate .topo files, start and stop devices, and push configuration one command at a time with per-command error reporting.",
-   "stars": 153,
+   "stars": 160,
    "language": "JavaScript",
    "topics": [
     "deepseek-harness",
@@ -31887,7 +35735,7 @@
    "full_name": "tiobeharxi1987/blender-ai-copilot-flow",
    "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
    "description": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. · blender-ai-copilot-flow · blender · blender 3d · blender addon · blender plugin · blender extension",
-   "stars": 515,
+   "stars": 514,
    "language": "",
    "topics": [
     "3d-automation",
@@ -32037,7 +35885,7 @@
    "full_name": "findavoulot1973/Blender-AI-MCP-Suite",
    "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
    "description": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender",
-   "stars": 497,
+   "stars": 496,
    "language": "",
    "topics": [
     "3d-automation",
@@ -32087,7 +35935,7 @@
    "full_name": "jushengzhang/robot-weight-debugging",
    "url": "https://github.com/jushengzhang/robot-weight-debugging",
    "description": "First release for Can LLMs Debug Robots by Editing Their Weights? Code, 65-row edit, 16 experiment logs and evidence. V2 and real-robot experiments in progress.",
-   "stars": 215,
+   "stars": 252,
    "language": "Python",
    "topics": [
     "model-editing",
@@ -32108,7 +35956,7 @@
    "full_name": "claynicholson/copper-kicad-mcp",
    "url": "https://github.com/claynicholson/copper-kicad-mcp",
    "description": "MCP server that lets any AI app design real, orderable KiCad boards: schematic, LCSC parts, PCB routing, ERC/DRC, JLCPCB fab files.",
-   "stars": 113,
+   "stars": 114,
    "language": "Python",
    "topics": [
     "ai-agents",
@@ -36288,7 +40136,7 @@
    "full_name": "FrigadeHQ/yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "description": "Private AI meeting notes. Free and open source.",
-   "stars": 2680,
+   "stars": 2813,
    "language": "TypeScript",
    "topics": [
     "electron",
@@ -36317,7 +40165,7 @@
    "full_name": "agentes-chat/agentes-chat",
    "url": "https://github.com/agentes-chat/agentes-chat",
    "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
-   "stars": 1774,
+   "stars": 1876,
    "language": "TypeScript",
    "topics": [
     "agentic-ai",
@@ -36367,10 +40215,65 @@
    "opportunity": ""
   },
   {
+   "full_name": "molly554/whiteboard-ai-tutor",
+   "url": "https://github.com/molly554/whiteboard-ai-tutor",
+   "description": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测",
+   "stars": 491,
+   "language": "HTML",
+   "topics": [
+    "ai-teacher",
+    "ai-tutor",
+    "ai-tutoring",
+    "ai-whiteboard",
+    "claude",
+    "deepseek",
+    "edtech",
+    "education"
+   ],
+   "created_at": "2026-11-11T11:22:21Z",
+   "category": "Apps",
+   "summary": "Open-source whiteboard-based AI tutor with lesson benchmarks across multiple LLMs.",
+   "first_seen": "2026-11-12",
+   "rising": true,
+   "relevance": 8,
+   "ventures": [
+    "EnCoach"
+   ],
+   "opportunity": "Prototype DeepTutor lessons that teach CEFR grammar/vocabulary on an interactive whiteboard, then benchmark Arabic/English lesson quality across LLMs before LMS integration."
+  },
+  {
+   "full_name": "fendouai/ViralForge",
+   "url": "https://github.com/fendouai/ViralForge",
+   "description": "Agent-native viral video studio: one-click replicate viral short videos, deconstruct video hooks and scripts into a Viral DNA report, and ship 10 costed variants. Skill + MCP + CLI. Apache-2.0.",
+   "stars": 447,
+   "language": "TypeScript",
+   "topics": [
+    "ai-agent",
+    "ai-agents",
+    "short-video",
+    "short-video-generator",
+    "video-editing",
+    "video-script-deconstruction",
+    "viral-video",
+    "viral-video-generator"
+   ],
+   "created_at": "2026-11-11T07:13:59Z",
+   "category": "Apps",
+   "summary": "Agent-native studio for replicating and generating viral short videos.",
+   "first_seen": "2026-11-12",
+   "rising": true,
+   "relevance": 6,
+   "ventures": [
+    "EnCoach",
+    "New venture"
+   ],
+   "opportunity": "Package as Arabic/English short-video factory for Omani SMEs/education providers; generate campaign variants for EnCoach and paid social media clients using local templates and cost tracking."
+  },
+  {
    "full_name": "MiniMax-AI/MiniMax-H3-Image",
    "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
    "description": "MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing.",
-   "stars": 430,
+   "stars": 439,
    "language": "Python",
    "topics": [
     "agent-skills",
@@ -36395,7 +40298,7 @@
    "full_name": "op7418/guizang-game-skill",
    "url": "https://github.com/op7418/guizang-game-skill",
    "description": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
-   "stars": 422,
+   "stars": 427,
    "language": "JavaScript",
    "topics": [
     "3d-game",
@@ -36417,33 +40320,6 @@
     "EnCoach"
    ],
    "opportunity": "Experiment with DeepTutor-generated browser language games: convert CEFR units into lightweight 3D practice activities, then localize assets/instructions for Omani English foundation students."
-  },
-  {
-   "full_name": "molly554/whiteboard-ai-tutor",
-   "url": "https://github.com/molly554/whiteboard-ai-tutor",
-   "description": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测",
-   "stars": 415,
-   "language": "HTML",
-   "topics": [
-    "ai-teacher",
-    "ai-tutor",
-    "ai-tutoring",
-    "ai-whiteboard",
-    "claude",
-    "deepseek",
-    "edtech",
-    "education"
-   ],
-   "created_at": "2026-11-11T11:22:21Z",
-   "category": "Apps",
-   "summary": "Open-source whiteboard-based AI tutor with lesson benchmarks across multiple LLMs.",
-   "first_seen": "2026-11-12",
-   "rising": true,
-   "relevance": 8,
-   "ventures": [
-    "EnCoach"
-   ],
-   "opportunity": "Prototype DeepTutor lessons that teach CEFR grammar/vocabulary on an interactive whiteboard, then benchmark Arabic/English lesson quality across LLMs before LMS integration."
   },
   {
    "full_name": "simpsoka/zigzag",
@@ -36473,38 +40349,10 @@
    "opportunity": "Localize for Arabic calligraphy, Omani logos, uniforms, abayas, and souvenirs; offer embroidery digitization software/training to tailoring shops and SME craft businesses."
   },
   {
-   "full_name": "fendouai/ViralForge",
-   "url": "https://github.com/fendouai/ViralForge",
-   "description": "Agent-native viral video studio: one-click replicate viral short videos, deconstruct video hooks and scripts into a Viral DNA report, and ship 10 costed variants. Skill + MCP + CLI. Apache-2.0.",
-   "stars": 402,
-   "language": "TypeScript",
-   "topics": [
-    "ai-agent",
-    "ai-agents",
-    "short-video",
-    "short-video-generator",
-    "video-editing",
-    "video-script-deconstruction",
-    "viral-video",
-    "viral-video-generator"
-   ],
-   "created_at": "2026-11-11T07:13:59Z",
-   "category": "Apps",
-   "summary": "Agent-native studio for replicating and generating viral short videos.",
-   "first_seen": "2026-11-12",
-   "rising": true,
-   "relevance": 6,
-   "ventures": [
-    "EnCoach",
-    "New venture"
-   ],
-   "opportunity": "Package as Arabic/English short-video factory for Omani SMEs/education providers; generate campaign variants for EnCoach and paid social media clients using local templates and cost tracking."
-  },
-  {
    "full_name": "huawei-csl/MACaQ",
    "url": "https://github.com/huawei-csl/MACaQ",
    "description": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch.",
-   "stars": 380,
+   "stars": 383,
    "language": "C++",
    "topics": [
     "ascend",
@@ -36553,7 +40401,7 @@
    "full_name": "DandanLLab/SnowCatQQ",
    "url": "https://github.com/DandanLLab/SnowCatQQ",
    "description": "SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开",
-   "stars": 357,
+   "stars": 356,
    "language": "JavaScript",
    "topics": [
     "chatbot",
@@ -36571,6 +40419,31 @@
    "first_seen": "2026-11-12",
    "rising": true,
    "relevance": 1,
+   "ventures": [],
+   "opportunity": ""
+  },
+  {
+   "full_name": "jackson-cmd/risk-aware-trading-agents",
+   "url": "https://github.com/jackson-cmd/risk-aware-trading-agents",
+   "description": "Risk-aware AI trading agents for US stocks: FOMC/CPI/VIX-aware regimes, EMA 50/100/200 dip buying with earnings checks, cross-verified news (Finviz+RSS), 30% cash floor, backtesting, paper/live trading on 10 brokers. 风险感知美股交易智能体",
+   "stars": 356,
+   "language": "Python",
+   "topics": [
+    "ai-trading",
+    "algorithmic-trading",
+    "alpaca",
+    "backtesting",
+    "fear-and-greed",
+    "finviz",
+    "fomc",
+    "futu"
+   ],
+   "created_at": "2026-11-12T02:29:31Z",
+   "category": "Agents",
+   "summary": "Risk-aware stock trading agents with regime checks, news verification, backtesting, and live trading.",
+   "first_seen": "2026-11-12",
+   "rising": true,
+   "relevance": 2,
    "ventures": [],
    "opportunity": ""
   },
@@ -36600,31 +40473,6 @@
     "EnCoach"
    ],
    "opportunity": "Test as a media-generation helper for DeepTutor: auto-create 2D/3D lesson visuals, explainer animations, and interactive assets for English foundation course packages."
-  },
-  {
-   "full_name": "jackson-cmd/risk-aware-trading-agents",
-   "url": "https://github.com/jackson-cmd/risk-aware-trading-agents",
-   "description": "Risk-aware AI trading agents for US stocks: FOMC/CPI/VIX-aware regimes, EMA 50/100/200 dip buying with earnings checks, cross-verified news (Finviz+RSS), 30% cash floor, backtesting, paper/live trading on 10 brokers. 风险感知美股交易智能体",
-   "stars": 318,
-   "language": "Python",
-   "topics": [
-    "ai-trading",
-    "algorithmic-trading",
-    "alpaca",
-    "backtesting",
-    "fear-and-greed",
-    "finviz",
-    "fomc",
-    "futu"
-   ],
-   "created_at": "2026-11-12T02:29:31Z",
-   "category": "Agents",
-   "summary": "Risk-aware stock trading agents with regime checks, news verification, backtesting, and live trading.",
-   "first_seen": "2026-11-12",
-   "rising": true,
-   "relevance": 2,
-   "ventures": [],
-   "opportunity": ""
   },
   {
    "full_name": "lucialuka/OpenAssembler",
@@ -36811,7 +40659,7 @@
    "full_name": "argonrobotics-ai/alloy",
    "url": "https://github.com/argonrobotics-ai/alloy",
    "description": "Alloy: a multi-material, parallel physics engine for robot learning, built on Newton, MuJoCo Warp and Warp. Rigid robots, cloth, liquids and soft bodies in one scene, in parallel worlds on a GPU (thousands for free rigid bodies, up to 4,096 for a robot arm), or on a CPU. Python 3.11 or 3.12.",
-   "stars": 64,
+   "stars": 66,
    "language": "Python",
    "topics": [
     "ai-agents",
@@ -40714,7 +44562,7 @@
    "full_name": "alexeyw/lot-map",
    "url": "https://github.com/alexeyw/lot-map",
    "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in five languages.",
-   "stars": 1031,
+   "stars": 1081,
    "language": "TypeScript",
    "topics": [
     "agent-observability",
@@ -40739,7 +44587,7 @@
    "full_name": "21stware/bowel",
    "url": "https://github.com/21stware/bowel",
    "description": "Bowel is a mihomo client for macOS, Windows, Linux and Android.",
-   "stars": 599,
+   "stars": 606,
    "language": "Go",
    "topics": [
     "android",
@@ -40819,7 +44667,7 @@
    "full_name": "MZULALI/xj-scanner",
    "url": "https://github.com/MZULALI/xj-scanner",
    "description": "Read a 1991-95 Jeep's engine computer from a laptop with a $3 Arduino Nano, and let an AI agent do the reading.",
-   "stars": 314,
+   "stars": 318,
    "language": "Python",
    "topics": [],
    "created_at": "2026-11-10T17:03:05Z",
@@ -40879,7 +44727,7 @@
    "full_name": "Veloresearch/kinetic",
    "url": "https://github.com/Veloresearch/kinetic",
    "description": "The open engine for running AI on your own computer. Fast, exact, open source.",
-   "stars": 206,
+   "stars": 256,
    "language": "Rust",
    "topics": [
     "cuda",
@@ -40907,7 +44755,7 @@
    "full_name": "agentic-learning-ai-lab/deleting-weights",
    "url": "https://github.com/agentic-learning-ai-lab/deleting-weights",
    "description": "Public code release for the paper \"The Surprising Effectiveness of Deleting Weights in LLM Post-Training\"",
-   "stars": 125,
+   "stars": 129,
    "language": "Python",
    "topics": [],
    "created_at": "2026-11-10T16:19:07Z",
@@ -40973,7 +44821,7 @@
    "full_name": "permitzip/mutinybim",
    "url": "https://github.com/permitzip/mutinybim",
    "description": "Open-source building model engine. One shared kernel, trade add-ons, and a script-first tool server so people and AI agents can edit the same model together.",
-   "stars": 102,
+   "stars": 103,
    "language": "TypeScript",
    "topics": [
     "aec",
@@ -45267,7 +49115,7 @@
    "full_name": "Dodaios/ste80-humanizer",
    "url": "https://github.com/Dodaios/ste80-humanizer",
    "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-   "stars": 1001,
+   "stars": 1026,
    "language": "Python",
    "topics": [
     "agent-skills",
@@ -45353,7 +49201,7 @@
    "full_name": "SparkofSpike/Brain4Agent",
    "url": "https://github.com/SparkofSpike/Brain4Agent",
    "description": "Committed to building the world’s most cutting-edge, CJK-first memory module for all mainstream agents. Any issues and PRs are welcome.",
-   "stars": 181,
+   "stars": 172,
    "language": "Python",
    "topics": [
     "agent-memory",
@@ -45378,7 +49226,7 @@
    "full_name": "kilolonion/agent-vscreen",
    "url": "https://github.com/kilolonion/agent-vscreen",
    "description": "A background virtual screen for any Android AI agent: it operates apps on an invisible display while you keep using your phone. CLI / MCP / HTTP, Shizuku, no root. 给任何手机 agent 用的后台副屏。",
-   "stars": 155,
+   "stars": 159,
    "language": "Kotlin",
    "topics": [
     "ai-agent",
@@ -45403,7 +49251,7 @@
    "full_name": "pktq/lasik",
    "url": "https://github.com/pktq/lasik",
    "description": "BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target.",
-   "stars": 142,
+   "stars": 143,
    "language": "TypeScript",
    "topics": [
     "ai-agents",
@@ -49567,7 +53415,7 @@
    "full_name": "wanshuiyin/SuperARIS",
    "url": "https://github.com/wanshuiyin/SuperARIS",
    "description": "SuperARIS — Your personal research agent with ARIS (Auto Research In Sleep), powered by a team of agents.",
-   "stars": 166,
+   "stars": 170,
    "language": "Python",
    "topics": [
     "agent-orchestration",
@@ -49734,7 +53582,7 @@
    "full_name": "AmSach/maple",
    "url": "https://github.com/AmSach/maple",
    "description": "MAPLE: Manifold-Activated Pruning of Latent Experts for Sub-2-BPW MoE LLMs",
-   "stars": 64,
+   "stars": 65,
    "language": "Python",
    "topics": [],
    "created_at": "2026-11-07T17:32:34Z",
@@ -49891,7 +53739,7 @@
    "full_name": "conceptcountry/weight-space-programming",
    "url": "https://github.com/conceptcountry/weight-space-programming",
    "description": "Gradient-free weight editing reduces overthinking in Qwen3.8-27B — analysis code and evaluation artifacts",
-   "stars": 36,
+   "stars": 37,
    "language": "Typst",
    "topics": [
     "interpretability",
@@ -54099,7 +57947,7 @@
    "full_name": "yanstd888/9routerx",
    "url": "https://github.com/yanstd888/9routerx",
    "description": "9RouterX (9R Next Go Generation): High-performance, ultra-low latency AI Routing Gateway & Unified LLM API Proxy. Route, load-balance, and auto-failover across OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Groq, and Ollama via a single OpenAI-compatible endpoint.",
-   "stars": 257,
+   "stars": 258,
    "language": "Go",
    "topics": [
     "9routerx",
@@ -54433,7 +58281,7 @@
    "full_name": "jakeparkcolde/agentdeck",
    "url": "https://github.com/jakeparkcolde/agentdeck",
    "description": "Turn an Ulanzi D200 into a desk dashboard for AI coding agents, LLM quotas and Mac health. No vendor app, no firmware changes.",
-   "stars": 55,
+   "stars": 56,
    "language": "Python",
    "topics": [
     "ai-agents",
